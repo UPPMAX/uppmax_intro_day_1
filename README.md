@@ -2,12 +2,12 @@
 
 Day 1 of the UPPMAX intro course, as taught by Richel.
 
-It uses the same content as <https://github.com/UPPMAX/UPPMAX-documentation>, 
+It uses the same content as <https://github.com/UPPMAX/uppmax_intro>, 
 yet with ...
 
-- the same layout as <https://github.com/UPPMAX/UPPMAX-documentation>
+- the same layout as <https://github.com/UPPMAX/uppmax_intro>
 - more focus on re-using the content of <https://github.com/UPPMAX/UPPMAX-documentation>,
-  possibly by merging wisdom from <https://github.com/UPPMAX/UPPMAX-documentation>
+  possibly by merging wisdom from <https://github.com/UPPMAX/uppmax_intro>
   to the UPPMAX documentation
 - more focus on exercises
 
