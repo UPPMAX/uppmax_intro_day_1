@@ -1,111 +1,17 @@
-site_name: UPPMAX Documentation
+site_name: UPPMAX Intro Day 1
 
-repo_url: https://github.com/UPPMAX/UPPMAX-documentation
+repo_url: https://github.com/UPPMAX/uppmax_intro_day_1
 
 nav:
   - Home: index.md
-  - Getting Started:
-    - Get started: getting_started/get_started.md
-    - Applying for a Project: getting_started/project_apply.md
-    - Accessing UPPMAX:
-      - Get inside the university networks: getting_started/get_inside_sunet.md
-      - Log in to Bianca: getting_started/login_bianca.md
-      - Log in to Dardel: getting_started/login_dardel.md
-      - Log in to Rackham: getting_started/login_rackham.md
-      - Log in to Snowy: getting_started/login_snowy.md
-    - Linux tutorials:
-      - Working in Linux: getting_started/linux.md
-      - Basic Linux commands: getting_started/linux_basics.md
-#    - Running your first job: getting_started/first_job.md
-  - Cluster user guide:
-    - The UPPMAX clusters: cluster_guides/uppmax_cluster.md
-    - Clusters: 
-      - Bianca: cluster_guides/bianca.md
-      - Dardel: cluster_guides/dardel.md
-      - Rackham: cluster_guides/rackham.md
-      - Snowy: cluster_guides/snowy.md
-    - General cluster tools: 
-      - Start an interactive node: cluster_guides/start_interactive_node.md
-      - Modules: cluster_guides/modules.md
-      - Slurm: cluster_guides/slurm.md
-      - Managing your project: cluster_guides/project_management.md
-    - Running jobs:
-      - Checking and optimizing jobs: cluster_guides/optimizing_jobs.md
-      - Runtime tips: cluster_guides/running_jobs/runtime_tips.md
-      - Storage and compression: cluster_guides/running_jobs/storage_compression.md
-      - Screen: cluster_guides/screen.md
-    - Data transfer: 
-      - Transfer to/from Bianca: cluster_guides/transfer_bianca.md
-      - Migrate to Dardel: cluster_guides/dardel_migration.md
-      - Transfer to/from Rackham: cluster_guides/transfer_rackham.md
-    - Installing and development: 
-      - Installing: cluster_guides/install.md
-      - Installing with conda: cluster_guides/conda.md
-      - Compilers: software/compilers.md
-      - Compiling serial code: cluster_guides/compiling_serial.md
-      - Compiling parallel code: cluster_guides/compiling_parallel.md
-      - Debuggers: software/debuggers.md
-      - Profilers: software/profilers.md
-      - Singularity/Apptainer: cluster_guides/singularity.md
-      - Spack: software/spack.md
-  - Software:
-    - Overview: software/overview.md
-    - Software table: software/software-table.md
-    - Text editors: software/text_editors.md
-    - Software-specific documentation:      
-      - Chemistry/physics/atmosphere:
-        - GAMESS_US: software/games_us.md
-        - Gaussian: software/gaussian.md
-        - GROMACS: software/gromacs.md
-        - Molcas: software/openmolcas.md
-        - WRF: software/wrf.md
-      - Integrated development environments (IDE):
-        - Jupyter: software/jupyter.md
-        - RStudio: software/rstudio.md
-        - VSCode: software/vscode.md
-        - VSCodium: software/vscodium.md
-      - Life Science: 
-        - BEAST: software/beast.md
-        - BEAST2: software/beast2.md
-        - Cram: software/cram.md
-        - IGV: software/igv.md
-        - MetONTIIME: software/metontiime.md
-        - Tracer: software/tracer.md
-      - Machine Learning and AI:
-        - NVIDIA DLF: software/nvidia-deep-learning-frameworks.md
-        - TensorFlow: software/tensorflow.md
-        - Whisper: software/whisper.md
-      - Programming languages:
-        - Julia: software/julia.md
-        - MATLAB: software/matlab.md
-        - Python: software/python.md
-        - Perl: software/perl.md
-        - R: software/r.md
-      - Misc tools:
-        - darsync: cluster_guides/darsync.md
-        - jobstats: software/jobstats.md
-        - projplot: software/projplot.md
-        - Rclone: software/rclone.md      
-        - SSH: software/ssh.md
-        - SFTP: software/sftp.md
-        - ThinLinc: software/thinlinc.md
-      
-  - Databases: 
-     - Overview: databases/overview.md
-     - BLAST databases available locally: databases/blast.md
-     - NCBI taxonomy databases: databases/ncbi.md
-     - DIAMOND protein alignment databases: databases/diamond.md
-     - Reference genomes: databases/reference_genomes.md
-     - 1000-genome project: databases/1000-genome_project.md
-     - Simons Genome Diversity Project datasets: databases/simons_genome.md
-     - Other bioinformatics-oriented local data resources: databases/other_local.md
-     
-#  - Workshops and courses: workshops_courses/workshops_courses.md
-  - Support: support.md
+  - Sessions:
+    - Session 1: sessions/session_1.md
+  - Misc:
+    - Misc 1: misc/misc_1.md
 
 theme:
   name: material
-  greetings: Welcome to UPPMAX userguide
+  greetings: Welcome to UPPMAX Intro Day 1
   font:
     text: Lato
     code: JetBrains Mono
