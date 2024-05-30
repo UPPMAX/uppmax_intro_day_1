@@ -5,6 +5,7 @@ repo_url: https://github.com/UPPMAX/uppmax_intro_day_1
 nav:
   - Home: index.md
   - Sessions:
+    - Overview: sessions/overview.md
     - Session 1: sessions/session_1.md
   - Misc:
     - Misc 1: misc/misc_1.md
