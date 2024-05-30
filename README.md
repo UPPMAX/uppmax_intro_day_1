@@ -4,7 +4,7 @@ Day 1 of the UPPMAX intro course, as taught by Richel.
 
 ## Why this new repository
 
-It uses the same content as <https://github.com/UPPMAX/uppmax_intro>, 
+It uses the same content as <https://github.com/UPPMAX/uppmax_intro>,
 yet with ...
 
 - the same layout as <https://github.com/UPPMAX/uppmax_intro>
