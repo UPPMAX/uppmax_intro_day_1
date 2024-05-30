@@ -1,0 +1,23 @@
+name: create_website
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt natsort
+
+      - name: Create software table
+        run: python3 scripts/sw_table_md_creator.py -i https://export.uppmax.uu.se/staff/software_table_ci/software_table.json -o docs/software/software-table.md
+
+      - name: Render HTML
+        run: mkdocs gh-deploy --force
