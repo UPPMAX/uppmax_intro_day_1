@@ -77,3 +77,5 @@ Submitting jobs
 Working on UPPMAX
 Courses and workshops
 NAISS Sens and Bianca
+File transfer
+Using an IDE

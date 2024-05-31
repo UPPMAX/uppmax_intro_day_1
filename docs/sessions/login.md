@@ -1,43 +1,148 @@
 # Login
 
-```{questions}
+!!!- info "Learning objectives"
+
+    - Understand that there are two environments
+    - Understand that after login, one is on a login node
+    - Understand what a login node is
+    - Understand that on a login node, one only runs light commands
+    - Can log in to the Rackham remote desktop environment using the website
+    - [MOVE TO OTHER SESSION] Can copy-paste text between local computer and the Rackham remote desktop website
+    - If needed: has installed an SSH client
+        - Windows: MobaXTerm
+    - Can log in to the console environment using a terminal with X forwarding
+    - [MOVE TO OTHER SESSION] Understands what the prompt is
+    - [MOVE TO OTHER SESSION] Can use tab-completion with the prompt
+    - (optional) Can log in to the console environment using a terminal with X forwarding
+    - (optional) Can log in to the Rackham remote desktop environment using a local ThinLinc client
+
+???- question "For teachers"
+
+    Prerequisites are:
+
+    - [...]
+
+    Preparations are:
+
+    - [...]
+
+    Teaching goals are:
+
+    - [...]
+
+
+    Lesson plan:
+
+    ```mermaid
+    gantt
+      title Something
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Course introduction: done, course_intro, 0, 10s
+      Prior : intro, after course_intro, 5s
+      Present: theory_1, after intro, 5s
+      Challenge: crit, exercise_1, after theory_1, 40s
+      Break: crit, milestone, after exercise_1
+      section Second hour
+      Challenge: crit, exercise_2, 0, 10s
+      Feedback: feedback_2, after exercise_2, 10s
+      SLURM: done, slurm, after feedback_2, 25s
+      Break: done, milestone, after slurm
+    ```
+
+    Prior questions:
+
+    - [...]
+
+
+## Why?
+
 - How to reach UPPMAX clusters?
 - Where do I arrive when I log in? Login or calculation node?
 - What clients should/could I use for my work at UPPMAX?
 - How can I enable graphics?
 
+## Login
+
+There are multiple ways to login:
+
+Login                |Description
+---------------------|----------------------------------------------
+Website              |Remote desktop, no installation needed, slow
+Terminal             |Console environment, recommended
+Local ThinLinc client|Remote desktop, recommended, need installation
+
+```mermaid
+flowchart TD
+  need_gui(Need to run a graphical program?)
+  use_terminal[Use a terminal]
+  need_bianca(Need to run on Bianca?)
+  use_website[Use the remote desktop website]
+  need_easy_or_speedy(Need easiest or fastest?)
+  use_local[Use a local ThinLinc client]
+
+  need_gui --> |no| use_terminal
+  need_gui --> |yes| need_bianca
+  need_bianca --> |yes| use_website
+  need_bianca --> |yes| need_easy_or_speedy
+  need_easy_or_speedy --> |easiest| use_website
+  need_easy_or_speedy --> |fastest| use_local
 ```
 
-```{objectives}
-- We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX
-- See different clients
-- Enable graphics
-- Try yourself!
-```
+## Prerequisites
 
-```{note}
-If you lack a user account, visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
-```
+If you lack a user account, 
+visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
 
+## Exercises
+
+[...]
+
+### Working form
+
+[...]
+
+### Exercise 1: general understanding
+
+Theory questions here.
+
+### Exercise 2: login via website
+
+- Read [Log in to Rackham's remote desktop via a webbrowser](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)
+
+### Exercise 3: use website
+
+- Read [ThinLinc](http://docs.uppmax.uu.se/software/thinlinc/)
+- Copy-paste big text from local computer to your remote desktop
+- Copy-paste big text from your remote desktop to your local computer
+- File navigation: Where are we? Which folder? 
+- File management: create file, delete file, create folder, delete folder
+- Start a terminal
+- Run `xeyes`
+
+### Exercise 4: login via SSH with X-forwarding
+
+- Read [SSH clients](http://docs.uppmax.uu.se/software/ssh_client/)
+- Read [Login Rackham with X-forwarding](http://docs.uppmax.uu.se/getting_started/login_rackham/#terminal-with-x11-server-and-light-graphics)
+- Run `xeyes`
+
+### (optional Exercise 5: login via SSH without X-forwarding
+
+- Login without X forwarding
+- Observe graphics do not work, by running `xeyes`
+
+### (optional) Exercise 6: login via local ThinLinc client
+
+- Read [Log in to Rackham's remote desktop environment using a local ThinLinc client](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/)
+
+
+## Unprocessed material
+
+```
 ## The login
 
-```{discussion} Login procedure
-   **Which login procedure is best for You, depends on:**
-   - Your background
-   - Your OS environment,
-   - Your planned interaction with your local computer
-   - Your planned use of graphics on the cluster
-```
 
-
-```{admonition} Login procedure
-   If you plan to:
-   - do **day-to-day** work where *terminal shell is sufficient*
-     - Mac: *Terminal, iTerm2*
-     - Linux: *Terminal*
-     - Windows: *Putty*, *Windows Powershell* or even *command prompt (CMD)*
-     
-     
    - **interact with you local computer**
      - Mac/Linux: you can always work in a local shell (mutiple terminal windows open)
         - (S)FTP browser: *Filezilla*, *Cyberduck*
@@ -45,25 +150,7 @@ If you lack a user account, visit the [Getting started page](https://www.uppmax.
         - (S)FTP browser: *WinSCP*
         - *MobaXterm* has built-in SFTP browser
         - you may benefit from having a *Windows Subsystem for Linux, WSL(2)*
-        
-        
-   - **do day-to-day work** with **some graphical applications (X forwarding)**
-     - Mac: *Terminal, iTerm2 + XQuartz*
-     - Linux: *Terminal*
-     - Windows: *MobaXterm*
-     
-     
-   - integrate you cluster work with **code development**
-     - All OS: Example *Visual Studio Code*
-     
-     
-   - use **sophistic graphical interfaces** like *RStudio and MATLAB* etcetera
-     - *ThinLinc application*
-     
-     
-   - use **Bianca**
-     - *ThinLinc from web*
-   
+                
 ```
 
 ## General understanding
@@ -139,11 +226,7 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
 
-```console
-$ ssh -Y <username>@rackham.uppmax.uu.se
-```
 - ``-X``      Enables X11 forwarding. 
-- ``-Y``      Enables trusted X11 forwarding
 
 ````
 
@@ -272,14 +355,6 @@ Putty/Terminal  without X11 is sufficient first days of the course!
   - https://hackmd.io/@pmitev/Linux4WinUsers (Links to an external site.)
 ```
  
-## Visual Studio Code (not covered in course)
-
-- Intergrate you cluster work with *code development*
-- [SSH-remote from VS Code](https://code.visualstudio.com/docs/remote/remote-overview)
-- [Remote development using Visual Studio Code on Alvis cluster](https://www.c3se.chalmers.se/documentation/remote-vscode/remote_vscode/) 
-  - Similar to Rackham. Just change login details!
-
- 
 ## ThinLinc (all platforms!)
 
 - Both Rackham and Bianca offer graphical login.
@@ -310,4 +385,3 @@ Putty/Terminal  without X11 is sufficient first days of the course!
     - Visual Studio Code has several extensions (remote, SCP, programming IDE:s)
     - Windows: MobaXterm is somewhat easier to use.
   
-```
