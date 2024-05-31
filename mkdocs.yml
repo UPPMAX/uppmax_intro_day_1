@@ -6,7 +6,12 @@ nav:
   - Home: index.md
   - Sessions:
     - Overview: sessions/introduction.md
-    - Login: sessions/login.md
+    - Login in general: sessions/login.md
+    - Log in to the remote desktop environment: sessions/login_remote_desktop.md
+    - Use the remote desktop environment: sessions/use_remote_desktop.md
+    - File transfer using FileZilla: sessions/file_transfer_using_filezilla.md
+    - Log in to the console environment: sessions/login_console.md
+    - Use the terminal: sessions/use_terminal.md
   - Misc:
     - Misc 1: misc/misc_1.md
 

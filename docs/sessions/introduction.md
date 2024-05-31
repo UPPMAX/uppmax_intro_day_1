@@ -69,6 +69,7 @@ When       |Who|What
 ??:??-??:??|R  |[Login](login.md)
 ??:??-??:??|R  |[Log in to remote desktop environment](login_remote_desktop.md)
 ??:??-??:??|R  |[Using the remote desktop environment](use_remote_desktop.md)
+??:??-??:??|R  |[File transfer using FileZilla](file_transfer_using_filezilla.md)
 ??:??-??:??|R  |[Log in to console environment](login_console.md)
 ??:??-??:??|R  |[Using a terminal](use_terminal.md)
 
@@ -81,5 +82,4 @@ Submitting jobs
 Working on UPPMAX
 Courses and workshops
 NAISS Sens and Bianca
-File transfer
 Using an IDE

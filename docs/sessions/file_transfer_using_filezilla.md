@@ -1,8 +1,9 @@
-# Session 1
+# File transfer using FileZilla
 
 !!!- info "Learning objectives"
 
-    - [...]
+    - Can install FileZilla
+    - Can transfer files using FileZilla 
 
 ???- question "For teachers"
 
@@ -46,7 +47,8 @@
 
 ## Why?
 
-[...]
+## Theory
+
 
 ## Exercises
 
@@ -56,17 +58,10 @@
 
 [...]
 
-### Exercise 1: [...]
+### Exercise 1: install FileZilla
 
-???- info "Learning objectives"
+- Install FileZilla
 
-    - [...]
+### Exercise 2: transfer a file
 
-- [...]
-
-## Summary
-
-!!! info "Summary"
-
-    - [...]
-
+- Check using remote desktop website
