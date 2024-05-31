@@ -67,6 +67,10 @@ flowchart TD
 When       |Who|What
 -----------|---|-----------------
 ??:??-??:??|R  |[Login](login.md)
+??:??-??:??|R  |[Log in to remote desktop environment](login_remote_desktop.md)
+??:??-??:??|R  |[Using the remote desktop environment](use_remote_desktop.md)
+??:??-??:??|R  |[Log in to console environment](login_console.md)
+??:??-??:??|R  |[Using a terminal](use_terminal.md)
 
 Linux
 HPC
