@@ -87,7 +87,7 @@ flowchart TD
     use_terminal[Using a terminal\nNavigation\nFile management]
     scripts[Create a script]
     file_transfer_scp[File transfer\nscp]
-    modules[Modules]
+    modules[Using pre-installed software\nModules]
     interactive[Using an interactive session]
     job_scheduler[Job scheduler]
     text_editor[Using a text editor]
@@ -130,6 +130,7 @@ flowchart TD
 
 When       |Who|What
 -----------|---|-----------------
+??:??-??:??|R  |[Clusters](clusters.md)
 ??:??-??:??|R  |[Login](login.md)
 ??:??-??:??|R  |[Log in to remote desktop environment](login_remote_desktop.md)
 ??:??-??:??|R  |[Using the remote desktop environment](use_remote_desktop.md)
@@ -146,12 +147,6 @@ When       |Who|What
 ??:??-??:??|R  |[The UPPMAX Rackham cluster](rackham.md)
 ??:??-??:??|R  |[The UPPMAX Bianca cluster](bianca.md)
 ??:??-??:??|R  |[Courses](courses.md)
-??:??-??:??|R  |[NAISS](naiss.md)
 ??:??-??:??|R  |[HPC](hpc.md)
+??:??-??:??|R  |[NAISS](naiss.md)
 ??:??-??:??|R  |[Getting started, apply for UPPMAX resources](getting_started.md)
-
-Working on UPPMAX
-NAISS Sens and Bianca
-
-
-

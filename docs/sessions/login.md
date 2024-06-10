@@ -49,10 +49,8 @@
 
 ## Why?
 
-- How to reach UPPMAX clusters?
-- Where do I arrive when I log in? Login or calculation node?
-- What clients should/could I use for my work at UPPMAX?
-- How can I enable graphics?
+To use any UPPMAX cluster, one needs to log in.
+In this session, we learn there are multiple ways to login.
 
 ## Login
 

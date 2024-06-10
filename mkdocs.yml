@@ -6,6 +6,7 @@ nav:
   - Home: index.md
   - Sessions:
     - Overview: sessions/introduction.md
+    - Clusters: sessions/clusters.md
     - Login in general: sessions/login.md
     - Log in to the remote desktop environment: sessions/login_remote_desktop.md
     - Use the remote desktop environment: sessions/use_remote_desktop.md

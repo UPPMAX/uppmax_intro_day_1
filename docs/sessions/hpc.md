@@ -23,37 +23,6 @@
 
 
 
-## What is a cluster?
-- A network of computers, each computer working as a node.
-
-- From small scale RaspberryPi cluster... 
-     
-![RaspBerry](./img/IMG_5111.jpeg)
-
-- To supercomputers like Rackham.
-
-![Rackham](./img/uppmax-light2.jpg)
-
-- Each node contains several processor cores and RAM and a local disk called scratch.
-
-![Node](./img/node.png)
-
-- The user logs in to login nodes via Internet through ssh or Thinlinc.
-
-  - Here the file management and lighter data analysis can be performed.
-
-![RaspBerry](./img/nodes.png)
-
-![RaspBerry](./img/Bild1.png)
-
-- The calculation nodes has to be used for intense computing. 
-  - "Normal" softwares use one core.
-  - Parallelized software can utilize several cores or even several nodes. Keywords signalizing this are e.g.:
-    - "multi-threaded", "MPI", "distributed memory", "openMP", "shared memory".
-  - To let your software run on the calculation nodes
-    - start an "interactive session" or
-    - "submit a batch job".
-    - More about this in today's introduction to jobs.
 
 ## Storage basics
 - All nodes can access:
