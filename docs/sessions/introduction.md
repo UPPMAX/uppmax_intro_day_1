@@ -66,9 +66,15 @@ flowchart TD
 
 ```mermaid
 flowchart TD
+  subgraph world[The world]
+    hpc[HPC]
+    naiss[NAISS]
   subgraph uppmax[UPPMAX]
-    uppmax_clusters[UPPMAX clusters]
-    uppmax_courses[UPPMAX courses]
+      uppmax_clusters[UPPMAX clusters]
+      bianca[Bianca]
+      rackham[Rackham]
+      uppmax_courses[UPPMAX courses]
+    end
   end
   subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]
@@ -82,33 +88,42 @@ flowchart TD
     scripts[Create a script]
     file_transfer_scp[File transfer\nscp]
     modules[Modules]
+    interactive[Using an interactive session]
     job_scheduler[Job scheduler]
     text_editor[Using a text editor]
   end
 
+  %% UPPMAX
+  hpc --> naiss
+  naiss --> uppmax_clusters
+  uppmax_clusters --> bianca
+  uppmax_clusters --> rackham
 
-%% GUI
-login_remote_desktop --> use_remote_desktop
-use_remote_desktop --> file_transfer_filezilla
-use_remote_desktop --> use_ide
+  %% GUI
+  login_remote_desktop --> use_remote_desktop
+  use_remote_desktop --> file_transfer_filezilla
+  use_remote_desktop --> use_ide
 
-%% Console
-login_ssh --> use_terminal
-use_terminal --> file_transfer_scp
-use_terminal --> modules
-scripts --> job_scheduler
-modules --> scripts
-use_terminal --> text_editor
-text_editor --> scripts
+  %% Console
+  login_ssh --> use_terminal
+  use_terminal --> file_transfer_scp
+  use_terminal --> modules
+  scripts --> job_scheduler
+  modules --> scripts
+  use_terminal --> text_editor
+  use_terminal --> interactive
+  text_editor --> scripts
 
-%% console -> GUI
-modules --> use_ide
+  %% console -> GUI
+  modules --> use_ide
+  
 
-%% GUI -> console
-login_remote_desktop -.- login_ssh
-use_remote_desktop -.- use_terminal
-file_transfer_filezilla -.- file_transfer_scp  
-use_ide -.- text_editor
+  %% GUI -> console
+  login_remote_desktop -.- login_ssh
+  use_remote_desktop -.- use_terminal
+  file_transfer_filezilla -.- file_transfer_scp  
+  interactive --> use_ide
+  use_ide -.- text_editor
 ```
 
 ## Today
@@ -121,16 +136,22 @@ When       |Who|What
 ??:??-??:??|R  |[File transfer using FileZilla](file_transfer_using_filezilla.md)
 ??:??-??:??|R  |[Log in to console environment](login_console.md)
 ??:??-??:??|R  |[Using a terminal](use_terminal.md)
+??:??-??:??|R  |[File transfer using scp](file_transfer_using_scp.md)
+??:??-??:??|R  |[The module system](modules.md)
+??:??-??:??|R  |[Using an IDE](ide.md)
+??:??-??:??|R  |[Using a text editor](text_editor.md)
+??:??-??:??|R  |[Creating a bash script](scripts.md)
+??:??-??:??|R  |[The job scheduler](slurm.md)
+??:??-??:??|R  |[The UPPMAX clusters](uppmax_clusters.md)
+??:??-??:??|R  |[The UPPMAX Rackham cluster](rackham.md)
+??:??-??:??|R  |[The UPPMAX Bianca cluster](bianca.md)
+??:??-??:??|R  |[Courses](courses.md)
+??:??-??:??|R  |[NAISS](naiss.md)
+??:??-??:??|R  |[HPC](hpc.md)
+??:??-??:??|R  |[Getting started, apply for UPPMAX resources](getting_started.md)
 
-Linux
-HPC
-NAISS
-Software
-- modules
-Submitting jobs
 Working on UPPMAX
-Courses and workshops
 NAISS Sens and Bianca
-Using an IDE
+
 
 
