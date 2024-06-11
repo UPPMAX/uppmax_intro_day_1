@@ -8,8 +8,6 @@
     - If needed: has installed an SSH client
         - Windows: MobaXTerm
     - Can log in to the console environment using a terminal with X forwarding
-    - [MOVE TO OTHER SESSION] Understands what the prompt is
-    - [MOVE TO OTHER SESSION] Can use tab-completion with the prompt
     - (optional) Can log in to the console environment using a terminal with X forwarding
 
 ???- question "For teachers"

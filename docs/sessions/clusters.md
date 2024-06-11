@@ -7,7 +7,10 @@
     - Understand what a job is
     - Understand that a job can use one core, multiple cores and multiple nodes
     - Understand there are two types of nodes
-    - Understand how to pick an UPPMAX clusters
+    - Understand to run only light jobs on the login node
+    - Understand how to run heavy jobs
+    - Understand how to run interactive jobs
+    - Understand how to pick an UPPMAX cluster
 
 ???- question "For teachers"
 
@@ -157,7 +160,7 @@ flowchart TD
 
 [...]
 
-### Exercise 1: Understad
+### Exercise 1: Understand
 
 !!!- info "Learning objectives"
 

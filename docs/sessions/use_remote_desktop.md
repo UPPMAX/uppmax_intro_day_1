@@ -6,6 +6,7 @@
     - Can navigate the file system
     - Can do file management
     - Can start a terminal
+    - Can start a text editor
 
 ???- question "For teachers"
 

@@ -2,7 +2,7 @@
 
 !!!- info "Learning objectives"
 
-\    - Can transfer files using scp
+    - Can transfer files using scp
 
 ???- question "For teachers"
 
