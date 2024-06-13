@@ -5,23 +5,17 @@
     - Understand the role of this day in this four day course
     - Understand where the find the schedule
     - Understand the topics of today
-    - [CONVERT THE ONES BELOW]
-    - Get overview of UPPMAX and NAISS
-    - Get overview of UPPMAX and NAISS
-    - Let's step up and have an overview of SNIC
-    - Let's step up and have an overview of NAISS
-    - Let's recap and go a little deeper into the organization of NAISS/UPPMAX
-    - Work with your files in a LINUX environment
-    - We'll relate our login session to the specific "area" in the cluster.
-    - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
-    - We'll briefly get an overview of Linux
-      - How the command line works
-      - Some text editors
-      - Things to be aware of
-    - Let's dig into the most important BASH commands
-    - Let's recap and go a little further into the UPPMAX hardware!
-    - We'll briefly get an overview of kinds of sensitive data
-    - ... and the **Bianca** system
+
+## Introduction
+
+Here the course is introduced:
+
+- [UPPMAX intro overview](#uppmax-intro-overview)
+  gives an overview of the whole UPPMAX Intro 4-day course
+- [Overview of today](#overview-of-today)
+  gives an overview of the topics of today
+- [Schedule of today](#schedule-of-today)
+  is the schedule of today
 
 ## UPPMAX intro overview
 
@@ -120,7 +114,7 @@ flowchart TD
   interactive --> use_ide
 ```
 
-## Today
+## Schedule of today
 
 When       |Who|What
 -----------|---|-----------------
@@ -144,3 +138,25 @@ When       |Who|What
 ??:??-??:??|R  |[NAISS](naiss.md)
 ??:??-??:??|R  |[Getting started, apply for UPPMAX resources](getting_started.md)
 ??:??-??:??|R  |[Courses](courses.md)
+
+
+# Old learning objectives
+
+!!!- info "Learning objectives"
+    - [CONVERT THE ONES BELOW]
+    - Get overview of UPPMAX and NAISS
+    - Get overview of UPPMAX and NAISS
+    - Let's step up and have an overview of SNIC
+    - Let's step up and have an overview of NAISS
+    - Let's recap and go a little deeper into the organization of NAISS/UPPMAX
+    - Work with your files in a LINUX environment
+    - We'll relate our login session to the specific "area" in the cluster.
+    - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
+    - We'll briefly get an overview of Linux
+      - How the command line works
+      - Some text editors
+      - Things to be aware of
+    - Let's dig into the most important BASH commands
+    - Let's recap and go a little further into the UPPMAX hardware!
+    - We'll briefly get an overview of kinds of sensitive data
+    - ... and the **Bianca** system
