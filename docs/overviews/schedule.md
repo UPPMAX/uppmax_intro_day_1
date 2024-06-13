@@ -2,16 +2,19 @@
 
 When       |Who|What
 -----------|---|-----------------
+.          |.  |**Basic use with visual tools**
 09:00-09:15|R  |Introduction
 ??:??-??:??|R  |[Login](login.md)
 ??:??-??:??|R  |[Log in to remote desktop environment](login_remote_desktop.md)
 ??:??-??:??|R  |[Using the remote desktop environment](use_remote_desktop.md)
 ??:??-??:??|R  |[File transfer using FileZilla](file_transfer_using_filezilla.md)
 10:00-10:15|.  |Break
+.          |.  |**Basic use from a terminal**
 ??:??-??:??|R  |[Log in to console environment](login_console.md)
 ??:??-??:??|R  |[Using a terminal](use_terminal.md)
 ??:??-??:??|R  |[File transfer using scp](file_transfer_using_scp.md)
 11:00-11:15|.  |Break
+.          |.  |**Doing real work**
 ??:??-??:??|R  |[Clusters](clusters.md)
 ??:??-??:??|R  |[The module system](modules.md)
 ??:??-??:??|R  |[Start an interactive sessions](start_interactive_session.md)
@@ -21,12 +24,12 @@ When       |Who|What
 ??:??-??:??|R  |[Creating a bash script](scripts.md)
 14:00-14:15|.  |Break
 ??:??-??:??|R  |[The job scheduler](slurm.md)
+15:00-15:15|.  |Break
+.          |.  |**The bigger picture**
 ??:??-??:??|R  |[The UPPMAX clusters](uppmax_clusters.md)
 ??:??-??:??|R  |[The UPPMAX Bianca cluster](bianca.md)
-15:00-15:15|.  |Break
 ??:??-??:??|R  |[HPC](hpc.md)
 ??:??-??:??|R  |[NAISS](naiss.md)
 ??:??-??:??|R  |[Getting started, apply for UPPMAX resources](getting_started.md)
 ??:??-??:??|R  |[Courses](courses.md)
-15:30-15:45|R  |[Evaluation](evaluation.md)
-15:45-16:00|R  |Optional Q&A
+15:45-16:00|R  |[Evaluation](evaluation.md)
