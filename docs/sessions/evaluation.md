@@ -11,7 +11,7 @@ Give you confidence levels of the following statements:
 - I can transfer files to/from Rackham using FileZilla
 - I can log in to Rackham using a terminal
 - I can do basic things in the terminal
-- I can transfer files to/from Rackham using scp
+- I can transfer files to/from Rackham using `scp`
 - I can find and load a module
 - I can start an IDE
 - I can start a terminal text editor
