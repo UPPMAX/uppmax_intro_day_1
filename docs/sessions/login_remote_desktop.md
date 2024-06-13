@@ -47,10 +47,28 @@
 
 ## Why?
 
-- How to reach UPPMAX clusters?
-- Where do I arrive when I log in? Login or calculation node?
-- What clients should/could I use for my work at UPPMAX?
-- How can I enable graphics?
+You want to use an HPC cluster with a visual and familiar user interface.
+
+## A remote desktop environment
+
+Most people use a desktop environment:
+
+Operating system|Example desktop environment
+----------------|--------------------------
+Linux           |![https://commons.wikimedia.org/wiki/File:Ubuntu_24.04_Noble_Numbat_Desktop_English.png](ubuntu.png)
+MacOS/OS X      |![https://en.wikipedia.org/wiki/Classic_Mac_OS#/media/File:MacOS81_screenshot.png](apple.png)
+MS-DOS          |![https://en.wikipedia.org/wiki/File:Windows_3.0_workspace.png](windows.png)
+
+The UPPMAX clusters provide for a remote desktop environment.
+It is a remote environment, as we need to log in to a cluster remotely,
+i.e. we do not plug in our keyboard and monitor to a node.
+
+There are two ways to access the remote remote desktop environment of Rackham:
+
+- use a website
+- use a program
+
+In this session, we will access the Rackham remote desktop environment.
 
 ## Exercises
 
@@ -66,7 +84,8 @@
 
 ### Exercise 2: login via website
 
-- Read [Log in to Rackham's remote desktop via a webbrowser](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/)
+- Read [Log in to Rackham's remote desktop via a webbrowser](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
+- Log in to Rackham's remote desktop via a webbrowser
 
 ### (optional) Exercise 3: login via local ThinLinc client
 

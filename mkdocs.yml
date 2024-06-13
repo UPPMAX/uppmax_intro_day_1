@@ -13,8 +13,6 @@ nav:
     - File transfer using FileZilla: sessions/file_transfer_using_filezilla.md
     - Log in to the console environment: sessions/login_console.md
     - Use the terminal: sessions/use_terminal.md
-  - Misc:
-    - Misc 1: misc/misc_1.md
 
 theme:
   name: material

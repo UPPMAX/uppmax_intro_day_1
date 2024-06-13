@@ -86,6 +86,8 @@ flowchart TD
     text_editor[Using a text editor]
   end
 
+  hpc ---> login_remote_desktop
+
   %% UPPMAX
   hpc --> naiss
   naiss --> uppmax_clusters
@@ -93,7 +95,7 @@ flowchart TD
   uppmax_clusters --> rackham
 
   %% GUI
-  login_remote_desktop --> use_remote_desktop
+  login_remote_desktop ---> use_remote_desktop
   use_remote_desktop --> file_transfer_filezilla
   use_remote_desktop --> use_ide
 
@@ -103,7 +105,7 @@ flowchart TD
   use_terminal --> modules
   scripts --> job_scheduler
   modules --> scripts
-  use_terminal --> text_editor
+  use_terminal ---> text_editor
   use_terminal --> interactive
   text_editor --> scripts
 
@@ -112,11 +114,10 @@ flowchart TD
   
 
   %% GUI -> console
-  login_remote_desktop -.- login_ssh
-  use_remote_desktop -.- use_terminal
-  file_transfer_filezilla -.- file_transfer_scp  
+  login_remote_desktop --> login_ssh
+  use_remote_desktop --> use_terminal
+  file_transfer_filezilla --> file_transfer_scp  
   interactive --> use_ide
-  use_ide -.- text_editor
 ```
 
 ## Today
@@ -128,11 +129,9 @@ When       |Who|What
 ??:??-??:??|R  |[Log in to remote desktop environment](login_remote_desktop.md)
 ??:??-??:??|R  |[Using the remote desktop environment](use_remote_desktop.md)
 ??:??-??:??|R  |[File transfer using FileZilla](file_transfer_using_filezilla.md)
-===========|===|=================================================================
 ??:??-??:??|R  |[Log in to console environment](login_console.md)
 ??:??-??:??|R  |[Using a terminal](use_terminal.md)
 ??:??-??:??|R  |[File transfer using scp](file_transfer_using_scp.md)
-===========|===|=================================================================
 ??:??-??:??|R  |[The module system](modules.md)
 ??:??-??:??|R  |[Using an IDE](ide.md)
 ??:??-??:??|R  |[Using a text editor](text_editor.md)
@@ -141,7 +140,7 @@ When       |Who|What
 ??:??-??:??|R  |[The UPPMAX clusters](uppmax_clusters.md)
 ??:??-??:??|R  |[The UPPMAX Rackham cluster](rackham.md)
 ??:??-??:??|R  |[The UPPMAX Bianca cluster](bianca.md)
-??:??-??:??|R  |[Courses](courses.md)
 ??:??-??:??|R  |[HPC](hpc.md)
 ??:??-??:??|R  |[NAISS](naiss.md)
 ??:??-??:??|R  |[Getting started, apply for UPPMAX resources](getting_started.md)
+??:??-??:??|R  |[Courses](courses.md)

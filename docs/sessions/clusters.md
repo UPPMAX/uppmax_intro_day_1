@@ -145,7 +145,6 @@ flowchart TD
       job_125
       user_5
     end  
-
   end
 ```
 
@@ -167,7 +166,7 @@ flowchart TD
     - [...]
 
 
-### Exercise 2: Understand system usage
+### (optional) Exercise 2: Understand system usage
 
 Go to [https://status.uppmax.uu.se/usage/](https://status.uppmax.uu.se/usage/).
 

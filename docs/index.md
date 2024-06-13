@@ -16,8 +16,7 @@ template: home.html
 
 <br/>
 
-[:material-rocket-launch: Session 1](sessions/session_1.md){: .md-button .md-button--primary }
-[:material-rocket-launch: Misc 1](misc/misc_1.md){: .md-button .md-button--primary }
+[:material-rocket-launch: Get started](sessions/introduction.md){: .md-button .md-button--primary }
 
 <br/><br/>
 

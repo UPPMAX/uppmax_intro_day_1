@@ -80,3 +80,8 @@ we can work with Rackham.
 
 - Start a terminal
 - Run `xeyes`
+
+### Exercise 5: starting a text editor
+
+- Start a text editor
+- Save a file
