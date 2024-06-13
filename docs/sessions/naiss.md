@@ -1,95 +1,89 @@
 # NAISS
-```{objectives}
-- Let's step up and have an overview of NAISS
+
+!!!- info "Learning objectives"
+
+    - Be able to find which resources exist
+    - Be able to apply for a resource
+
+## Why?
+
+UPPMAX is part of NAISS.
+
+Goal of this session is to find out which resources exists in Sweden
+and how to apply for these.
+
+## Overview
+
+```mermaid
+flowchart TD
+  naiss[NAISS]
+  supr[SUPR]
+  local_universities[Local universities]
+  subgraph national_resources[National resources]
+    bianca[Bianca @ UPPMAX]
+    rackham[Rackham @ UPPMAX]
+    other_national[Others]
+  end
+  subgraph local_resources[Local resources]
+    snowy[Snowy @ UPPMAX]
+    other_local[Others]
+  end
+  naiss --> |finances| national_resources
+  local_universities --> |finance| local_resources
+  supr --> |user management| national_resources
+  supr --> |user management| local_resources  
 ```
 
-## NAISS HPC Clusters
-<https://www.snic.se/resources/compute-resources/>
-- Mostly Intel-based CPU:s and Nvidia GPU:s
-- UPPMAX:
-  - Rackham - General computational resource and also focused towards Life Science
-  - Bianca - NAISS-SENS, resource dedicated to research on sensitive data
+## NAISS
 
-- PDC (KTH):
-  - Dardel - General computational resource
-  - Not intel/Nvidia but Cray/AMD CPU:s and GPU:s
-- NSC, Linköping:
-  - Tetralith - General computational resource
-- C3SE, Chalmers:
-  - Alvis - Accelerator-based resource dedicated to research using AI techniques
-AND the international
-- LUMI, Finland 
-  - LUMI - General computational resource, aimed at larger projects in Sweden
-  - Not intel/Nvidia but Cray/AMD CPU:s and GPU:s
+From [the 'About us' page of the NAISS website](https://www.naiss.se/about-us/):
 
-### Locally financed systems for local users
-- UPPMAX
-  - Snowy - GPU:s and long runs
-- LUNARC, Lund
-  - Aurora 
-- C3SE, Chalmers
-  - Vera
-- NSC, Linköping:
-  - BerzeLiUs - for AI and machine learning 
-- HPC2N, Umeå:
-  - Kebnekaise - General computational resource
+> The National Academic Infrastructure for Supercomputing in Sweden (NAISS) 
+> is an infrastructure organisation for high-performance computing, 
+> storage, and data services for academic users in Sweden
 
+NAISS resources are free (as in beer) to researchers all over Sweden
+and can be found at [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/).
 
+## SUPR
 
- 
-## Swedish Science Cloud (SSC)
+SUPR allows a user to apply for resources,
+both NAISS and local (e.g. Uppsala) resources.
 
-- Complement, offering "advanced functionality" to users who:
+Resource application is done in rounds.
+All SUPR rounds can be found at [https://supr.naiss.se/round/](https://supr.naiss.se/round/).
 
-  - need more flexible access to resources
-     - e.g. more control over the OS:s and software environments
-  - want to develop software as a service
-  - want to explore recent technology such as for
-     - IoT applications 
-     - “Big Data” e.g. Apache Hadoop/Spark
+Typically, SUPR rounds come in three project sizes. The bigger the
+project, the less often one can apply and the higher job title one needs.
 
+## Exercises
 
-- The UPPMAX cloud Dis (Swedish word for "haze") was introduced in October 2017 and upgraded during 2020.
-  - East region in the Swedish Science Cloud <https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/>
+### Exercise 1: NAISS resources
 
-- Other clouds
+Read [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/)
+then answer these questions:
 
-  - Umeå University (North, HPC2N).
+- Which resource is most suitable to store and work on sensitive data?
+- Which resource is most suitable to work with AI tools?
+- Which resource is most suitable to host a website and/or service?
+- Which resource is most suitable to store data publicly?
 
-  - Chalmers University (West, C3SE).
+### Exercise 2: Apply for resources
 
-## STORAGE
-### SNIC Storage: Swestore
-- The purpose of Swestore allocations, granted by Swedish National Allocations Committee (SNAC), is to provide large scale data storage for “live” or “working” research data, also known as active research data.
-- [https://www.snic.se/resources/swestore/](https://www.snic.se/resources/swestore/)
-- [https://supr.naiss.se/round/storage/](https://supr.naiss.se/round/storage/)
+At [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/),
+request resources for Rackham. This will take you to 
+the [SUPR NAISS page on Rackham](https://supr.naiss.se/resource/rackham/).
 
-## The projects
-- No cost to researchers all over Sweden. 
-- 3 different levels regarding storage and core hours per month
+Apply for a 'Small Compute' project.
 
-<https://uppmax.uu.se/support/getting-started/applying-for-projects/>
+- What academic level (BSc, MSc, PhD student, etc.) do you need to have to be eligible?
+- How many CPU core hours per month would you get for Rackham?
 
-### Compute at UPPMAX
-- Small: 2000 cpu-hrs/month and 128 GB of storage. 
-  - Can be increased to 10,000 hrs
-  - PI: PhD student or higher.
-- Medium: 10,000-200,000 cpu-hs/month
-  - PI: Assistant professor (forskarassistent) or higher. 
-- Large 100,000 cpu-hs/month
-  - PI: Assistant professor (forskarassistent) or higher. 
-### Storage at UPPMAX
-- Small: 128 GB-10 TB of storage. 
-  - Can be increased to 10,000 hrs
-  - PI: PhD student or higher.
-- Medium: 10-100 TB 
-  - PI: Assistant professor (forskarassistent) or higher. 
-- Large: More than 100 TB 
-  - PI: Assistant professor (forskarassistent) or higher. 
+Cancel this application.
 
+Apply for a 'Medium Compute' project.
 
-### Application rounds
-<https://www.naiss.se//#application-rounds-for-compute-and-storage-resources>
+- What academic level (BSc, MSc, PhD student, etc.) do you need to have to be eligible?
+- How many CPU core hours per month would you get for Rackham?
 
-## NAISS training
-<https://www.snic.se/support/snic-training/>
+Cancel this application.

@@ -62,10 +62,6 @@ and activate it.
 
 [...]
 
-### Working form
-
-[...]
-
 ### Exercise 1: find the software
 
 - [UPPMAX software](http://docs.uppmax.uu.se/software/overview/)

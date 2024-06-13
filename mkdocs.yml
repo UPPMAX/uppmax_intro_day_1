@@ -26,11 +26,10 @@ nav:
     - Creating a bash script: sessions/scripts.md
     - The job scheduler: sessions/slurm.md
   - The bigger picture:
-    - The UPPMAX clusters: sessions/uppmax_clusters.md
-    - Bianca: sessions/bianca.md
-    - HPC: sessions/hpcs.md
     - NAISS: sessions/naiss.md
     - Apply for resources: sessions/getting_started.md
+    - Bianca: sessions/bianca.md
+    - HPC: sessions/hpcs.md
     - UPPMAX courses: sessions/courses.md
   - Misc:
     - Evaluation: misc/evaluation.md
