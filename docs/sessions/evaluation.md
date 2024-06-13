@@ -19,6 +19,7 @@ Give you confidence levels of the following statements:
 - I can create a bash script
 - I can schedule a job
 - I can conclude which UPPMAX cluster best suits my needs 
+- I can find the hardware specifications of an UPPMAX cluster
 - I can find where to apply for NAISS resources
 - I can find other UPPMAX courses
 

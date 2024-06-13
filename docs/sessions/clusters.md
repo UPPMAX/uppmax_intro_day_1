@@ -11,6 +11,7 @@
     - Understand how to run heavy jobs
     - Understand how to run interactive jobs
     - Understand how to pick an UPPMAX cluster
+    - Understand how to find a cluster's hardware specifications
 
 ???- question "For teachers"
 
@@ -175,3 +176,10 @@ Go to [https://status.uppmax.uu.se/usage/](https://status.uppmax.uu.se/usage/).
 - Which system has the least cores?
 - Can we see a difference between a regular weekday and weekends?
 - Can we see a difference between a working hours and the other hours?
+
+### (optional) Exercise 3: Find hardware specifications
+
+- Pick your favorite UPPMAX cluster
+- Read the doc
+- Find the hardware specifications of this cluster
+

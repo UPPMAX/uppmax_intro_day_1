@@ -138,7 +138,6 @@ When       |Who|What
 14:00-14:15|.  |Break
 ??:??-??:??|R  |[The job scheduler](slurm.md)
 ??:??-??:??|R  |[The UPPMAX clusters](uppmax_clusters.md)
-??:??-??:??|R  |[The UPPMAX Rackham cluster](rackham.md)
 ??:??-??:??|R  |[The UPPMAX Bianca cluster](bianca.md)
 15:00-15:15|.  |Break
 ??:??-??:??|R  |[HPC](hpc.md)
@@ -147,27 +146,3 @@ When       |Who|What
 ??:??-??:??|R  |[Courses](courses.md)
 15:30-15:45|R  |[Evaluation](evaluation.md)
 15:45-16:00|R  |Optional Q&A
-
-
-# Old learning objectives
-
-From other version of this course.
-
-!!!- info "Learning objectives"
-    - [CONVERT THE ONES BELOW]
-    - Get overview of UPPMAX and NAISS
-    - Get overview of UPPMAX and NAISS
-    - Let's step up and have an overview of SNIC
-    - Let's step up and have an overview of NAISS
-    - Let's recap and go a little deeper into the organization of NAISS/UPPMAX
-    - Work with your files in a LINUX environment
-    - We'll relate our login session to the specific "area" in the cluster.
-    - We'll go through platform specific (Mac/Linux/Windows) ways to log in to UPPMAX.
-    - We'll briefly get an overview of Linux
-      - How the command line works
-      - Some text editors
-      - Things to be aware of
-    - Let's dig into the most important BASH commands
-    - Let's recap and go a little further into the UPPMAX hardware!
-    - We'll briefly get an overview of kinds of sensitive data
-    - ... and the **Bianca** system

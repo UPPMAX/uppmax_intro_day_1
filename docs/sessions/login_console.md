@@ -1,4 +1,4 @@
-# Login
+# Login via a terminal
 
 !!!- info "Learning objectives"
 
