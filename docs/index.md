@@ -16,7 +16,7 @@ template: home.html
 
 <br/>
 
-[:material-rocket-launch: Get started](sessions/introduction.md){: .md-button .md-button--primary }
+[:material-rocket-launch: Schedule](overviews/schedule.md){: .md-button .md-button--primary }
 
 <br/><br/>
 

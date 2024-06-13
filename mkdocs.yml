@@ -4,16 +4,23 @@ repo_url: https://github.com/UPPMAX/uppmax_intro_day_1
 
 nav:
   - Home: index.md
-  - Sessions:
-    - Overview: sessions/introduction.md
-    - Clusters: sessions/clusters.md
+  - Overviews:
+    - Schedule: overviews/schedule.md
+    - UPPMAX Intro: overviews/uppmax_intro.md
+    - UPPMAX Intro Day 1: overviews/uppmax_intro_day_1.md
+  - Basic use of Rackham with visual tools:
     - Login in general: sessions/login.md
     - Log in to the remote desktop environment: sessions/login_remote_desktop.md
     - Use the remote desktop environment: sessions/use_remote_desktop.md
     - File transfer using FileZilla: sessions/file_transfer_using_filezilla.md
+  - Basic use of Rackham from a terminal:
     - Log in to the console environment: sessions/login_console.md
     - Use the terminal: sessions/use_terminal.md
-    - Evaluation: sessions/evaluation.md
+    - Clusters: sessions/clusters.md
+  - Setting Rackham to work:
+    - Clusters: sessions/modules.md
+  - Misc:
+    - Evaluation: misc/evaluation.md
 
 theme:
   name: material
