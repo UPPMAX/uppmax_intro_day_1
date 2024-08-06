@@ -2,6 +2,7 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
     - Understand that there are two environments
     - Understand that after login, one is on a login node
     - Understand what a login node is
@@ -64,19 +65,29 @@ Local ThinLinc client|Remote desktop, recommended, need installation
 
 ```mermaid
 flowchart TD
-  need_gui(Need to run a graphical program?)
+  need_gui(Need to run a heavy graphical program?)
   use_terminal[Use a terminal]
+  use_remote_desktop[Use a remote desktop environment]
+  use_ssh[Use SSH]
+  use_ssh_with_x_forwarding[Use SSH with X forwarding]
   need_bianca(Need to run on Bianca?)
   use_website[Use the remote desktop website]
   need_easy_or_speedy(Need easiest or fastest?)
+  need_light(Need lightweight graphics?)
   use_local[Use a local ThinLinc client]
 
   need_gui --> |no| use_terminal
-  need_gui --> |yes| need_bianca
+  need_gui --> |yes| use_remote_desktop
+  use_remote_desktop --> need_bianca
   need_bianca --> |yes| use_website
   need_bianca --> |yes| need_easy_or_speedy
   need_easy_or_speedy --> |easiest| use_website
   need_easy_or_speedy --> |fastest| use_local
+
+  use_terminal --> need_light
+
+  need_light --> |no| use_ssh
+  need_light --> |no\nyes| use_ssh_with_x_forwarding[Use SSH with X forwarding]
 ```
 
 ## Prerequisites
@@ -94,4 +105,23 @@ visit the [Getting started page](https://www.uppmax.uu.se/support/getting-starte
 
 ### Exercise 1: general understanding
 
-Theory questions here.
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Where is the general UPPMAX documentation page where it is described how to log in to Rackham?
+
+???- question "Answer"
+
+    It is at [https://docs.uppmax.uu.se/getting_started/login_rackham/](https://docs.uppmax.uu.se/getting_started/login_rackham/).
+
+    You can reach this page by searching for 'Login Rackham' or 'Log in Rackham'. 
+    It won't be the first search result. 
+
+
+
+
+
+    - Understand that there are two environments
+    - Understand that after login, one is on a login node
+    - Understand what a login node is
+    - Understand that on a login node, one only runs light commands
