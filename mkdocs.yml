@@ -31,7 +31,10 @@ nav:
     - Bianca: sessions/bianca.md
     - HPC: sessions/hpcs.md
     - UPPMAX courses: sessions/courses.md
+    - The command line: sessions/command_line.md
+    - Linux: sessions/linux.md
   - Misc:
+    - About Richel: misc/richel.md
     - Evaluation: misc/evaluation.md
     - Exercise procedure: misc/exercise_procedure.md
 
@@ -51,12 +54,11 @@ theme:
     - navigation.sections
     - navigation.path
     - navigation.footer
-#    - navigation.expand
+    - navigation.expand
     - search.suggest
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
-  # custom_dir: mkdocs_uppmax/
     
 extra_css:
   - stylesheets/extra.css
@@ -85,5 +87,11 @@ markdown_extensions:
   - pymdownx.keys
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+
+
+
+
+
