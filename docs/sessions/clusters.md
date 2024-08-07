@@ -61,7 +61,7 @@ helps us understand why the are the way they are.
 ## What is a cluster?
 
 A (computer) cluster is a group of computers working together.
-A cluster is shared by many users, 
+A cluster is shared by many users,
 that have widely different demands.
 Different users need different software
 and -for the same software!- possibly different versions.
@@ -171,7 +171,7 @@ flowchart TD
 
 Go to [https://status.uppmax.uu.se/usage/](https://status.uppmax.uu.se/usage/).
 
-- Why are there three systems?	
+- Why are there three systems? 
 - Which system has the most cores?
 - Which system has the least cores?
 - Can we see a difference between a regular weekday and weekends?

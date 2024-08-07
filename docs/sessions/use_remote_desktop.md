@@ -70,7 +70,7 @@ we can work with Rackham.
 
 ### Exercise 2: file navigation
 
-- File navigation: Where are we? Which folder? 
+- File navigation: Where are we? Which folder?
 
 ### Exercise 3: file management
 

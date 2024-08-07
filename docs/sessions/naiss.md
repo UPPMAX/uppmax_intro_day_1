@@ -38,8 +38,8 @@ flowchart TD
 
 From [the 'About us' page of the NAISS website](https://www.naiss.se/about-us/):
 
-> The National Academic Infrastructure for Supercomputing in Sweden (NAISS) 
-> is an infrastructure organisation for high-performance computing, 
+> The National Academic Infrastructure for Supercomputing in Sweden (NAISS)
+> is an infrastructure organisation for high-performance computing,
 > storage, and data services for academic users in Sweden
 
 NAISS resources are free (as in beer) to researchers all over Sweden
@@ -71,7 +71,7 @@ then answer these questions:
 ### Exercise 2: Apply for resources
 
 At [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/),
-request resources for Rackham. This will take you to 
+request resources for Rackham. This will take you to
 the [SUPR NAISS page on Rackham](https://supr.naiss.se/resource/rackham/).
 
 Apply for a 'Small Compute' project.

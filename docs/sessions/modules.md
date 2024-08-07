@@ -20,13 +20,13 @@ installation anymore.
 The module system solves this problem: each user can
 search for the desired version of the desired software and activate it.
 
-In this session, we'll search for pre-installed software 
+In this session, we'll search for pre-installed software
 and activate it.
 
 ## Modules
 
 - 800+ programs and packages are installed.
-- This system keeps installed software hidden by default, 
+- This system keeps installed software hidden by default,
   and users have to explicitly tell their terminal which version of which software they need.
 - The modules are most often available across cluster
 
@@ -38,25 +38,25 @@ and activate it.
 ## Install software yourself
 
 - You can install in your home directory.
-  - This is handy for personal needs, low numbers of files (i.e. not Conda).
+    - This is handy for personal needs, low numbers of files (i.e. not Conda).
 - Usually better to install in project directory.
-  - This way the project contains both data and software — good for reproducibility, collaboration, and everyone's general sanity.
+    - This way the project contains both data and software — good for reproducibility, collaboration, and everyone's general sanity.
 
-- [Python](http://docs.uppmax.uu.se/software/python/) 
+- [Python](http://docs.uppmax.uu.se/software/python/)
   with `pip install`
-- [Conda](http://docs.uppmax.uu.se/software/conda/) 
+- [Conda](http://docs.uppmax.uu.se/software/conda/)
   with `conda install`
 - Docker: does not work
-- [Singularity](http://docs.uppmax.uu.se/software/singularity/) 
+- [Singularity](http://docs.uppmax.uu.se/software/singularity/)
   and upload a container
 - Build from source
-  - We have several compiler versions from GNU and Intel
-  - [Compiling from source code](https://www.uppmax.uu.se/support/user-guides/compiling-source-code/)
-  - [Guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
+    - We have several compiler versions from GNU and Intel
+    - [Compiling from source code](https://www.uppmax.uu.se/support/user-guides/compiling-source-code/)
+    - [Guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
 - Spack
-  - The UPPMAX staff has already other ways to install most software applications. 
-  - Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
-  - [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
+    - The UPPMAX staff has already other ways to install most software applications.
+    - Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
+    - [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
 
 ## Exercises
 

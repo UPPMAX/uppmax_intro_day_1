@@ -10,53 +10,54 @@
 - Many of your projects are more focusing on high throughput, large memory demands and many tasks.
 - Here is a list of the three most common **Computing paradigms**:
 
-- **HPC**: High Performance Computing — Focus on floating point operations per second (**FLOPS**, flops or flop/s) 
-  - characterized as needing large amounts of computing power for short periods of time
-- **HTC**: High-Throughput Computing — 
-  - operations or **jobs per month or per year**. 
-  - more interested in how many jobs can be completed over a long period of time instead of how fast. 
-  - independent, sequential jobs that can be individually scheduled o
+- **HPC**: High Performance Computing — Focus on floating point operations per second (**FLOPS**, flops or flop/s)
+    - characterized as needing large amounts of computing power for short periods of time
+- **HTC**: High-Throughput Computing —
+    - operations or **jobs per month or per year**.
+    - more interested in how many jobs can be completed over a long period of time instead of how fast.
+    - independent, sequential jobs that can be individually scheduled o
 - **MTC**: Many-task Computing — emphasis of using many computing resources over short periods of time to accomplish many computational tasks
-  - bridge the gap between HTC and HPC. 
-  - reminiscent of HTC, but including both dependent and independent tasks), where the primary metrics are measured in seconds (e.g. **FLOPS**, tasks/s, **MB/s** **I/O rates**), as opposed to operations (e.g. jobs) per month. 
-  - high-performance computations comprising multiple distinct activities, coupled via file system operations. 
-
-
+    - bridge the gap between HTC and HPC.
+    - reminiscent of HTC, but including both dependent and independent tasks), where the primary metrics are measured in seconds (e.g. **FLOPS**, tasks/s, **MB/s** **I/O rates**), as opposed to operations (e.g. jobs) per month.
+    - high-performance computations comprising multiple distinct activities, coupled via file system operations.
 
 
 ## Storage basics
+
 - All nodes can access:
-  - Your home directory on Domus or Castor
-  - Your project directories on Crex or Castor
-  - Its own local scratch disk (2-3 TB)
+    - Your home directory on Domus or Castor
+    - Your project directories on Crex or Castor
+    - Its own local scratch disk (2-3 TB)
 
 - If you’re reading/writing a file once, use a directory on Crex or Castor
 - If you’re reading/writing a file many times...
     - Copy the file to ”scratch”, the node local disk:
+
     ```
     cp myFile $SNIC_TMP
     ```
-        
-        
-## The UPPMAX hardware   
- 
+
+
+## The UPPMAX hardware
+
 ### Clusters
 
 - We have a number of compute clusters:
 
-  -  [Rackham](https://www.uppmax.uu.se/resources/systems/the-rackham-cluster/)
+    - [Rackham](https://www.uppmax.uu.se/resources/systems/the-rackham-cluster/)
 , reserved for SNIC projects
-  -  [Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/), GPU, long jobs reserved for UPPMAX projects and Education
-  -  [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
+    - [Snowy](https://www.uppmax.uu.se/resources/systems/the-snowy-cluster/), GPU, long jobs reserved for UPPMAX projects and Education
+    - [Bianca](https://www.uppmax.uu.se/resources/systems/the-bianca-cluster/)
 , a part of SNIC-SENS
-  -  [Miarka](https://www.uppmax.uu.se/resources/systems/miarka-cluster/), reserved for Scilifelab production
-  -  [UPPMAX cloud](https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/), a part of SNIC Science Cloud
+    - [Miarka](https://www.uppmax.uu.se/resources/systems/miarka-cluster/), reserved for Scilifelab production
+    - [UPPMAX cloud](https://www.uppmax.uu.se/resources/systems/the-uppmax-cloud/), a part of SNIC Science Cloud
 
 - [User guides](https://www.uppmax.uu.se/support/user-guides/)
 
 - The storage systems we have provide a total volume of about 25 PB, the equivalent of  50,000 years of 128-bit encoded music. Read more on the [storage systems page](https://www.uppmax.uu.se/resources/systems/storage-systems/).
 
 ### UPPMAX storage system names (projects & home directories)
+
 - Rackham storage: Crex & Domus
 - Bianca storage: Castor & Cygnus
 - NGI production system (Miarka): Vulpes
@@ -64,19 +65,21 @@
 - Off-load storage: Lutra
 
 ### System usage
+
 [System usage](https://www.uppmax.uu.se/resources/system-usage/)
 
 - More about the systems can be found at the [System resources page](https://www.uppmax.uu.se/resources/systems/)
 
- 
+
 ### A little bit more about Snowy
 
 - [User guide](https://www.uppmax.uu.se/support/user-guides/snowy-user-guide/).
-  - There is a [local compute round](https://supr.snic.se/round/uppmaxcompute2021/) for UU users applying for Snowy in SUPR.
-  - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk.   
-  - The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
+    - There is a [local compute round](https://supr.snic.se/round/uppmaxcompute2021/) for UU users applying for Snowy in SUPR.
+    - GU (courses) applications (including GU GPU usage) are not done in SUPR, but are supposed to be routed through the service desk.
+    - The details can be found at the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/).
 
 ### About Bianca?
+
 - Wait for it!
 
 ## Summary about the three "common" UPPMAX clusters

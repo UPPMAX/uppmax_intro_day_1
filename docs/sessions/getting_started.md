@@ -4,7 +4,7 @@ In order to use UPPMAX resources, you need an UPPMAX user account and a project.
 
 UPPMAX is also a cluster and cloud provider for Uppsala University educational courses. See the university course information page if you are interested in teaching with us.
 
-If the results you get from using the resources at UPPMAX end up in a paper or are presented at a workshop or conference, we kindly ask you to acknowledge UPPMAX and SNIC. 
+If the results you get from using the resources at UPPMAX end up in a paper or are presented at a workshop or conference, we kindly ask you to acknowledge UPPMAX and SNIC.
 
 ## Apply for a user account
 

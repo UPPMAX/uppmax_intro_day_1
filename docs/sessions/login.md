@@ -92,7 +92,7 @@ flowchart TD
 
 ## Prerequisites
 
-If you lack a user account, 
+If you lack a user account,
 visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
 
 ## Exercises

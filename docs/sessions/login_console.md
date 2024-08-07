@@ -100,17 +100,20 @@ Theory questions here.
 - When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
 - This means that only light analysis and and calculations should be made here.
 - You will see this in the prompt after "@" as the clustername and a low number. For instance:
+
    ```console
       [<user>@rackham3 linux_tutorial]$
     ```
+
 - You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
+
    ```console
       [<user>@r484 linux_tutorial]
    ```
 
-## Terminals 
+## Terminals
 
-`````{tabs} 
+`````{tabs}
 ````{tab} Mac
 
 - Start terminal (e.g. from Launchpad) or [iTerm2](https://iterm2.com/)
@@ -160,7 +163,7 @@ $ ssh <username>@rackham.uppmax.uu.se
 
 ## Terminal with X11 server and light graphics
 
-`````{tabs} 
+`````{tabs}
 ````{tab} Mac
 
 - Download XQuartz or other X11 server for Mac OS

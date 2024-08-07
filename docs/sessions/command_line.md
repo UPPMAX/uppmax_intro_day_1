@@ -61,8 +61,8 @@ These command give the help pages about the programs `man`, `cd` and `ls` respec
 - scroll with arrows keys
 - press `q` (short for 'quit') to exit `man`
 - type `/` and then a search term to search for a term
-  - use `n` to go to the next hit
-  - use `N` to go to the previous hit
+    - use `n` to go to the next hit
+    - use `N` to go to the previous hit
 
 ### Where am I?
 
@@ -122,7 +122,7 @@ The previous location              |`cd -`
 
 !!! info "The Silence Is Golden Rule"
     When your command 'just works' there is no output
-    (try, for example `cd ~`). 
+    (try, for example `cd ~`).
     This is due to [The Silence Is Golden Rule](https://www.linfo.org/rule_of_silence.html)
 
 ### Work with directories
@@ -160,8 +160,8 @@ Move a file to the home folder     |`mv myfile.txt ~`
 
     When deleting a file, it is gone.
 
- * Note: `nano` is one of many text editors. 
-   It is the one recommended to beginners, 
+- Note: `nano` is one of many text editors.
+   It is the one recommended to beginners,
    as its interface is closest to what one expects
 
 ### Extract a file
@@ -173,13 +173,14 @@ We're going to need more files. Let's extract the tar.gz file (tared and gzipped
 ```console
 tar -vxzf files.tar.gz
 ```
+
 - The flags mean:
         - verbosely
         - extract
         - gzipped
         - filename
 - Order of flags may matter!
-  - `f` should be in the start or in the end!
+    - `f` should be in the start or in the end!
 - You should see a list of files being extracted
 
 ````{tip}
@@ -656,8 +657,9 @@ $ ls -l
 - Among other things, this makes the default group for new files/subdirectories the, for instance, ``p_introtouppmax`` group.
 
 ``````
- 
+
 ## Changing permissions
+
 **chmod** — change file mode bits
 
 **If you own, i.e. created, the file or directory, you can modify the content**
@@ -683,22 +685,22 @@ $ ls -l
     - `+`: add permissions,
     - `-`: remove
     - `=`: set equal to
-      - `=` usually causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
+        - `=` usually causes unmentioned bits to be removed except that a directory's unmentioned set user and group ID bits are not affected.
 - What permissions?
     - `r`, `w`, `x`, i.e. the actual permission
 
 #### Examples
 
 - `<mode>` can be e.g.:
-  -  `u+x` : lets You (owner) run a script you just wrote
-  -  `-w` : no write permissions for **owner+group**
+    - `u+x` : lets You (owner) run a script you just wrote
+    - `-w` : no write permissions for **owner+group**
     - warning: if `w` was already set for *others* it will be kept!!
-  -  `+rw` : let user and group members read and edit this file, not others if not already set
-  -  `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
-  -  `a=xw` : set xw for everyone
+    - `+rw` : let user and group members read and edit this file, not others if not already set
+    - `=xw` : let group members go into your directory and put files there, but not see which files are there, others are not affected
+    - `a=xw` : set xw for everyone
 
 - chmod takes flags as usual, e.g.
-  -  `-R` for recursive (i.e. all files and sub-directories therein)
+    - `-R` for recursive (i.e. all files and sub-directories therein)
 
 ``````{solution} chmod 755 style - binary sum - "octal bit mask”
 
@@ -717,7 +719,7 @@ $ ls -l
 6
  ```
 ``````
- 
+
 ```{challenge} chmod — Hands-on
 
 - In your *locally created* ``linux_tutorial`` directory, find important files and old saved data that you wouldn’t want to lose (*imagine*).
@@ -732,7 +734,7 @@ $ ls -l
 $ chmod -wR <target>
  ```
 ``````
- 
+
 **More about BASH command line and scripts on Tuesday and Wednesday!**
 
 
@@ -746,7 +748,7 @@ $ chmod -wR <target>
   - remove (`rm`).
 - **Beware of overwriting files and deleting the wrong ones.**
 ```
- 
+
 ```{Note}
 - **Tip: make "`rm`" ask if you really want to erase:**
   - Within a session: Type in the command prompt

@@ -69,18 +69,19 @@
 
 - Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` from the terminal on your local machine:
 - Upload from present directory on local machine to your home directory on cluster.
-  - Example (*not done by us today*)
- 
+    - Example (*not done by us today*)
+
 ``` {code-block} console
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
 
 [bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
-``` 
- 
+```
+
 - Download
+
 ``` {code-block} console
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
 
 [bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
 ```
- 
+

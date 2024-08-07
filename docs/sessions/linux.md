@@ -38,7 +38,7 @@ To use an UPPMAX HPC cluster one needs basic knowledge on Linux.
 - The shell (bash, sh, ksh, csh, tcsh and many more) is one such program.
 
 - Actually, for it to be an OS, it is supplied with GNU software and other additions giving us the name **GNU/Linux**.
-  - [Linux naming controversy]((https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
+    - [Linux naming controversy]((<https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy>)
 
 - Linux has a multiuser platform at its base which means permissions and security comes easy.
 
@@ -53,7 +53,7 @@ To use an UPPMAX HPC cluster one needs basic knowledge on Linux.
 - The command-line interface: the bash prompt `$`
 - bash can be seen as a program that finds and runs other programs
 - bash is scripting language that is referred to as a shell
-  - (because it sits around the kernel making it easy to interact with)
+    - (because it sits around the kernel making it easy to interact with)
 
 Terminals have tab completion:
 Whenever you're writing a path or filename on the bash prompt, you can strike the 'tab' key to
@@ -85,7 +85,7 @@ Folder == directory
 ## Typical sources of error
 
 - Spaces matter.
-  - Always have a space after the program name.
+    - Always have a space after the program name.
 - Check that you are in the right place in the file system.
 - File permissions. Check that the right read, write and execute permission are set. See next session.
 
