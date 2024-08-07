@@ -87,19 +87,18 @@ then answer these questions:
 
     You can reach this page by searching for 'Login Rackham' or 'Log in Rackham'. 
 
-- How many environments can one log in to?
+- How many environments can one log in to? How do they look like?
 
 ???- question "Answer"
 
-    Two.
+    Two:
 
-    At <https://docs.uppmax.uu.se/getting_started/login_rackham/>
-    there are multiple ways described how to login.
+    - a remote desktop environment, which looks like a regular Linux computer
+      with [the Xfce desktop environment](https://xfce.org/) installed
 
-    There are two different environments one can log in to:
+    - a console environment, which looks like text. No graphics. Text.
 
-    - a remote desktop environment
-    - a console environment
+    These answers can be found at <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
  
 - The documentation of how to log in to Rackham states: 'After loggin in, one is on a login node'.
   Where it is described what a login node?
