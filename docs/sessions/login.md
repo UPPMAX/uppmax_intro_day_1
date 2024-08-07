@@ -10,18 +10,13 @@
 
 ???- question "For teachers"
 
-    Prerequisites are:
-
-    - [...]
-
-    Preparations are:
-
-    - [...]
-
     Teaching goals are:
 
-    - [...]
-
+    - Learners have practiced using the UPPMAX documentation
+    - Learners have read and heard that there are two environments
+    - Learners have read and heard that after login, one is on a login node
+    - Learners have read and heard about what a login node is in general terms
+    - Learners have practiced understanding what one runs on a login node
 
     Lesson plan:
 
@@ -45,8 +40,12 @@
 
     Prior questions:
 
-    - [...]
-
+    - What is 'HPC' in 'HPC cluster'?
+    - What is 'cluster' in 'HPC cluster'?
+    - Where are the UPPMAX HPC clusters?
+    - When does one use an HPC cluster?
+    - How does using an HPC clusters look like?
+    - How does one tell the UPPMAX HPC clusters what to do?
 
 ## Why?
 
@@ -98,11 +97,10 @@ It is assumed you have fulfilled all
 
 ## Exercises
 
-[...]
-
-### Working form
-
-[...]
+We will practice using the UPPMAX documentation,
+so that you are confident that you can find what you need
+and understand what is written.
+Also, it helps UPPMAX staff find out how good our documentation is :-)
 
 ### Exercise 1: general understanding
 
@@ -117,13 +115,29 @@ then answer these questions:
 
     You can reach this page by searching for 'Login Rackham' or 'Log in Rackham'. 
 
-- After loggin in, one is on a login node. Where it is described what a login node?
+- How many environments can one log in to?
 
 ???- question "Answer"
 
-    It is at <https://docs.uppmax.uu.se/cluster_guides/login_node/>
+    Two.
 
-    You can reach this page by searching for 'Login node'
+    At <https://docs.uppmax.uu.se/getting_started/login_rackham/>
+    there are multiple ways described how to login.
+
+    There are two different environments one can log in to:
+
+    - a remote desktop environment
+    - a console environment
+ 
+- The documentation of how to log in to Rackham states: 'After loggin in, one is on a login node'.
+  Where it is described what a login node?
+
+???- question "Answer"
+
+    It is at <https://docs.uppmax.uu.se/cluster_guides/login_node/>.
+
+    You can reach this page by searching for 'Login node' or click on the link
+    in the documentation
 
 - What is a login node?
 
@@ -181,3 +195,8 @@ then answer these questions:
 
     Else, you will have to use [the Slurm job scheduler](slurm.md).
 
+Done?
+
+- If you want to know what an HPC cluster is in more detail, 
+  read up on [the UPPMAX clusters](https://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/)
+- Else move on to the next session
