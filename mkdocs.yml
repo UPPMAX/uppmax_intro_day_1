@@ -33,6 +33,7 @@ nav:
     - UPPMAX courses: sessions/courses.md
   - Misc:
     - Evaluation: misc/evaluation.md
+    - Exercise procedure: misc/exercise_procedure.md
 
 theme:
   name: material
