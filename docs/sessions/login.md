@@ -52,6 +52,7 @@
 
 To use any UPPMAX cluster, one needs to log in.
 In this session, we learn there are multiple ways to login.
+After loggin in, one wants to behave considerate towards other users.
 
 ## Login
 
@@ -92,8 +93,8 @@ flowchart TD
 
 ## Prerequisites
 
-If you lack a user account,
-visit the [Getting started page](https://www.uppmax.uu.se/support/getting-started/course-projects/)
+It is assumed you have fulfilled all
+[prerequisites for using Rackham](https://docs.uppmax.uu.se/getting_started/rackham_usage_prerequisites/).
 
 ## Exercises
 
@@ -108,20 +109,75 @@ visit the [Getting started page](https://www.uppmax.uu.se/support/getting-starte
 Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Where is the general UPPMAX documentation page where it is described how to log in to Rackham?
+- Where is it is described how to log in to Rackham?
 
 ???- question "Answer"
 
-    It is at [https://docs.uppmax.uu.se/getting_started/login_rackham/](https://docs.uppmax.uu.se/getting_started/login_rackham/).
+    It is at <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
 
     You can reach this page by searching for 'Login Rackham' or 'Log in Rackham'. 
-    It won't be the first search result. 
 
+- After loggin in, one is on a login node. Where it is described what a login node?
 
+???- question "Answer"
 
+    It is at <https://docs.uppmax.uu.se/cluster_guides/login_node/>
 
+    You can reach this page by searching for 'Login node'
 
-    - Understand that there are two environments
-    - Understand that after login, one is on a login node
-    - Understand what a login node is
-    - Understand that on a login node, one only runs light commands
+- What is a login node?
+
+???- question "Answer"
+
+    From <https://docs.uppmax.uu.se/cluster_guides/login_node/>:
+
+    > A login node is the computer where you arrive
+    > after logging in to an UPPMAX HPC cluster
+
+- Should the examples below be done on the Rackham login node? 
+  What is your reasoning?
+
+    - Create a directory
+    - Copy a dataset of 100 gigabytes to another folder
+    - Download a dataset of 100 gigabytes
+    - Edit a file using an IDE such as RStudio, VSCode or VSCodium
+    - Edit a file using a simple text editor such as `emacs`, `nano` or `vim`
+    - Run a bash/Nextflow/Python/R script
+
+???- question "Answers"
+
+    > - Create a directory
+
+    Can be done on the Rackham login node, as this is a very light calculation
+    that takes a very short time to run.
+
+    > - Copy a dataset of 100 gigabytes to another folder
+
+    Can be done on the Rackham login node, as this is a light calculation
+    that takes a reasonable short time to run.
+
+    > - Download a dataset of 100 gigabytes
+
+    Can be done on the Rackham login node, as this is a light calculation
+    that takes a reasonable short time to run.
+
+    > - Edit a file using an IDE such as RStudio, VSCode or VSCodium
+
+    Don't do this on a Rackham login node. These program
+    need a lot of CPU and memory and are typically used for a long time.
+
+    Instead, use [an interactive session](start_interactive_session.md).
+
+    > - Edit a file using a simple text editor such as `emacs`, `nano` or `vim`
+
+    Can be done on the Rackham login node, as this is such a light calculation
+    that it can be run for a long time.
+
+    > - Run a bash/Nextflow/Python/R script
+
+    This depends on what the script does:
+    if it does a light calculation or takes a reasonable short time to run,
+    you can run it on a login node.
+
+    Else, you will have to use [the Slurm job scheduler](slurm.md).
+
