@@ -53,43 +53,6 @@ To use any UPPMAX cluster, one needs to log in.
 In this session, we learn there are multiple ways to login.
 After loggin in, one wants to behave considerate towards other users.
 
-## Login
-
-There are multiple ways to login:
-
-Login                |Description
----------------------|----------------------------------------------
-Website              |Remote desktop, no installation needed, slow
-Terminal             |Console environment, recommended
-Local ThinLinc client|Remote desktop, recommended, need installation
-
-```mermaid
-flowchart TD
-  need_gui(Need to run a heavy graphical program?)
-  use_terminal[Use a terminal]
-  use_remote_desktop[Use a remote desktop environment]
-  use_ssh[Use SSH]
-  use_ssh_with_x_forwarding[Use SSH with X forwarding]
-  need_bianca(Need to run on Bianca?)
-  use_website[Use the remote desktop website]
-  need_easy_or_speedy(Need easiest or fastest?)
-  need_light(Need lightweight graphics?)
-  use_local[Use a local ThinLinc client]
-
-  need_gui --> |no| use_terminal
-  need_gui --> |yes| use_remote_desktop
-  use_remote_desktop --> need_bianca
-  need_bianca --> |yes| use_website
-  need_bianca --> |yes| need_easy_or_speedy
-  need_easy_or_speedy --> |easiest| use_website
-  need_easy_or_speedy --> |fastest| use_local
-
-  use_terminal --> need_light
-
-  need_light --> |no| use_ssh
-  need_light --> |no\nyes| use_ssh_with_x_forwarding[Use SSH with X forwarding]
-```
-
 ## Prerequisites
 
 It is assumed you have fulfilled all
