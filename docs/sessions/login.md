@@ -60,6 +60,9 @@ It is assumed you have fulfilled all
 
 ## Introduction
 
+In this session, we warm up for using the UPPMAX HPC cluster
+called Rackham. Here we introduce the first terms, such as 'HPC cluster'.
+
 We will practice using the UPPMAX documentation,
 so that you are confident that you can find what you need
 and understand what is written.
