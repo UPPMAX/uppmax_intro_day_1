@@ -95,12 +95,14 @@ flowchart TD
 It is assumed you have fulfilled all
 [prerequisites for using Rackham](https://docs.uppmax.uu.se/getting_started/rackham_usage_prerequisites/).
 
-## Exercises
+## Introduction
 
 We will practice using the UPPMAX documentation,
 so that you are confident that you can find what you need
 and understand what is written.
 Also, it helps UPPMAX staff find out how good our documentation is :-)
+
+## Exercises
 
 ### Exercise 1: general understanding
 
