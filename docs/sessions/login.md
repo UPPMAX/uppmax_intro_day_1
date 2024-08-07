@@ -1,3 +1,9 @@
+---
+tags:
+  - login
+  - log in
+---
+
 # Login
 
 !!!- info "Learning objectives"
@@ -46,6 +52,7 @@
     - When does one use an HPC cluster?
     - How does using an HPC clusters look like?
     - How does one tell the UPPMAX HPC clusters what to do?
+    - Who has already logged in to an HPC cluster?
 
 ## Why?
 
