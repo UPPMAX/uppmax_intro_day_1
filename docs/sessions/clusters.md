@@ -171,7 +171,7 @@ flowchart TD
 
 Go to [https://status.uppmax.uu.se/usage/](https://status.uppmax.uu.se/usage/).
 
-- Why are there three systems? 
+- Why are there three systems?
 - Which system has the most cores?
 - Which system has the least cores?
 - Can we see a difference between a regular weekday and weekends?

@@ -303,7 +303,7 @@ then answer these questions:
     the selected text to the remote desktop's clipboard.
 
     Then, click on the menu bar on the left side of the window and click on the
-    clipboard icon. Copy the text in the remote desktop's clipboard using 
+    clipboard icon. Copy the text in the remote desktop's clipboard using
     `CTRL + C` to your local computer's clipboard.
 
     Then, on your local computer, press `CTRL + V` to paste

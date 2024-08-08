@@ -106,7 +106,7 @@ then answer these questions:
     - a console environment, which looks like text. No graphics. Text.
 
     These answers can be found at <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
- 
+
 - The documentation of how to log in to Rackham states: 'After loggin in, one is on a login node'.
   Where it is described what a login node?
 
@@ -126,7 +126,7 @@ then answer these questions:
     > A login node is the computer where you arrive
     > after logging in to an UPPMAX HPC cluster
 
-- Should the examples below be done on the Rackham login node? 
+- Should the examples below be done on the Rackham login node?
   What is your reasoning?
 
     - Create a directory
@@ -175,6 +175,6 @@ then answer these questions:
 
 Done?
 
-- If you want to know what an HPC cluster is in more detail, 
+- If you want to know what an HPC cluster is in more detail,
   read up on [the UPPMAX clusters](https://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/)
 - Else move on to the next session
