@@ -42,6 +42,10 @@
     - Who has heard of FileZilla?
     - Who has already used FileZilla?
 
+![FileZilla connected to Rackham](filezilla_login_to_rackham.png)
+
+> FileZilla being able to do file transfer to/from Rackham
+
 ## Why?
 
 Fairly sure you'll want to upload or download files to Rackham.

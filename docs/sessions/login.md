@@ -54,11 +54,11 @@ tags:
     - How does one tell the UPPMAX HPC clusters what to do?
     - Who has already logged in to an HPC cluster?
 
-## Why?
-
 ![Rackham](rackham.jpg)
 
 > A human taking care of the Rackham UPPMAX HPC cluster
+
+## Why?
 
 To use any UPPMAX cluster, one needs to log in.
 In this session, we learn there are multiple ways to login.

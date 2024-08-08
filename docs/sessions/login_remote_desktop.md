@@ -51,11 +51,12 @@
     - Why would one use a remote desktop environment?
     - What are disadvantages of a remote desktop environment?
 
-## Why?
-
 ![The Rackham remote desktop environment](rackham_via_remote_desktop_50.jpg)
 
 > The Rackham remote desktop environment.
+
+## Why?
+
 
 You want to use an HPC cluster with a visual and familiar user interface.
 
