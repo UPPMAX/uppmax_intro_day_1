@@ -29,3 +29,11 @@ flowchart TD
   bash_2 --> python
   slurm_2 --> python
 ```
+
+
+Day|Link to course materal
+---|----------------------------------------------------
+1  |[here](https://uppmax.github.io/uppmax_intro_day_1)
+2  |.
+3  |.
+4  |[here](https://github.com/UPPMAX/uppmax_intro_python)
