@@ -2,6 +2,7 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
     - Can log in to the Rackham remote desktop environment using the website
     - (optional) Can log in to the Rackham remote desktop environment using a local ThinLinc client
 
