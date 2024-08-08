@@ -88,5 +88,30 @@ Richèl's
 subdirectories
 tmp
 Vulpes
+connectivist
+cowsay
+distros
+Easybuild
+et
+filesystem
+hdd
+linuxjourney
+macbook
+marcusl
+multiuser
+Nextflow
+pre
+Rackham's
+reproducibility
+RStudio
+Spack
+tcsh
+Thunar
+VSCode
+VSCodium
+webbrowser
+wikipedia
+
+
 
 

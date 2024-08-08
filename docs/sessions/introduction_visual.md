@@ -5,6 +5,9 @@ To ease the learning curve, we use software that is visual,
 so you can start feeling at home on Rackham,
 before moving to more abstract new topics.
 
+We will not yet discuss IDEs (whatever those are) yet,
+as it requires using techniques we teach later.
+
 ```mermaid
 flowchart TD
   classDef not_yet_node stroke-dasharray: 5 5
