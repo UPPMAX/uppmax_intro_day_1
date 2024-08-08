@@ -71,7 +71,7 @@ Under Ubuntu, you can can use the Ubuntu App Center.
 
 For non-Ubuntu users, search the web, download and install.
 
-???- question "Answer"
+???- question "Where can I find it?"
 
     The FileZilla website can be found at <https://filezilla-project.org/>.
 
@@ -88,7 +88,7 @@ for help.
 - Search for the procedure on how to transfer a file
   to/from Rackham using FileZilla
 
-???- question "Answer"
+???- question "Where is that documentation?"
 
     The procedure can be found at <https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/>.
 
