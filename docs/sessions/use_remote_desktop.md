@@ -2,26 +2,29 @@
 
 !!!- info "Learning objectives"
 
-    - Can copy-paste text between local computer and the Rackham remote desktop website
     - Can navigate the file system
-    - Can do file management
+    - Can find the name of the file explorer
+    - Can do basic file management: create, copy, move and delete a file and folder
     - Can start a terminal
-    - Can start a text editor
+    - Can start a program from the terminal
+    - Can start a visual text editor
+    - Can find the name of the visual text editor
+    - Can do basic things in the visual text editor: edit, save, close
+    - Can copy-paste text between local computer and the remote desktop (in both directions)
 
 ???- question "For teachers"
 
-    Prerequisites are:
-
-    - [...]
-
-    Preparations are:
-
-    - [...]
-
     Teaching goals are:
 
-    - [...]
-
+    - Learners have used Thunar
+    - Learners have found out that the file explorer is called Thunar
+    - Learners have done basic file management: create, copy, move and delete a file and folder
+    - Learners have started a terminal
+    - Learners have start `xeyes` from the terminal
+    - Learners have started `gedit`
+    - Learners have found that the text editor is called gedit
+    - Learners have done basic things in gedit: edit a files, save, close
+    - Learners have copy-pasted text between local computer and the remote desktop (in both directions)
 
     Lesson plan:
 
@@ -45,24 +48,35 @@
 
     Prior questions:
 
-    - [...]
-
+    - Do you expect it to be hard to use a remote desktop environment?
+    - Do you expect there to be much different behavior
+      when using a remote desktop environment?
+    - Does someone have already tried to copy-past text between
+      local computer and remote desktop?
 
 ## Why?
 
 After [logging in to the remote desktop](login_remote_desktop.md),
 we can work with Rackham. Let's make sure we can do so :-)
 
+Here we start to feel at ease using the remote desktop environment.
+Most exercises (e.g. creating a file) will be intuitive to do.
+
+The goal is to make sure you can indeed do all these 'simple' things,
+as maybe you'll be too afraid to ask a colleague later.
+
 ## Exercises
 
-Log in to the remote desktop environment of Rackham.
-
-### Exercise 1: file navigation
+It is assumed you are logged in to the remote desktop environment of Rackham.
 
 No need to read the documentation here:
 we'll take a look at the (Linux) filesystem of Rackham.
 
-Try to answer these questions by trying out things yourself:
+Try to do these exercises by trying out things yourself first.
+There are usually multiple ways to solve the exercise.
+Feel encouraged to explore this new environment too!
+
+### Exercise 1: file navigation
 
 - Start a program to navigate your files
 
@@ -100,19 +114,150 @@ Try to answer these questions by trying out things yourself:
     For the image above, the username was `richel` and hence the home directory
     is called `/home/richel`.
 
+To be able to search the web for questions on this file explorer,
+its name will be useful to know:
+
+- What is the name of the file explorer?
+
+???- question "Answer"
+
+    In the file explorer, click on `Help | About`:
+
+    ![Thunar, click on `Help | About`](thunar_help_about.png)
+
+    It shows the name of the file explorer:
+
+    ![Thunar's about screen](thunar_about.png)
+
+    The file navigator is called Thunar.
+
 ### Exercise 2: file management
 
-- File management: create file, delete file, create folder, delete folder
+In Thunar:
+
+- create a file
+
+???- question "Answer"
+
+    In Thunar, click on the white space next/under the files with
+    the right mouse button. In this pop-up menu, click 'Create a new file':
+
+    ![Popup menu to create a new file](create_a_new_file.png)
+
+    In the following dialog, give it any filename:
+
+    ![Give the file a name](give_file_a_filename.png)
+
+    Now the file is created:
+
+    ![The created file is shown](file_created.png)
+
+- copy a file
+- move a file
+- delete a file
+- create a folder
+- copy a folder
+- move a folder
+- delete a folder
 
 ### Exercise 3: starting a terminal
 
 - Start a terminal
-- Run `xeyes`
+
+???- question "Answer"
+
+    At the bottom bar of the screen, click the icon for 'Terminal emulator':
+
+    ![](start_terminal.png)
+
+    You now have started a terminal:
+
+    ![](terminal.png)
+
+- From the terminal, start the program `xeyes` by typing `xeyes` and
+  press enter,
+
+???- question "Answer"
+
+    These eyes will show up:
+
+    ![](xeyes.png)
+
+- Close the terminal. There are multiple ways!
+
+???- question "Answer"
+
+    These are some of the more conventional ways to close a terminal:
+
+    - Click on the `x` at the top-right of the terminal. When asked to really do
+      it, say 'Yes'
+    - Click the terminal and Press `CTRL + C` to stop `xeyes`. Type `exit`
+      and press enter
+    - Many more: any solution that worked is fine
 
 ### Exercise 4: starting a text editor
 
-- Start a text editor
-- Save a file
+- Create a file called `my_file.txt` (the `.txt` at the end is important),
+  if not already present
+- Edit a file by start a visual text editor from Thunar. There are many ways!
+
+???- question "Answer"
+
+    Here there are multiple ways:
+
+    - Double-click the file. Because the file ends with `.txt` it will
+      open a visual text editor
+
+    ![Open file with a text editor](open_file_with_text_editor.png)
+
+    - Do a right-mouse button click on the file and select 'Open with text editor'
+
+    It will look similar to this:
+
+    ![A file opened with a text editor](opened_file.png)
+
+To be able to search the web for questions on this graphical text editor,
+its name will be useful to know:
+
+- What is the name of the graphical text editor?
+
+???- question "Answer"
+
+    The visual text editor is called 'gedit'. 
+
+     You can see its name in the menu bar at the top:
+
+    ![A file opened with gedit](opened_file.png)
+
+    You can also click on [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button) and click 'Help':
+
+    ![The gedit hamburger menu](gedit_help_about.png)
+
+    This will show you the gedit about screen:
+
+    ![The gedit about screen](gedit_about.png)
+
+- Save the file. There are multiple ways!
+
+???- question "Answer"
+
+    There are multiple ways, these are among the most conventional:
+
+    - Press `CTRL + S`
+    - Click on the 'Save' button at the top menu bar of gedit
+
+    ![There is a 'Save' button at the top menu bar of gedit](opened_file.png)
+
+- Close gedit. There are multiple ways!
+
+???- question "Answer"
+
+    These are some of the more conventional ways to close gedit:
+
+    - Click on the `x` at the top-right of the terminal
+    - In the gedit hamburger menu, click 'Quit'
+
+    ![The gedit hamburger menu](gedit_hamburger_menu.png)
 
 ### Exercise 5: copy-paste text
 
@@ -134,5 +279,32 @@ then answer these questions:
     which takes you to [ThinLinc](https://docs.uppmax.uu.se/software/thinlinc/),
     the program that is the workhorse behind the website
 
-- Copy-paste big text from local computer to your remote desktop
-- Copy-paste big text from your remote desktop to your local computer
+- Copy-paste text from local computer to your remote desktop
+
+???- question "Answer"
+
+    Select some text on your local computer and press `CTRL + C` to copy
+    it to your loal clipboard.
+
+    Then, click on the menu bar on the left side of the window and click on the
+    clipboard icon. Press `CTRL + V` to paste the text from your local
+    clipboard to the remote desktop's clipboard
+
+    ![Copy the text to the ThinLinc clipboard](copy_to_clipboard.png)
+
+    Then, in the remote desktop environment, press `CTRL + V` to paste
+    the text from the remote desktop's clipboard to a text editor
+
+    ![Do a regular paste in a text editor](copied_to_text_editor.png)
+
+- Copy-paste text from your remote desktop to your local computer
+
+    In the remote desktop environment, press `CTRL + C` to copy
+    the selected text to the remote desktop's clipboard.
+
+    Then, click on the menu bar on the left side of the window and click on the
+    clipboard icon. Copy the text in the remote desktop's clipboard using 
+    `CTRL + C` to your local computer's clipboard.
+
+    Then, on your local computer, press `CTRL + V` to paste
+    the text from your clipboard to a text editor
