@@ -1,23 +1,16 @@
-# File transfer using scp
+# File transfer using `scp`
 
 !!!- info "Learning objectives"
 
-    - Can transfer files using scp
+    - Practice using the UPPMAX documentation
+    - Can transfer files using `scp`
 
 ???- question "For teachers"
 
-    Prerequisites are:
-
-    - [...]
-
-    Preparations are:
-
-    - [...]
-
     Teaching goals are:
 
-    - [...]
-
+    - Learners have practiced using the UPPMAX documentation
+    - Learners have transferred files using `scp`
 
     Lesson plan:
 
@@ -41,47 +34,33 @@
 
     Prior questions:
 
-    - [...]
-
+    - How can one do a file transfer from the terminal?
+    - Can you name some programs that can do file transfer from the terminal?
+    - Who has heard of `scp`?
+    - Who has already used `scp`?
 
 ## Why?
 
-## Theory
+Fairly sure you'll want to upload or download files to Rackham.
+Here we do so.
 
+We use a free and open-source graphical tool to do this,
+called SCP.
+It works under Linux, Mac and Windows.
 
 ## Exercises
 
-[...]
-
-### Working form
-
-[...]
-
 ### Exercise 1: transfer a file
 
-- use scp
-- Check using terminal or remote desktop website
+Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
+for help.
 
+- Search for the procedure on how to transfer a file
+  to/from Rackham using SCP
 
-## Other material
+???- question "Where is that documentation?"
 
-### scp —secure copy (remote file copy program)
+    The procedure can be found at <https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/>.
 
-- Linux/MacOS: To copy data to/from Rackham, you can use ``scp`` from the terminal on your local machine:
-- Upload from present directory on local machine to your home directory on cluster.
-    - Example (*not done by us today*)
-
-``` {code-block} console
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/copyofmyinput
-
-[bob@macbook]$ scp myinput bob@rackham.uppmax.uu.se:~/                      # (keeping filename)
-```
-
-- Download
-
-``` {code-block} console
-[bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata copyofmydata
-
-[bob@macbook]$ scp bob@rackham.uppmax.uu.se:~/mydata .                      # (keeping file name)
-```
-
+- Follow that procedure to transfer a file
+- Use the terminal or file explorer to verify that files indeed are transferred

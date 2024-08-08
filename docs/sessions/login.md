@@ -62,7 +62,7 @@ tags:
 
 To use any UPPMAX cluster, one needs to log in.
 In this session, we learn there are multiple ways to login.
-After loggin in, one wants to behave considerate towards other users.
+After logging in, one wants to behave considerate towards other users.
 
 ## Prerequisites
 
