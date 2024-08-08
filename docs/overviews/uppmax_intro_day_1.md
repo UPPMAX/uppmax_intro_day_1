@@ -49,7 +49,7 @@ flowchart TD
   scripts --> job_scheduler
   modules --> scripts
   use_terminal ---> text_editor
-  use_terminal --> interactive
+  job_scheduler --> interactive
   text_editor --> scripts
 
   %% console -> GUI

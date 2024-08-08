@@ -15,25 +15,29 @@ nav:
     - Use the remote desktop environment: sessions/use_remote_desktop.md
     - File transfer using FileZilla: sessions/file_transfer_using_filezilla.md
   - Basic use from a terminal:
+    - Introduction: sessions/introduction_terminal.md
     - Log in to the console environment: sessions/login_console.md
     - Use the terminal: sessions/use_terminal.md
     - File transfer using scp: sessions/file_transfer_using_scp.md
   - Doing real work:
-    - Clusters: sessions/clusters.md
+    - Introduction: sessions/introduction_real_work.md
     - The module system: sessions/modules.md
-    - Start an interactive session: sessions/start_interactive_session.md
-    - Using an IDE: sessions/ide.md
     - Using a text editor: sessions/text_editor.md
     - Creating a bash script: sessions/scripts.md
-    - The job scheduler: sessions/slurm.md
+    - The job scheduler: sessions/job_scheduler.md
+    - Start an interactive session: sessions/start_interactive_session.md
+  - Going deeper
+    - Introduction: sessions/introduction_going_deeper.md
+    - Using an IDE: sessions/ide.md
+    - The command line: sessions/command_line.md
+    - Linux: sessions/linux.md
   - The bigger picture:
+    - Clusters: sessions/clusters.md
     - NAISS: sessions/naiss.md
     - Apply for resources: sessions/getting_started.md
     - Bianca: sessions/bianca.md
     - HPC: sessions/hpcs.md
     - UPPMAX courses: sessions/courses.md
-    - The command line: sessions/command_line.md
-    - Linux: sessions/linux.md
   - Misc:
     - About Richel: misc/richel.md
     - Evaluation: misc/evaluation.md
