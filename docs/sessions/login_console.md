@@ -2,6 +2,7 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
     - Understand that after login, one is on a login node
     - Understand what a login node is
     - Understand that on a login node, one only runs light commands
@@ -47,25 +48,44 @@
 
     Prior questions:
 
-    - [...]
-
+    - What is a console environment?
+    - What is a terminal?
+    - What is SSH?
+    - What is an SSH client?
+    - Do you know any SSH clients?
 
 ## Why?
 
-[...]
+Using a terminal is powerful, where a remote desktop is clumsy.
+Copy-pasting text to a terminal on the remote desktop
+will quickly make you wonder if it cannot be done in a smarter way.
 
+## A terminal and SSH clients
+
+A terminal is a text-only program that can do many things, for example,
+starting a program.
+An SSH client is a program that allows you to connect to another computer.
+Some SSH clients can run from a terminal or vice versa.
 
 ## Exercises
 
-[...]
+Here, we log in to Rackham's console environment via a terminal.
+
+For Mac and Windows users it will be hardest to get it working.
 
 ### Working form
 
 [...]
 
-### Exercise 1: general understanding
+### Exercise 1: install an SSH client if needed
 
-Theory questions here.
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Read up 
+
+
+https://docs.uppmax.uu.se/software/ssh_client/
 
 ### Exercise 2: login via SSH with X-forwarding
 

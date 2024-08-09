@@ -57,7 +57,6 @@
 
 ## Why?
 
-
 You want to use an HPC cluster with a visual and familiar user interface.
 
 The UPPMAX clusters provide for a remote desktop environment.
