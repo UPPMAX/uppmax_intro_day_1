@@ -82,10 +82,10 @@ For Mac and Windows users it will be hardest to get it working.
 Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Read up 
+- Read up
 
 
-https://docs.uppmax.uu.se/software/ssh_client/
+<https://docs.uppmax.uu.se/software/ssh_client/>
 
 ### Exercise 2: login via SSH with X-forwarding
 

@@ -23,7 +23,12 @@ jobs:
 
       - name: Remove files that I don't care about yet
         uses: |
+            rm docs/sessions/bianca.md
             rm docs/sessions/command_line.md
+            rm docs/sessions/getting_started.md
+            rm docs/sessions/hpc.md
+            rm docs/sessions/linux.md
+            rm docs/sessions/naiss.md
 
       - uses: igsekor/pyspelling-any@v1.0.4
 

@@ -20,6 +20,15 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
 
+      - name: Remove files that I don't care about yet
+        uses: |
+            rm docs/sessions/bianca.md
+            rm docs/sessions/command_line.md
+            rm docs/sessions/getting_started.md
+            rm docs/sessions/hpc.md
+            rm docs/sessions/linux.md
+            rm docs/sessions/naiss.md
+
       - uses: articulate/actions-markdownlint@v1
         with:
           config: .markdownlint.jsonc
