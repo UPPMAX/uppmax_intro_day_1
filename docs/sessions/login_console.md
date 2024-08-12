@@ -7,27 +7,24 @@
     - Understand what a terminal is
     - Understand what a prompt is
     - Understand that after login, one is on a login node
-    - Understand what a login node is
-    - Understand that on a login node, one only runs light commands
     - If needed: has installed an SSH client
         - Windows: MobaXTerm
     - Can log in to the console environment using a terminal with X forwarding
-    - (optional) Can log in to the console environment using a terminal with X forwarding
+    - Can determine if X forwarding works
 
 ???- question "For teachers"
 
-    Prerequisites are:
-
-    - [...]
-
-    Preparations are:
-
-    - [...]
-
     Teaching goals are:
 
-    - [...]
-
+    - Learners have practiced using the UPPMAX documentation
+    - Learners understand what a console environment is
+    - Learners understand what a terminal is
+    - Learners understand what a prompt is
+    - Learners understand that after login, one is on a login node
+    - If needed, learners have installed an SSH client
+        - Windows: MobaXTerm
+    - Learners have logged in to the console environment using a terminal with X forwarding
+    - Learners have determined if X forwarding works
 
     Lesson plan:
 
@@ -76,10 +73,6 @@ Here, we log in to Rackham's console environment via a terminal.
 
 For Mac and Windows users it will be hardest to get it working.
 
-### Working form
-
-[...]
-
 ### Exercise 1: a terminal
 
 Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -87,7 +80,7 @@ then answer these questions:
 
 - Find the UPPMAX page on terminals
 
-???- question "Answer"
+???- question "I cannot find it. Where is it?"
 
     You can find find it at <https://docs.uppmax.uu.se/software/terminal/>
 
@@ -113,7 +106,7 @@ then answer these questions:
   If you do not get an error message, you are lucky to have an SSH client
   installed!
 
-???- question "How does it look like when ssh works?"
+???- question "How does it look like when `ssh` works?"
 
     Your output will look similar to this:
 
@@ -131,16 +124,69 @@ then answer these questions:
 
 - If there is an error, install the recommended SSH client
 
-### Exercise 2: login via SSH with X-forwarding
+### Exercise 3: login via SSH
 
-- Read [SSH clients](http://docs.uppmax.uu.se/software/ssh_client/)
-- Read [Login Rackham with X-forwarding](http://docs.uppmax.uu.se/getting_started/login_rackham/#terminal-with-x11-server-and-light-graphics)
-- Run `xeyes`
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
 
-### (optional Exercise 3: login via SSH without X-forwarding
+- Find the page about how to login to Rackham via SSH and a password
 
-- Login without X forwarding
-- Observe graphics do not work, by running `xeyes`
+???- question "I cannot find it. Where is it?"
+
+    You can find find it at <https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/>
+
+- Log in to Rackham
+
+???- question "How does that look like?"
+
+    Your ouput will look similar to this:
+
+    ```bash
+    sven@richel-N141CU:~/GitHubs/uppmax_intro_day_1/docs/sessions$ ssh -X sven@rackham.uppmax.uu.se
+    sven@rackham.uppmax.uu.se's password: 
+    Last login: Thu Aug  8 18:35:17 2024 from vpnpool189-229.anst.uu.se
+     _   _ ____  ____  __  __    _    __  __
+    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    rackham1
+    | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      sven
+    | |_| |  __/|  __/| |  | |/ ___ \  /  \    | 
+     \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   | 
+
+    ###############################################################################
+
+            User Guides: https://docs.uppmax.uu.se/
+
+            Write to support@uppmax.uu.se, if you have questions or comments.
 
 
+    [sven@rackham1 ~]$ 
+    ```
+
+Welcome on a login node!
+
+### Exercise 4: find out if X forwarding works
+
+- Find the page about the program called `xeyes`
+
+???- question "I cannot find it. Where is it?"
+
+    You can find find it at <https://docs.uppmax.uu.se/software/xeyes/>
+
+- On a Rackham login node, run `xeyes`.
+
+???- question "How do I run it"
+
+    In your terminal, type:
+
+    ```bash
+    xeyes
+    ```
+
+    and press enter.
+
+- Conclude if X-forwarding works for you. If not, the UPPMAX page on SSH clients
+  hold some hints.
+
+???- question "Where is that page?"
+
+    You can find find it at <https://docs.uppmax.uu.se/software/ssh_client/>
 
