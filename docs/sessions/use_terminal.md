@@ -1,3 +1,281 @@
+# Use the console environment
+
+!!!- info "Learning objectives"
+
+    - Can navigate the file system
+    - Can do basic file management: create, copy, move and delete a file and folder
+    - Can copy-paste text between local computer and the terminal (in both directions)
+
+???- question "For teachers"
+
+    Teaching goals are:
+
+    - ...
+
+    Lesson plan:
+
+    ```mermaid
+    gantt
+      title Something
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Course introduction: done, course_intro, 0, 10s
+      Prior : intro, after course_intro, 5s
+      Present: theory_1, after intro, 5s
+      Challenge: crit, exercise_1, after theory_1, 40s
+      Break: crit, milestone, after exercise_1
+      section Second hour
+      Challenge: crit, exercise_2, 0, 10s
+      Feedback: feedback_2, after exercise_2, 10s
+      SLURM: done, slurm, after feedback_2, 25s
+      Break: done, milestone, after slurm
+    ```
+
+    Prior questions:
+
+    - Do you expect it to be hard to use a console environment?
+    - Do you expect there to be much different behavior
+      when using a console environment?
+    - Does someone have already tried to copy-past text between
+      local computer and a terminal?
+
+## Why?
+
+Every UPPMAX user need to use the terminal at some point.
+Let's make sure we use it well :-)
+
+Here we do the same exercises as when using the remote desktop environment.
+
+The goal is to make sure you can indeed do all these 'simple' things,
+as maybe you'll be too afraid to ask a colleague later.
+
+## Learning Linux
+
+Using a terminal and getting comfortable with Linux
+may not be the most intuitive.
+Luckily, Linux is heavily used and there are many
+fora, websites and books
+written about it.
+
+One such book is [The Linux Command Line](https://linuxcommand.org/tlcl.php),
+which is available in both print and online:
+
+![Book cover of 'The Linux Command Line'](the_linux_command_line_cover)
+
+> Book cover of 'The Linux Command Line'
+
+
+
+## Exercises
+
+It is assumed you are logged in to the console environment of Rackham
+with a terminal. 
+In case you did not get this to work,
+login via the remote desktop website and start a terminal there.
+
+You are encouraged to search the internet for the answer yourself.
+Or, if you prefer, use the links to the relevant chapters
+in the book 'The Linux Command Line'. Or any other way!
+
+Try to do these exercises by trying out things yourself first.
+There are usually multiple ways to solve the exercise.
+Feel encouraged to explore this new environment too!
+
+### Exercise 1: file navigation
+
+- You are in a terminal on a Rackham login node. Find out the directory you are in: which command do you use?
+    - Tip 1: search for 'Linux present working directory command'
+    - Tip 2: scan the [the 'Navigation' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0020.php)
+
+???- question "Answer"
+
+    The command to use is `pwd`, short for 'Present working directory':
+
+    ```bash
+    pwd
+    ```
+
+    You output will look similar to this:
+
+    ```
+    [sven@rackham2 ~]$ pwd
+    /home/sven
+    ```
+
+### Exercise 2: file management
+
+You are in a terminal on a Rackham login node. From there:
+
+- create a file called `test.txt`
+
+???- question "Answer"
+
+
+
+- copy a file
+- move a file
+- delete a file
+- create a folder
+- copy a folder
+- move a folder
+- delete a folder
+
+### Exercise 3: starting a terminal
+
+- Start a terminal
+
+???- question "Answer"
+
+    At the bottom bar of the screen, click the icon for 'Terminal emulator':
+
+    ![](start_terminal.png)
+
+    You now have started a terminal:
+
+    ![](terminal.png)
+
+- From the terminal, start the program `xeyes` by typing `xeyes` and
+  press enter,
+
+???- question "Answer"
+
+    These eyes will show up:
+
+    ![](xeyes.png)
+
+- Close the terminal. There are multiple ways!
+
+???- question "Answer"
+
+    These are some of the more conventional ways to close a terminal:
+
+    - Click on the `x` at the top-right of the terminal. When asked to really do
+      it, say 'Yes'
+    - Click the terminal and Press `CTRL + C` to stop `xeyes`. Type `exit`
+      and press enter
+    - Many more: any solution that worked is fine
+
+### Exercise 4: starting a text editor
+
+- Create a file called `my_file.txt` (the `.txt` at the end is important),
+  if not already present
+- Edit a file by start a visual text editor from Thunar. There are many ways!
+
+???- question "Answer"
+
+    Here there are multiple ways:
+
+    - Double-click the file. Because the file ends with `.txt` it will
+      open a visual text editor
+
+    ![Open file with a text editor](open_file_with_text_editor.png)
+
+    - Do a right-mouse button click on the file and select 'Open with text editor'
+
+    It will look similar to this:
+
+    ![A file opened with a text editor](opened_file.png)
+
+To be able to search the web for questions on this graphical text editor,
+its name will be useful to know:
+
+- What is the name of the graphical text editor?
+
+???- question "Answer"
+
+    The visual text editor is called 'gedit'. 
+
+     You can see its name in the menu bar at the top:
+
+    ![A file opened with gedit](opened_file.png)
+
+    You can also click on [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button) and click 'Help':
+
+    ![The gedit hamburger menu](gedit_help_about.png)
+
+    This will show you the gedit about screen:
+
+    ![The gedit about screen](gedit_about.png)
+
+- Save the file. There are multiple ways!
+
+???- question "Answer"
+
+    There are multiple ways, these are among the most conventional:
+
+    - Press `CTRL + S`
+    - Click on the 'Save' button at the top menu bar of gedit
+
+    ![There is a 'Save' button at the top menu bar of gedit](opened_file.png)
+
+- Close gedit. There are multiple ways!
+
+???- question "Answer"
+
+    These are some of the more conventional ways to close gedit:
+
+    - Click on the `x` at the top-right of the terminal
+    - In the gedit hamburger menu, click 'Quit'
+
+    ![The gedit hamburger menu](gedit_hamburger_menu.png)
+
+### Exercise 5: copy-paste text
+
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the page where it is documented to log in to Rackham's remote desktop via a webbrowser.
+
+???- question "Answer"
+
+    The page is [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
+
+- On that page, find where to find information on how to use the
+  remote desktop
+
+???- question "Answer"
+
+    The link can be found at the 'Usage' heading,
+    which takes you to [ThinLinc](https://docs.uppmax.uu.se/software/thinlinc/),
+    the program that is the workhorse behind the website
+
+- Copy-paste text from local computer to your remote desktop
+
+???- question "Answer"
+
+    Select some text on your local computer and press `CTRL + C` to copy
+    it to your loal clipboard.
+
+    Then, click on the menu bar on the left side of the window and click on the
+    clipboard icon. Press `CTRL + V` to paste the text from your local
+    clipboard to the remote desktop's clipboard
+
+    ![Copy the text to the ThinLinc clipboard](copy_to_clipboard.png)
+
+    Then, in the remote desktop environment, press `CTRL + V` to paste
+    the text from the remote desktop's clipboard to a text editor
+
+    ![Do a regular paste in a text editor](copied_to_text_editor.png)
+
+- Copy-paste text from your remote desktop to your local computer
+
+    In the remote desktop environment, press `CTRL + C` to copy
+    the selected text to the remote desktop's clipboard.
+
+    Then, click on the menu bar on the left side of the window and click on the
+    clipboard icon. Copy the text in the remote desktop's clipboard using
+    `CTRL + C` to your local computer's clipboard.
+
+    Then, on your local computer, press `CTRL + V` to paste
+    the text from your clipboard to a text editor
+
+
+
+
+
+
+
 # Use a terminal
 
 !!!- info "Learning objectives"
