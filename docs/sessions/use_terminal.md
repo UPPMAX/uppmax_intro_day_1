@@ -392,19 +392,7 @@ From there:
     When trying to move a folder with `-R`, this warning
     is given and no folder is renamed.
 
-### Exercise 3: starting a terminal
-
-- Start a terminal
-
-???- question "Answer"
-
-    At the bottom bar of the screen, click the icon for 'Terminal emulator':
-
-    ![](start_terminal.png)
-
-    You now have started a terminal:
-
-    ![](terminal.png)
+### Exercise 3: starting `xeyes`
 
 - From the terminal, start the program `xeyes` by typing `xeyes` and
   press enter,
@@ -415,38 +403,34 @@ From there:
 
     ![](xeyes.png)
 
-- Close the terminal. There are multiple ways!
+- Close `xeyes`
 
 ???- question "Answer"
 
-    These are some of the more conventional ways to close a terminal:
+    Here is how to close a program in the terminal:
 
-    - Click on the `x` at the top-right of the terminal. When asked to really do
-      it, say 'Yes'
-    - Click the terminal and Press `CTRL + C` to stop `xeyes`. Type `exit`
-      and press enter
-    - Many more: any solution that worked is fine
+    Press `CTRL + C`
 
 ### Exercise 4: starting a text editor
 
-- Create a file called `my_file.txt` (the `.txt` at the end is important),
-  if not already present
-- Edit a file by start a visual text editor from Thunar. There are many ways!
+- Create a file called `my_file.txt`, if not already present
 
 ???- question "Answer"
 
-    Here there are multiple ways:
+    ```bash
+    touch my_file.txt
+    ```
 
-    - Double-click the file. Because the file ends with `.txt` it will
-      open a visual text editor
+- Edit the file by opening it with the `nano` text editor
 
-    ![Open file with a text editor](open_file_with_text_editor.png)
+???- question "Answer"
 
-    - Do a right-mouse button click on the file and select 'Open with text editor'
+    Type:
 
-    It will look similar to this:
+    ```bash
+    nano my_file.txt
+    ```
 
-    ![A file opened with a text editor](opened_file.png)
 
 To be able to search the web for questions on this graphical text editor,
 its name will be useful to know:
