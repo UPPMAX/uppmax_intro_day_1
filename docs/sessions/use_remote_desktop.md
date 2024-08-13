@@ -2,6 +2,7 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
     - Can navigate the file system
     - Can find the name of the file explorer
     - Can do basic file management: create, copy, move and delete a file and folder

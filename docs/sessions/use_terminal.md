@@ -2,15 +2,23 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
+    - Understand what the prompt is
     - Can navigate the file system
     - Can do basic file management: create, copy, move and delete a file and folder
     - Can copy-paste text between local computer and the terminal (in both directions)
+    - Can use tab-completion with the prompt
 
 ???- question "For teachers"
 
     Teaching goals are:
 
-    - ...
+    - Learners practice using the UPPMAX documentation
+    - Learners understand what the prompt is
+    - Learners have navigated the file system
+    - Learners have done basic file management: create, copy, move and delete a file and folder
+    - Learners have copy-pasted text between local computer and the terminal (in both directions)
+    - Learners have used tab-completion with the prompt
 
     Lesson plan:
 
@@ -82,7 +90,31 @@ Try to do these exercises by trying out things yourself first.
 There are usually multiple ways to solve the exercise.
 Feel encouraged to explore this new environment too!
 
-### Exercise 1: file navigation
+### Exercise 1: the prompt
+
+You are in a terminal on a Rackham login node. You see this:
+
+```bash
+[sven@rackham2 ~]$ 
+```
+
+What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
+
+???- tip "Tips"
+
+    - Tip 1: search for 'terminal prompt'
+    - Tip 2: search the UPPMAX documentation for 'terminal'
+
+???- tip "Answer"
+
+    - `[` and `]`: indicates the beginning and end of information
+    - `sven`: the username
+    - `@`: at which cluster
+    - `rackham2`: the remote node's name, in this case Rackham's second login node
+    - `~`: the user in the home folder
+    - `$`: indicate to be ready for user input
+
+### Exercise 2: file navigation
 
 - You are in a terminal on a Rackham login node. Find out the directory you are in: which command do you use?
 
@@ -106,7 +138,7 @@ Feel encouraged to explore this new environment too!
     /home/sven
     ```
 
-### Exercise 2: file management
+### Exercise 3: file management
 
 You are in a terminal on a Rackham login node, in your home folder. 
 
@@ -156,7 +188,7 @@ From there:
 
     You output will look similar to this:
 
-    ```
+    ```bash
     [sven@rackham2 ~]$ touch test.txt
     [sven@rackham2 ~]$ 
     ```
@@ -192,7 +224,7 @@ From there:
     The command to use is `cp`:
 
     ```bash
-    ls
+    cp test.txt copy.txt
     ```
 
     You output will look similar to this:
@@ -226,7 +258,8 @@ From there:
     bin  GitHubs  glob  lib  private  R  test.txt  users
     ```
 
-- rename the file `test.txt` to `test2.txt` and confirm that it worked
+- rename the file `test.txt` to `test2.txt` and confirm that it worked.
+  Use tab-completion on the first filename
 
 ???- tip "Tips"
 
@@ -235,11 +268,21 @@ From there:
 
 ???- question "Answer"
 
-    The command to use is `mv`, short for 'Move':
+    The command to use is `mv`, short for 'Move'.
+
+    The full command looks like this:
 
     ```bash
     mv test.txt test2.txt
     ```
+
+    with tab-completion, one can type ...
+
+    ```bash
+    mv t
+    ```
+
+    ... and then press `TAB` to autocomplete the first filename.
 
     You output will look similar to this:
 
@@ -392,7 +435,7 @@ From there:
     When trying to move a folder with `-R`, this warning
     is given and no folder is renamed.
 
-### Exercise 3: starting `xeyes`
+### Exercise 4: starting `xeyes`
 
 - From the terminal, start the program `xeyes` by typing `xeyes` and
   press enter,
@@ -411,7 +454,7 @@ From there:
 
     Press `CTRL + C`
 
-### Exercise 4: starting a text editor
+### Exercise 5: starting a text editor
 
 - Create a file called `my_file.txt`, if not already present
 
@@ -475,150 +518,30 @@ its name will be useful to know:
 
     ![The gedit hamburger menu](gedit_hamburger_menu.png)
 
-### Exercise 5: copy-paste text
+### Exercise 6: copy-paste text
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
+- Copy text from your local computer to your terminal
 
-- Find the page where it is documented to log in to Rackham's remote desktop via a webbrowser.
+???- question "Tips"
 
-???- question "Answer"
-
-    The page is [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
-
-- On that page, find where to find information on how to use the
-  remote desktop
+    - Tip 1: search for 'how to paste into terminal'
+    - Tip 2: search the UPPMAX documentation for 'terminal'
 
 ???- question "Answer"
 
-    The link can be found at the 'Usage' heading,
-    which takes you to [ThinLinc](https://docs.uppmax.uu.se/software/thinlinc/),
-    the program that is the workhorse behind the website
+    Copying from your local computer uses a regular `CTRL + C`.
 
-- Copy-paste text from local computer to your remote desktop
+    How to paste depends on the terminal you use. 
+    The most common keyboard shortcut is `CTRL + SHIFT + V` for pasting
+    into a terminal
+
+
+- Copy text from your terminal to your local computer
 
 ???- question "Answer"
 
-    Select some text on your local computer and press `CTRL + C` to copy
-    it to your loal clipboard.
+    How to copy depends on the terminal you use. 
+    The most common keyboard shortcut is `CTRL + SHIFT + C` for copying
+    from a terminal
 
-    Then, click on the menu bar on the left side of the window and click on the
-    clipboard icon. Press `CTRL + V` to paste the text from your local
-    clipboard to the remote desktop's clipboard
-
-    ![Copy the text to the ThinLinc clipboard](copy_to_clipboard.png)
-
-    Then, in the remote desktop environment, press `CTRL + V` to paste
-    the text from the remote desktop's clipboard to a text editor
-
-    ![Do a regular paste in a text editor](copied_to_text_editor.png)
-
-- Copy-paste text from your remote desktop to your local computer
-
-    In the remote desktop environment, press `CTRL + C` to copy
-    the selected text to the remote desktop's clipboard.
-
-    Then, click on the menu bar on the left side of the window and click on the
-    clipboard icon. Copy the text in the remote desktop's clipboard using
-    `CTRL + C` to your local computer's clipboard.
-
-    Then, on your local computer, press `CTRL + V` to paste
-    the text from your clipboard to a text editor
-
-
-
-
-
-
-
-# Use a terminal
-
-!!!- info "Learning objectives"
-
-    - Understands what the prompt is
-    - Can copy-paste to/from a terminal
-    - Can use tab-completion with the prompt
-
-
-???- question "For teachers"
-
-    Prerequisites are:
-
-    - [...]
-
-    Preparations are:
-
-    - [...]
-
-    Teaching goals are:
-
-    - [...]
-
-
-    Lesson plan:
-
-    ```mermaid
-    gantt
-      title Something
-      dateFormat X
-      axisFormat %s
-      section First hour
-      Course introduction: done, course_intro, 0, 10s
-      Prior : intro, after course_intro, 5s
-      Present: theory_1, after intro, 5s
-      Challenge: crit, exercise_1, after theory_1, 40s
-      Break: crit, milestone, after exercise_1
-      section Second hour
-      Challenge: crit, exercise_2, 0, 10s
-      Feedback: feedback_2, after exercise_2, 10s
-      SLURM: done, slurm, after feedback_2, 25s
-      Break: done, milestone, after slurm
-    ```
-
-    Prior questions:
-
-    - [...]
-
-
-## Why?
-
-[...]
-
-## Theory
-
-- When logging in to UPPMAX from your local computer you will arrive to your home folder at the login node.
-- This means that only light analysis and and calculations should be made here.
-- You will see this in the prompt after "@" as the clustername and a low number. For instance:
-
-   ```console
-      [<user>@rackham3 linux_tutorial]$
-    ```
-
-- You will later learn how to reach the calculation nodes. Then the prompt states the node number with a single letter, like "r" for Rackham. For instance:
-
-   ```console
-      [<user>@r484 linux_tutorial]
-   ```
-
-
-## Exercises
-
-[...]
-
-### Working form
-
-[...]
-
-### Exercise 1: general understanding
-
-- Understands what the prompt is
-
-[Theory questions here]
-
-### Exercise 2: copy-paste to/from a terminal
-
-- Can copy-paste to/from a terminal
-
-### Exercise 3: tab-completion
-
-- Can use tab-completion with the prompt
+    Pasting to your local computer uses a regular `CTRL + V`.
