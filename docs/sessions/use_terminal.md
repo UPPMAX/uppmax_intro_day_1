@@ -69,11 +69,9 @@ written about it.
 One such book is [The Linux Command Line](https://linuxcommand.org/tlcl.php),
 which is available in both print and online:
 
-![Book cover of 'The Linux Command Line'](the_linux_command_line_cover)
+![Book cover of 'The Linux Command Line'](the_linux_command_line_cover.png)
 
 > Book cover of 'The Linux Command Line'
-
-
 
 ## Exercises
 
