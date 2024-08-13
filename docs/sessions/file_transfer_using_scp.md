@@ -1,3 +1,11 @@
+---
+tags:
+  - transfer
+  - data transfer
+  - file transfer
+  - scp
+---
+
 # File transfer using `scp`
 
 !!!- info "Learning objectives"
