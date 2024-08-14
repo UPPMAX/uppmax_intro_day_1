@@ -1,11 +1,3 @@
----
-tags:
-  - transfer
-  - data transfer
-  - file transfer
-  - scp
----
-
 # File transfer using `scp`
 
 !!!- info "Learning objectives"
@@ -70,5 +62,5 @@ for help.
 
     The procedure can be found at <https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/>.
 
-- Follow that procedure to transfer a file
-- Use the terminal or file explorer to verify that files indeed are transferred
+- Copy a file from your local computer to your Rackham home folder. Verify this worked.
+- Copy a file from your Rackham home folder to your local computer. Verify this worked.
