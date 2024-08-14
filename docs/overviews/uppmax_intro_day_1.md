@@ -32,7 +32,6 @@ flowchart TD
     modules[Using pre-installed software\nModules]:::real_work
     interactive[Using an interactive session]:::real_work
     job_scheduler[Job scheduler]:::real_work
-    text_editor[Using a text editor]:::real_work
   %% end
 
   hpc ---> login_remote_desktop
@@ -54,9 +53,7 @@ flowchart TD
   use_terminal --> modules
   scripts --> job_scheduler
   modules --> scripts
-  use_terminal ---> text_editor
   job_scheduler --> interactive
-  text_editor --> scripts
 
   %% console -> GUI
   modules --> use_ide
@@ -102,7 +99,6 @@ flowchart TD
     modules[Using pre-installed software\nModules]:::real_work
     interactive[Using an interactive session]:::real_work
     job_scheduler[Job scheduler]:::real_work
-    text_editor[Using a text editor]:::real_work
   end
 
   hpc ---> login_remote_desktop
@@ -124,9 +120,7 @@ flowchart TD
   use_terminal --> modules
   scripts --> job_scheduler
   modules --> scripts
-  use_terminal ---> text_editor
   job_scheduler --> interactive
-  text_editor --> scripts
 
   %% console -> GUI
   modules --> use_ide
@@ -166,7 +160,6 @@ flowchart TD
     modules[Using pre-installed software\nModules]
     interactive[Using an interactive session]
     job_scheduler[Job scheduler]
-    text_editor[Using a text editor]
   end
 
   hpc ---> login_remote_desktop
@@ -188,9 +181,7 @@ flowchart TD
   use_terminal --> modules
   scripts --> job_scheduler
   modules --> scripts
-  use_terminal ---> text_editor
   job_scheduler --> interactive
-  text_editor --> scripts
 
   %% console -> GUI
   modules --> use_ide

@@ -22,7 +22,6 @@ nav:
   - Doing real work:
     - Introduction: sessions/introduction_real_work.md
     - The module system: sessions/modules.md
-    - Using a text editor: sessions/text_editor.md
     - Creating a bash script: sessions/scripts.md
     - The job scheduler: sessions/job_scheduler.md
     - Start an interactive session: sessions/start_interactive_session.md
