@@ -20,13 +20,13 @@ flowchart TD
   %% end
   %% subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
-    use_remote_desktop[Using the remote desktop\nNavigation\nFile management]:::basic_gui
+    use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]:::basic_gui
     file_transfer_filezilla[File transfer\nFileZilla]:::basic_gui
     use_ide[Using an IDE]:::go_deeper
   %% end
   %% subgraph console[Console environment]
     login_ssh[Login with SSH]:::basic_terminal
-    use_terminal[Using a terminal\nNavigation\nFile management]:::basic_terminal
+    use_terminal[Using a terminal\nNavigation\nFile management\nText editor]:::basic_terminal
     file_transfer_scp[File transfer\nscp]:::basic_terminal
     scripts[Create a script]:::real_work
     modules[Using pre-installed software\nModules]:::real_work
@@ -90,13 +90,13 @@ flowchart TD
   end
   subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
-    use_remote_desktop[Using the remote desktop\nNavigation\nFile management]:::basic_gui
+    use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]:::basic_gui
     file_transfer_filezilla[File transfer\nFileZilla]:::basic_gui
     use_ide[Using an IDE]:::go_deeper
   end
   subgraph console[Console environment]
     login_ssh[Login with SSH]:::basic_terminal
-    use_terminal[Using a terminal\nNavigation\nFile management]:::basic_terminal
+    use_terminal[Using a terminal\nNavigation\nFile management\nText editor]:::basic_terminal
     file_transfer_scp[File transfer\nscp]:::basic_terminal
     scripts[Create a script]:::real_work
     modules[Using pre-installed software\nModules]:::real_work
@@ -154,13 +154,13 @@ flowchart TD
   end
   subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]
-    use_remote_desktop[Using the remote desktop\nNavigation\nFile management]
+    use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]
     file_transfer_filezilla[File transfer\nFileZilla]
     use_ide[Using an IDE]
   end
   subgraph console[Console environment]
     login_ssh[Login with SSH]
-    use_terminal[Using a terminal\nNavigation\nFile management]
+    use_terminal[Using a terminal\nNavigation\nFile management\nText editor]
     scripts[Create a script]
     file_transfer_scp[File transfer\nscp]
     modules[Using pre-installed software\nModules]

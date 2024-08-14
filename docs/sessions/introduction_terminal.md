@@ -8,7 +8,7 @@ with visual tools.
 ```mermaid
 flowchart TD
   login_ssh[Login with SSH]
-  use_terminal[Using a terminal\nNavigation\nFile management]
+  use_terminal[Using a terminal\nNavigation\nFile management\nText editor]
   file_transfer_scp[File transfer\nscp]
 
   login_ssh --> use_terminal

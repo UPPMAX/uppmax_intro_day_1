@@ -15,7 +15,7 @@ flowchart TD
 
 
   login_remote_desktop[Login to remote desktop]
-  use_remote_desktop[Using the remote desktop\nNavigation\nFile management]
+  use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]
   file_transfer_filezilla[File transfer\nFileZilla]
   use_ide[Using an IDE]:::not_yet_node
 
