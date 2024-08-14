@@ -136,10 +136,10 @@ then answer these questions:
 ???- question "Answer"
 
     After having used `module spider cowsay`, we've seen that the
-    latest version is `3.0.3`. Hence we load the module like this:
+    latest version is `3.03`. Hence we load the module like this:
 
     ```bash
-    module load cowsay/3.0.3
+    module load cowsay/3.03
     ```
 
 - To confirm `cowsay` works, type `cowsay hello`. A cow that says 'hello'
