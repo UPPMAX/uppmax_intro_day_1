@@ -20,7 +20,7 @@ flowchart TD
 
 Link                                                                          |Description
 ------------------------------------------------------------------------------|--------------------------------------------------------------------------
-[Modules](../sessions/module.md)                                              |Find and load software modules
+[Modules](../sessions/modules.md)                                             |Find and load software modules
 [Scripts](../sessions/scripts.md)                                             |Create scripts
 [Job scheduler](../sessions/job_scheduler.md)                                 |Send jobs to the scheduler
 [Starting an interactive session](../sessions/start_interactive_session.md)   |Starting an interactive session
