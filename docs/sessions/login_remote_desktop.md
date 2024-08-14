@@ -1,3 +1,13 @@
+---
+tags:
+  - login
+  - log in
+  - log in to
+  - log into
+  - remote desktop
+  - remote desktop environment
+---
+
 # Log in to a remote desktop environment
 
 !!!- info "Learning objectives"

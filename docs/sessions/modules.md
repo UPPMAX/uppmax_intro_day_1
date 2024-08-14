@@ -2,61 +2,81 @@
 
 !!!- info "Learning objectives"
 
+    - Practice using the UPPMAX documentation
+    - Can find pre-installed software from the documentation
+    - Can find pre-installed databases from the documentation
     - Understand why there is a module system
     - Can find pre-installed software using the module system
-    - ?Can find pre-installed databases using the module system
     - Can load a module
     - Practice loading the `bioinfo-tools` module first
-    - Understand that there are many ways one can install software with some effort
+
+???- question "For teachers"
+
+    Teaching goals are:
+
+    - Learners have practiced using the UPPMAX documentation
+    - Learners have found pre-installed software from the documentation
+    - Learners have found pre-installed databases from the documentation
+    - Learners understand why there is a module system
+    - Learners can find pre-installed software using the module system
+    - Learners can load a module
+    - Learners can unload a module
+    - Learners understand to load the `bioinfo-tools` module first
+
+    Lesson plan:
+
+    ```mermaid
+    gantt
+      title Something
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Course introduction: done, course_intro, 0, 10s
+      Prior : intro, after course_intro, 5s
+      Present: theory_1, after intro, 5s
+      Challenge: crit, exercise_1, after theory_1, 40s
+      Break: crit, milestone, after exercise_1
+      section Second hour
+      Challenge: crit, exercise_2, 0, 10s
+      Feedback: feedback_2, after exercise_2, 10s
+      SLURM: done, slurm, after feedback_2, 25s
+      Break: done, milestone, after slurm
+    ```
+
+    Prior questions:
+
+    - What would happen if all users would be allowed
+      to install software on Rackham?
+    - Describe a situation when two users that have admin rights
+      on the same account of the same computer cannot both be happy
+    - How can one run different versions of the same software on a same computer?
+    - How can we have users use different versions of the same software?
+    - What is the UPPMAX software module system?
+    - What is a module?
+    - Has anyone already used the UPPMAX module system?
 
 ## Why?
 
-Each UPPMAX cluster is a shared resource.
-Ideally, our work is not hindered by others (and vice versa).
-This is a problem when two users want to have different versions
-of the same software installed: one cannot do a regular system-wide
-installation anymore.
+The module system allows you to run your software,
+of your favorite version, installed by us :-)
 
-The module system solves this problem: each user can
-search for the desired version of the desired software and activate it.
+Additionally, there are big databases (think terabytes!)
+that are also available to you.
 
-In this session, we'll search for pre-installed software
-and activate it.
+In this session, we'll search for pre-installed software,
+pre-installed databases and use these.
 
-## Modules
+## The `bioinfo-tools` module
 
-- 800+ programs and packages are installed.
-- This system keeps installed software hidden by default,
-  and users have to explicitly tell their terminal which version of which software they need.
-- The modules are most often available across cluster
+The most important module for bioinformaticians is the `bioinfo-tools`
+module. It is loaded as such:
 
 
-```{note}
-- Bioinformatics tools require loading the “bioinfo-tools” module first.
+```bash
+module load bioinfo-tools
 ```
 
-## Install software yourself
-
-- You can install in your home directory.
-    - This is handy for personal needs, low numbers of files (i.e. not Conda).
-- Usually better to install in project directory.
-    - This way the project contains both data and software — good for reproducibility, collaboration, and everyone's general sanity.
-
-- [Python](http://docs.uppmax.uu.se/software/python/)
-  with `pip install`
-- [Conda](http://docs.uppmax.uu.se/software/conda/)
-  with `conda install`
-- Docker: does not work
-- [Singularity](http://docs.uppmax.uu.se/software/singularity/)
-  and upload a container
-- Build from source
-    - We have several compiler versions from GNU and Intel
-    - [Compiling from source code](https://www.uppmax.uu.se/support/user-guides/compiling-source-code/)
-    - [Guide for compiling serial and parallel programs](https://www.uppmax.uu.se/support/user-guides/mpi-and-openmp-user-guide/)
-- Spack
-    - The UPPMAX staff has already other ways to install most software applications.
-    - Please use Spack only if other ways to install your tool is not possible or very difficult, e.g. requiring very many dependencies and it is not available through, e.g. Easybuild.
-    - [Spack user guide at UPPMAX](https://www.uppmax.uu.se/support/user-guides/spack-on-uppmax/)
+Only after loading it will some other tools appear.
 
 ## Exercises
 
@@ -64,21 +84,174 @@ and activate it.
 
 ### Exercise 1: find the software
 
-- [UPPMAX software](http://docs.uppmax.uu.se/software/overview/)
-- Give an estimate of the amount of pre-installed programs
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
 
+- Find to list of installed software. 
+  Estimate how many pieces of software are installed on Rackham
+
+???- question "Answer"
+
+    One can find the answer at <https://docs.uppmax.uu.se/software/software-table/>,
+    where one can find around 800 pieces of software installed
 
 ### Exercise 2: find the databases
 
-- [UPPMAX databases](http://docs.uppmax.uu.se/databases/overview/)
-- Give an estimate of the amount of pre-installed databases
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find to list of databases. 
+  Estimate how many collections of databases are installed on Rackham
+
+???- question "Answer"
+
+    One can find the answer at <http://docs.uppmax.uu.se/databases/overview/>,
+    where one can find around 7 collections of databases installed.
 
 ### Exercise 3: work with modules
 
-- [Module system](http://docs.uppmax.uu.se/cluster_guides/modules/)
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
 
-- Load/use/unload the cowsay module
+- Find the UPPMAX documentation on modules
 
-### (optional) Exercise 4: install software yourself
+???- question "Answer"
 
-- Read text above
+    One can find the answer at <https://docs.uppmax.uu.se/cluster_guides/modules/>,
+    where the module system is explained
+
+- Search the module system for a tool called `cowsay` to find out
+  in which module it is installed
+
+???- question "Answer"
+
+    Use `module spider` to search:
+
+    ```bash
+    module spider cowsay
+    ```
+
+- Load the latest version of the module for `cowsay`
+
+???- question "Answer"
+
+    After having used `module spider cowsay`, we've seen that the
+    latest version is `3.0.3`. Hence we load the module like this:
+
+    ```bash
+    module load cowsay/3.0.3
+    ```
+
+- To confirm `cowsay` works, type `cowsay hello`. A cow that says 'hello'
+  should appear
+
+- Unload the module for `cowsay`
+
+???- question "Answer"
+
+    One does not need to add a version to unload a module:
+
+    ```bash
+    module unload cowsay
+    ```
+
+???- question "Answer"
+
+- Confirm that `cowsay` does not work anymore,
+  by typing `cowsay hello`. This should give an error
+
+### Exercise 4: the `bioinfo-tools` module
+
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Load the `samtools` module, without loading the `bioinfo-tools` module
+  (if you have loaded it, unload it).
+  Which error message do you get?
+
+???- question "Answer"
+
+    ```bash
+    [sven@rackham1 ~]$ module load samtools
+    Lmod has detected the following error:  These module(s) or extension(s) exist but cannot be loaded as requested: "samtools"
+       Try: "module spider samtools" to see how to load the module(s).
+    ```
+
+- Do what is suggested, that is, do `module spider samtools`. Is the
+  suggestion to load `bioinfo-tools` given there?
+
+???- question "Answer"
+
+    No:
+
+    ```bash
+    [sven@rackham1 ~]$ module spider samtools
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      samtools:
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+         Versions:
+            samtools/0.1.12-10
+            samtools/0.1.19
+            samtools/1.1
+            samtools/1.2
+            samtools/1.3
+            samtools/1.4
+            samtools/1.5_debug
+            samtools/1.5
+            samtools/1.6
+            samtools/1.8
+            samtools/1.9
+            samtools/1.10
+            samtools/1.12
+            samtools/1.14
+            samtools/1.16
+            samtools/1.17
+            samtools/1.19
+            samtools/1.20
+         Other possible modules matches:
+            SAMtools
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      To find other possible module matches execute:
+
+          $ module -r spider '.*samtools.*'
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      For detailed information about a specific "samtools" package (including how to load the modules) use the module's full name.
+      Note that names that have a trailing (E) are extensions provided by other modules.
+      For example:
+
+         $ module spider samtools/1.20
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ```
+ 
+- Do `module spider samtools` to get help about the latest version. Is the
+  suggestion to load `bioinfo-tools` given there?
+
+???- question "Answer"
+
+    Yes:
+
+    ```bash
+    [sven@rackham1 ~]$ module spider samtools/1.20
+
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      samtools: samtools/1.20
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+        You will need to load all module(s) on any one of the lines below before the "samtools/1.20" module is available to load.
+
+          bioinfo-tools
+     
+        Help:
+          	samtools - use samtools 1.20
+          
+          	Version 1.20
+    ```      
+
+Remember, whenever you cannot find something, do:
+
+```bash
+module load bioinfo-tools
+```
