@@ -11,18 +11,14 @@
 
 ???- question "For teachers"
 
-    Prerequisites are:
-
-    - [...]
-
-    Preparations are:
-
-    - [...]
-
     Teaching goals are:
 
-    - [...]
-
+    - Learners have practiced using the UPPMAX documentation
+    - Learners can find their NAISS/UPPMAX projects
+    - Learners can see the job queue
+    - Learners can submit a job from the command line
+    - Learners can submit a job using a script
+    - Learners can cancel a job
 
     Lesson plan:
 
@@ -46,48 +42,11 @@
 
     Prior questions:
 
-    - [...]
-
-
-???- question "For teachers"
-
-    Prerequisites are:
-
-    - [...]
-
-    Preparations are:
-
-    - [...]
-
-    Teaching goals are:
-
-    - [...]
-
-
-    Lesson plan:
-
-    ```mermaid
-    gantt
-      title Something
-      dateFormat X
-      axisFormat %s
-      section First hour
-      Course introduction: done, course_intro, 0, 10s
-      Prior : intro, after course_intro, 5s
-      Present: theory_1, after intro, 5s
-      Challenge: crit, exercise_1, after theory_1, 40s
-      Break: crit, milestone, after exercise_1
-      section Second hour
-      Challenge: crit, exercise_2, 0, 10s
-      Feedback: feedback_2, after exercise_2, 10s
-      SLURM: done, slurm, after feedback_2, 25s
-      Break: done, milestone, after slurm
-    ```
-
-    Prior questions:
-
-    - [...]
-
+    - What is a job?
+    - What is a job scheduler?
+    - Why does one need a job scheduler?
+    - What information may one need to tell a job scheduler?
+    - Is it possible to have all nodes of Rackham running your jobs?
 
 ## Why?
 
