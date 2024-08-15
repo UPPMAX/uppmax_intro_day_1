@@ -6,4 +6,4 @@
 [:material-rocket-launch: Basic use with visual tools](sessions/introduction_visual.md){: .md-button .md-button--primary }
 [:material-rocket-launch: Basic use from a terminal](sessions/introduction_terminal.md){: .md-button .md-button--primary }
 [:material-rocket-launch: Doing real work](sessions/introduction_real_work.md){: .md-button .md-button--primary }
-[:material-rocket-launch: Going deeper](sessions/introduction_going_deeper.md){: .md-button .md-button--primary }
+[:material-rocket-launch: The bigger picture](sessions/introduction_bigger_picture.md){: .md-button .md-button--primary }

@@ -31,7 +31,7 @@ flowchart TD
 ```
 
 
-Day|Link to course materal
+Day|Link to course material
 ---|----------------------------------------------------
 1  |[here](https://uppmax.github.io/uppmax_intro_day_1)
 2  |.

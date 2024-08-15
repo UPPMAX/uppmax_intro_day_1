@@ -94,7 +94,7 @@ then answer these questions:
     exit
     ```
 
-- How do you know you are on the login node agin?
+- How do you know you are on the login node again?
 
 ???- question "Answer"
 

@@ -19,4 +19,4 @@ Link                                                                          |D
 ------------------------------------------------------------------------------|--------------------------------------------------------------------------
 [Login with SSH](../sessions/login_console.md)                                |Log in to Rackham's console environment
 [Using a terminal](../sessions/use_terminal.md)                               |Using a terminal for exploring the filesystem and do basic file management
-[File transfer using SCP](../sessions/file_transfer_using_scp.md)             |Tranfer files from the terminal
+[File transfer using SCP](../sessions/file_transfer_using_scp.md)             |Transfer files from the terminal
