@@ -32,7 +32,7 @@ nav:
     - Clusters: sessions/clusters.md
     - NAISS: sessions/naiss.md
     - Apply for resources: sessions/getting_started.md
-    - HPC: sessions/hpcs.md
+    - HPC: sessions/hpc.md
     - UPPMAX courses: sessions/courses.md
   - Misc:
     - About Richel: misc/richel.md
