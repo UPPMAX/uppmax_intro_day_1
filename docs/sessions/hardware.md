@@ -1,4 +1,4 @@
-# High Performance Computing — HPC
+# Hardware
 
 ```{objectives}
 - Let's recap and go a little further into the UPPMAX hardware!

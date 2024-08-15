@@ -32,7 +32,7 @@ nav:
     - Introduction: sessions/introduction_bigger_picture.md
     - Clusters: sessions/clusters.md
     - NAISS: sessions/naiss.md
-    - HPC: sessions/hpc.md
+    - Hardware: sessions/hardware.md
     - UPPMAX courses: sessions/courses.md
   - Misc:
     - About Richel: misc/richel.md

@@ -2,7 +2,7 @@
 
 Here we go look at the bigger picture.
 
-- [Clusters](../sessions/clusters.md)
+- [UPPMAX Clusters](../sessions/clusters.md)
 - [NAISS](../sessions/naiss.md)
 - [Courses](../sessions/courses.md)
 

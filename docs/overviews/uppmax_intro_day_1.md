@@ -13,7 +13,6 @@ flowchart TD
     naiss[NAISS]:::go_deeper
   %% subgraph uppmax[UPPMAX]
       uppmax_clusters[UPPMAX clusters]:::go_deeper
-      bianca[Bianca]:::go_deeper
       rackham[Rackham]:::go_deeper
       uppmax_courses[UPPMAX courses]:::go_deeper
     %% end
@@ -39,7 +38,6 @@ flowchart TD
   %% UPPMAX
   hpc --> naiss
   naiss --> uppmax_clusters
-  uppmax_clusters --> bianca
   uppmax_clusters --> rackham
 
   %% GUI
@@ -80,7 +78,6 @@ flowchart TD
     naiss[NAISS]:::go_deeper
   subgraph uppmax[UPPMAX]
       uppmax_clusters[UPPMAX clusters]:::go_deeper
-      bianca[Bianca]:::go_deeper
       rackham[Rackham]:::go_deeper
       uppmax_courses[UPPMAX courses]:::go_deeper
     end
@@ -106,7 +103,6 @@ flowchart TD
   %% UPPMAX
   hpc --> naiss
   naiss --> uppmax_clusters
-  uppmax_clusters --> bianca
   uppmax_clusters --> rackham
 
   %% GUI
@@ -141,7 +137,6 @@ flowchart TD
     naiss[NAISS]
   subgraph uppmax[UPPMAX]
       uppmax_clusters[UPPMAX clusters]
-      bianca[Bianca]
       rackham[Rackham]
       uppmax_courses[UPPMAX courses]
     end
@@ -167,7 +162,6 @@ flowchart TD
   %% UPPMAX
   hpc --> naiss
   naiss --> uppmax_clusters
-  uppmax_clusters --> bianca
   uppmax_clusters --> rackham
 
   %% GUI
