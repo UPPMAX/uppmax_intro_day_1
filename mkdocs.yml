@@ -28,7 +28,6 @@ nav:
   - Going deeper:
     - Introduction: sessions/introduction_going_deeper.md
     - Using an IDE: sessions/ide.md
-    - Linux: sessions/linux.md
   - The bigger picture:
     - Clusters: sessions/clusters.md
     - NAISS: sessions/naiss.md
