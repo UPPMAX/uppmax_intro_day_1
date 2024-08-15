@@ -34,7 +34,7 @@ flowchart TD
   supr --> |user management| local_resources  
 ```
 
-## NAISS
+## About NAISS
 
 From [the 'About us' page of the NAISS website](https://www.naiss.se/about-us/):
 

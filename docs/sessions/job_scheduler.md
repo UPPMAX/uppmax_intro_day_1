@@ -56,7 +56,7 @@ power. To do so, one needs to schedule these jobs!
 This is a short introduction in how to reach the calculation nodes
 Wednesday afternoon is wedded to this topic!
 
-## The job scheduler
+## Using the job scheduler
 
 The job scheduler has multiple programs,
 we use a minimal set of these three:
