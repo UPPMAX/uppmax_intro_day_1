@@ -133,7 +133,7 @@ message("Hello from R")
 
 - At the start of your R script, add `#!/bin/env Rscript`. This is called
   the 'shebang'. The shebang tells `bash` with which program to run the
-  script when it is executable 
+  script when it is executable
 
 - Run the script again and confirm that it works
 

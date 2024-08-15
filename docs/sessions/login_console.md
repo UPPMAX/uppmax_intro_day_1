@@ -102,7 +102,7 @@ then answer these questions:
 
     You can find find it at <https://docs.uppmax.uu.se/software/ssh_client/>
 
-- Try starting a terminal and type `ssh` and then enter. 
+- Try starting a terminal and type `ssh` and then enter.
   If you do not get an error message, you are lucky to have an SSH client
   installed!
 

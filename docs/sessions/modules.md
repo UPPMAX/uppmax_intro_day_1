@@ -87,7 +87,7 @@ Only after loading it will some other tools appear.
 Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find to list of installed software. 
+- Find to list of installed software.
   Estimate how many pieces of software are installed on Rackham
 
 ???- question "Answer"
@@ -100,7 +100,7 @@ then answer these questions:
 Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find to list of databases. 
+- Find to list of databases.
   Estimate how many collections of databases are installed on Rackham
 
 ???- question "Answer"
@@ -225,7 +225,7 @@ then answer these questions:
          $ module spider samtools/1.20
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ```
- 
+
 - Do `module spider samtools` to get help about the latest version. Is the
   suggestion to load `bioinfo-tools` given there?
 
@@ -245,9 +245,9 @@ then answer these questions:
           bioinfo-tools
      
         Help:
-          	samtools - use samtools 1.20
+           samtools - use samtools 1.20
           
-          	Version 1.20
+           Version 1.20
     ```      
 
 Remember, whenever you cannot find something, do:

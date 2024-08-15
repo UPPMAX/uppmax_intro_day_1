@@ -76,7 +76,7 @@ which is available in both print and online:
 ## Exercises
 
 It is assumed you are logged in to the console environment of Rackham
-with a terminal. 
+with a terminal.
 In case you did not get this to work,
 login via the remote desktop website and start a terminal there.
 
@@ -138,7 +138,7 @@ What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
 
 ### Exercise 3: file management
 
-You are in a terminal on a Rackham login node, in your home folder. 
+You are in a terminal on a Rackham login node, in your home folder.
 
 From there:
 
@@ -334,7 +334,7 @@ From there:
 
     When trying to copy a folder without `-R`, this warning
     is given and no folder is copied.
-    
+
 
 ???- question "Answer"
 

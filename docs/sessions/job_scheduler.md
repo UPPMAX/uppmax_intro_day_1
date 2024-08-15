@@ -246,7 +246,7 @@ then answer these questions:
 
     It can be found at <https://docs.uppmax.uu.se/software/sbatch/>
 
-- Modify your bash script in such a way that it can be submitted to the 
+- Modify your bash script in such a way that it can be submitted to the
   queue by `sbatch my_script.sh`, by putting the `-A` parameter in the
   script
 
