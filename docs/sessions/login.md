@@ -66,8 +66,13 @@ After logging in, one wants to behave considerate towards other users.
 
 ## Prerequisites
 
+<!-- Indeed, line lengths beyond 80 characters -->
+<!-- markdownlint-disable MD013 -->
+
 It is assumed you have fulfilled all
 [prerequisites for using Rackham](https://docs.uppmax.uu.se/getting_started/rackham_usage_prerequisites/).
+
+<!-- markdownlint-enable MD013 -->
 
 ## Introduction
 
@@ -83,7 +88,8 @@ Also, it helps UPPMAX staff find out how good our documentation is :-)
 
 ### Exercise 1: general understanding
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Where is it is described how to log in to Rackham?
@@ -92,7 +98,8 @@ then answer these questions:
 
     It is at <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
 
-    You can reach this page by searching for 'Login Rackham' or 'Log in Rackham'. 
+    You can reach this page by searching for 
+    'Login Rackham' or 'Log in Rackham'. 
 
 - How many environments can one log in to? How do they look like?
 
@@ -105,9 +112,11 @@ then answer these questions:
 
     - a console environment, which looks like text. No graphics. Text.
 
-    These answers can be found at <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
+    These answers can be found at
+    <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
 
-- The documentation of how to log in to Rackham states: 'After logging in, one is on a login node'.
+- The documentation of how to log in to Rackham states:
+  'After logging in, one is on a login node'.
   Where it is described what a login node?
 
 ???- question "Answer"
@@ -175,6 +184,12 @@ then answer these questions:
 
 Done?
 
+<!-- Indeed, line lengths beyond 80 characters -->
+<!-- markdownlint-disable MD013 -->
+
 - If you want to know what an HPC cluster is in more detail,
-  read up on [the UPPMAX clusters](https://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/)
+  read up on
+  [the UPPMAX clusters](https://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/)
 - Else move on to the next session
+
+<!-- markdownlint-enable MD013 -->

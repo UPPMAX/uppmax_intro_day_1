@@ -42,7 +42,8 @@
 
     - What is an interactive session?
     - Why use an interactive session?
-    - When scheduling an interactive session, what does the job scheduler need to know?
+    - When scheduling an interactive session,
+      what does the job scheduler need to know?
     - How to stop an interactive session?
 
 ## Why?
@@ -57,14 +58,16 @@ In this session, we learn how to start an interactive session.
 
 ### Exercise 1: start and end an interactive session on Rackham
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the page on how to start an interactive session on Rackham
 
 ???- question "Answer"
 
-    It can be found at <https://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/>
+    It can be found at
+    <https://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/>
 
 - Start an interactive session on Rackham that lasts one hour
 

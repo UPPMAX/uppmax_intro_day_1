@@ -74,7 +74,8 @@ flowchart TD
 
 ### Exercise 1: see the job queue
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the page on `squeue`, the program to view the job queue
@@ -107,7 +108,8 @@ then answer these questions:
 
 ### Exercise 2: view my UPPMAX projects
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the UPPMAX documentation page about projects
@@ -140,7 +142,8 @@ then answer these questions:
 
 ### Exercise 3: submit a minimal job with Slurm parameters in the command-line
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Create a minimal bash script that does something.
@@ -200,12 +203,17 @@ then answer these questions:
 
     Will result in the following error:
 
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
+
     ```bash
     [sven@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh
     sbatch: error: This does not look like a batch script.  The first
     sbatch: error: line must start with #! followed by the path to an interpreter.
     sbatch: error: For instance: #!/bin/sh
     ```
+
+    <!-- markdownlint-enable MD013 -->
 
 - Use `squeue` to confirm that your job is in the job queue.
   You may need to be fast to see it!
@@ -227,6 +235,9 @@ then answer these questions:
 
     The output will be similar to:
 
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
+
     ```bash
     [richel@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh; squeue -u $USER
     Submitted batch job 49309860
@@ -234,10 +245,13 @@ then answer these questions:
               49309860      core my_scrip   richel PD       0:00      1 (None)
     ```
 
+    <!-- markdownlint-enable MD013 -->
+
 
 ### Exercise 4: submit a minimal job with Slurm parameters in the bash script
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the page on `sbatch` again
@@ -263,7 +277,8 @@ then answer these questions:
 
 ### Exercise 5: cancel a job
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the page on `scancel`
@@ -285,8 +300,10 @@ then answer these questions:
     [sven@rackham3 ~]$ 
     ```
 
-- (optional) Schedule a job that takes 1 days, 2 hours, 3 minutes and 4 seconds and cancel it.
-  Use [the Slurm documentation on `sbatch`](https://slurm.schedmd.com/sbatch.html)
+- (optional) Schedule a job that takes 1 days, 2 hours, 3 minutes and 4
+  seconds and cancel it.
+  Use
+  [the Slurm documentation on `sbatch`](https://slurm.schedmd.com/sbatch.html)
 
 ???- question "Answer"
 

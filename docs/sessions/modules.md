@@ -49,7 +49,8 @@
       to install software on Rackham?
     - Describe a situation when two users that have admin rights
       on the same account of the same computer cannot both be happy
-    - How can one run different versions of the same software on a same computer?
+    - How can one run different versions of the same software
+      on a same computer?
     - How can we have users use different versions of the same software?
     - What is the UPPMAX software module system?
     - What is a module?
@@ -84,7 +85,8 @@ Only after loading it will some other tools appear.
 
 ### Exercise 1: find the software
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find to list of installed software.
@@ -97,7 +99,8 @@ then answer these questions:
 
 ### Exercise 2: find the databases
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find to list of databases.
@@ -110,14 +113,16 @@ then answer these questions:
 
 ### Exercise 3: work with modules
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the UPPMAX documentation on modules
 
 ???- question "Answer"
 
-    One can find the answer at <https://docs.uppmax.uu.se/cluster_guides/modules/>,
+    One can find the answer at
+    <https://docs.uppmax.uu.se/cluster_guides/modules/>,
     where the module system is explained
 
 - Search the module system for a tool called `cowsay` to find out
@@ -162,7 +167,8 @@ then answer these questions:
 
 ### Exercise 4: the `bioinfo-tools` module
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Load the `samtools` module, without loading the `bioinfo-tools` module
@@ -171,11 +177,18 @@ then answer these questions:
 
 ???- question "Answer"
 
+
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
+
     ```bash
     [sven@rackham1 ~]$ module load samtools
     Lmod has detected the following error:  These module(s) or extension(s) exist but cannot be loaded as requested: "samtools"
        Try: "module spider samtools" to see how to load the module(s).
     ```
+
+    <!-- markdownlint-enable MD013 -->
+
 
 - Do what is suggested, that is, do `module spider samtools`. Is the
   suggestion to load `bioinfo-tools` given there?
@@ -183,6 +196,9 @@ then answer these questions:
 ???- question "Answer"
 
     No:
+
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
 
     ```bash
     [sven@rackham1 ~]$ module spider samtools
@@ -226,12 +242,19 @@ then answer these questions:
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     ```
 
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-enable MD013 -->
+
+
 - Do `module spider samtools` to get help about the latest version. Is the
   suggestion to load `bioinfo-tools` given there?
 
 ???- question "Answer"
 
     Yes:
+
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
 
     ```bash
     [sven@rackham1 ~]$ module spider samtools/1.20
@@ -249,6 +272,8 @@ then answer these questions:
           
            Version 1.20
     ```      
+
+    <!-- markdownlint-enable MD013 -->
 
 Remember, whenever you cannot find something, do:
 

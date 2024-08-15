@@ -1,5 +1,8 @@
 # Schedule
 
+<!-- Indeed, line lengths beyond 80 characters -->
+<!-- markdownlint-disable MD013 -->
+
 When       |Who|What
 -----------|---|-----------------
 09:00-09:15|R  |Introduction
@@ -15,3 +18,5 @@ When       |Who|What
 15:00-15:15|.  |Break
 15:15-15:45|R  |[Doing real work](../sessions/introduction_real_work.md) 2/2
 15:45-16:00|R  |[Evaluation](../misc/evaluation.md)
+
+<!-- markdownlint-enable MD013 -->

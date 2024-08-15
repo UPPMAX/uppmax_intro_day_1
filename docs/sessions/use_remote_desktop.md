@@ -5,13 +5,15 @@
     - Practice using the UPPMAX documentation
     - Can navigate the file system
     - Can find the name of the file explorer
-    - Can do basic file management: create, copy, move and delete a file and folder
+    - Can do basic file management: create, copy, move and delete
+      a file and folder
     - Can start a terminal
     - Can start a program from the terminal
     - Can start a visual text editor
     - Can find the name of the visual text editor
     - Can do basic things in the visual text editor: edit, save, close
-    - Can copy-paste text between local computer and the remote desktop (in both directions)
+    - Can copy-paste text between local computer and the remote desktop
+      (in both directions)
 
 ???- question "For teachers"
 
@@ -19,13 +21,15 @@
 
     - Learners have used Thunar
     - Learners have found out that the file explorer is called Thunar
-    - Learners have done basic file management: create, copy, move and delete a file and folder
+    - Learners have done basic file management:
+      create, copy, move and delete a file and folder
     - Learners have started a terminal
     - Learners have start `xeyes` from the terminal
     - Learners have started `gedit`
     - Learners have found that the text editor is called gedit
     - Learners have done basic things in gedit: edit a files, save, close
-    - Learners have copy-pasted text between local computer and the remote desktop (in both directions)
+    - Learners have copy-pasted text between local computer
+      and the remote desktop (in both directions)
 
     Lesson plan:
 
@@ -211,7 +215,8 @@ In Thunar:
 
     ![Open file with a text editor](open_file_with_text_editor.png)
 
-    - Do a right-mouse button click on the file and select 'Open with text editor'
+    - Do a right-mouse button click on the file
+      and select 'Open with text editor'
 
     It will look similar to this:
 
@@ -230,7 +235,9 @@ its name will be useful to know:
 
     ![A file opened with gedit](opened_file.png)
 
-    You can also click on [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button) and click 'Help':
+    You can also click on
+    [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button)
+    and click 'Help':
 
     ![The gedit hamburger menu](gedit_help_about.png)
 
@@ -262,14 +269,17 @@ its name will be useful to know:
 
 ### Exercise 5: copy-paste text
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find the page where it is documented to log in to Rackham's remote desktop via a webbrowser.
+- Find the page where it is documented to log in to
+  Rackham's remote desktop via a webbrowser.
 
 ???- question "Answer"
 
-    The page is [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
+    The page is
+    [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
 
 - On that page, find where to find information on how to use the
   remote desktop

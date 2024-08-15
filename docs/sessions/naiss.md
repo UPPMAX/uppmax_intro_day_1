@@ -43,7 +43,8 @@ From [the 'About us' page of the NAISS website](https://www.naiss.se/about-us/):
 > storage, and data services for academic users in Sweden
 
 NAISS resources are free (as in beer) to researchers all over Sweden
-and can be found at [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/).
+and can be found at
+[the 'Resources' page of the NAISS website](https://www.naiss.se/resources/).
 
 ## SUPR
 
@@ -51,7 +52,8 @@ SUPR allows a user to apply for resources,
 both NAISS and local (e.g. Uppsala) resources.
 
 Resource application is done in rounds.
-All SUPR rounds can be found at [https://supr.naiss.se/round/](https://supr.naiss.se/round/).
+All SUPR rounds can be found at
+[https://supr.naiss.se/round/](https://supr.naiss.se/round/).
 
 Typically, SUPR rounds come in three project sizes. The bigger the
 project, the less often one can apply and the higher job title one needs.
@@ -60,7 +62,8 @@ project, the less often one can apply and the higher job title one needs.
 
 ### Exercise 1: NAISS resources
 
-Read [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/)
+Read
+[the 'Resources' page of the NAISS website](https://www.naiss.se/resources/)
 then answer these questions:
 
 - Which resource is most suitable to store and work on sensitive data?
@@ -76,14 +79,16 @@ the [SUPR NAISS page on Rackham](https://supr.naiss.se/resource/rackham/).
 
 Apply for a 'Small Compute' project.
 
-- What academic level (BSc, MSc, PhD student, etc.) do you need to have to be eligible?
+- What academic level (BSc, MSc, PhD student, etc.)
+  do you need to have to be eligible?
 - How many CPU core hours per month would you get for Rackham?
 
 Cancel this application.
 
 Apply for a 'Medium Compute' project.
 
-- What academic level (BSc, MSc, PhD student, etc.) do you need to have to be eligible?
+- What academic level (BSc, MSc, PhD student, etc.)
+  do you need to have to be eligible?
 - How many CPU core hours per month would you get for Rackham?
 
 Cancel this application.

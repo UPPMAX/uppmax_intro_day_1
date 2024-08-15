@@ -14,7 +14,8 @@ tags:
 
     - Practice using the UPPMAX documentation
     - Can log in to the Rackham remote desktop environment using the website
-    - (optional) Can log in to the Rackham remote desktop environment using a local ThinLinc client
+    - (optional) Can log in to the Rackham remote desktop environment
+      using a local ThinLinc client
 
 ???- question "For teachers"
 
@@ -87,20 +88,28 @@ There are two exercises, of which the second is optional.
 
 ### Exercise 1: login via website
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find the page where it is documented to log in to Rackham's remote desktop via a webbrowser.
+- Find the page where it is documented to log in to Rackham's remote desktop
+  via a webbrowser.
 
 ???- question "Answer"
 
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
+
     The page is [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
+
+    <!-- markdownlint-enable MD013 -->
 
 - Follow the procedure
 
 ### (optional) Exercise 2: login via a program
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the page where it is documented to log in to Rackham's remote desktop using
@@ -108,13 +117,20 @@ then answer these questions:
 
 ???- question "Answer"
 
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
+
     It is hard to search for which program that is. However,
-    using the ['log in to Rackham' page](https://docs.uppmax.uu.se/getting_started/login_rackham/)
+    using the
+    ['log in to Rackham' page](https://docs.uppmax.uu.se/getting_started/login_rackham/)
     shows the login via 'a local ThinLinc client'.
 
     That is the program's name: ThinLinc
 
     How to log in to Rackham's remote desktop environment using a local ThinLinc 
-    client is documented [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/)
+    client is documented
+    [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/)
+
+    <!-- markdownlint-enable MD013 -->
 
 - Follow the procedure

@@ -20,8 +20,17 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
 
+      # There are many linters with the same name,
+      # this is the linter whose documentation to look into :-)
+      - name: CLI to the linter is at https://github.com/igorshubovych/markdownlint-cli
+        run: echo "CLI to the linter is at https://github.com/igorshubovych/markdownlint-cli"
+
+      # There are many linters with the same name,
+      # this is the linter whose documentation to look into :-)
+      - name: Linter is at https://github.com/DavidAnson/markdownlint
+        run: echo "Linter is at https://github.com/DavidAnson/markdownlint"
+
       - uses: articulate/actions-markdownlint@v1
         with:
           config: .markdownlint.jsonc
           ignore: .markdownlintignore
-

@@ -5,8 +5,10 @@
     - Practice using the UPPMAX documentation
     - Understand what the prompt is
     - Can navigate the file system
-    - Can do basic file management: create, copy, move and delete a file and folder
-    - Can copy-paste text between local computer and the terminal (in both directions)
+    - Can do basic file management:
+      create, copy, move and delete a file and folder
+    - Can copy-paste text between local computer
+      and the terminal (in both directions)
     - Can use tab-completion with the prompt
 
 ???- question "For teachers"
@@ -16,8 +18,10 @@
     - Learners practice using the UPPMAX documentation
     - Learners understand what the prompt is
     - Learners have navigated the file system
-    - Learners have done basic file management: create, copy, move and delete a file and folder
-    - Learners have copy-pasted text between local computer and the terminal (in both directions)
+    - Learners have done basic file management:
+      create, copy, move and delete a file and folder
+    - Learners have copy-pasted text between local computer
+      and the terminal (in both directions)
     - Learners have used tab-completion with the prompt
 
     Lesson plan:
@@ -108,18 +112,21 @@ What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
     - `[` and `]`: indicates the beginning and end of information
     - `sven`: the username
     - `@`: at which cluster
-    - `rackham2`: the remote node's name, in this case Rackham's second login node
+    - `rackham2`: the remote node's name,
+      in this case Rackham's second login node
     - `~`: the user in the home folder
     - `$`: indicate to be ready for user input
 
 ### Exercise 2: file navigation
 
-- You are in a terminal on a Rackham login node. Find out the directory you are in: which command do you use?
+- You are in a terminal on a Rackham login node.
+  Find out the directory you are in: which command do you use?
 
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux present working directory command'
-    - Tip 2: scan the [the 'Navigation' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0020.php)
+    - Tip 2: scan the 
+      [the 'Navigation' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0020.php)
 
 ???- question "Answer"
 
@@ -149,7 +156,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux display files in current folder'
-    - Tip 2: scan the [the 'Looking around' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0030.php)
+    - Tip 2: scan the
+      [the 'Looking around' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0030.php)
 
 
 ???- question "Answer"
@@ -174,7 +182,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux create file'
-    - Tip 2: this command is _not_ mentioned in the book 'The Linux Command Line'
+    - Tip 2: this command is _not_ mentioned
+      in the book 'The Linux Command Line'
 
 ???- question "Answer"
 
@@ -215,7 +224,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux copy file'
-    - Tip 2: scan the [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
+    - Tip 2: scan the
+      [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
 
 ???- question "Answer"
 
@@ -238,7 +248,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux delete file'
-    - Tip 2: scan the [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
+    - Tip 2: scan the
+      [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
 
 ???- question "Answer"
 
@@ -262,7 +273,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux rename file'
-    - Tip 2: scan the [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
+    - Tip 2: scan the
+      [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
 
 ???- question "Answer"
 
@@ -295,7 +307,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux create folder'
-    - Tip 2: scan the [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
+    - Tip 2: scan the
+      [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
 
 ???- question "Answer"
 
@@ -320,7 +333,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux copy folder recursively'
-    - Tip 2: scan the [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
+    - Tip 2: scan the
+      [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
 
 ???- question "What does `cp: omitting directory ‘my_folder’` mean?"
 
@@ -370,7 +384,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux delete folder'
-    - Tip 2: scan the [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
+    - Tip 2: scan the
+      [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
 
 ???- question "Answer"
 
@@ -404,7 +419,8 @@ From there:
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux rename folder'
-    - Tip 2: scan the [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
+    - Tip 2: scan the
+      [the 'Manipulating files' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0050.php)
 
 ???- question "Answer"
 
@@ -486,7 +502,9 @@ its name will be useful to know:
 
     ![A file opened with gedit](opened_file.png)
 
-    You can also click on [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button) and click 'Help':
+    You can also click on
+    [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button)
+    and click 'Help':
 
     ![The gedit hamburger menu](gedit_help_about.png)
 

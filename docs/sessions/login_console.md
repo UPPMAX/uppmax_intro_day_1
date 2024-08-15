@@ -23,7 +23,8 @@
     - Learners understand that after login, one is on a login node
     - If needed, learners have installed an SSH client
         - Windows: MobaXTerm
-    - Learners have logged in to the console environment using a terminal with X forwarding
+    - Learners have logged in to the console environment
+      using a terminal with X forwarding
     - Learners have determined if X forwarding works
 
     Lesson plan:
@@ -75,7 +76,8 @@ For Mac and Windows users it will be hardest to get it working.
 
 ### Exercise 1: a terminal
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the UPPMAX page on terminals
@@ -93,7 +95,8 @@ then answer these questions:
 
 ### Exercise 2: install an SSH client if needed
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the UPPMAX page on SSH clients
@@ -126,20 +129,25 @@ then answer these questions:
 
 ### Exercise 3: login via SSH
 
-Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
 - Find the page about how to login to Rackham via SSH and a password
 
 ???- question "I cannot find it. Where is it?"
 
-    You can find find it at <https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/>
+    You can find find it at
+    <https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/>
 
 - Log in to Rackham
 
 ???- question "How does that look like?"
 
     Your ouput will look similar to this:
+
+    <!-- Indeed, line lengths beyond 80 characters -->
+    <!-- markdownlint-disable MD013 -->
 
     ```bash
     sven@richel-N141CU:~/GitHubs/uppmax_intro_day_1/docs/sessions$ ssh -X sven@rackham.uppmax.uu.se
@@ -160,6 +168,9 @@ then answer these questions:
 
     [sven@rackham1 ~]$ 
     ```
+
+    <!-- markdownlint-enable MD013 -->
+
 
 Welcome on a login node!
 

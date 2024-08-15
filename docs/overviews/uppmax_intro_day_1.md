@@ -1,5 +1,8 @@
 # UPPMAX Intro Day 1
 
+<!-- Indeed, line lengths beyond 80 characters -->
+<!-- markdownlint-disable MD013 -->
+
 ```mermaid
 flowchart TD
 
@@ -186,3 +189,4 @@ flowchart TD
   interactive --> use_ide
 ```
 
+<!-- markdownlint-enable MD013 -->
