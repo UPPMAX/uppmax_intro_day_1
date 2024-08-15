@@ -1,9 +1,154 @@
 # Submitting jobs
 
-```{objectives}
-- This is a short introduction in how to reach the calculation nodes
-- Wednesday afternoon is wedded to this topic!
+!!!- info "Learning objectives"
+
+    - Practice using the UPPMAX documentation
+    - Can submit a job from the command line
+    - Can submit a job using a script
+
+???- question "For teachers"
+
+    Prerequisites are:
+
+    - [...]
+
+    Preparations are:
+
+    - [...]
+
+    Teaching goals are:
+
+    - [...]
+
+
+    Lesson plan:
+
+    ```mermaid
+    gantt
+      title Something
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Course introduction: done, course_intro, 0, 10s
+      Prior : intro, after course_intro, 5s
+      Present: theory_1, after intro, 5s
+      Challenge: crit, exercise_1, after theory_1, 40s
+      Break: crit, milestone, after exercise_1
+      section Second hour
+      Challenge: crit, exercise_2, 0, 10s
+      Feedback: feedback_2, after exercise_2, 10s
+      SLURM: done, slurm, after feedback_2, 25s
+      Break: done, milestone, after slurm
+    ```
+
+    Prior questions:
+
+    - [...]
+
+
+???- question "For teachers"
+
+    Prerequisites are:
+
+    - [...]
+
+    Preparations are:
+
+    - [...]
+
+    Teaching goals are:
+
+    - [...]
+
+
+    Lesson plan:
+
+    ```mermaid
+    gantt
+      title Something
+      dateFormat X
+      axisFormat %s
+      section First hour
+      Course introduction: done, course_intro, 0, 10s
+      Prior : intro, after course_intro, 5s
+      Present: theory_1, after intro, 5s
+      Challenge: crit, exercise_1, after theory_1, 40s
+      Break: crit, milestone, after exercise_1
+      section Second hour
+      Challenge: crit, exercise_2, 0, 10s
+      Feedback: feedback_2, after exercise_2, 10s
+      SLURM: done, slurm, after feedback_2, 25s
+      Break: done, milestone, after slurm
+    ```
+
+    Prior questions:
+
+    - [...]
+
+
+## Why?
+
+You want to do calculations that take a long time and use much CPU
+power. To do so, one needs to schedule these jobs!
+
+This is a short introduction in how to reach the calculation nodes
+Wednesday afternoon is wedded to this topic!
+
+## The job scheduler
+
+The job scheduler has multiple programs,
+we use a minimal set of these three:
+
+```mermaid
+flowchart TD
+  sbatch[sbatch\nSubmit a job]
+  scancel[scancel\nCancel a running job]
+  squeue[squeue\nView the job queue]
+  sbatch --> |Oops| scancel
+  sbatch --> |Verify| squeue
 ```
+
+## Exercises
+
+### Exercise 1: see the job queue
+
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the page on `squeue`, the program to view the job queue
+
+???- question "Answer"
+
+    It can be found at <https://docs.uppmax.uu.se/software/squeue/>
+
+- View all jobs in the queue
+
+???- question "Answer"
+
+    View all jobs in the queue:
+
+    ```bash
+    squeue
+    ```
+
+- View all your jobs in the queue
+
+???- question "Answer"
+
+    View your jobs in the queue:
+
+    ```bash
+    squeue -u $USER
+    ```
+
+    You will probably see that you have zero jobs scheduled
+
+### Exercise 2: submit a job
+
+### Exercise 3: cancel a job
+
+
+## Old
 
 ## Slurm, sbatch, the job queue
 
@@ -76,21 +221,6 @@
 - Snowy: 30 days
 - Bianca: 10 days
 
-## Interactive jobs
-
-- Most work is most effective as submitted jobs, but e.g. development needs responsiveness
-- Interactive jobs are high-priority but limited in `-n` and `-t`
-- Quickly give you a job and logs you in to the compute node
-- Require same Slurm parameters as other jobs
-
-``````{challenge} Try interactive
-
-```  {code-block} console
-$ interactive -A naiss2023-22-793 -p core -n 1 -t 10:00
-```
-- Which node are you on?
-  - Logout with `<Ctrl>-D` or `logout`
-``````
 
 
 ### A simple job script template

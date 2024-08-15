@@ -93,6 +93,23 @@ running an IDE.
 In this session, we learn how to start an interactive session.
 
 
+## Interactive jobs
+
+- Most work is most effective as submitted jobs, but e.g. development needs responsiveness
+- Interactive jobs are high-priority but limited in `-n` and `-t`
+- Quickly give you a job and logs you in to the compute node
+- Require same Slurm parameters as other jobs
+
+``````{challenge} Try interactive
+
+```  {code-block} console
+$ interactive -A naiss2023-22-793 -p core -n 1 -t 10:00
+```
+- Which node are you on?
+  - Logout with `<Ctrl>-D` or `logout`
+``````
+
+
 ## Exercises
 
 [...]
