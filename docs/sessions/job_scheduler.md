@@ -1,10 +1,13 @@
-# Submitting jobs
+# The job scheduler
 
 !!!- info "Learning objectives"
 
     - Practice using the UPPMAX documentation
+    - Can find his/her NAISS/UPPMAX projects
+    - Can see the job queue
     - Can submit a job from the command line
     - Can submit a job using a script
+    - Can cancel a job
 
 ???- question "For teachers"
 
@@ -143,166 +146,178 @@ then answer these questions:
 
     You will probably see that you have zero jobs scheduled
 
-### Exercise 2: submit a job
+### Exercise 2: view my UPPMAX projects
 
-### Exercise 3: cancel a job
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
 
+- Find the UPPMAX documentation page about projects
 
-## Old
+???- question "Answer"
 
-## Slurm, sbatch, the job queue
+    It can be found at <https://docs.uppmax.uu.se/getting_started/project/>
 
-- Problem: 1000 users, 500 nodes, 10k cores
-- Need a queue:
+- Where does that page redirect you, to view your projects?
 
-![Image](./img/queue1.png)
+???- question "Answer"
 
-- x-axis: cores, one thread per core
-- y-axis: time
-<br/><br/>
-- [Slurm](https://slurm.schedmd.com/) is a jobs scheduler
-- Plan your job and but in the slurm job batch (sbatch)
-    `sbatch <flags> <program>` or
-    `sbatch <job script>`
+    You are redirected to the SUPR NAISS page at <https://supr.naiss.se/>
 
-- Easiest to schedule *single-threaded*, short jobs
+- View all your projects
 
-![Image](./img/queue2.png)
-![Image](./img/queue3.png)
+???- question "Answer"
 
-- Left: 4 one-core jobs can run immediately (or a 4-core wide job).
+    Here is an example of a user's SUPR projects
 
-    - The jobs are too long to fit in core number 9-13.
+    ![Example SUPR projects](supr_projects.png)
 
-- Right: A 5-core job has to wait.
+- View the project of this course
 
-    - Too long to fit in cores 9-13 and too wide to fit in the last cores.
+    ![The NAISS project of this course](naiss_project_for_this_course.png)
 
-## Jobs
+### Exercise 3: submit a minimal job with Slurm parameters in the command-line
 
-- Job = what happens during booked time
-- Described in a Bash script file
-    - Slurm parameters (**flags**)
-    - Load software modules
-    - (Move around file system)
-    - Run programs
-    - (Collect output)
-- ... and more
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
 
-## Slurm parameters
+- Create a minimal bash script that does something.
+  It may or may not use a module.
+  It does need a shebang (but go ahead and omit it to see which error occurs)!
 
-- 1 mandatory setting for jobs:
-    - Which compute project? (`-A`)
-    - For example, if your project is named ``NAISS 2017/1-334`` you specify ``-A naiss2017-1-234``
+???- question "Answer"
 
-- 3 settings you really should set:
-    - Type of queue? (`-p`)
-        - core, node, (for short development jobs and tests: devcore, devel)
-    - How many cores? (`-n`)
-        - up to 16 (20 on Rackham) for core job
-    - How long at most? (`-t`)
-- If in doubt:
-    - -`p core`
-    - -`n 1`
-    - `-t 7-00:00:00`
+    A minimal bash script would be:
 
-![Image](./img/queue1.png)
+    ```bash
+    #!/bin/bash
+    echo "Hello"
+    ```
 
-- Where should it run? (`-p node` or `-p core`)
-- Use a whole node or just part of it?
-    - 1 node = 20 cores (16 on Bianca & Snowy)
-    - 1 hour walltime = 20 core hours = expensive
-    - Waste of resources unless you have a parallel program or need all the memory, e.g. 128 GB per node
-- Default value: core
-
-### Walltime at the different clusters
-
-- Rackham: 10 days
-- Snowy: 30 days
-- Bianca: 10 days
+    But any valid bash script with the same first line will do.
 
 
+- Find the page on `sbatch`, the program to submit a job to the queue
 
-### A simple job script template
+???- question "Answer"
 
-```bash=
-#!/bin/bash -l 
-# tell it is bash language and -l is for starting a session with a "clean environment, e.g. with no modules loaded and paths reset"
+    It can be found at <https://docs.uppmax.uu.se/software/sbatch/>
 
-#SBATCH -A naiss2023-22-793  # Project name
+- Use `sbatch` to submit running your bash script to the queue
 
-#SBATCH -p devcore  # Asking for cores (for test jobs and as opposed to multiple nodes) 
+???- question "Answer"
 
-#SBATCH -n 1  # Number of cores
+    Submit your script to the job queue like this:
 
-#SBATCH -t 00:10:00  # Ten minutes
+    ```bash
+    sbatch -A naiss2024-22-49 my_script.sh
+    ```
 
-#SBATCH -J Template_script  # Name of the job
+???- question "How does that look like?"
 
-# go to some directory
+    Your output will look similar to this:
 
-cd /proj/introtouppmax/labs
-pwd -P
+    ```bash
+    [sven@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh
+    Submitted batch job 49309848
+    ```
 
-# load software modules
+    The number is your job number
 
-module load bioinfo-tools
-module list
+???- question "I get an error: 'This does not look like a batch script'"
 
-# do something
+    Like stated at the start of this exercise, the bash script
+    needs to have a shebang. 
 
-echo Hello world!  
+    Running a script without a shebang such as this:
 
-```
+    ```bash
+    module load cowsay/3.03
+    cowsay hello
+    ```
 
-## Other Slurm tools
+    Will result in the following error:
 
-- ``squeue`` — quick info about jobs in queue
-- ``jobinfo`` — detailed info about jobs
-- ``finishedjobinfo`` — summary of finished jobs
-- ``jobstats``— efficiency of booked resources
+    ```bash
+    [sven@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh
+    sbatch: error: This does not look like a batch script.  The first
+    sbatch: error: line must start with #! followed by the path to an interpreter.
+    sbatch: error: For instance: #!/bin/sh
+    ```
 
-``````{challenge} Exercise at home
-- Copy the code just further up!
-- Put it into a file named “jobtemplate.sh”
-- Make the file executable (chmod)
-- Submit the job:
-```  {code-block} console
+- Use `squeue` to confirm that your job is in the job queue.
+  You may need to be fast to see it!
 
-$ sbatch jobtemplate.sh
-```
-- Note the job id!
-- Check the queue:
+???- question "Answer"
 
-```  {code-block} console
-$ squeue -u <username>
-$ jobinfo -u <username>
-```
-- When it’s done (rather fast), look for the output file (slurm-<jobid>.out):
+    The easiest is:
 
-```  {code-block} console
-$ ls -lrt slurm-*
-```
-- Check the output file to see if it ran correctly
+    ```bash
+    squeue -u $USER
+    ```
 
-```  {code-block} console
-$ cat <filename>
-```
-``````
+    Because the job may finish very fast, a trick is to use a semicolon
+    to run the two command directly after each other:
 
-## What kind of work are you doing?
+    ```bash
+    sbatch -A naiss2024-22-49 my_script.sh; squeue -u $USER
+    ```
 
-- Compute bound
-    - you use mainly CPU power (more cores can help)
-- Memory bound
-    - if the bottlenecks are allocating memory, copying/duplicating
+    The output will be similar to:
 
-**More on Wednesday afternoon!**
+    ```bash
+    [richel@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh; squeue -u $USER
+    Submitted batch job 49309860
+                 JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+              49309860      core my_scrip   richel PD       0:00      1 (None)
+    ```
 
-```{keypoints}
-- You are always in the login node unless you:
-  - start an interactive session
-  - start a batch job
-- Slurm is a job scheduler
-  - add flags to describe your job.
 
+### Exercise 4: submit a minimal job with Slurm parameters in the bash script
+
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the page on `sbatch` again
+
+???- question "Answer"
+
+    It can be found at <https://docs.uppmax.uu.se/software/sbatch/>
+
+- Modify your bash script in such a way that it can be submitted to the 
+  queue by `sbatch my_script.sh`, by putting the `-A` parameter in the
+  script
+
+???- question "Answer"
+
+    Here is an example minimal script:
+
+    ```bash
+    #!/bin/bash
+    #SBATCH -A uppmax2023-2-25
+    module load cowsay/3.03
+    cowsay hello
+    ```
+
+### Exercise 5: cancel a job
+
+Go to the UPPMAX documentation at [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the page on `scancel`
+
+???- question "Answer"
+
+    It can be found at <https://docs.uppmax.uu.se/software/scancel/>
+
+- Cancel a job
+
+???- question "Answer"
+
+    You output will be similar to this:
+
+    ```bash
+    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 my_script.sh 
+    Submitted batch job 49311056
+    [sven@rackham3 ~]$ scancel 49311056
+    [sven@rackham3 ~]$ 
+    ```
