@@ -35,13 +35,14 @@
     Prior questions:
 
     - What is an IDE?
-    - ...
-
-TODO
+    - Anybody know the names of some famous IDEs?
+    - Why would you use an IDE?
+    - What can an IDE do?
 
 ## Why?
 
-TODO
+If you want to do software development on Rackham,
+an IDE will help
 
 ## Exercises
 
@@ -51,4 +52,11 @@ Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
 for help.
 
 - Search for the procedure on how to use an IDE on Rackham
+
+???- question "Answer"
+
+    You can find these at <https://docs.uppmax.uu.se/software/ides_on_rackham/>
+
 - Follow that procedure to start an IDE on Rackham
+
+
