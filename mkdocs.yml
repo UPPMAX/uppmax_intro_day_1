@@ -28,9 +28,8 @@ nav:
     - Using an IDE: sessions/ide.md
   - The bigger picture:
     - Introduction: sessions/introduction_bigger_picture.md
-    - Clusters: sessions/clusters.md
     - NAISS: sessions/naiss.md
-    - Hardware: sessions/hardware.md
+    - Clusters: sessions/clusters.md
     - UPPMAX courses: sessions/courses.md
   - Misc:
     - About Richel: misc/richel.md

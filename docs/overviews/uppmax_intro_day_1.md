@@ -9,7 +9,6 @@ flowchart TD
   classDef bigger_picture fill:#dff, stroke:#0ff
 
   %% subgraph world[The world]
-    hpc[HPC]:::bigger_picture
     naiss[NAISS]:::bigger_picture
   %% subgraph uppmax[UPPMAX]
       uppmax_clusters[UPPMAX clusters]:::bigger_picture
@@ -33,10 +32,8 @@ flowchart TD
     job_scheduler[Job scheduler]:::real_work
   %% end
 
-  hpc ---> login_remote_desktop
 
   %% UPPMAX
-  hpc --> naiss
   naiss --> uppmax_clusters
   uppmax_clusters --> rackham
 
@@ -74,7 +71,6 @@ flowchart TD
   classDef bigger_picture fill:#dff, stroke:#0ff
 
   subgraph world[The world]
-    hpc[HPC]:::bigger_picture
     naiss[NAISS]:::bigger_picture
   subgraph uppmax[UPPMAX]
       uppmax_clusters[UPPMAX clusters]:::bigger_picture
@@ -98,10 +94,8 @@ flowchart TD
     job_scheduler[Job scheduler]:::real_work
   end
 
-  hpc ---> login_remote_desktop
 
   %% UPPMAX
-  hpc --> naiss
   naiss --> uppmax_clusters
   uppmax_clusters --> rackham
 
@@ -133,7 +127,6 @@ flowchart TD
 ```mermaid
 flowchart TD
   subgraph world[The world]
-    hpc[HPC]
     naiss[NAISS]
   subgraph uppmax[UPPMAX]
       uppmax_clusters[UPPMAX clusters]
@@ -157,10 +150,8 @@ flowchart TD
     job_scheduler[Job scheduler]
   end
 
-  hpc ---> login_remote_desktop
 
   %% UPPMAX
-  hpc --> naiss
   naiss --> uppmax_clusters
   uppmax_clusters --> rackham
 
