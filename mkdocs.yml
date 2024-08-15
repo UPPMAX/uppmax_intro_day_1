@@ -29,9 +29,9 @@ nav:
     - Introduction: sessions/introduction_going_deeper.md
     - Using an IDE: sessions/ide.md
   - The bigger picture:
+    - Introduction: sessions/introduction_bigger_picture.md
     - Clusters: sessions/clusters.md
     - NAISS: sessions/naiss.md
-    - Apply for resources: sessions/getting_started.md
     - HPC: sessions/hpc.md
     - UPPMAX courses: sessions/courses.md
   - Misc:
