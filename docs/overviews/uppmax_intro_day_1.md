@@ -6,22 +6,22 @@ flowchart TD
   classDef basic_gui fill:#fdd, stroke:#f00
   classDef basic_terminal fill:#ffd, stroke:#ff0
   classDef real_work fill:#dfd, stroke:#0f0
-  classDef go_deeper fill:#dff, stroke:#0ff
+  classDef bigger_picture fill:#dff, stroke:#0ff
 
   %% subgraph world[The world]
-    hpc[HPC]:::go_deeper
-    naiss[NAISS]:::go_deeper
+    hpc[HPC]:::bigger_picture
+    naiss[NAISS]:::bigger_picture
   %% subgraph uppmax[UPPMAX]
-      uppmax_clusters[UPPMAX clusters]:::go_deeper
-      rackham[Rackham]:::go_deeper
-      uppmax_courses[UPPMAX courses]:::go_deeper
+      uppmax_clusters[UPPMAX clusters]:::bigger_picture
+      rackham[Rackham]:::bigger_picture
+      uppmax_courses[UPPMAX courses]:::bigger_picture
     %% end
   %% end
   %% subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
     use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]:::basic_gui
     file_transfer_filezilla[File transfer\nFileZilla]:::basic_gui
-    use_ide[Using an IDE]:::go_deeper
+    use_ide[Using an IDE]:::real_work
   %% end
   %% subgraph console[Console environment]
     login_ssh[Login with SSH]:::basic_terminal
@@ -71,22 +71,22 @@ flowchart TD
   classDef basic_gui fill:#fdd, stroke:#f00
   classDef basic_terminal fill:#ffd, stroke:#ff0
   classDef real_work fill:#dfd, stroke:#0f0
-  classDef go_deeper fill:#dff, stroke:#0ff
+  classDef bigger_picture fill:#dff, stroke:#0ff
 
   subgraph world[The world]
-    hpc[HPC]:::go_deeper
-    naiss[NAISS]:::go_deeper
+    hpc[HPC]:::bigger_picture
+    naiss[NAISS]:::bigger_picture
   subgraph uppmax[UPPMAX]
-      uppmax_clusters[UPPMAX clusters]:::go_deeper
-      rackham[Rackham]:::go_deeper
-      uppmax_courses[UPPMAX courses]:::go_deeper
+      uppmax_clusters[UPPMAX clusters]:::bigger_picture
+      rackham[Rackham]:::bigger_picture
+      uppmax_courses[UPPMAX courses]:::bigger_picture
     end
   end
   subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
     use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]:::basic_gui
     file_transfer_filezilla[File transfer\nFileZilla]:::basic_gui
-    use_ide[Using an IDE]:::go_deeper
+    use_ide[Using an IDE]:::real_work
   end
   subgraph console[Console environment]
     login_ssh[Login with SSH]:::basic_terminal
