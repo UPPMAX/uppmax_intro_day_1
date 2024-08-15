@@ -25,8 +25,6 @@ nav:
     - Creating a bash script: sessions/scripts.md
     - The job scheduler: sessions/job_scheduler.md
     - Start an interactive session: sessions/start_interactive_session.md
-  - Going deeper:
-    - Introduction: sessions/introduction_going_deeper.md
     - Using an IDE: sessions/ide.md
   - The bigger picture:
     - Introduction: sessions/introduction_bigger_picture.md

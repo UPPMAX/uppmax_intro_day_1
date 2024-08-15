@@ -12,10 +12,12 @@ flowchart TD
   modules[Using pre-installed software\nModules]
   interactive[Starting an interactive session]
   job_scheduler[Job scheduler]
+  ides[Using IDEs]
 
   scripts --> job_scheduler
   modules --> scripts
   job_scheduler --> interactive
+  interactive -.-> ides
 ```
 
 Link                                                                          |Description
@@ -24,4 +26,5 @@ Link                                                                          |D
 [Scripts](../sessions/scripts.md)                                             |Create scripts
 [Job scheduler](../sessions/job_scheduler.md)                                 |Send jobs to the scheduler
 [Starting an interactive session](../sessions/start_interactive_session.md)   |Starting an interactive session
+[IDEs](../sessions/ides.md)                                                   |Use an IDE
 
