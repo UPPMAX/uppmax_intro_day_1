@@ -272,7 +272,7 @@ then answer these questions:
 
     It can be found at <https://docs.uppmax.uu.se/software/scancel/>
 
-- Cancel a job
+- Schedule a job and cancel it
 
 ???- question "Answer"
 
@@ -284,3 +284,18 @@ then answer these questions:
     [sven@rackham3 ~]$ scancel 49311056
     [sven@rackham3 ~]$ 
     ```
+
+- (optional) Schedule a job that takes 1 days, 2 hours, 3 minutes and 4 seconds and cancel it.
+  Use [the Slurm documentation on `sbatch`](https://slurm.schedmd.com/sbatch.html)
+
+???- question "Answer"
+
+    For a job of that length, use `-t 1-2:3:4`:
+
+    ```bash
+    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 -t 1-2:3:4 my_script.sh 
+    Submitted batch job 49311056
+    [sven@rackham3 ~]$ scancel 49311056
+    [sven@rackham3 ~]$ 
+    ```
+
