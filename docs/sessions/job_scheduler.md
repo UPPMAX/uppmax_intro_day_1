@@ -132,6 +132,10 @@ then answer these questions:
 
 - View the project of this course
 
+???- question "Answer"
+
+    Here is how it looks like:
+
     ![The NAISS project of this course](naiss_project_for_this_course.png)
 
 ### Exercise 3: submit a minimal job with Slurm parameters in the command-line
