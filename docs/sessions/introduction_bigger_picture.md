@@ -2,16 +2,23 @@
 
 Here we go look at the bigger picture.
 
-- [UPPMAX Clusters](../sessions/clusters.md)
-- [NAISS](../sessions/naiss.md)
-- [Courses](../sessions/courses.md)
-
-
 ```mermaid
 flowchart TD
-  ides[Using IDEs]
+  naiss[NAISS]
+  supr[SUPR]
+  uppmax[UPPMAX\nOther HPC centers]
+  clusters[Clusters]
+  courses[Courses]
+
+  supr --> |manages\naccess| clusters
+  naiss --> |$| uppmax
+  naiss --> |$| supr
+  uppmax --> |has| clusters
+  uppmax --> |has| courses
 ```
 
 Link                                                                          |Description
 ------------------------------------------------------------------------------|--------------------------------------------------------------------------
-[IDEs](../sessions/ides.md)                                                   |Use an IDE
+[NAISS](../sessions/naiss.md)                                                 |Request for NAISS resources
+[Clusters](../sessions/clusters.md)                                           |Clusters in general and specific to UPPMAX
+[Courses](../sessions/courses.md)                                             |Courses in general and specific to UPPMAX
