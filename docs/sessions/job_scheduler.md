@@ -74,7 +74,7 @@ flowchart TD
 
 ???- question "Need a video?"
 
-    [Here](...) is a video that shows
+    [Here](https://youtu.be/qvBN2686JNE) is a video that shows
     the solution of these exercises
 
 ### Exercise 1: see the job queue
