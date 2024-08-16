@@ -1,4 +1,4 @@
-# scripts
+# Scripts
 
 !!!- info "Learning objectives"
 
@@ -48,7 +48,7 @@ such as loading modules and then running your favorite software.
 
 ???- question "Need a video?"
 
-    [Here](...) is a video that shows
+    [Here](https://youtu.be/yDkV_pQYfgM) is a video that shows
     the solution of these exercises
 
 ### Exercise 1: write a bash script
