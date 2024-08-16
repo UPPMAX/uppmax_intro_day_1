@@ -17,12 +17,14 @@ flowchart TD
   %% style  fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
 
 
+  login[Login in general]
   login_remote_desktop[Login to remote desktop]
   use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]
   file_transfer_filezilla[File transfer\nFileZilla]
   use_ide[Using an IDE]:::not_yet_node
 
   %% GUI
+  login --> login_remote_desktop
   login_remote_desktop ---> use_remote_desktop
   use_remote_desktop --> file_transfer_filezilla
   use_remote_desktop -.-> |modules\ninteractive session| use_ide
