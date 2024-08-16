@@ -83,7 +83,7 @@ Only after loading it will some other tools appear.
 
 ???- question "Need a video?"
 
-    [Here](...) is a video that shows
+    [Here](https://youtu.be/ZuLMoZkGsZk) is a video that shows
     the solution of these exercises
 
 ### Exercise 1: find the software

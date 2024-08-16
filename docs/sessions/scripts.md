@@ -46,7 +46,10 @@ such as loading modules and then running your favorite software.
 
 ## Exercises
 
-[...]
+???- question "Need a video?"
+
+    [Here](...) is a video that shows
+    the solution of these exercises
 
 ### Exercise 1: write a bash script
 

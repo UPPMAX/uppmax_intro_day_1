@@ -72,6 +72,11 @@ flowchart TD
 
 ## Exercises
 
+???- question "Need a video?"
+
+    [Here](...) is a video that shows
+    the solution of these exercises
+
 ### Exercise 1: see the job queue
 
 Go to the UPPMAX documentation at

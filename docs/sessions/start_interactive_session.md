@@ -56,6 +56,11 @@ In this session, we learn how to start an interactive session.
 
 ## Exercises
 
+???- question "Need a video?"
+
+    [Here](...) is a video that shows
+    the solution of these exercises
+
 ### Exercise 1: start and end an interactive session on Rackham
 
 Go to the UPPMAX documentation at
