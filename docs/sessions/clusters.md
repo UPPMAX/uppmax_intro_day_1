@@ -83,7 +83,7 @@ Bianca |Sensitive data
 Rackham|General purpose
 Snowy  |Provides GPUs
 
-- [System usage](https://www.uppmax.uu.se/resources/system-usage/)
+- [System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html)
 - [Other clusters](https://www.uu.se/en/centre/uppmax/resources/clusters)
 - [Storage systems](https://www.uu.se/en/centre/uppmax/resources/storage)
 
