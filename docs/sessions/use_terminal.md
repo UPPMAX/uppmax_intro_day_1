@@ -79,6 +79,11 @@ which is available in both print and online:
 
 ## Exercises
 
+???- question "Need a video?"
+
+    [Here](https://youtu.be/FO-jb7-H0xs) is a video that shows
+    the solution of these exercises
+
 It is assumed you are logged in to the console environment of Rackham
 with a terminal.
 In case you did not get this to work,
@@ -492,47 +497,23 @@ From there:
 To be able to search the web for questions on this graphical text editor,
 its name will be useful to know:
 
-- What is the name of the graphical text editor?
+- What is the name of this text editor?
 
 ???- question "Answer"
 
-    The visual text editor is called 'gedit'. 
-
-     You can see its name in the menu bar at the top:
-
-    ![A file opened with gedit](opened_file.png)
-
-    You can also click on
-    [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button)
-    and click 'Help':
-
-    ![The gedit hamburger menu](gedit_help_about.png)
-
-    This will show you the gedit about screen:
-
-    ![The gedit about screen](gedit_about.png)
+    This text editor is called 'nano'. 
 
 - Save the file. There are multiple ways!
 
-???- question "Answer"
-
-    There are multiple ways, these are among the most conventional:
-
-    - Press `CTRL + S`
-    - Click on the 'Save' button at the top menu bar of gedit
-
-    ![There is a 'Save' button at the top menu bar of gedit](opened_file.png)
-
-- Close gedit. There are multiple ways!
+- Close nano. There are multiple ways!
 
 ???- question "Answer"
 
     These are some of the more conventional ways to close gedit:
 
-    - Click on the `x` at the top-right of the terminal
-    - In the gedit hamburger menu, click 'Quit'
-
-    ![The gedit hamburger menu](gedit_hamburger_menu.png)
+    - Press `CTRL + X` to close. `nano` asks if you want to save the
+      buffer (in this case: the file). Press `Y`. `nano` asks for
+      a filename and shows the current filename. Press enter.
 
 ### Exercise 6: copy-paste text
 
