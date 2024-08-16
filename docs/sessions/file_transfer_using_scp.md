@@ -50,6 +50,11 @@ It works under Linux, Mac and Windows.
 
 ## Exercises
 
+???- question "Need a video?"
+
+    [Here](https://youtu.be/HLIqDnpHjvU) is a video that shows
+    the solution of these exercises
+
 ### Exercise 1: transfer a file
 
 Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
