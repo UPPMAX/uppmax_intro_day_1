@@ -86,6 +86,11 @@ Also, it helps UPPMAX staff find out how good our documentation is :-)
 
 ## Exercises
 
+???- question "Need a video?"
+
+    [Here](https://youtu.be/J6hhEfW8-5w) is a video that shows
+    the solution of these exercises
+
 ### Exercise 1: general understanding
 
 Go to the UPPMAX documentation at
