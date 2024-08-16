@@ -122,7 +122,7 @@ then answer these questions:
 
 - The documentation of how to log in to Rackham states:
   'After logging in, one is on a login node'.
-  Where it is described what a login node?
+  What is a login node? Find it in the UPPMAX documentation
 
 ???- question "Answer"
 

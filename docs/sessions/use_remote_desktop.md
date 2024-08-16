@@ -72,6 +72,11 @@ as maybe you'll be too afraid to ask a colleague later.
 
 ## Exercises
 
+???- question "Need a video?"
+
+    [Here](https://youtu.be/XiPoHNs2SDQ) is a video that shows
+    the solution of these exercises
+
 It is assumed you are logged in to the remote desktop environment of Rackham.
 
 No need to read the documentation here:

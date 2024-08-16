@@ -84,6 +84,11 @@ using a website, as this is easier to do.
 
 ## Exercises
 
+???- question "Need a video?"
+
+    [Here](https://youtu.be/vHlHf7OP8s8) is a video that shows
+    the solution of these exercises
+
 There are two exercises, of which the second is optional.
 
 ### Exercise 1: login via website
