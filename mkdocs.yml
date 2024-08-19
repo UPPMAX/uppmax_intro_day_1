@@ -1,4 +1,4 @@
-site_name: UPPMAX Intro Day 1
+site_name: Intro to UPPMAX Day 1
 
 repo_url: https://github.com/UPPMAX/uppmax_intro_day_1
 
@@ -87,9 +87,5 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-
-
-
 
 

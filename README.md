@@ -1,5 +1,10 @@
 # uppmax_intro_day_1
 
+[![Check links](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_links.yaml)
+[![Check markdown](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_markdown.yaml)
+[![Check spelling](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_spelling.yaml)
+[![Create website](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/create_website.yaml)
+
 Day 1 of the UPPMAX intro course, as taught by Richel.
 
 ## Why this new repository
