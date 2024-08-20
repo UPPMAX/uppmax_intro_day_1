@@ -114,6 +114,11 @@ wikipedia
 IDEs
 slurm
 bioinformaticians
+filezilla
+ide
+mins
+
+
 
 
 
