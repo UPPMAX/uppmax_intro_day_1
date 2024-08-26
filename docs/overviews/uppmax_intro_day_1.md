@@ -11,13 +11,6 @@ flowchart TD
   classDef real_work fill:#dfd, stroke:#0f0
   classDef bigger_picture fill:#dff, stroke:#0ff
 
-  %% subgraph world[The bigger picture]
-    naiss[NAISS]:::bigger_picture
-    supr[SUPR]:::bigger_picture
-    uppmax[UPPMAX\nOther HPC centers]:::bigger_picture
-    clusters[Clusters]:::bigger_picture
-    courses[Courses]:::bigger_picture
-  %% end
   %% subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
     use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]:::basic_gui
@@ -32,6 +25,14 @@ flowchart TD
     modules[Using pre-installed software\nModules]:::real_work
     interactive[Using an interactive session]:::real_work
     job_scheduler[Job scheduler]:::real_work
+  %% end
+
+  %% subgraph world[The bigger picture]
+    naiss[NAISS]:::bigger_picture
+    supr[SUPR]:::bigger_picture
+    uppmax[UPPMAX\nOther HPC centers]:::bigger_picture
+    clusters[Clusters]:::bigger_picture
+    courses[Courses]:::bigger_picture
   %% end
 
   %% Bigger picture
