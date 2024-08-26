@@ -10,7 +10,6 @@ flowchart TD
 
   classDef maybe_not_node stroke-dasharray: 5 5
 
-
   login_ssh[Login with SSH]
   use_terminal[Using a terminal\nNavigation\nFile management\nText editor]
   file_transfer_scp[File transfer\nscp]:::maybe_not_node

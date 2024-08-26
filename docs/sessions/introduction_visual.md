@@ -13,13 +13,13 @@ as it requires using techniques we teach later.
 
 ```mermaid
 flowchart TD
-  classDef not_yet_node stroke-dasharray: 5 5
+  classDef maybe_not_node stroke-dasharray: 5 5
 
   login[Login in general]
   login_remote_desktop[Login to remote desktop]
   use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]
   file_transfer_filezilla[File transfer\nFileZilla]
-  use_ide[Using an IDE]:::not_yet_node
+  use_ide[Using an IDE]:::maybe_not_node
 
   %% GUI
   login --> login_remote_desktop

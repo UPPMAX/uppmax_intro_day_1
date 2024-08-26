@@ -8,11 +8,14 @@ Today, however, we will use it minimally.
 
 ```mermaid
 flowchart TD
+
+  classDef maybe_not_node stroke-dasharray: 5 5
+
   scripts[Create a script]
   modules[Using pre-installed software\nModules]
   interactive[Starting an interactive session]
   job_scheduler[Job scheduler]
-  ides[Using IDEs]
+  ides[Using IDEs]:::maybe_not_node
 
   scripts --> job_scheduler
   modules --> scripts
