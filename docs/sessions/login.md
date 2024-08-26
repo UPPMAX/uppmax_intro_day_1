@@ -88,8 +88,8 @@ Also, it helps UPPMAX staff find out how good our documentation is :-)
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/J6hhEfW8-5w) is a video that shows
-    the solution of these exercises
+    - [Exercise 1](https://youtu.be/eSn0kLkU5Dc)
+    - [Exercise 2](https://youtu.be/J6hhEfW8-5w)
 
 ### Exercise 1: get an UPPMAX 2FA
 
@@ -114,6 +114,8 @@ then answer these questions:
 ???- question "Answer"
 
     A video can be found [here](https://youtu.be/eSn0kLkU5Dc)
+
+Note that it takes 15 minutes before you can use this 2FA.
 
 ### Exercise 2: general understanding
 
