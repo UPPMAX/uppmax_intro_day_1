@@ -91,7 +91,31 @@ Also, it helps UPPMAX staff find out how good our documentation is :-)
     [Here](https://youtu.be/J6hhEfW8-5w) is a video that shows
     the solution of these exercises
 
-### Exercise 1: general understanding
+### Exercise 1: get an UPPMAX 2FA
+
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Where is it is described how to setup a 2FA for UPPMAX?
+
+???- question "Answer"
+
+    At <https://docs.uppmax.uu.se/getting_started/get_uppmax_2fa/>
+
+- Which page does it link to?
+
+???- question "Answer"
+
+    To <https://www.uu.se/en/centre/uppmax/get-started/2-factor>
+
+- Setup your UPPMAX 2FA
+
+???- question "Answer"
+
+    A video can be found [here](https://youtu.be/eSn0kLkU5Dc)
+
+### Exercise 2: general understanding
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
