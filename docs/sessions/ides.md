@@ -46,12 +46,7 @@ an IDE will help
 
 ## Exercises
 
-???- question "Need a video?"
-
-    [Here](...) is a video that shows
-    the solution of these exercises
-
-### Exercise 1: transfer a file
+### Exercise 1: use an IDE on Rackham
 
 Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
 for help.

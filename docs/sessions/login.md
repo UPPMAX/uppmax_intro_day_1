@@ -185,7 +185,7 @@ then answer these questions:
     if it does a light calculation or takes a reasonable short time to run,
     you can run it on a login node.
 
-    Else, you will have to use [the Slurm job scheduler](slurm.md).
+    Else, you will have to use [the Slurm job scheduler](job_scheduler.md).
 
 Done?
 
