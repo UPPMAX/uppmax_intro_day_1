@@ -14,8 +14,6 @@ as it requires using techniques we teach later.
 ```mermaid
 flowchart TD
   classDef not_yet_node stroke-dasharray: 5 5
-  %% style  fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-
 
   login[Login in general]
   login_remote_desktop[Login to remote desktop]

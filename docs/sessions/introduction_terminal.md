@@ -7,16 +7,25 @@ with visual tools.
 
 ```mermaid
 flowchart TD
+
+  classDef maybe_not_node stroke-dasharray: 5 5
+
+
   login_ssh[Login with SSH]
   use_terminal[Using a terminal\nNavigation\nFile management\nText editor]
-  file_transfer_scp[File transfer\nscp]
+  file_transfer_scp[File transfer\nscp]:::maybe_not_node
 
   login_ssh --> use_terminal
-  use_terminal --> file_transfer_scp
+  use_terminal -.-> file_transfer_scp
 ```
 
-Link                                                                          |Description
-------------------------------------------------------------------------------|--------------------------------------------------------------------------
-[Login with SSH](../sessions/login_console.md)                                |Log in to Rackham's console environment
-[Using a terminal](../sessions/use_terminal.md)                               |Using a terminal for exploring the filesystem and do basic file management
-[File transfer using SCP](../sessions/file_transfer_using_scp.md)             |Transfer files from the terminal
+<!-- Indeed, line lengths beyond 80 characters -->
+<!-- markdownlint-disable MD013 -->
+
+Link                                                                              |Description
+----------------------------------------------------------------------------------|--------------------------------------------------------------------------
+[Login with SSH](../sessions/login_console.md)                                    |Log in to Rackham's console environment
+[Using a terminal](../sessions/use_terminal.md)                                   |Using a terminal for exploring the filesystem and do basic file management
+If before 13:30: [File transfer using SCP](../sessions/file_transfer_using_scp.md)|Transfer files from the terminal
+
+<!-- markdownlint-enable MD013 -->
