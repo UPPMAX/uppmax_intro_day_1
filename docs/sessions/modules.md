@@ -27,20 +27,16 @@
 
     ```mermaid
     gantt
-      title Something
+      title Modules
       dateFormat X
       axisFormat %s
       section First hour
-      Course introduction: done, course_intro, 0, 10s
-      Prior : intro, after course_intro, 5s
-      Present: theory_1, after intro, 5s
-      Challenge: crit, exercise_1, after theory_1, 40s
-      Break: crit, milestone, after exercise_1
-      section Second hour
-      Challenge: crit, exercise_2, 0, 10s
-      Feedback: feedback_2, after exercise_2, 10s
-      SLURM: done, slurm, after feedback_2, 25s
-      Break: done, milestone, after slurm
+      Prior : prior, 0, 5s
+      Present: present, after prior, 2s
+      %% It took me 9 mins, here I do that time x2
+      Challenge: crit, challenge, after present, 18s
+      %% Here I use the same time it took me to give feedback
+      Feedback: feedback, after challenge, 9s
     ```
 
     Prior questions:
