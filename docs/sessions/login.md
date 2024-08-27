@@ -49,6 +49,7 @@ tags:
     - How does using an HPC clusters look like?
     - How does one tell the UPPMAX HPC clusters what to do?
     - Who has already logged in to an HPC cluster?
+    - Who has already logged in to Rackham?
 
 ![Rackham](rackham.jpg)
 

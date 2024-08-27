@@ -117,8 +117,8 @@
       fix --> |Done| next
     ```
 
-- Ideally, both learners have a camera and microphone on
-- You will be put into Zoom Breakout rooms, in random pairs.
+- Ideally, all learners have a camera and microphone on
+- You will be put into Zoom Breakout rooms, in random groups.
 - There is no silent room.
 - Ideally, all do the exercises on their own computer,
   yet derive at a shared answer
