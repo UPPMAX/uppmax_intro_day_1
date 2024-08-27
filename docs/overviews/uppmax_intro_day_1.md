@@ -11,16 +11,19 @@ flowchart TD
   classDef real_work fill:#dfd, stroke:#0f0
   classDef bigger_picture fill:#dff, stroke:#0ff
 
+  classDef basic_terminal_maybe_not fill:#ffd, stroke:#ff0, stroke-dasharray: 5 5
+  classDef real_work_maybe_not_node fill:#dfd, stroke:#0f0, stroke-dasharray: 5 5
+
   %% subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
     use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]:::basic_gui
     file_transfer_filezilla[File transfer\nFileZilla]:::basic_gui
-    use_ide[Using an IDE]:::real_work
+    use_ide[Using an IDE]:::real_work_maybe_not_node
   %% end
   %% subgraph console[Console environment]
     login_ssh[Login with SSH]:::basic_terminal
     use_terminal[Using a terminal\nNavigation\nFile management\nText editor]:::basic_terminal
-    file_transfer_scp[File transfer\nscp]:::basic_terminal
+    file_transfer_scp[File transfer\nscp]:::basic_terminal_maybe_not
     scripts[Create a script]:::real_work
     modules[Using pre-installed software\nModules]:::real_work
     interactive[Using an interactive session]:::real_work
