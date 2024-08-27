@@ -9,10 +9,10 @@ flowchart TD
   classDef basic_gui fill:#fdd, stroke:#f00
   classDef basic_terminal fill:#ffd, stroke:#ff0
   classDef real_work fill:#dfd, stroke:#0f0
-  classDef bigger_picture fill:#dff, stroke:#0ff, stroke-dasharray: 5 5
+  classDef bigger_picture fill:#dff, stroke:#044, stroke-dasharray: 5 5
 
-  classDef basic_terminal_maybe_not fill:#ffd, stroke:#ff0, stroke-dasharray: 5 5
-  classDef real_work_maybe_not_node fill:#dfd, stroke:#0f0, stroke-dasharray: 5 5
+  classDef basic_terminal_maybe_not fill:#ffd, stroke:#440, stroke-dasharray: 5 5
+  classDef real_work_maybe_not_node fill:#dfd, stroke:#040, stroke-dasharray: 5 5
 
   %% subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
