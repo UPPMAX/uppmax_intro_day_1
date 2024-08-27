@@ -6,7 +6,42 @@ a god decision. I used the standard exercise setup I've
 been using
 [as on my website on teaching 'Duo's in Breakout rooms'](https://github.com/richelbilderbeek/teaching/blob/master/exercise_procedures/duos_in_breakout_rooms.md).
 
+I am happy how interactive my course was.
+Here you can see the amount of learners in time with a camera on/off:
 
+![](counts.png)
+
+> Learners in my course
+
+Notice how well I was able to maintain having the initial amount of learners
+for an online course, even though I encouraged two learners to leave
+early (and they did), as they already knew the course's content.
+
+Here are similar plots for other courses:
+
+![](other_course_20240822_day_1.png)
+
+> Learners in other course
+
+![](other_course_20240823_day_2.png)
+
+> Learners in another course
+
+![](20240415_n_learners_in_time.png)
+
+> Learners in yet another course
+
+![](20240524_n_learners_in_time.png)
+
+> Learners in yet another course
+
+The learners were quite helpful in helping each other out and I thanked each
+of them that did so, especially if they share their screens.
+
+There were some learners that finished earlier (i.e. they finished
+the exercise of 'interactive', before the other two-thirds of the group
+would start it). I took these learners apart and sent them to the evaluation
+earlier.
 
 
 From the chat:
@@ -26,3 +61,4 @@ From the anonymous feedback (2 responses):
 
 - The course material was very easy to understand and follow. The course had a nice pace for beginners and Richèl Bilderbeek did a great job!
 - Great first day Richèl. Mindful of everyone's time needed for each task. 
+
