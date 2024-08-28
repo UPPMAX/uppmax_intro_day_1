@@ -1,12 +1,34 @@
 # Reflection 2024-08-27
 
+## Conclusion
+
+- I could keep the 17 learners in well
+- All 2 learners that left can be explained, as I encouraged them
+- Group size of 3 is good
+- Exercise procedure at [as on my website on teaching 'Duo's in Breakout rooms'](https://github.com/richelbilderbeek/teaching/blob/master/exercise_procedures/duos_in_breakout_rooms.md)
+  worked well
+- Average confidence was 4 out of 5 of all sessions (including sessions we
+  did not go through)
+- The FileZilla session was weakest, with an average confidence of 4 out of 5
+- The evaluation only gave positive feedback
+
+## Reflection
+
+### General
+
 They day went as good as expected.
+
+I am happy how interactive my course was.
+
+### Group sizes and exercise procedure
+
 I decided to use a group size of 3 people and that was
 a god decision. I used the standard exercise setup I've
 been using
 [as on my website on teaching 'Duo's in Breakout rooms'](https://github.com/richelbilderbeek/teaching/blob/master/exercise_procedures/duos_in_breakout_rooms.md).
 
-I am happy how interactive my course was.
+### Keeping the learners in
+
 Here you can see the amount of learners in time with a camera on/off:
 
 ![](counts.png)
@@ -38,6 +60,8 @@ Here are similar plots for other courses:
 The learners were quite helpful in helping each other out and I thanked each
 of them that did so, especially if they share their screens.
 
+### Time management
+
 There were some learners that finished earlier (i.e. they finished
 the exercise of 'interactive', before the other two-thirds of the group
 would start it). I took these learners apart and sent them to the evaluation
@@ -47,11 +71,12 @@ Also, at the start a colleague came into the course to see if he
 could help. As things were going smoothly, I encouraged him to
 work on other things instead.
 
+### Scheduling
+
 My idea of scheduling was good: I predicted I needed to skip file copying
 with `scp`, which I did with the majority of the group (with a small minority
 in the main room, we did the exercise and I shortly showed the solution).
 We did not reach IDEs, nor did we reach 'The Big Picture'.
-
 
 To improve:
 
@@ -230,6 +255,8 @@ I can transfer files to/from Rackham using FileZilla|5|9
 
 Threshold: 14. Pass: 12. This lesson seems weakest!
 
+Average: (5*9)+(4*3)+(3*3)+(2*1)+(0*1)/17=4.0
+
 question                                               |answer|n
 -------------------------------------------------------|------|---
 I can transfer files to/from Rackham using `scp`|0|2
@@ -243,8 +270,6 @@ Only part of the group did this.
 I conclude that the FileZilla session was weakest.
 
 ## Evaluation results
-
-
 
 From the chat:
 
