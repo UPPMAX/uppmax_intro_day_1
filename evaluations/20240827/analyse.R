@@ -55,3 +55,7 @@ ggplot2::ggplot(t_tidy, ggplot2::aes(x = answer)) +
   )
 
 ggplot2::ggsave(filename = "confidences_per_question.png", width = 6, height = 7)
+
+names(t_tidy)
+
+readr::write_csv(x = dplyr::tally(dplyr::group_by(t_tidy, question, answer)), file = "tally.csv")
