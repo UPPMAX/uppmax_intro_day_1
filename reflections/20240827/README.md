@@ -41,19 +41,19 @@ early (and they did), as they already knew the course's content.
 
 Here are similar plots for other courses:
 
-![](other_course_20240822_day_1.png)
+![Learners in other course](other_course_20240822_day_1.png)
 
 > Learners in other course
 
-![](other_course_20240823_day_2.png)
+![Learners in another course](other_course_20240823_day_2.png)
 
 > Learners in another course
 
-![](20240415_n_learners_in_time.png)
+![Learners in yet another course](20240415_n_learners_in_time.png)
 
 > Learners in yet another course
 
-![](20240524_n_learners_in_time.png)
+![Learners in yet another course](20240524_n_learners_in_time.png)
 
 > Learners in yet another course
 
@@ -87,8 +87,10 @@ To improve:
 
 ## Confidences
 
-- For topics I covered: In the course I continued a session if 4 out of 5 groups were ready.
-  I would expect 80% to have a 4 or 5 ('I have good confidence', 'I can absolutely do this')
+- For topics I covered: In the course I continued a session if '
+  4 out of 5 groups were ready.
+  I would expect 80% to have a 4 or 5 ('I have good confidence', 
+  'I can absolutely do this')
   and 20% to have a 3. If this is lower, I maybe should
   re-evaluate that lesson.
 - For topics I did not cover: I ignore this
@@ -273,19 +275,35 @@ I conclude that the FileZilla session was weakest.
 
 From the chat:
 
-> 11:30:15 From Nauras Daraghmeh To [Teacher] Richèl 'Rea-shell' Bilderbeek(direct message):
-> nt worry, the course material online is really good. i am currently going through it. i will get myself up to date regarding the basics. [...]
+> 11:30:15 From Nauras Daraghmeh To 
+> [Teacher] Richèl 'Rea-shell' Bilderbeek(direct message):
+> Dont worry, the course material online is really good. 
+> i am currently going through it. 
+> i will get myself up to date regarding the basics. [...]
 
 From the survey feedback (5 responses):
 
-- Even though I knew most of the material already as I have been using UPPMAX, Day 1 was fun and interactive and I could ask questions and get answers to how/why things work, which was nice! Richèl's teaching way is interesting, refreshing I would say. He is very friendly and positive with the students and addressing the questions/issues. He also makes you think rather than just provide the answer so that there is a discussion and this can help with remembering what you learn. Overall happy with Day 1.
-- It was a really good introduction for beginner level participants. Great teaching!
-- I really liked that the course started with very basic commands and getting to know how to move around in the remote desktop and the terminal. I think that the time to do the exercises was sufficient and if needed we always got help to overcome any errors occuring. The smaller groups made it also easier to help each other and to all manage to be at the same page.
+- Even though I knew most of the material already as I have been using UPPMAX,
+  Day 1 was fun and interactive and I could ask questions and get answers to 
+  how/why things work, which was nice! Richèl's teaching way is interesting,
+  refreshing I would say. He is very friendly and positive with the students
+  and addressing the questions/issues. He also makes you think rather than just
+  provide the answer so that there is a discussion and this can help with
+  remembering what you learn. Overall happy with Day 1.
+- It was a really good introduction for beginner level participants.
+  Great teaching!
+- I really liked that the course started with very basic commands and getting
+  to know how to move around in the remote desktop and the terminal.
+  I think that the time to do the exercises was sufficient and if needed we
+  always got help to overcome any errors occuring. The smaller groups made it
+  also easier to help each other and to all manage to be at the same page.
 - Thanks a lot for today.
 - It was a good course to start using uppmax. The explanations were clear.
 
 From the anonymous feedback (2 responses):
 
-- The course material was very easy to understand and follow. The course had a nice pace for beginners and Richèl Bilderbeek did a great job!
+- The course material was very easy to understand and follow.
+  The course had a nice pace for beginners
+  and Richèl Bilderbeek did a great job!
 - Great first day Richèl. Mindful of everyone's time needed for each task.
 
