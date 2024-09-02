@@ -24,27 +24,27 @@
 
     There is no silent room, as:
  
-    - (1) working in pairs allows 'Think, Pair, Share' to work; 
-      answering is not personal anymore, 
+    - (1) working in pairs allows 'Think, Pair, Share' to work;
+      answering is not personal anymore,
     - (2) getting the experienced learners to teach makes them learn too,
-    - (3) this does not work well with Zoom assigning random pairs, 
+    - (3) this does not work well with Zoom assigning random pairs,
     - (4) this is not designed to be a self-study course
 
     > When done with the exercises, go back to the main room
 
-    This helps set the pace of the course. 
+    This helps set the pace of the course.
 
-    > Learners that are done will be asked to try to help 
+    > Learners that are done will be asked to try to help
     > the remaining working learners,
     > by joining their breakout rooms
 
-    This helps wisdom to spread. 
+    This helps wisdom to spread.
 
     The majority of learners is keen to help out
-    directly. 
+    directly.
 
     The majority of the remaining learners feel not knowledgeable
-    enough to help out, but is keen to *try to* help out. 
+    enough to help out, but is keen to *try to* help out.
     Remind these learners they are here to learn, and not to already know
     to content.
 
