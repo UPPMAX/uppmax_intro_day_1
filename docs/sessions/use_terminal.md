@@ -126,7 +126,7 @@ What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
 ???- tip "Tips"
 
     - Tip 1: search for 'Linux present working directory command'
-    - Tip 2: scan the 
+    - Tip 2: scan the
       [the 'Navigation' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0020.php)
 
 ???- question "Answer"
@@ -238,7 +238,7 @@ From there:
 
     You output will look similar to this:
 
-    ```
+    ```bash
     [richel@rackham3 ~]$ cp test.txt copy.txt
     [richel@rackham3 ~]$ ls
     bin  copy.txt  GitHubs  glob  lib  private  R  test.txt  users
@@ -262,7 +262,7 @@ From there:
 
     You output will look similar to this:
 
-    ```
+    ```bash
     [richel@rackham3 ~]$ rm copy.txt
     [richel@rackham3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  test.txt  users
@@ -297,7 +297,7 @@ From there:
 
     You output will look similar to this:
 
-    ```
+    ```bash
     [richel@rackham3 ~]$ mv test.txt test2.txt
     [richel@rackham3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  test2.txt  users
@@ -321,7 +321,7 @@ From there:
 
     You output will look similar to this:
 
-    ```
+    ```bash
     [richel@rackham2 ~]$ mkdir my_folder
     [richel@rackham2 ~]$ ls
     bin  GitHubs  glob  lib  my_folder  private  R  test2.txt  users
@@ -339,7 +339,7 @@ From there:
 
 ???- question "What does `cp: omitting directory ‘my_folder’` mean?"
 
-    This happens if you copy non-recursively, i.e. if you forget the `-R` flag. 
+    This happens if you copy non-recursively, i.e. if you forget the `-R` flag.
     You'll see:
 
     ```bash
@@ -362,7 +362,7 @@ From there:
 
     You output will look similar to this:
 
-    ```
+    ```bash
     [richel@rackham2 ~]$ cp -R my_folder my_copy
     [richel@rackham2 ~]$ ls
     bin  GitHubs  glob  lib  my_copy  my_folder  private  R  test2.txt  users
@@ -459,7 +459,7 @@ From there:
 
     These eyes will show up:
 
-    ![](xeyes.png)
+    ![These eyes will show up](xeyes.png)
 
 - Close `xeyes`
 
@@ -497,7 +497,7 @@ its name will be useful to know:
 
 ???- question "Answer"
 
-    This text editor is called 'nano'. 
+    This text editor is called 'nano'.
 
 - Save the file. There are multiple ways!
 
@@ -524,7 +524,7 @@ its name will be useful to know:
 
     Copying from your local computer uses a regular `CTRL + C`.
 
-    How to paste depends on the terminal you use. 
+    How to paste depends on the terminal you use.
     The most common keyboard shortcut is `CTRL + SHIFT + V` for pasting
     into a terminal
 
@@ -533,7 +533,7 @@ its name will be useful to know:
 
 ???- question "Answer"
 
-    How to copy depends on the terminal you use. 
+    How to copy depends on the terminal you use.
     The most common keyboard shortcut is `CTRL + SHIFT + C` for copying
     from a terminal
 

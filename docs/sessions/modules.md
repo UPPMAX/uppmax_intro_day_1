@@ -270,7 +270,7 @@ then answer these questions:
            samtools - use samtools 1.20
           
            Version 1.20
-    ```      
+    ```
 
     <!-- markdownlint-enable MD013 -->
 

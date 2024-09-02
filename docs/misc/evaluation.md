@@ -6,7 +6,7 @@
 
 ???- question "For teachers: what is in that form?"
 
-    Thanks for your feedback. 
+    Thanks for your feedback.
     This feedback will be published as-is at the end of Day 1,
     if and only if there are no personal details (email, address, etc.)
     in the feedback.

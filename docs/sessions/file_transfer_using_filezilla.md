@@ -4,7 +4,7 @@
 
     - Practice using the UPPMAX documentation
     - Can install FileZilla
-    - Can transfer files using FileZilla 
+    - Can transfer files using FileZilla
 
 ???- question "For teachers"
 
@@ -12,7 +12,7 @@
 
     - Learners have practiced using the UPPMAX documentation
     - Learners have installed FileZilla
-    - Learners have transferred files using FileZilla 
+    - Learners have transferred files using FileZilla
 
     Lesson plan:
 

@@ -193,7 +193,7 @@ then answer these questions:
 ???- question "I get an error: 'This does not look like a batch script'"
 
     Like stated at the start of this exercise, the bash script
-    needs to have a shebang. 
+    needs to have a shebang.
 
     Running a script without a shebang such as this:
 
