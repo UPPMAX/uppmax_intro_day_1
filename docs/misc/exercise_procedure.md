@@ -23,7 +23,7 @@
     > There is no silent room.
 
     There is no silent room, as:
- 
+
     - (1) working in pairs allows 'Think, Pair, Share' to work;
       answering is not personal anymore,
     - (2) getting the experienced learners to teach makes them learn too,
@@ -52,15 +52,15 @@
     > will be closed ruthlessly
 
     The parameter value two-thirds is picked as it means that most learners
-    have arrived at the answer. The hope is that the members of a slower 
+    have arrived at the answer. The hope is that the members of a slower
     pair in one iteration will catch up when paired up with other learners.
 
     Closing breakout rooms is not ultra-ruthless: learners still have 1 minute
-    left. But it is a simple and ruthless rule. 
+    left. But it is a simple and ruthless rule.
 
     > Breaks are always on the scheduled time. You will be reminded in that chat
 
-    Breaks are important. 
+    Breaks are important.
 
     > Take that break, either in the main room or in your breakout room.
     > The breakout rooms will not be closed
@@ -199,10 +199,10 @@ flowchart TD
 
 ???- info "Answer"
 
-    Likely: yes, you will have enough time for the exercises. 
+    Likely: yes, you will have enough time for the exercises.
 
     It is likely you are not the only one that
-    has this problem. 
+    has this problem.
     The course follows the pace of the learners,
     hence, we move on to the next session when most learners
     have finished the exercises
@@ -219,7 +219,7 @@ flowchart TD
 
     - Wait
     - Ask questions
-    - Read the next session. 
+    - Read the next session.
       Turn of your camera to indicate you need to concentrate
 
 - I am alone in my Zoom breakout room. What do I do?
