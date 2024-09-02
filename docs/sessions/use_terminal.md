@@ -262,7 +262,7 @@ From there:
 
     You output will look similar to this:
 
-    ```
+    ```bash
     [richel@rackham3 ~]$ rm copy.txt
     [richel@rackham3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  test.txt  users
