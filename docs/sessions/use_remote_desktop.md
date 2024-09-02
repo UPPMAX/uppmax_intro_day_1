@@ -113,7 +113,7 @@ Feel encouraged to explore this new environment too!
     ![The Rackham remote desktop environment with the file explorer open](rackham_remote_desktop_file_explorer.png)
 
     When you started the file explorer, pick the top option 'Open folder'
-    to open up your home folder. 
+    to open up your home folder.
     
     It's full path is `/home/[your UPPMAX username]`, where `[your UPPMAX username]`
     is your UPPMAX username.
@@ -174,11 +174,11 @@ In Thunar:
 
     At the bottom bar of the screen, click the icon for 'Terminal emulator':
 
-    ![](start_terminal.png)
+    ![At the bottom bar of the screen, click the icon for 'Terminal emulator'](start_terminal.png)
 
     You now have started a terminal:
 
-    ![](terminal.png)
+    ![You now have started a terminal](terminal.png)
 
 - From the terminal, start the program `xeyes` by typing `xeyes` and
   press enter,
@@ -187,7 +187,7 @@ In Thunar:
 
     These eyes will show up:
 
-    ![](xeyes.png)
+    ![These eyes will show up](xeyes.png)
 
 - Close the terminal. There are multiple ways!
 
@@ -230,7 +230,7 @@ its name will be useful to know:
 
 ???- question "Answer"
 
-    The visual text editor is called 'gedit'. 
+    The visual text editor is called 'gedit'.
 
      You can see its name in the menu bar at the top:
 

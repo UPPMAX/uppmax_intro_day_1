@@ -126,8 +126,8 @@ then answer these questions:
 
     It is at <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
 
-    You can reach this page by searching for 
-    'Login Rackham' or 'Log in Rackham'. 
+    You can reach this page by searching for
+    'Login Rackham' or 'Log in Rackham'.
 
 - How many environments can one log in to? How do they look like?
 

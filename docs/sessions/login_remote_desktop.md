@@ -125,7 +125,7 @@ then answer these questions:
 
     That is the program's name: ThinLinc
 
-    How to log in to Rackham's remote desktop environment using a local ThinLinc 
+    How to log in to Rackham's remote desktop environment using a local ThinLinc
     client is documented
     [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/)
 
