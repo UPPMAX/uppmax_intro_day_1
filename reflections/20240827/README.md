@@ -31,7 +31,7 @@ been using
 
 Here you can see the amount of learners in time with a camera on/off:
 
-![](counts.png)
+![the amount of learners in time with a camera on/off](counts.png)
 
 > Learners in my course
 
@@ -89,7 +89,7 @@ To improve:
 
 - For topics I covered: In the course I continued a session if '
   4 out of 5 groups were ready.
-  I would expect 80% to have a 4 or 5 ('I have good confidence', 
+  I would expect 80% to have a 4 or 5 ('I have good confidence',
   'I can absolutely do this')
   and 20% to have a 3. If this is lower, I maybe should
   re-evaluate that lesson.
@@ -275,16 +275,16 @@ I conclude that the FileZilla session was weakest.
 
 From the chat:
 
-> 11:30:15 From Nauras Daraghmeh To 
+> 11:30:15 From Nauras Daraghmeh To
 > [Teacher] Richèl 'Rea-shell' Bilderbeek(direct message):
-> Dont worry, the course material online is really good. 
-> i am currently going through it. 
+> Dont worry, the course material online is really good.
+> i am currently going through it.
 > i will get myself up to date regarding the basics. [...]
 
 From the survey feedback (5 responses):
 
 - Even though I knew most of the material already as I have been using UPPMAX,
-  Day 1 was fun and interactive and I could ask questions and get answers to 
+  Day 1 was fun and interactive and I could ask questions and get answers to
   how/why things work, which was nice! Richèl's teaching way is interesting,
   refreshing I would say. He is very friendly and positive with the students
   and addressing the questions/issues. He also makes you think rather than just
