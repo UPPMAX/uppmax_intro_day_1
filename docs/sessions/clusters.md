@@ -60,9 +60,9 @@ Each node has, among others, several CPUs (called 'cores') and RAM.
 
 ```mermaid
 flowchart TD
-  cluster[Cluster\n'a group of computers']
-  node[Node\n'a computer']
-  core[Core\n'a CPU']
+  cluster[Cluster: 'a group of computers']
+  node[Node: 'a computer']
+  core[Core: 'a CPU']
 
   cluster --> |has many| node
   node --> |has many| core

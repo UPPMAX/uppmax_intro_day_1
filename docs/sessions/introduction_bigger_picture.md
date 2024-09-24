@@ -6,7 +6,7 @@ Here we go look at the bigger picture.
 flowchart TD
   naiss[NAISS]
   supr[SUPR]
-  uppmax[UPPMAX\nOther HPC centers]
+  uppmax[UPPMAX, other HPC centers]
   clusters[Clusters]
   courses[Courses]
 

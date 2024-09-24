@@ -12,7 +12,7 @@ flowchart TD
   classDef maybe_not_node stroke-dasharray: 5 5
 
   scripts[Create a script]
-  modules[Using pre-installed software\nModules]
+  modules[Using pre-installed software: modules]
   interactive[Starting an interactive session]
   job_scheduler[Job scheduler]
   ides[Using IDEs]:::maybe_not_node
