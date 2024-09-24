@@ -16,16 +16,16 @@ flowchart TD
 
   %% subgraph remote_desktop[Remote desktop environment]
     login_remote_desktop[Login to remote desktop]:::basic_gui
-    use_remote_desktop[Using the remote desktop\nNavigation\nFile management\nText editor]:::basic_gui
-    file_transfer_filezilla[File transfer\nFileZilla]:::basic_gui
+    use_remote_desktop[Using the remote desktop, navigation, file management, text editor]:::basic_gui
+    file_transfer_filezilla[File transfer using FileZilla]:::basic_gui
     use_ide[Using an IDE]:::real_work_maybe_not_node
   %% end
   %% subgraph console[Console environment]
     login_ssh[Login with SSH]:::basic_terminal
-    use_terminal[Using a terminal\nNavigation\nFile management\nText editor]:::basic_terminal
-    file_transfer_scp[File transfer\nscp]:::basic_terminal_maybe_not
+    use_terminal[Using a terminal, navigation, file management, text editor]:::basic_terminal
+    file_transfer_scp[File transfer using scp]:::basic_terminal_maybe_not
     scripts[Create a script]:::real_work
-    modules[Using pre-installed software\nModules]:::real_work
+    modules[Using pre-installed software: modules]:::real_work
     interactive[Using an interactive session]:::real_work
     job_scheduler[Job scheduler]:::real_work
   %% end
@@ -33,13 +33,13 @@ flowchart TD
   %% subgraph world[The bigger picture]
     naiss[NAISS]:::bigger_picture
     supr[SUPR]:::bigger_picture
-    uppmax[UPPMAX\nOther HPC centers]:::bigger_picture
+    uppmax[UPPMAX, other HPC centers]:::bigger_picture
     clusters[Clusters]:::bigger_picture
     courses[Courses]:::bigger_picture
   %% end
 
   %% Bigger picture
-  supr --> |manages\naccess| clusters
+  supr --> |manages access| clusters
   naiss --> |$| uppmax
   naiss --> |$| supr
   uppmax --> |has| clusters

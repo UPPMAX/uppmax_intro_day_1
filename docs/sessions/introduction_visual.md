@@ -25,7 +25,7 @@ flowchart TD
   login --> login_remote_desktop
   login_remote_desktop ---> use_remote_desktop
   use_remote_desktop --> file_transfer_filezilla
-  use_remote_desktop -.-> |modules\ninteractive session| use_ide
+  use_remote_desktop -.-> |modules, interactive session| use_ide
 ```
 
 Link                                                                          |Description

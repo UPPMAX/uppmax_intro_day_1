@@ -10,7 +10,7 @@ flowchart TD
   clusters[Clusters]
   courses[Courses]
 
-  supr --> |manages\naccess| clusters
+  supr --> |manages access| clusters
   naiss --> |$| uppmax
   naiss --> |$| supr
   uppmax --> |has| clusters
