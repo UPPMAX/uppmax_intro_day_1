@@ -1,4 +1,4 @@
-#!/bin/env Rstudio
+#!/bin/env Rscript
 
 t <- readr::read_csv("survey.csv")
 t$Timestamp <- NULL
