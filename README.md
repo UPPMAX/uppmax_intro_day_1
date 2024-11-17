@@ -33,7 +33,7 @@ Credits go to:
 
 ## Files used by continuous integration scripts
 
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 Filename                                  |Descriptions
 ------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------
