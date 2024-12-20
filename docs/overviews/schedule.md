@@ -1,3 +1,8 @@
+---
+tags:
+  - schedule
+---
+
 # Schedule
 
 <!-- Indeed, line lengths beyond 80 characters -->

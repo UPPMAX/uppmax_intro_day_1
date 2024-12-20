@@ -1,3 +1,8 @@
+---
+tags:
+  - evaluations
+---
+
 # Evaluations
 
 The course's evaluations.

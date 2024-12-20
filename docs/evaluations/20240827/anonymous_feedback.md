@@ -1,3 +1,9 @@
+---
+tags:
+  - feedback
+  - 2024-08-27
+---
+
 # Anonymous feedback 2024-08-27
 
 ![Screenshot of 2024-08-27 anonymous feedback](screenshot_anonymous_feedback.png)

@@ -1,3 +1,9 @@
+---
+tags:
+  - Richel
+  - Richèl
+---
+
 # Richèl
 
 See Richèl's name's pronunciation

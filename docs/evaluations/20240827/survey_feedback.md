@@ -1,3 +1,10 @@
+---
+tags:
+  - feedback
+  - survey
+  - 2024-08-27
+---
+
 # Survey feedback 2024-08-27
 
 These are the evaluation questions. The goals of these questions is to find out how successful the course is in achieving its teaching goals.

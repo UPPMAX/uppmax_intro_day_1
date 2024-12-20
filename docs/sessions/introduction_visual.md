@@ -1,3 +1,9 @@
+---
+tags:
+  - lesson
+  - visual tools
+---
+
 # Basic use with visual tools introduction
 
 Here we start using Rackham.

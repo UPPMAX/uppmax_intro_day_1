@@ -1,3 +1,12 @@
+---
+tags:
+  - lesson
+  - login
+  - log in
+  - terminal
+  - console
+---
+
 # Login via a terminal
 
 !!!- info "Learning objectives"

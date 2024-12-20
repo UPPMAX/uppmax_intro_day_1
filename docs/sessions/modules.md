@@ -1,3 +1,10 @@
+---
+tags:
+  - lesson
+  - module
+  - system
+---
+
 # The module system
 
 !!!- info "Learning objectives"

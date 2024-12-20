@@ -1,3 +1,11 @@
+---
+tags:
+  - faq
+  - FAQ
+  - frequently asked questions
+  - questions
+---
+
 # FAQ
 
 ## Why this new repository?

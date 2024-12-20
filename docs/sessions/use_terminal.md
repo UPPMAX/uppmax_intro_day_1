@@ -1,3 +1,12 @@
+---
+tags:
+  - lesson
+  - console environment
+  - use
+  - usage
+  - terminal
+---
+
 # Use the console environment
 
 !!!- info "Learning objectives"

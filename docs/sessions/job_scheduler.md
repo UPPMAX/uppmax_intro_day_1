@@ -1,3 +1,10 @@
+---
+tags:
+  - lesson
+  - job
+  - scheduler
+---
+
 # The job scheduler
 
 !!!- info "Learning objectives"

@@ -1,3 +1,11 @@
+---
+tags:
+  - project
+  - NAISS
+  - code
+  - naiss
+---
+
 # Project
 
 This is the NAISS code for the UPPMAX project of this course:

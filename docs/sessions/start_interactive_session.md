@@ -1,3 +1,9 @@
+---
+tags:
+  - lesson
+  - interactive session
+---
+
 # Start interactive session
 
 !!!- info "Learning objectives"

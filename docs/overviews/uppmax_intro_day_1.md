@@ -1,3 +1,11 @@
+---
+tags:
+  - lesson
+  - UPPMAX
+  - intro
+  - day 1
+---
+
 # UPPMAX Intro Day 1
 
 <!-- Indeed, line lengths beyond 80 characters -->

@@ -1,3 +1,12 @@
+---
+tags:
+  - lesson
+  - cluster
+  - node
+  - core
+  - job
+---
+
 # Clusters
 
 !!!- info "Learning objectives"

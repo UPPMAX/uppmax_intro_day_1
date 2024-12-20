@@ -1,3 +1,9 @@
+---
+tags:
+  - evaluation
+  - 2024-08-27
+---
+
 # Evaluation 2024-08-27
 
 ![All confidences combined](all_confidences.png)

@@ -1,3 +1,10 @@
+---
+tags:
+  - acknowledgements
+  - credits
+  - contributors
+---
+
 # Acknowledgements
 
 Credits go to:

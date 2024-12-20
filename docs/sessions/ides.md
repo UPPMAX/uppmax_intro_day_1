@@ -1,3 +1,10 @@
+---
+tags:
+  - lesson
+  - IDE
+  - interactive development environment
+---
+
 # IDEs
 
 !!!- info "Learning objectives"

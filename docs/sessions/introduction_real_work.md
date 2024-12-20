@@ -1,3 +1,9 @@
+---
+tags:
+  - lesson
+  - real work
+---
+
 # Doing real work
 
 Here we start doing real work: setting Rackham to work!

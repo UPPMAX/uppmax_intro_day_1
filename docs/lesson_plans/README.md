@@ -1,3 +1,8 @@
+---
+tags:
+  - lesson plans
+---
+
 # Lesson plans
 
 The course's lesson plans, as prepared by its teachers

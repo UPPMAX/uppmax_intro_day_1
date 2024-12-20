@@ -1,3 +1,9 @@
+---
+tags:
+  - lesson
+  - bigger picture
+---
+
 # The bigger picture
 
 Here we go look at the bigger picture.

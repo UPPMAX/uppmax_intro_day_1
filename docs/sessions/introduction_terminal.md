@@ -1,3 +1,10 @@
+---
+tags:
+  - lesson
+  - terminal
+  - basic
+---
+
 # Basic use from a terminal
 
 Here we start using Rackham from a terminal.

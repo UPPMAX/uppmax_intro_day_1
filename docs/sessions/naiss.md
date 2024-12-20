@@ -1,3 +1,9 @@
+---
+tags:
+  - lesson
+  - NAISS
+---
+
 # NAISS
 
 !!!- info "Learning objectives"

@@ -1,5 +1,6 @@
 ---
 tags:
+  - lesson
   - login
   - log in
 ---

@@ -1,3 +1,9 @@
+---
+tags:
+  - lesson
+  - remote desktop environment
+---
+
 # Use the remote desktop environment
 
 !!!- info "Learning objectives"

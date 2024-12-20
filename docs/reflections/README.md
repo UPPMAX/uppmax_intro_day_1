@@ -1,3 +1,8 @@
+---
+tags:
+  - reflections
+---
+
 # Reflections
 
 The course's reflections, as done by its teachers

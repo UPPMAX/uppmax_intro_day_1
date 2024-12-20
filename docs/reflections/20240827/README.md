@@ -1,3 +1,9 @@
+---
+tags:
+  - reflection
+  - 2024-08-27
+---
+
 # Reflection 2024-08-27
 
 ## Conclusion

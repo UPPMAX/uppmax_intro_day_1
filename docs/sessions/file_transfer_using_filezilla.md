@@ -1,3 +1,10 @@
+---
+tags:
+  - lesson
+  - file transfer
+  - FileZilla
+---
+
 # File transfer using FileZilla
 
 !!!- info "Learning objectives"

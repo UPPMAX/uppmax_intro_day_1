@@ -1,3 +1,10 @@
+---
+tags:
+  - lesson
+  - UPPMAX
+  - intro
+---
+
 # UPPMAX intro
 
 Here is an overview of [Introduction to UPPMAX](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/introduction-to-uppmax):

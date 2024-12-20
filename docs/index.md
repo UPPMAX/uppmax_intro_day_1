@@ -1,3 +1,8 @@
+---
+tags:
+  - welcome
+---
+
 # Welcome to UPPMAX Intro Day 1
 
 ![The UPPMAX logo](uppmax_logo.png)

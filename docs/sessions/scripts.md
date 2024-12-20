@@ -1,3 +1,9 @@
+---
+tags:
+  - lesson
+  - scripts
+---
+
 # Scripts
 
 !!!- info "Learning objectives"
