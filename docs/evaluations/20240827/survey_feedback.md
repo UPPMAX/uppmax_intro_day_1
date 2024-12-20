@@ -1,4 +1,4 @@
-# Survey feedback
+# Survey feedback 2024-08-27
 
 These are the evaluation questions. The goals of these questions is to find out how successful the course is in achieving its teaching goals.
 
@@ -43,7 +43,7 @@ Give you confidence levels of the following statements below:
 
 ## Any feedback?
 
-![](survey_feedback.png)
+![2024-08-27 survey feedback](survey_feedback.png)
 
 5 responses
 
@@ -54,4 +54,4 @@ Thanks a lot for today.
 It was a good course to start using uppmax. The explanations were clear.
 
 
-![](screenshot_survey_feedback.png)
+![Screenshot of 2024-08-27 survey feedback](screenshot_survey_feedback.png)
