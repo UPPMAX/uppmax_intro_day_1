@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Do not check raw evaluation results
-        run: rm evaluations/20240827/survey_feedback.md
+        run: rm docs/evaluations/20240827/survey_feedback.md
 
       - uses: igsekor/pyspelling-any@v1.0.4
 
