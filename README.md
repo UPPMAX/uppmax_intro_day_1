@@ -9,27 +9,7 @@
 
 <!-- markdownlint-enable MD013 -->
 
-Day 1 of the UPPMAX intro course, as taught by Richel.
-
-## Why this new repository
-
-It uses the same content as <https://github.com/UPPMAX/uppmax_intro>,
-yet with ...
-
-- the same layout as <https://github.com/UPPMAX/UPPMAX-documentation>
-- more focus on re-using the content of <https://github.com/UPPMAX/uppmax_intro>,
-  possibly by merging wisdom from <https://github.com/UPPMAX/uppmax_intro>
-  to the UPPMAX documentation
-- more focus on exercises
-
-This has been discussed with the main contributor to <https://github.com/UPPMAX/uppmax_intro>.
-
-## Credits
-
-Credits go to:
-
-- [The 'UPPMAX/uppmax_intro' contributors](https://github.com/UPPMAX/uppmax_intro/graphs/contributors)
-- [The 'UPPMAX/UPPMAX-documentation' contributors](https://github.com/UPPMAX/UPPMAX-documentation/graphs/contributors)
+[Go to the nicely rendered version of this website](https://uppmax.github.io/uppmax_intro_day_1/).
 
 ## Files used by continuous integration scripts
 

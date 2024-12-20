@@ -33,9 +33,16 @@ nav:
     - UPPMAX courses: sessions/courses.md
   - Misc:
     - About Richel: misc/richel.md
+    - Acknowledgements: misc/acknowledgements.md
+    - Code of conduct: CODE_OF_CONDUCT.md
+    - Contributing: CONTRIBUTING.md
     - Evaluation: misc/evaluation.md
+    - Evaluations: evaluations/README.md
+    - FAQ: misc/faq.md
+    - Lesson plans: lesson_plans/README.md
     - Exercise procedure: misc/exercise_procedure.md
     - Project: misc/project.md
+    - Reflections: reflections/README.md
 
 theme:
   name: material
