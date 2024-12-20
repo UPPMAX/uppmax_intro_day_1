@@ -11,7 +11,7 @@ tags:
 - I could keep the 17 learners in well
 - All 2 learners that left can be explained, as I encouraged them
 - Group size of 3 is good
-- Exercise procedure at [as on my website on teaching 'Duo's in Breakout rooms'](https://github.com/richelbilderbeek/teaching/blob/master/exercise_procedures/duos_in_breakout_rooms.md)
+- Exercise procedure at [as on my website on teaching 'Duo's in Breakout rooms'](https://richelbilderbeek.github.io/teaching/exercise_procedures/duos_in_breakout_rooms/)
   worked well
 - Average confidence was 4 out of 5 of all sessions (including sessions we
   did not go through)
@@ -31,7 +31,7 @@ I am happy how interactive my course was.
 I decided to use a group size of 3 people and that was
 a god decision. I used the standard exercise setup I've
 been using
-[as on my website on teaching 'Duo's in Breakout rooms'](https://github.com/richelbilderbeek/teaching/blob/master/exercise_procedures/duos_in_breakout_rooms.md).
+[as on my website on teaching 'Duo's in Breakout rooms'](https://richelbilderbeek.github.io/teaching/exercise_procedures/duos_in_breakout_rooms/).
 
 ### Keeping the learners in
 
