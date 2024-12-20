@@ -1,9 +1,12 @@
 ---
 tags:
   - schedule
+  - next course
 ---
 
 # Schedule
+
+Next course: Monday February 10.
 
 <!-- Indeed, line lengths beyond 80 characters -->
 <!-- markdownlint-disable MD013 -->

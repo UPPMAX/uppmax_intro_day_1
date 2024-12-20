@@ -117,8 +117,7 @@ bioinformaticians
 filezilla
 ide
 mins
-
-
-
-
-
+acknowledgements
+Acknowledgements
+CoC
+md
