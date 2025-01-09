@@ -6,7 +6,7 @@ tags:
 
 # Schedule
 
-Next course: Monday February 10.
+Next course: Monday February 10 2025.
 
 <!-- Indeed, line lengths beyond 80 characters -->
 <!-- markdownlint-disable MD013 -->
