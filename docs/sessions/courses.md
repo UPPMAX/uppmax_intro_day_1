@@ -6,4 +6,4 @@ tags:
 
 # Courses and workshops
 
-See [the UPPMAX doc](https://docs.uppmax.uu.se/workshops_courses/workshops_courses/)
+See [the UPPMAX doc](https://docs.uppmax.uu.se/courses_workshops/courses_workshops/)
