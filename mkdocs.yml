@@ -4,11 +4,10 @@ repo_url: https://github.com/UPPMAX/uppmax_intro_day_1
 edit_uri: blob/main/docs/
 
 nav:
-  - Home: index.md
-  - Overviews:
-    - Schedule: overviews/schedule.md
-    - UPPMAX Intro: overviews/uppmax_intro.md
-    - UPPMAX Intro Day 1: overviews/uppmax_intro_day_1.md
+  - Start: index.md
+  - Prerequisites: prereqs/README.md
+  - Course dates: course_dates.md
+  - Schedule: schedule.md
   - Basic use with visual tools:
     - Introduction: sessions/introduction_visual.md
     - Login in general: sessions/login.md
@@ -44,6 +43,8 @@ nav:
     - Exercise procedure: misc/exercise_procedure.md
     - Project: misc/project.md
     - Reflections: reflections/README.md
+    - UPPMAX Intro overview: overviews/uppmax_intro.md
+    - UPPMAX Intro Day 1 overview: overviews/uppmax_intro_day_1.md
 
 theme:
   name: material
