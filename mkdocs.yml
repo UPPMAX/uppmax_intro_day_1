@@ -26,14 +26,10 @@ nav:
     - The job scheduler: sessions/job_scheduler.md
     - Start an interactive session: sessions/start_interactive_session.md
     - Using an IDE: sessions/ide.md
-  - The bigger picture:
-    - Introduction: sessions/introduction_bigger_picture.md
-    - NAISS: sessions/naiss.md
-    - Clusters: sessions/clusters.md
-    - UPPMAX courses: sessions/courses.md
   - Misc:
     - About Richel: misc/richel.md
     - Acknowledgements: misc/acknowledgements.md
+    - Clusters: sessions/clusters.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
     - Evaluation: misc/evaluation.md
@@ -41,20 +37,23 @@ nav:
     - FAQ: misc/faq.md
     - Lesson plans: lesson_plans/README.md
     - Exercise procedure: misc/exercise_procedure.md
+    - NAISS: sessions/naiss.md
     - Project: misc/project.md
     - Reflections: reflections/README.md
+    - The bigger picture: sessions/introduction_bigger_picture
+    - UPPMAX courses: sessions/courses.md
     - UPPMAX Intro overview: overviews/uppmax_intro.md
     - UPPMAX Intro Day 1 overview: overviews/uppmax_intro_day_1.md
 
 theme:
   name: material
-  greetings: Welcome to UPPMAX Intro Day 1
+  greetings: Welcome to Intro to UPPMAX Day 1
   font:
     text: Lato
     code: JetBrains Mono
-
   logo: assets/logo_color.png
-
+  palette:
+    primary: red
   features:
     - toc.integrate
     - navigation.tabs
