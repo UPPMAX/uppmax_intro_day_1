@@ -32,7 +32,7 @@ nav:
     - Clusters: sessions/clusters.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
-    - Evaluation: misc/evaluation.md
+    - Evaluation: evaluation.md
     - Evaluations: evaluations/README.md
     - FAQ: faq.md
     - Lesson plans: lesson_plans/README.md
