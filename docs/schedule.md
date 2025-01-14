@@ -1,15 +1,24 @@
 ---
 tags:
   - schedule
-  - next course
+  - timetable
 ---
 
 # Schedule
 
-Next course date: Monday February 10 2025.
+!!! info "The course is learner-centered"
 
-<!-- Indeed, line lengths beyond 80 characters -->
-<!-- markdownlint-disable MD013 -->
+    The course is learner-centered. This means that the pace is determined
+    be the learners (i.e. not by the clock).
+    The breaks are always on the time specified.
+
+    ???- question "Why is the course learner-centered?"
+
+        See [the frequently asked questions](faq.md)
+
+???- question "What are the course dates?"
+
+    See [the course dates](course_dates.md).
 
 When       |Who|What
 -----------|---|-----------------
@@ -28,3 +37,7 @@ When       |Who|What
 15:45-16:00|R  |[Evaluation](../misc/evaluation.md)
 
 <!-- markdownlint-enable MD013 -->
+
+
+
+
