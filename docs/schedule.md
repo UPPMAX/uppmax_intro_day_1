@@ -36,5 +36,7 @@ When       |Who|What
 15:15-15:45|R  |[Doing real work](sessions/introduction_real_work.md) 2/2
 15:45-16:00|R  |[Evaluation](evaluation.md)
 
+- Teachers are: `R`: Richèl Bilderbeek
+
 <!-- markdownlint-enable MD013 -->
 
