@@ -14,7 +14,7 @@ tags:
 
     ???- question "Why is the course learner-centered?"
 
-        See [the frequently asked questions](faq.md)
+        See [the frequently asked questions](faq/README.md)
 
 ???- question "What are the course dates?"
 

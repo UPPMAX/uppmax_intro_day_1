@@ -16,8 +16,8 @@ From [the course registration page](https://github.com/UPPMAX/UPPMAX-documentati
 
 ???- question "How can I check if I have done these steps?"
 
-    - See the [Frequently Asked Questions section](faq.md)
+    - See the [Frequently Asked Questions section](faq/README.md)
 
 ???- question "What if I have another question?"
 
-    - See the [Frequently Asked Questions section](faq.md)
+    - See the [Frequently Asked Questions section](faq/README.md)
