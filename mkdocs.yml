@@ -53,7 +53,7 @@ theme:
     code: JetBrains Mono
   logo: assets/logo_color.png
   palette:
-    primary: red
+    primary: grey
   features:
     - toc.integrate
     - navigation.tabs
