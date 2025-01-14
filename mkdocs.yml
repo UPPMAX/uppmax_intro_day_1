@@ -5,7 +5,7 @@ edit_uri: blob/main/docs/
 
 nav:
   - Start: index.md
-  - Prerequisites: prereqs.md
+  - Prerequisites: prereqs/README.md
   - Course dates: course_dates.md
   - Schedule: schedule.md
   - Basic use with visual tools:
@@ -68,6 +68,9 @@ theme:
     - content.tabs.link
     - content.action.edit
     - content.action.view
+    
+extra_css:
+  - stylesheets/extra.css
       
 markdown_extensions:
   - toc:
