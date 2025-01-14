@@ -5,6 +5,8 @@ tags:
 
 # Welcome to UPPMAX Intro Day 1
 
+[![DOI](https://zenodo.org/badge/808091302.svg)](https://doi.org/10.5281/zenodo.14645146)
+
 ![The UPPMAX logo](uppmax_logo.png)
 
 [Prerequisites](prereqs.md){ .md-button .md-button--primary }
