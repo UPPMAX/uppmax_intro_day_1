@@ -75,7 +75,7 @@ when you leave early :-)
 
 ### What are the prerequisites for following this course?
 
-See [prerequisites](prereqs/README.md).
+See [prerequisites](prereqs.md).
 
 ### Why are there so many prerequisites?"
 

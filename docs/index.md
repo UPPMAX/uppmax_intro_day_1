@@ -7,7 +7,7 @@ tags:
 
 ![The UPPMAX logo](uppmax_logo.png)
 
-[Prerequisites](prereqs/README.md){ .md-button .md-button--primary }
+[Prerequisites](prereqs.md){ .md-button .md-button--primary }
 [Course dates](course_dates.md){ .md-button .md-button--primary }
 [Schedule](schedule.md){ .md-button .md-button--primary }
 [Basic use with visual tools](sessions/introduction_visual.md){: .md-button .md-button--primary }
