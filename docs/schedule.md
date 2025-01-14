@@ -38,6 +38,3 @@ When       |Who|What
 
 <!-- markdownlint-enable MD013 -->
 
-
-
-
