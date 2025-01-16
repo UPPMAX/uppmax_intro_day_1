@@ -29,6 +29,9 @@
       "pattern": "^https://www.c3se.chalmers.se/documentation/remote-vscode/$"
     },
     {
+      "pattern": "^https://visible-learning.org/hattie-ranking-influences-effect-sizes-learning-achievement/$"
+    },
+    {
       "pattern": "^http://hostname:8888$"
     }
   ]
