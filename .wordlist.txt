@@ -123,4 +123,9 @@ CoC
 md
 Routledge
 UPPMAX's
-
+DOI
+lmod
+prereqs
+sbatch
+scancel
+squeue
