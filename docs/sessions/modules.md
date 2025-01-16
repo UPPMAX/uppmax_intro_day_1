@@ -3,6 +3,8 @@ tags:
   - lesson
   - module
   - system
+  - lmod
+  - software
 ---
 
 # The module system

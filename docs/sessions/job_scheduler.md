@@ -3,6 +3,11 @@ tags:
   - lesson
   - job
   - scheduler
+  - Slurm
+  - sbatch
+  - SLURM
+  - squeue
+  - scancel
 ---
 
 # The job scheduler

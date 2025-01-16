@@ -3,6 +3,8 @@ tags:
   - lesson
   - IDE
   - interactive development environment
+  - programming
+  - program
 ---
 
 # IDEs

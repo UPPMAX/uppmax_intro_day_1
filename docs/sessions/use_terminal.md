@@ -5,6 +5,7 @@ tags:
   - use
   - usage
   - terminal
+  - command-line
 ---
 
 # Use the console environment

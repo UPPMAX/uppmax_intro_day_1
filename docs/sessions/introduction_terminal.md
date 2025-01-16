@@ -3,6 +3,10 @@ tags:
   - lesson
   - terminal
   - basic
+  - terminal
+  - use
+  - console
+  - command-line
 ---
 
 # Basic use from a terminal

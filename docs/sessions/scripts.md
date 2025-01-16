@@ -2,6 +2,7 @@
 tags:
   - lesson
   - scripts
+  - scripting
 ---
 
 # Scripts

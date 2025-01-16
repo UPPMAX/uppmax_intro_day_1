@@ -2,6 +2,8 @@
 tags:
   - lesson
   - real work
+  - overview
+  - introduction
 ---
 
 # Doing real work

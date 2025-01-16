@@ -2,6 +2,8 @@
 tags:
   - lesson
   - visual tools
+  - introduction
+  - overview
 ---
 
 # Basic use with visual tools introduction

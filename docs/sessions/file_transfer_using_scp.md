@@ -4,6 +4,8 @@ tags:
   - file transfer
   - scp
   - SCP
+  - secure
+  - copy
 ---
 
 # File transfer using `scp`

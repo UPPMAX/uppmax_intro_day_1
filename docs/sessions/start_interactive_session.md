@@ -1,7 +1,9 @@
 ---
 tags:
   - lesson
-  - interactive session
+  - interactive
+  - session
+  - node
 ---
 
 # Start interactive session

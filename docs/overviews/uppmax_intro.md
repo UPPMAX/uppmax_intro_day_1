@@ -3,11 +3,12 @@ tags:
   - lesson
   - UPPMAX
   - intro
+  - overview
 ---
 
 # UPPMAX intro
 
-Here is an overview of [Introduction to UPPMAX](https://www.uu.se/en/centre/uppmax/study/courses-and-workshops/introduction-to-uppmax):
+Here is an overview of [Introduction to UPPMAX](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/):
 
 ```mermaid
 flowchart TD
@@ -25,16 +26,10 @@ flowchart TD
     bash_2[Bash 2]
     slurm_2[Slurm 2]
   end
-  subgraph day_4[Day 4]
-    python[Python]
-  end
 
   bash_1 --> bash_2
   linux_1 --> linux_2  
 
   linux_2 --> bash_2
   slurm_1 --> slurm_2
-
-  bash_2 --> python
-  slurm_2 --> python
 ```

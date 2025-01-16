@@ -1,7 +1,12 @@
 ---
 tags:
   - lesson
-  - remote desktop environment
+  - remote
+  - desktop
+  - environment
+  - use
+  - usage
+  - graphical
 ---
 
 # Use the remote desktop environment

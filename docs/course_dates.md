@@ -15,8 +15,8 @@ tags:
 
     - [Shared document for teaching dates](https://hackmd.io/@UPPMAX/uppmax-training-events)
 
-Week|Date                  |Times
-----|----------------------|-----------
+Week|Date                   |Times
+----|-----------------------|-----------
 7   |Monday February 10 2025|9:00-16:00
 
 ???- question "Are there no more course dates?"

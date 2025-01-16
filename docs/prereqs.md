@@ -3,6 +3,7 @@ tags:
   - prerequisites
   - requirements
   - preparation
+  - prereqs
 ---
 
 # Prerequisites

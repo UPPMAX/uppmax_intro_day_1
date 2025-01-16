@@ -4,6 +4,9 @@ tags:
   - UPPMAX
   - intro
   - day 1
+  - overview
+  - today
+  - this day
 ---
 
 # UPPMAX Intro Day 1
