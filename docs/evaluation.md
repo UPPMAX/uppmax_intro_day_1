@@ -9,9 +9,14 @@ tags:
 
 # Evaluation
 
+???- question "Where can I find the results of past evaluations?"
+
+    See [Evaluations](evaluations/README.md) (plural)
+    for the results of past evaluations.
+
 ## Evaluation forms
 
-- [Any feedback during the day](https://forms.gle/daP1v8NpYduiHoaj6)
+- Any feedback during the day: [TODO](https://github.com/UPPMAX/uppmax_intro_day_1/issues/4)
 
 ???- question "For teachers: what is in that form?"
 
@@ -21,7 +26,7 @@ tags:
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- [Evaluation questions](https://forms.gle/Kf1DUoxDnkJDNJvJ8)
+- Evaluation questions: [TODO](https://github.com/UPPMAX/uppmax_intro_day_1/issues/5)
 
 ???- question "For teachers: what is in that form?"
 

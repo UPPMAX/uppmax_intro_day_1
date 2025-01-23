@@ -6,8 +6,9 @@ tags:
 
 # Schedule
 
-
-> Great first day Richèl. Mindful of everyone's time needed for each task.
+> Mindful of everyone's time needed for each task.
+>
+> A learner from this course ([source](evaluations/20240827/anonymous_feedback.md))
 
 !!! info "The course is learner-centered"
 
