@@ -6,6 +6,13 @@ tags:
 
 # Evaluation 2024-08-27
 
+## Feedback
+
+- Anonymous feedback, collected during the day: [anonymous_feedback.md](anonymous_feedback.md)
+- Survey feedback, collected with the confidences: [survey_feedback.md](survey_feedback.md)
+
+## Confidences
+
 ![All confidences combined](all_confidences.png)
 
 > All confidences
@@ -86,4 +93,5 @@ I can transfer files to/from Rackham using `scp`|1|1
 I can transfer files to/from Rackham using `scp`|3|4
 I can transfer files to/from Rackham using `scp`|4|2
 I can transfer files to/from Rackham using `scp`|5|8
+
 

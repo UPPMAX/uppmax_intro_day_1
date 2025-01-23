@@ -6,6 +6,9 @@ tags:
 
 # Schedule
 
+
+> Great first day Richèl. Mindful of everyone's time needed for each task.
+
 !!! info "The course is learner-centered"
 
     The course is learner-centered. This means that the pace is determined

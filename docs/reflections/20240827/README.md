@@ -29,7 +29,7 @@ I am happy how interactive my course was.
 ### Group sizes and exercise procedure
 
 I decided to use a group size of 3 people and that was
-a god decision. I used the standard exercise setup I've
+a good decision. I used the standard exercise setup I've
 been using
 [as on my website on teaching 'Duo's in Breakout rooms'](https://richelbilderbeek.github.io/teaching/exercise_procedures/duos_in_breakout_rooms/).
 
@@ -86,10 +86,10 @@ We did not reach IDEs, nor did we reach 'The Big Picture'.
 
 To improve:
 
-- [ ] In the course schedule, use 'Intro to UPPMAX I' and 'Intro to UPPMAX II',
+- [x] In the course schedule, use 'Intro to UPPMAX I' and 'Intro to UPPMAX II',
   as there was 1 learner that thought the same half-day course would be given
   twice
--  
+    - Done, as of around 2025-01-20
 
 ## Confidences
 
