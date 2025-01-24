@@ -101,7 +101,8 @@ for help.
 
 ???- question "Where is that documentation?"
 
-    The procedure can be found at <https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/>.
+    The procedure can be found at
+    [https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred
