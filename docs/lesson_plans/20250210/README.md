@@ -6,7 +6,7 @@ As far as I know, there are no changes requested for this course.
 Let's take a look at [../../reflections/20240827/README.md).
 
 - Expected number of learners: 17
-- Use group size of 3   
+- Use group size of 3
 - The FileZilla session was weakest,
   with an average confidence of 4 out of 5
 
