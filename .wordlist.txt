@@ -129,3 +129,6 @@ wikipedia
 wordlist
 www
 yml
+README
+TODO
+
