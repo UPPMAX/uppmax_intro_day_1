@@ -7,7 +7,7 @@ tags:
 
 # Login
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Understand that there are two environments

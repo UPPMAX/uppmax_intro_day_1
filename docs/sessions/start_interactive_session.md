@@ -8,7 +8,7 @@ tags:
 
 # Start interactive session
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Understand what an interactive session is

@@ -9,7 +9,7 @@ tags:
 
 # IDEs
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Can use an IDE

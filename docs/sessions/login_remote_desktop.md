@@ -11,7 +11,7 @@ tags:
 
 # Log in to a remote desktop environment
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Can log in to the Rackham remote desktop environment using the website

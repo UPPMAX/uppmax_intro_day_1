@@ -9,7 +9,7 @@ tags:
 
 # The module system
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Can find pre-installed software from the documentation

@@ -12,7 +12,7 @@ tags:
 
 # The job scheduler
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Can find his/her NAISS/UPPMAX projects

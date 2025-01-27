@@ -7,7 +7,7 @@ tags:
 
 # Scripts
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Can create a script

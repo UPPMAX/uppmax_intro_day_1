@@ -9,7 +9,7 @@ tags:
 
 # Clusters
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Understand what a cluster is
     - Understand that a cluster has nodes and that nodes have cores
@@ -136,7 +136,7 @@ flowchart TD
 
 ### Exercise 1: Understand
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - [...]
 

@@ -11,7 +11,7 @@ tags:
 
 # Use the remote desktop environment
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Can navigate the file system

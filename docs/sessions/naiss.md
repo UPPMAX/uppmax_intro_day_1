@@ -7,7 +7,7 @@ tags:
 
 # NAISS
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Be able to find which resources exist
     - Be able to apply for a resource

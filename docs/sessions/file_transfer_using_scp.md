@@ -10,7 +10,7 @@ tags:
 
 # File transfer using `scp`
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Can transfer files using `scp`

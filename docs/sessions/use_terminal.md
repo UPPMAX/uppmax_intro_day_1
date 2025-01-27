@@ -10,7 +10,7 @@ tags:
 
 # Use the console environment
 
-!!!- info "Learning objectives"
+!!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
     - Understand what the prompt is
