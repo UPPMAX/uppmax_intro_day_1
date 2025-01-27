@@ -12,6 +12,10 @@ These are the prerequisites to follow this course.
 Most steps are simple, yet may take days of waiting,
 so please start early :-)
 
+???- question "Prefer a video?"
+
+    There is a video discussing these at [YouTube](https://youtu.be/cxle06fKQ_Y)
+
 - Prerequisite 1/8: register at
   [the course registration page](https://github.com/UPPMAX/UPPMAX-documentation/blob/main/docs/courses_workshops/uppmax_intro_course.md)
 - Prerequisite 2/8: [Create an account in SUPR](https://docs.uppmax.uu.se/getting_started/supr_register/)
