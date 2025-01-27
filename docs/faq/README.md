@@ -11,12 +11,12 @@ tags:
 
 ### When should I follow this course?
 
-When you want to get started with Python.
+When you want to get started with the UPPMAX clusters.
 
-Especially at the start of any new programming language,
-having help is very useful: some error messages seem
-like complex, yet have simple solutions. A teacher
-helps you get past those first errors.
+Especially at the start of learning any new skill,
+having help is very useful: some problems seem
+complex, yet have simple solutions. A teacher
+helps you get past those first problems.
 
 ### When should I consider to **not** follow this course?
 
@@ -24,7 +24,7 @@ These are the reasons to consider to **not** follow this course:
 
 #### Reason 1: you want to learn advanced things
 
-When you have written your first scripts in Python and
+When you are comfortably using UPPMAX and
 expect to learn new and more advanced things.
 
 In this case, the course will go too slow for you.
@@ -55,56 +55,6 @@ when you leave early :-)
 ### What are the prerequisites for following this course?
 
 See [prerequisites](../prereqs.md).
-
-### Why are there so many prerequisites?"
-
-..
-
-Instead of lecturing (we should not `[Hattie, 2023]`),
-we decided to add prerequisites instead
-
-### How can I check if I have registered?"
-
-You should have gotten a welcome email within a couple
-of days.
-
-When it doubt, register another time :-)
-
-### How can I check if I have a user account on a Swedish academic HPC cluster?"
-
-When you can login at [https://supr.naiss.se/](https://supr.naiss.se/).
-
-???- question "How does that look like?"
-
-    It should look similar to this:
-
-    ![A user that logged into SUPR](supr_logged_in.png)
-
-### How can I get a user account on a Swedish academic HPC cluster?"
-
-Register at [https://supr.naiss.se/person/register/](https://supr.naiss.se/person/register/).
-
-### How can I check if I can login to an HPC cluster using SSH?"
-
-This depends on the HPC cluster you are using.
-
-???- question "How does that look like on UPPMAX's Rackham?"
-
-    For UPPMAX's Rackham, it look similar to this:
-
-    ![Logged into Rackham](rackham_logged_in.png)
-
-### Is it OK if I can login to an HPC cluster using other methods?"
-
-Probably: yes
-
-- Using a website: yes
-- Using a local ThinLinc client: yes
-
-### How can I login to an HPC cluster?"
-
-Follow the instructions of your favorite HPC center
-or [the UPPMAX instruction](https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/)
 
 ### How can I check if I have a good Zoom setup?"
 
@@ -172,7 +122,7 @@ This has been discussed with the main contributor of
 
 Preferably:
 
-- Add an issue at [https://github.com/UPPMAX/uppmax_intro_python](https://github.com/UPPMAX/uppmax_intro_python).
+- Add an issue at [https://github.com/UPPMAX/uppmax_intro_day_1](https://github.com/UPPMAX/uppmax_intro_day_1).
   This requires a GitHub account and ensures your question is shown publicly
   to all of the course's teaching team
 
