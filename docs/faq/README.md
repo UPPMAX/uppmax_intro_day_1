@@ -65,7 +65,7 @@ Please contact us if you run into problems!
 
 Approximately two weeks before the course starts,
 you will receive a set of instructions for creating an account and joining
-the course project. 
+the course project.
 When in doubt, contact [the course coordinator](https://www.uu.se/en/contact-and-organisation/staff?query=N5-245).
 
 ### How do I know I have an account in SUPR?
@@ -78,6 +78,8 @@ If you can log in to [https://supr.naiss.se/](https://supr.naiss.se/)
 
     ![Logged in to SUPR](supr_logged_in.png)
 
+<!-- markdownlint-disable MD013 --><!-- Too long lines for now -->
+
 <!-- TODO 
 - Prerequisite 3/8: [Join an existing project](https://docs.uppmax.uu.se/getting_started/join_existing_project/), which is the one of the course: `NAISS 2024/22-49`
 - Prerequisite 4/8: Apply for an UPPMAX account in SUPR at [https://supr.naiss.se/account/](https://supr.naiss.se/account/)  (if you don't already have one)
@@ -85,6 +87,8 @@ If you can log in to [https://supr.naiss.se/](https://supr.naiss.se/)
 - Prerequisite 6/8: [Log in to Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham/)
 - Prerequisite 7/8: In [a terminal](https://docs.uppmax.uu.se/software/terminal/), run `touch /proj/introtouppmax/completed/$USER`
 -->
+
+<!-- markdownlint-enable MD013 -->
 
 ### How can I check if I have a good Zoom setup?"
 
