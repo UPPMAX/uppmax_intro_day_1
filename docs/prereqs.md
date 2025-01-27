@@ -19,9 +19,9 @@ so please start early :-)
 - Prerequisite 3/8: [Join an existing project](https://docs.uppmax.uu.se/getting_started/join_existing_project/),
   which is the one of the course: `NAISS 2024/22-49`
 - Prerequisite 4/8: Apply for an UPPMAX account in SUPR at
-  [https://supr.naiss.se/account/](https://supr.naiss.se/account/) 
+  [https://supr.naiss.se/account/](https://supr.naiss.se/account/)
   (if you don't already have one)
-- Prerequisite 5/8: Follow the steps in the UPPMAX email to get your UPPMAX account 
+- Prerequisite 5/8: Follow the steps in the UPPMAX email to get your UPPMAX account
   (if you've followed step 4)
 - Prerequisite 6/8: [Log in to Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham/)
 - Prerequisite 7/8: In [a terminal](https://docs.uppmax.uu.se/software/terminal/),
