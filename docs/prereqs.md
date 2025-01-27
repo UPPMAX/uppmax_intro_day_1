@@ -30,7 +30,7 @@ so please start early :-)
 
 ???- question "How can I check if I have done these steps?"
 
-    - See the [Frequently Asked Questions section](faq/README.md)
+    - See the [Frequently Asked Questions 'Prerequisites' section](faq/README.md#prerequisites)
 
 ???- question "What if I have another question?"
 

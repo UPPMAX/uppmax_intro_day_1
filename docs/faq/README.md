@@ -78,17 +78,45 @@ If you can log in to [https://supr.naiss.se/](https://supr.naiss.se/)
 
     ![Logged in to SUPR](supr_logged_in.png)
 
-<!-- markdownlint-disable MD013 --><!-- Too long lines for now -->
 
-<!-- TODO 
-- Prerequisite 3/8: [Join an existing project](https://docs.uppmax.uu.se/getting_started/join_existing_project/), which is the one of the course: `NAISS 2024/22-49`
-- Prerequisite 4/8: Apply for an UPPMAX account in SUPR at [https://supr.naiss.se/account/](https://supr.naiss.se/account/)  (if you don't already have one)
-- Prerequisite 5/8: Follow the steps in the UPPMAX email to get your UPPMAX account  (if you've followed step 4)
-- Prerequisite 6/8: [Log in to Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham/)
-- Prerequisite 7/8: In [a terminal](https://docs.uppmax.uu.se/software/terminal/), run `touch /proj/introtouppmax/completed/$USER`
--->
+### How do I know I have joined the course project?
 
-<!-- markdownlint-enable MD013 -->
+If you see `NAISS 2024/22-49` among your project at
+[https://supr.naiss.se/](https://supr.naiss.se/).
+
+???- question "How does that look like?"
+
+    Here we have a screenshot:
+
+    ![SUPR project](supr_member_of_course_project.png)
+
+    The one-but-last project is the course project,
+    hence this user is in.
+
+
+### How do I know I have an UPPMAX account?
+
+In [SUPR](https://supr.naiss.se), click on 'Accounts'.
+
+You have an UPPMAX account if there is a row
+with resource 'Rackham' and centre 'UPPMAX'.
+
+???- question "How does that look like?"
+
+    Here we have a screenshot:
+    
+    ![SUPR account](supr_accounts.png)
+
+    The three-but-last row shows that this user has an UPPMAX account
+
+
+### How do I know that `touch /proj/introtouppmax/completed/$USER` worked?
+
+If this command gives no error message:
+
+```bash
+cat /proj/introtouppmax/completed/$USER
+```
 
 ### How can I check if I have a good Zoom setup?"
 
