@@ -56,6 +56,11 @@ when you leave early :-)
 
 See [prerequisites](../prereqs.md).
 
+### Why are there so many prerequisites?
+
+Because it takes many steps to be able to use UPPMAX.
+Please contact us if you run into problems!
+
 ### How do I know if I've registered?
 
 Approximately two weeks before the course starts,
@@ -63,6 +68,23 @@ you will receive a set of instructions for creating an account and joining
 the course project. 
 When in doubt, contact [the course coordinator](https://www.uu.se/en/contact-and-organisation/staff?query=N5-245).
 
+### How do I know I have an account in SUPR?
+
+If you can log in to [https://supr.naiss.se/](https://supr.naiss.se/)
+
+???- question "How does that look like?"
+
+    Here is how it looks like:
+
+    ![Logged in to SUPR](supr_logged_in.png)
+
+<!-- TODO 
+- Prerequisite 3/8: [Join an existing project](https://docs.uppmax.uu.se/getting_started/join_existing_project/), which is the one of the course: `NAISS 2024/22-49`
+- Prerequisite 4/8: Apply for an UPPMAX account in SUPR at [https://supr.naiss.se/account/](https://supr.naiss.se/account/)  (if you don't already have one)
+- Prerequisite 5/8: Follow the steps in the UPPMAX email to get your UPPMAX account  (if you've followed step 4)
+- Prerequisite 6/8: [Log in to Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham/)
+- Prerequisite 7/8: In [a terminal](https://docs.uppmax.uu.se/software/terminal/), run `touch /proj/introtouppmax/completed/$USER`
+-->
 
 ### How can I check if I have a good Zoom setup?"
 
