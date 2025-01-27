@@ -56,6 +56,14 @@ when you leave early :-)
 
 See [prerequisites](../prereqs.md).
 
+### How do I know if I've registered?
+
+Approximately two weeks before the course starts,
+you will receive a set of instructions for creating an account and joining
+the course project. 
+When in doubt, contact [the course coordinator](https://www.uu.se/en/contact-and-organisation/staff?query=N5-245).
+
+
 ### How can I check if I have a good Zoom setup?"
 
 - You are in a room where you can talk
