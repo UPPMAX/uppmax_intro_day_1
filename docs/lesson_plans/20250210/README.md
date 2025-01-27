@@ -18,3 +18,4 @@ what can be improved in the lesson material:
 I do miss a FAQ in this course
 
 - [ ] Add FAQ, copy from 'Intro to Python's
+
