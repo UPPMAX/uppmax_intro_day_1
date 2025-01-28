@@ -58,7 +58,8 @@ See [prerequisites](../prereqs.md).
 
 ### Why are there so many prerequisites?
 
-Because it takes many steps to be able to use UPPMAX.
+Because it takes many steps to be able to use UPPMAX,
+some of which takes days of waiting.
 Please [contact us](../contact_us.md) if you run into problems!
 
 ### How do I know if I've registered?
