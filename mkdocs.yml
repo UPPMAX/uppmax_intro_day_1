@@ -44,6 +44,7 @@ nav:
     - UPPMAX courses: sessions/courses.md
     - UPPMAX Intro overview: overviews/uppmax_intro.md
     - UPPMAX Intro Day 1 overview: overviews/uppmax_intro_day_1.md
+  - Contact us: contact_us.md
 
 theme:
   name: material
