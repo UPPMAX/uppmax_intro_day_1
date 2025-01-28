@@ -13,9 +13,11 @@ Let's take a look at [../../reflections/20240827/README.md).
 Taking a look at the FileZilla session,
 what can be improved in the lesson material:
 
-- [ ] Add a video to do so, to the UPPMAX docs
+- [ ] [Add a video to do so, to the UPPMAX docs](https://github.com/UPPMAX/uppmax_intro_day_1/issues/6)
 
 I do miss a FAQ in this course
 
-- [ ] Add FAQ, copy from 'Intro to Python's
+- [x] Add FAQ, copy from 'Intro to Python's
 
+The answers of [../sessions/use_remote_desktop](using the remote desktop),
+exercise 2 should be added. Dull, but it annoys me that this is incomplete
