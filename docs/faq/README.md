@@ -59,14 +59,14 @@ See [prerequisites](../prereqs.md).
 ### Why are there so many prerequisites?
 
 Because it takes many steps to be able to use UPPMAX.
-Please contact us if you run into problems!
+Please [contact us](../contact_us.md) if you run into problems!
 
 ### How do I know if I've registered?
 
 Approximately two weeks before the course starts,
 you will receive a set of instructions for creating an account and joining
 the course project.
-When in doubt, contact [the course coordinator](https://www.uu.se/en/contact-and-organisation/staff?query=N5-245).
+When in doubt, [contact the course coordinator](../contact_us.md)
 
 ### How do I know I have an account in SUPR?
 
@@ -182,16 +182,7 @@ This has been discussed with the main contributor of
 
 ### What if I have another question?
 
-Preferably:
-
-- Add an issue at [https://github.com/UPPMAX/uppmax_intro_day_1](https://github.com/UPPMAX/uppmax_intro_day_1).
-  This requires a GitHub account and ensures your question is shown publicly
-  to all of the course's teaching team
-
-Else:
-
-- Send an email to `richel.bilderbeek@uppmax.uu.se`.
-  There is no guarantee on a quick reply here.
+You can [contact us](../contact_us.md) :+1:
 
 ## References
 
