@@ -16,7 +16,12 @@ tags:
 
 ## Evaluation forms
 
-- Any feedback during the day: [TODO](https://github.com/UPPMAX/uppmax_intro_day_1/issues/4)
+- Any feedback during the day: [here](https://forms.gle/UQvNpwmA1djKeyUk9)
+
+???- question "Where will these results be published?"
+
+    At the [evaluations](evaluations/README.md) (plural)
+    of that course.
 
 ???- question "For teachers: what is in that form?"
 
@@ -27,6 +32,11 @@ tags:
     Do mention the teachers, assistants, etc by name!
 
 - Evaluation questions: [TODO](https://github.com/UPPMAX/uppmax_intro_day_1/issues/5)
+
+???- question "Where will these results be published?"
+
+    At the [evaluations](evaluations/README.md) (plural)
+    of that course.
 
 ???- question "For teachers: what is in that form?"
 
