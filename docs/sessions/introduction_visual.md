@@ -11,7 +11,7 @@ tags:
 > I really liked that the course started with very basic commands and
 > getting to know how to move around in the remote desktop and the terminal.
 >
-> A learner in this course ([source](evaluations/20240827/README.md))
+> A learner in this course ([source](../evaluations/20240827/README.md))
 
 Here we start using Rackham.
 To ease the learning curve, we use software that is visual,
