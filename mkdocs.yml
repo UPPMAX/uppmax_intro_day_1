@@ -47,11 +47,12 @@ nav:
   - Contact us: contact_us.md
 
 
+# Replace by 'warn' in relaxed mode
 validation:
-  omitted_files: warn
-  absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
-  unrecognized_links: warn
-  anchors: warn  # New in MkDocs 1.6
+  omitted_files: error
+  absolute_links: error
+  unrecognized_links: error
+  anchors: error
 
 
 not_in_nav: |
