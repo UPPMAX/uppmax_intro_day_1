@@ -70,6 +70,12 @@ of people with different skin colors, instead of how to include
 people with social anxiety. For now, I conclude I am inclusive enough,
 until there is evidence on the opposite.
 
+Another study, `[Shady et al., 2013]`, does an experiment with
+training teachers in being more inclusive, with a survey before and after
+the training. The survey question 'I feel that inclusion will lead to positive
+changes in the educational system' was agreed upon 44% before and 12%
+after the training (and a year of implementing it). 
+
 ## References
 
 - `[Dewsbury & Brame, 2018]` Dewsbury, Bryan, and Cynthia J. Brame.
@@ -77,3 +83,6 @@ until there is evidence on the opposite.
 - `[Amayo et al., 2021]` Amayo, Jeremy, et al. "Twelve tips for inclusive teaching." MedEdPublish 10 (2021): 81.
 
 - `[Dewsbury, 2017]` Dewsbury, Bryan M. "On faculty development of STEM inclusive teaching practices." FEMS microbiology letters 364.18 (2017): fnx179.
+
+
+- `[Shady et al., 2013]` Shady, Sandra A., Vicki L. Luther, and Laila J. Richman. "Teaching the Teachers: A Study of Perceived Professional Development Needs of Educators to Enhance Positive Attitudes toward Inclusive Practices." Education Research & Perspectives 40.1 (2013).
