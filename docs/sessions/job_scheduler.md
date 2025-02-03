@@ -188,7 +188,7 @@ then answer these questions:
     Submit your script to the job queue like this:
 
     ```bash
-    sbatch -A naiss2024-22-49 my_script.sh
+    sbatch -A uppmax2025-2-262 my_script.sh
     ```
 
 ???- question "How does that look like?"
@@ -196,7 +196,7 @@ then answer these questions:
     Your output will look similar to this:
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh
+    [sven@rackham3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh
     Submitted batch job 49309848
     ```
 
@@ -220,7 +220,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh
+    [sven@rackham3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh
     sbatch: error: This does not look like a batch script.  The first
     sbatch: error: line must start with #! followed by the path to an interpreter.
     sbatch: error: For instance: #!/bin/sh
@@ -243,7 +243,7 @@ then answer these questions:
     to run the two command directly after each other:
 
     ```bash
-    sbatch -A naiss2024-22-49 my_script.sh; squeue -u $USER
+    sbatch -A uppmax2025-2-262 my_script.sh; squeue -u $USER
     ```
 
     The output will be similar to:
@@ -252,7 +252,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [richel@rackham3 ~]$ sbatch -A naiss2024-22-49 my_script.sh; squeue -u $USER
+    [richel@rackham3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh; squeue -u $USER
     Submitted batch job 49309860
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
               49309860      core my_scrip   richel PD       0:00      1 (None)
