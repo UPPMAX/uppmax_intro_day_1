@@ -52,17 +52,18 @@ validation:
   absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
   unrecognized_links: warn
   anchors: warn  # New in MkDocs 1.6
-  nav:
-    omitted_files:
-      evaluations/20240827/README.md
-      evaluations/20240827/anonymous_feedback.md
-      evaluations/20240827/survey_feedback.md
-      evaluations/20250210/README.md
-      lesson_plans/20240827/README.md
-      lesson_plans/20240827/20240827_richel.md
-      lesson_plans/20250210/README.md
-      reflections/20240827/README.md
-      reflections/20250210/README.md
+
+
+not_in_nav: |
+  evaluations/20240827/README.md
+  evaluations/20240827/anonymous_feedback.md
+  evaluations/20240827/survey_feedback.md
+  evaluations/20250210/README.md
+  lesson_plans/20240827/README.md
+  lesson_plans/20240827/20240827_richel.md
+  lesson_plans/20250210/README.md
+  reflections/20240827/README.md
+  reflections/20250210/README.md
 
 theme:
   name: material
