@@ -32,7 +32,7 @@ Read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]` and
 [this PDF](inclusive_teaching_checklist.pdf):
 
 - Classroom climate:
-    - [Yes] Consider how you demonstrate warmth, organization, 
+    - [Yes] Consider how you demonstrate warmth, organization,
       and respect for students as part
       of developing a positive classroom climate.
       This can start with the syllabus and extend
