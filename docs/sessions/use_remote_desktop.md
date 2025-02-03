@@ -148,7 +148,8 @@ Feel encouraged to explore this new environment too!
     - `/proj/introtouppmax`.
 
     The first name, `/proj/uppmax2025-2-262`, can be concluded
-    from [the UPPMAX project code at 'Misc | Project'](../misc/project.md).
+    from [the UPPMAX project code at 'Misc | Project'](../misc/project.md)
+    or from [this course's prerequisites](../prereqs.md).
     Here it is shown how it looks:
 
     ![File explorer in the project folder](rackham_proj_folder_zoom.png)    
