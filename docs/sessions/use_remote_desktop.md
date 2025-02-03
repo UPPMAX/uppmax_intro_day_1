@@ -15,6 +15,8 @@ tags:
 
     - Practice using the UPPMAX documentation
     - Can navigate the file system
+    - Can give give the path to my home folder
+    - Can give give the path to the UPPMAX project of this course
     - Can find the name of the file explorer
     - Can do basic file management: create, copy, move and delete
       a file and folder
