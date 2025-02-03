@@ -19,5 +19,5 @@ I do miss a FAQ in this course
 
 - [x] Add FAQ, copy from 'Intro to Python's
 
-The answers of [../sessions/use_remote_desktop](using the remote desktop),
+The answers of [using the remote desktop](../../sessions/use_remote_desktop.md),
 exercise 2 should be added. Dull, but it annoys me that this is incomplete
