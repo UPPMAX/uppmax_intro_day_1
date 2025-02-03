@@ -65,6 +65,10 @@ tags:
     - Do you expect it to be hard to use a remote desktop environment?
     - Do you expect there to be much different behavior
       when using a remote desktop environment?
+    - How do you think the folder structure looks on the UPPMAX HPC clusters?
+    - What is the purpose of a home folder?
+    - What is the purpose of a project folder?
+    - What is the purpose of a `nobackup` folder?
     - Does someone have already tried to copy-past text between
       local computer and remote desktop?
 
