@@ -19,7 +19,7 @@ Week|Date                   |Times     |Place
 ----|-----------------------|----------|-------------------
 7   |Monday February 10 2025|9:00-16:00|Online
 35  |Monday August 25 2025  |9:00-16:00|EBC Hus 7 Room 1003
+?7  |?Monday February 9 2026|9:00-16:00|?
+?35 |?Monday August 24 2026 |9:00-16:00|?
 
-???- question "Are there no more course dates?"
-
-    Not yet...
+- `?`: not confirmed yet
