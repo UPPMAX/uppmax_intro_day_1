@@ -9,23 +9,15 @@ tags:
   - graphical
 ---
 
-# Use the remote desktop environment
+# The UPPMAX filesystem
 
 !!!- info "Learning outcomes"
 
-    - Practice using the UPPMAX documentation
-    - Can navigate the file system
-    - Can give give the path to my home folder
-    - Can find the name of the file explorer
-    - Can do basic file management: create, copy, move and delete
-      a file and folder
-    - Can start a terminal
-    - Can start a program from the terminal
-    - Can start a visual text editor
-    - Can find the name of the visual text editor
-    - Can do basic things in the visual text editor: edit, save, close
-    - Can copy-paste text between local computer and the remote desktop
-      (in both directions)
+    - Can find the UPPMAX project folder of this course
+    - Can find out which folders have a backup
+
+https://docs.uppmax.uu.se/cluster_guides/backup/
+https://docs.uppmax.uu.se/cluster_guides/rackhams_design/#folder-structure
 
 ???- question "For teachers"
 
