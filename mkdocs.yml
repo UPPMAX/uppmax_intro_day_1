@@ -25,7 +25,7 @@ nav:
     - Creating a bash script: sessions/scripts.md
     - The job scheduler: sessions/job_scheduler.md
     - Start an interactive session: sessions/start_interactive_session.md
-    - Using an IDE: sessions/ide.md
+    - IDEs: sessions/ides.md
   - Misc:
     - About Richel: misc/richel.md
     - Acknowledgements: misc/acknowledgements.md
@@ -40,7 +40,7 @@ nav:
     - NAISS: sessions/naiss.md
     - Project: misc/project.md
     - Reflections: reflections/README.md
-    - The bigger picture: sessions/introduction_bigger_picture
+    - The bigger picture: sessions/introduction_bigger_picture/README.md
     - UPPMAX courses: sessions/courses.md
     - UPPMAX Intro overview: overviews/uppmax_intro.md
     - UPPMAX Intro Day 1 overview: overviews/uppmax_intro_day_1.md
