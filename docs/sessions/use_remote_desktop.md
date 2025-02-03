@@ -150,7 +150,7 @@ its name will be useful to know:
 
 ### Exercise 2: file management
 
-In Thunar:
+In your file explorer:
 
 - create a file
 
@@ -170,12 +170,75 @@ In Thunar:
     ![The created file is shown](file_created.png)
 
 - copy a file
+
+???- question "Answer"
+
+    There are multiple ways, here is one:
+
+    - Click on a file to select it
+    - Press `CTRL-C` to copy it
+    - Navigate to a folder
+    - Press `CTRL-V` to paste it
+
 - move a file
+
+???- question "Answer"
+
+    There are multiple ways, here is one:
+
+    - Click on a file to select it
+    - Press `CTRL-X` to cut it
+    - Navigate to a folder
+    - Press `CTRL-V` to paste it
+
 - delete a file
+
+???- question "Answer"
+
+    There are multiple ways, here is one:
+
+    - Click on a file to select it
+    - Press `Del` to cut it
+
 - create a folder
+
+???- question "Answer"
+
+    There are multiple ways, here is one:
+
+    - Right-click on empty space in a folder
+    - In the pop-up menu, click 'Create folder'
+
 - copy a folder
+
+???- question "Answer"
+
+    There are multiple ways, here is one:
+
+    - Click on a folder to select it
+    - Press `CTRL-C` to copy it
+    - Navigate to a folder
+    - Press `CTRL-V` to paste it
+
 - move a folder
+
+???- question "Answer"
+
+    There are multiple ways, here is one:
+
+    - Click on a folder to select it
+    - Press `CTRL-X` to cut it
+    - Navigate to a folder
+    - Press `CTRL-V` to paste it
+
 - delete a folder
+
+???- question "Answer"
+
+    There are multiple ways, here is one:
+
+    - Click on a folder to select it
+    - Press `Del` to delete it
 
 ### Exercise 3: starting a terminal
 

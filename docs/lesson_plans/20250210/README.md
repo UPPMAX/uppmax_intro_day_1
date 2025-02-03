@@ -22,6 +22,8 @@ I do miss a FAQ in this course
 The answers of [using the remote desktop](../../sessions/use_remote_desktop.md),
 exercise 2 should be added. Dull, but it annoys me that this is incomplete.
 
+- [x] Add answers to [using the remote desktop](../../sessions/use_remote_desktop.md)
+
 Also:
 
 - [ ] [Consider adding `backup` and `nobackup`](https://github.com/UPPMAX/uppmax_intro_day_1/issues/8)
