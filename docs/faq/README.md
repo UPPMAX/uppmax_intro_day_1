@@ -38,11 +38,16 @@ you will likely thrive in the course.
 
 When you have social anxiety.
 
-In this case, the course will be too social for you.
+In this case, the course may be too social for you.
 
 However, in this course, it is perfectly OK to give a wrong
 answer or to say 'I do not know'. This is what a former
 learner had to say on this:
+
+> As a learner, you do not want to be berated when giving an answer.
+> Richel tries to gently deal with a wrong answer and he does this great
+>
+> A learner from another course taught by Richèl [source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240118/)
 
 You are welcome to try and leave anytime you want.
 The course material is made for self-study too, with videos
