@@ -142,9 +142,20 @@ Feel encouraged to explore this new environment too!
 
 ???- question "Answer"
 
-    The full path is `/proj/uppmax2025-2-262`.
+    There are *two* names for our project folder:
+
+    - `/proj/uppmax2025-2-262` 
+    - `/proj/introtouppmax`.
+
+    The first name, `/proj/uppmax2025-2-262`, can be concluded
+    from [the UPPMAX project code at 'Misc | Project'](../misc/project.md).
+    Here it is shown how it looks:
 
     ![File explorer in the project folder](rackham_proj_folder_zoom.png)    
+
+    The second name of our project folder can be found in SUPR:
+    
+    ![The SUPR project shows the project folder](supr_project_folder.png)
 
 To be able to search the web for questions on this file explorer,
 its name will be useful to know:
