@@ -127,7 +127,7 @@ Feel encouraged to explore this new environment too!
 
     When you started the file explorer, pick the top option 'Open folder'
     to open up your home folder.
-    
+
     It's full path is `/home/[your UPPMAX username]`, where `[your UPPMAX username]`
     is your UPPMAX username.
     For the image above, the username was `richel` and hence the home directory
@@ -144,7 +144,7 @@ Feel encouraged to explore this new environment too!
 
     There are *two* names for our project folder:
 
-    - `/proj/uppmax2025-2-262` 
+    - `/proj/uppmax2025-2-262`
     - `/proj/introtouppmax`.
 
     The first name, `/proj/uppmax2025-2-262`, can be concluded
@@ -152,10 +152,10 @@ Feel encouraged to explore this new environment too!
     or from [this course's prerequisites](../prereqs.md).
     Here it is shown how it looks:
 
-    ![File explorer in the project folder](rackham_proj_folder_zoom.png)    
+    ![File explorer in the project folder](rackham_proj_folder_zoom.png)
 
     The second name of our project folder can be found in SUPR:
-    
+
     ![The SUPR project shows the project folder](supr_project_folder.png)
 
 To be able to search the web for questions on this file explorer,
