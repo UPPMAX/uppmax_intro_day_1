@@ -58,6 +58,8 @@ tags:
 
     - I can log in to the Rackham remote desktop using the website
     - I can do basic things in the Rackham remote desktop
+    - I can find my home folder
+    - I can find the UPPMAX project folder of this course
     - I can transfer files to/from Rackham using FileZilla
     - I can log in to Rackham using a terminal
     - I can do basic things in the terminal
