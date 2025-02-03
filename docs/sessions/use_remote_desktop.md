@@ -131,6 +131,19 @@ Feel encouraged to explore this new environment too!
     For the image above, the username was `richel` and hence the home directory
     is called `/home/richel`.
 
+- Scan the text at [the UPPMAX documentation 'Rackham's design'](https://docs.uppmax.uu.se/cluster_guides/rackhams_design/).
+  What is the full path to the project folder of this course?
+
+???- tip "Forgot our UPPMAX project code?"
+
+    See [the UPPMAX project code at 'Misc | Project'](../misc/project.md)
+
+???- question "Answer"
+
+    The full path is `/proj/uppmax2025-2-262`.
+
+    ![File explorer in the project folder](rackham_proj_folder_zoom.png)    
+
 To be able to search the web for questions on this file explorer,
 its name will be useful to know:
 
