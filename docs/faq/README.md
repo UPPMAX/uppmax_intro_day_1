@@ -82,7 +82,7 @@ If you can log in to [https://supr.naiss.se/](https://supr.naiss.se/)
 
 ### How do I know I have joined the course project?
 
-If you see `NAISS 2024/22-49` among your project at
+If you see `UPPMAX 2025/2-262` among your project at
 [https://supr.naiss.se/](https://supr.naiss.se/).
 
 ???- question "How does that look like?"

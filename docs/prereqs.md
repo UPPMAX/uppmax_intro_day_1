@@ -21,7 +21,7 @@ so please start early :-)
 - Prerequisite 2/8: [Create an account in SUPR](https://docs.uppmax.uu.se/getting_started/supr_register/)
   (if you don't already have one)
 - Prerequisite 3/8: [Join an existing project](https://docs.uppmax.uu.se/getting_started/join_existing_project/),
-  which is the one of the course: `NAISS 2024/22-49`
+  which is the one of the course: `UPPMAX 2025/2-262`
 - Prerequisite 4/8: Apply for an UPPMAX account in SUPR at
   [https://supr.naiss.se/account/](https://supr.naiss.se/account/)
   (if you don't already have one)
