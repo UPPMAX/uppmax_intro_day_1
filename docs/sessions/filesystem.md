@@ -45,7 +45,7 @@ You want to know if/how your lost files can be retrieved.
 
 ### Exercise 1: important folders
 
-- Read [the UPPMAX documentation on Rackham's design](https://docs.uppmax.uu.se/cluster_guides/rackhams_design/#folder-structure)
+- Read [the UPPMAX documentation on the backup service](https://docs.uppmax.uu.se/cluster_guides/backup/)
 - What is the name of the folder that contains **all** projects?
 
 ???- question "Answer"
@@ -54,7 +54,7 @@ You want to know if/how your lost files can be retrieved.
 
     The initial slash indicates it is in the root folder.
 
-- Navigate to that folder (in your facorite way!).
+- Navigate to that folder (in your favorite way!).
   Estimate the number of projects in that folder
 
 ???- question "Answer"
@@ -75,8 +75,47 @@ You want to know if/how your lost files can be retrieved.
 
     Gives us around 7000 projects
 
+- Determine which of these folders has a backup:
 
-### Exercise 2: file management
+    - `/proj/uppmax2025-2-262`
+    - `/proj/uppmax2025-2-262/nobackup`
+    - `/proj/uppmax2025-2-262/nobackup/backup`
+    - `/home/sven`
+    - `/home/sven/nobackup`
+    - `/home/sven/nobackup/backup`
 
-- Read [the UPPMAX documentation on backups](https://docs.uppmax.uu.se/cluster_guides/backup/)
+???- question "Answer"
 
+    Folder name                             |Has backup?
+    ----------------------------------------|-----------------
+    `/proj/uppmax2025-2-262`                |Yes
+    `/proj/uppmax2025-2-262/nobackup`       |No
+    `/proj/uppmax2025-2-262/nobackup/backup`|No
+    `/home/sven`                            |Yes
+    `/home/sven/nobackup`                   |No
+    `/home/sven/nobackup/backup`            |No
+
+???- question "Isn't that obvious?"
+
+    No.
+
+    We at UPPMAX do get complaints from users that (1) place their
+    raw data in a `nobackup` folder, then (2) delete that
+    folder, (3) ask us for a backup, (4) complain that we did not
+    have a backup.
+
+- Give an example of which kind of files you would store in these folders:
+
+    - `/proj/uppmax2025-2-262`
+    - `/proj/uppmax2025-2-262/nobackup`
+    - `/home/sven`
+    - `/home/sven/nobackup`
+
+???- question "Answer"
+
+    Folder name                      |Example file
+    ---------------------------------|-------------------------------
+    `/proj/uppmax2025-2-262`         |The raw data, your scripts
+    `/proj/uppmax2025-2-262/nobackup`|Intermediate files of your analyses
+    `/home/sven`                     |Your personal scripts
+    `/home/sven/nobackup`            |Intermediate files of your personal analyses
