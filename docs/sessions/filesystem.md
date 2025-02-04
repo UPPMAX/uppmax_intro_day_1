@@ -33,8 +33,6 @@ tags:
 ## Why?
 
 
-
-
 ## Exercises
 
 ???- question "Need a video?"
