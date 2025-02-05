@@ -1,6 +1,8 @@
 # Lesson plan 2025-02-10
 
-As far as I know, there are no changes requested for this course.
+## Changes needed
+
+Until January 31st, there were no changes requested for this course.
 Let's take a look at [../../reflections/20240827/README.md).
 
 - Expected number of learners: 17
@@ -8,12 +10,21 @@ Let's take a look at [../../reflections/20240827/README.md).
 - The FileZilla session was weakest,
   with an average confidence of 4 out of 5
 
+At January 31st, my colleague reached out and in the end I decided to
+[discuss `backup` and `nobackup`](https://github.com/UPPMAX/uppmax_intro_day_1/issues/8)
+in the course.
+
+## Course material
+
 Taking a look at the FileZilla session,
 what can be improved in the lesson material:
 
 - [x] [Add a video to do so, to the UPPMAX docs](https://github.com/UPPMAX/uppmax_intro_day_1/issues/6)
   at [here](https://youtu.be/-j4S3iC4jiY)
   and posted [at the UPPMAX doc](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
+    - [x] There already was a video ...? How can I have missed that?
+      I assume I added this video halfway between 'Intro to UPPMAX day 1'
+      course iterations.
 
 I do miss a FAQ in this course
 
@@ -24,7 +35,10 @@ exercise 2 should be added. Dull, but it annoys me that this is incomplete.
 
 - [x] Add answers to [using the remote desktop](../../sessions/use_remote_desktop.md)
 
-Read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]` and
+## Inclusive teaching
+
+I discussesed with a colleague about inclusive teaching.
+Due to this, I read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]` and
 [this PDF](inclusive_teaching_checklist.pdf):
 
 - Classroom climate:
@@ -80,6 +94,11 @@ Read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]` and
       or helping combat stereotype threat through
       values affirmation.
 
+Of course, the 'Yes' should be read as a 'I think so'.
+Note that 'Use [...] small groups' is something I do,
+which is not done in monologue lecturing. So monologue lecturing
+is not inclusive? Maybe we should do less of monologue lecturing :-)
+
 Other papers causing me to believe I do reasonably well:
 
 - `[Amayo et al., 2021]`: 12 simple tips
@@ -96,12 +115,12 @@ the training. The survey question 'I feel that inclusion will lead to positive
 changes in the educational system' was agreed upon 44% before and 12%
 after the training (and a year of implementing it).
 
-My colleague reached out I [added discussing `backup` and `nobackup`](https://github.com/UPPMAX/uppmax_intro_day_1/issues/8)
-in the course.
+## Learning outcomes
 
-The evaluation questions now are:
+I've updated the learning outcomes.
+The associated evaluation questions have changed like this:
 
-```
+```text
 Give you confidence levels of the following statements below:
 
 - I can log in to the Rackham remote desktop using the website
