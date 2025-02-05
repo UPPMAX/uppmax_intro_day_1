@@ -65,28 +65,23 @@ Due to this, I read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]`
       shift them away from stereotypes about scientists,
       and improve course grades.
     - [Yes] Know and use student names. Name tents are one way to achieve
-      facilitate this practice
-      in high enrollment courses.
+      facilitate this practice in high enrollment courses.
     - [Yes] Use wait time, small groups, think-pair-share,
       and writing time as well as other
       strategies that enhance students’ opportunities
       to contribute and benefit from the
       intellectual community of the classroom.
     - [N/A] Increase course structure through graded out-of-class assignments
-      and in-class active
-      learning, including the strategies listed above.
+      and in-class active learning, including the strategies listed above.
     - [Yes] Enhance cooperation and reduce competition among students
       to help promote student
       feelings of success.
     - [Unsure] Emphasize the relevance of coursework to real life in order
-      to enhance student interest
-      and engagement.
-    - [Yes] Support students’ sense of autonomy to increase interest
-      and enjoyment and possibly
-      decrease anxiety measures.
+      to enhance student interest and engagement.
+    - [Yes] Support students' sense of autonomy to increase interest
+      and enjoyment and possibly decrease anxiety measures.
     - [Yes] Read about and consider using social-psychological interventions
-      that are a suited to
-      your students and your context.
+      that are a suited to your students and your context.
       These interventions may focus on helping students
       endorse a growth mindset;
       helping students understand adversity as shared, transient
@@ -94,8 +89,9 @@ Due to this, I read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]`
       or helping combat stereotype threat through
       values affirmation.
 
-Of course, the 'Yes' should be read as a 'I think so'.
-Note that 'Use [...] small groups' is something I do,
+Of course, the 'Yes' should be read as a 'I think so, but I can be wrong'.
+Note that 'Use [...] small groups' and
+'Increase [...] in-class active learning' is something I do,
 which is not done in monologue lecturing. So monologue lecturing
 is not inclusive? Maybe we should do less of monologue lecturing :-)
 
@@ -150,6 +146,19 @@ I removed those questions that were completely unaddressed last time.
 I should discuss this with the course coordinator: maybe she'd
 prefer to do the removed things and the command-line things can be done
 in other sessions instead.
+
+## Peer observation
+
+From 13:00-16:00 I have a teaching assistant.
+Because I predict these lessons will be easy,
+I hope I can use him as a peer observer instead.
+
+Questions would be:
+
+- How would you grade me on the items of `[Dewsbury & Brame, 2018]`,
+  i.e [this PDF](inclusive_teaching_checklist.pdf)?
+  Assume that some things do not apply.
+- Ideally, compare this to other teachers
 
 ## References
 
