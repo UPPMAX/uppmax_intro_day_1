@@ -54,7 +54,20 @@ ggplot2::ggplot(t_tidy, ggplot2::aes(x = answer)) +
     title = "Confidences per question"
   )
 
-ggplot2::ggsave(filename = "confidences_per_question.png", width = 6, height = 7)
+ggplot2::ggsave(filename = "confidences_per_question_histogram.png", width = 6, height = 7)
+
+ggplot2::ggplot(t_tidy, ggplot2::aes(x = answer)) +
+  ggplot2::geom_density() + 
+  ggplot2::facet_grid(rows = "question", scales = "free_y") +
+  ggplot2::theme(
+    strip.text.y = ggplot2::element_text(angle = 0),
+    legend.position = "none"
+  ) +
+  ggplot2::labs(
+    title = "Confidences per question"
+  )
+
+ggplot2::ggsave(filename = "confidences_per_question_density.png", width = 6, height = 7)
 
 names(t_tidy)
 

@@ -93,6 +93,11 @@ To improve:
 
 ## Confidences
 
+![Confidences per question, as a histogram](confidences_per_question_histogram.png)
+
+![Confidences per question, as a density plot](confidences_per_question_density.png)
+
+
 - For topics I covered: In the course I continued a session if '
   4 out of 5 groups were ready.
   I would expect 80% to have a 4 or 5 ('I have good confidence',

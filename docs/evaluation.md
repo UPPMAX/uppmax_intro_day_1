@@ -59,21 +59,18 @@ tags:
     - I can log in to the Rackham remote desktop using the website
     - I can do basic things in the Rackham remote desktop
     - I can find my home folder
-    - I can find the UPPMAX project folder of this course
     - I can transfer files to/from Rackham using FileZilla
     - I can log in to Rackham using a terminal
     - I can do basic things in the terminal
     - I can transfer files to/from Rackham using `scp`
-    - I can start an interactive session
+    - I can find the UPPMAX project's folder of this course
+    - I can predict which folders have a backup
     - I can find and load a module
-    - I can start an IDE
     - I can start a terminal text editor
     - I can create a bash script
     - I can schedule a job
-    - I can conclude which UPPMAX cluster best suits my needs
-    - I can find the hardware specifications of an UPPMAX cluster
-    - I can find where to apply for NAISS resources
-    - I can find other UPPMAX courses
+    - I can start an interactive session
+    - I can start an IDE
 
     Thanks for your feedback.
     This feedback will be published as-is at the end of Day 1,

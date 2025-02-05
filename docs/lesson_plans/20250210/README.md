@@ -24,10 +24,6 @@ exercise 2 should be added. Dull, but it annoys me that this is incomplete.
 
 - [x] Add answers to [using the remote desktop](../../sessions/use_remote_desktop.md)
 
-Also:
-
-- [ ] [Consider adding `backup` and `nobackup`](https://github.com/UPPMAX/uppmax_intro_day_1/issues/8)
-
 Read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]` and
 [this PDF](inclusive_teaching_checklist.pdf):
 
@@ -100,6 +96,42 @@ the training. The survey question 'I feel that inclusion will lead to positive
 changes in the educational system' was agreed upon 44% before and 12%
 after the training (and a year of implementing it).
 
+My colleague reached out I [added discussing `backup` and `nobackup`](https://github.com/UPPMAX/uppmax_intro_day_1/issues/8)
+in the course.
+
+The evaluation questions now are:
+
+```
+Give you confidence levels of the following statements below:
+
+- I can log in to the Rackham remote desktop using the website
+- I can do basic things in the Rackham remote desktop
+- I can find my home folder
+- I can transfer files to/from Rackham using FileZilla
+- I can log in to Rackham using a terminal
+- I can do basic things in the terminal
+- [EXTRA] I can transfer files to/from Rackham using `scp`
+- I can find the UPPMAX project's folder of this course
+- [NEW] I can predict which folders have a backup
+- I can find and load a module
+- I can start a terminal text editor
+- I can create a bash script
+- I can schedule a job
+- I can start an interactive session
+- [EXTRA] I can start an IDE
+- [REMOVED] I can conclude which UPPMAX cluster best suits my needs
+- [REMOVED] I can find the hardware specifications of an UPPMAX cluster
+- [REMOVED] I can find where to apply for NAISS resources
+- [REMOVED] I can find other UPPMAX courses
+```
+
+The `EXTRA` questions will have a lower score, as these are done only by
+the learners that are faster.
+I removed those questions that were completely unaddressed last time.
+I should discuss this with the course coordinator: maybe she'd
+prefer to do the removed things and the command-line things can be done
+in other sessions instead.
+
 ## References
 
 - `[Dewsbury & Brame, 2018]` Dewsbury, Bryan, and Cynthia J. Brame.
@@ -114,3 +146,7 @@ after the training (and a year of implementing it).
   "Teaching the Teachers: A Study of Perceived Professional Development Needs
   of Educators to Enhance Positive Attitudes toward Inclusive Practices."
   Education Research & Perspectives 40.1 (2013).
+
+
+
+

@@ -17,9 +17,13 @@ tags:
 
 > All confidences
 
-![Confidences per question](confidences_per_question.png)
+![Confidences per question](confidences_per_question_density.png)
 
-> Confidences per question
+> Confidences per question, as a density plot
+
+![Confidences per question](confidences_per_question_histogram.png)
+
+> Confidences per question, as a histogram
 
 question                                               |answer|n
 -------------------------------------------------------|------|---
