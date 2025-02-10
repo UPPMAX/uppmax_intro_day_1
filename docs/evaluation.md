@@ -31,7 +31,7 @@ tags:
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- Evaluation questions: [TODO](https://github.com/UPPMAX/uppmax_intro_day_1/issues/5)
+- Evaluation questions: [here](https://docs.google.com/forms/d/e/1FAIpQLSfM3EPAL6yaJ26dtLxheySXxXMrNfSJ6rHNkhUEF5dVVCSbKA/viewform?usp=header)
 
 ???- question "Where will these results be published?"
 
@@ -71,6 +71,8 @@ tags:
     - I can schedule a job
     - I can start an interactive session
     - I can start an IDE
+
+    Any other feedback?
 
     Thanks for your feedback.
     This feedback will be published as-is at the end of Day 1,
