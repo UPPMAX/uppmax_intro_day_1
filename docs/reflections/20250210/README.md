@@ -9,11 +9,14 @@ tags:
 This group had more variation in how fast the learners went through the
 exercise. I felt it was useless to rush them through the earlier exercises.
 Instead, from 15:30-15:45 I **lectured**. I told them that the learning
-objective ('so you have **seen** it'). I don't know what is
-the cause of the learners being slow. I would be able to assume that
-they just are (which is fine), but I worry it is my teaching. If
-it was me, no idea why: let's hope the evaluation can help me find
-the reason.
+objective ('so you have **seen** it'). 
+I feel this most likely reason for this, is the new session
+about backups: it took away 30 minutes.
+
+There was an unclarity in the
+course material about backups that was found (and shared) by two independent
+groups. I've fixed it under course time.
+
 I informed my colleagues about the state of the learning of the students,
 so that they can adapt.
 
