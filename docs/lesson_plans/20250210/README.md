@@ -175,6 +175,3 @@ Questions would be:
   of Educators to Enhance Positive Attitudes toward Inclusive Practices."
   Education Research & Perspectives 40.1 (2013).
 
-
-
-
