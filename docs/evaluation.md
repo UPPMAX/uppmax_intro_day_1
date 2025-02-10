@@ -16,7 +16,7 @@ tags:
 
 ## Evaluation forms
 
-- Any feedback during the day: [here](https://forms.gle/UQvNpwmA1djKeyUk9)
+- Any feedback during the day: [here]([https://forms.gle/UQvNpwmA1djKeyUk9](https://docs.google.com/forms/d/e/1FAIpQLSdUdI9i5HlecnVaeubU47D8ksRUJV4qkDfFIhFUc7D-33jN6w/viewform?usp=header))
 
 ???- question "Where will these results be published?"
 
