@@ -38,7 +38,8 @@ exercise 2 should be added. Dull, but it annoys me that this is incomplete.
 ## Inclusive teaching
 
 I discussed with a colleague about inclusive teaching.
-Due to this, I read up on 'Inclusive teaching', found `[Dewsbury & Brame, 2018]` and
+Due to this, I read up on 'Inclusive teaching',
+found `[Dewsbury & Brame, 2018]` and
 [this PDF](inclusive_teaching_checklist.pdf):
 
 - Classroom climate:
