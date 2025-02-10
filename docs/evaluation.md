@@ -16,7 +16,7 @@ tags:
 
 ## Evaluation forms
 
-- Any feedback during the day: [here]([https://forms.gle/UQvNpwmA1djKeyUk9](https://docs.google.com/forms/d/e/1FAIpQLSdUdI9i5HlecnVaeubU47D8ksRUJV4qkDfFIhFUc7D-33jN6w/viewform?usp=header))
+- Anonymous feedback: [here](https://forms.gle/2nGH5pfxbvuWszXr6)
 
 ???- question "Where will these results be published?"
 
@@ -31,7 +31,7 @@ tags:
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- Evaluation questions: [here](https://docs.google.com/forms/d/e/1FAIpQLSfM3EPAL6yaJ26dtLxheySXxXMrNfSJ6rHNkhUEF5dVVCSbKA/viewform?usp=header)
+- Learning outcomes: [here](https://forms.gle/dU6h4VBi9oKyoVwD9)
 
 ???- question "Where will these results be published?"
 
