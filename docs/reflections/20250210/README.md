@@ -9,7 +9,7 @@ tags:
 This group had more variation in how fast the learners went through the
 exercise. I felt it was useless to rush them through the earlier exercises.
 Instead, from 15:30-15:45 I **lectured**. I told them that the learning
-objective ('so you have **seen** it'). 
+objective ('so you have **seen** it').
 I feel this most likely reason for this, is the new session
 about backups: it took away 30 minutes.
 
