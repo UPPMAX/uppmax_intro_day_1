@@ -75,7 +75,7 @@ You want to know if/how your lost files can be retrieved.
 
     Gives us around 7000 projects
 
-- Determine which of these folders has a backup:
+- Guess which of these folders has a backup:
 
     - `/proj/uppmax2025-2-262`
     - `/proj/uppmax2025-2-262/nobackup`
@@ -88,12 +88,12 @@ You want to know if/how your lost files can be retrieved.
 
     Folder name                             |Has backup?
     ----------------------------------------|-----------------
-    `/proj/uppmax2025-2-262`                |Yes
-    `/proj/uppmax2025-2-262/nobackup`       |No
-    `/proj/uppmax2025-2-262/nobackup/backup`|No
-    `/home/sven`                            |Yes
-    `/home/sven/nobackup`                   |No
-    `/home/sven/nobackup/backup`            |No
+    `/proj/uppmax2025-2-262`                |Yes, folders have a backup by default
+    `/proj/uppmax2025-2-262/nobackup`       |No, because it has `nobackup` in the name
+    `/proj/uppmax2025-2-262/nobackup/backup`|No, because it has `nobackup` in the name
+    `/home/sven`                            |Yes, folders have a backup by default
+    `/home/sven/nobackup`                   |No, because it has `nobackup` in the name
+    `/home/sven/nobackup/backup`            |No, because it has `nobackup` in the name
 
 ???- question "Isn't that obvious?"
 
