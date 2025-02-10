@@ -168,8 +168,6 @@ then answer these questions:
     module unload cowsay
     ```
 
-???- question "Answer"
-
 - Confirm that `cowsay` does not work anymore,
   by typing `cowsay hello`. This should give an error
 
