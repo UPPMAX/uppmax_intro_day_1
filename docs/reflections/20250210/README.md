@@ -143,6 +143,8 @@ and what I think should be their fate:
 Setup 1, 'goal of Day 1 is that learners see all phases of working
 with an UPPMAX cluster':
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Learning outcome                                            |My proposed fate
 ------------------------------------------------------------|-------------------
 I can log in to the Rackham remote desktop using the website|Stay
@@ -164,6 +166,8 @@ I can conclude which UPPMAX cluster best suits my needs     |Add back in
 I can find the hardware specifications of an UPPMAX cluster |Keep out
 I can find where to apply for NAISS resources               |Add back in
 I can find other UPPMAX courses                             |Add back in
+
+<!-- markdownlint-enable MD013 -->
 
 Setup 2, 'goal of Day 1 is that learners can submit a batch job':
 
