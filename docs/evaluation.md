@@ -16,7 +16,7 @@ tags:
 
 ## Evaluation forms
 
-- Anonymous feedback: [here](https://forms.gle/2nGH5pfxbvuWszXr6)
+- Anonymous feedback: `TODO`
 
 ???- question "Where will these results be published?"
 
@@ -31,7 +31,7 @@ tags:
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- Learning outcomes: [here](https://forms.gle/dU6h4VBi9oKyoVwD9)
+- Learning outcomes: `TODO`
 
 ???- question "Where will these results be published?"
 
@@ -62,15 +62,11 @@ tags:
     - I can transfer files to/from Rackham using FileZilla
     - I can log in to Rackham using a terminal
     - I can do basic things in the terminal
-    - I can transfer files to/from Rackham using `scp`
-    - I can find the UPPMAX project's folder of this course
-    - I can predict which folders have a backup
     - I can find and load a module
     - I can start a terminal text editor
     - I can create a bash script
     - I can schedule a job
     - I can start an interactive session
-    - I can start an IDE
 
     Any other feedback?
 

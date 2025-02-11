@@ -17,7 +17,6 @@ nav:
     - Introduction: sessions/introduction_terminal.md
     - Log in to the console environment: sessions/login_console.md
     - Use the terminal: sessions/use_terminal.md
-    - File transfer using scp: sessions/file_transfer_using_scp.md
   - Doing real work:
     - Introduction: sessions/introduction_real_work.md
     - The module system: sessions/modules.md
@@ -35,6 +34,7 @@ nav:
     - Evaluation: evaluation.md
     - Evaluations: evaluations/README.md
     - FAQ: faq/README.md
+    - File transfer using scp: sessions/file_transfer_using_scp.md
     - Lesson plans: lesson_plans/README.md
     - Exercise procedure: misc/exercise_procedure.md
     - NAISS: sessions/naiss.md

@@ -23,10 +23,8 @@ flowchart TD
 
   login_ssh[Login with SSH]
   use_terminal[Using a terminal, navigation, file management, text editor]
-  file_transfer_scp[File transfer, scp]:::maybe_not_node
 
   login_ssh --> use_terminal
-  use_terminal -.-> file_transfer_scp
 ```
 
 <!-- Indeed, line lengths beyond 80 characters -->
@@ -36,6 +34,5 @@ Link                                                                            
 ----------------------------------------------------------------------------------|--------------------------------------------------------------------------
 [Login with SSH](../sessions/login_console.md)                                    |Log in to Rackham's console environment
 [Using a terminal](../sessions/use_terminal.md)                                   |Using a terminal for exploring the filesystem and do basic file management
-If before 13:30: [File transfer using SCP](../sessions/file_transfer_using_scp.md)|Transfer files from the terminal
 
 <!-- markdownlint-enable MD013 -->

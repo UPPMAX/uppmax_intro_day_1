@@ -119,9 +119,22 @@ Nice.
 Nice. And indeed, some groups were not as good as others. And I could
 be better in nudging these to be be better, I just don't know how.
 
-
 So, 2 out of 11 learners state there was too much course content.
 And I agree with this: I've added a session on backups and I naively
 thought it would all still work. It did not.
 
-- [ ] Remove session on backups
+- [x] Remove session on backups
+
+I think this quote is valuable:
+
+> The documentation is very nicely
+> structured, and helped a lot, 
+> but for a total beginners it felt like a maze.
+
+I feel the day should start with an overview of running an analysis
+on UPPMAX. And remove the 'nice to have' things:
+
+- [x] Remove file transfer using `scp`
+- [x] Remove IDEs
+
+
