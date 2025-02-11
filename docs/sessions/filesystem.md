@@ -86,6 +86,8 @@ You want to know if/how your lost files can be retrieved.
 
 ???- question "Answer"
 
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
     Folder name                             |Has backup?
     ----------------------------------------|-----------------
     `/proj/uppmax2025-2-262`                |Yes, folders have a backup by default
@@ -94,6 +96,8 @@ You want to know if/how your lost files can be retrieved.
     `/home/sven`                            |Yes, folders have a backup by default
     `/home/sven/nobackup`                   |No, because it has `nobackup` in the name
     `/home/sven/nobackup/backup`            |No, because it has `nobackup` in the name
+
+    <!-- markdownlint-enable MD013 -->
 
 ???- question "Isn't that obvious?"
 

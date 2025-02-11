@@ -49,5 +49,5 @@ So, let's take a look at the evaluation results.
 ## Evaluation
 
 I felt the group was getting less focussed, more viscous to work with after
-the break. 
+the break.
 
