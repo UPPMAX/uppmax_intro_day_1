@@ -71,3 +71,11 @@ readr::write_csv(
   file = "tally.csv"
 )
 
+mean_confidence_per_question <- t_tidy |> dplyr::select_all() |>
+  dplyr::group_by(question) |> dplyr::summarise(mean_confidence = mean(answer))
+
+
+readr::write_csv(
+  x = mean_confidence_per_question, 
+  file = "mean_confidence_per_question.csv"
+)

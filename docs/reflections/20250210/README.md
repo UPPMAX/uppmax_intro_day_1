@@ -137,4 +137,130 @@ on UPPMAX. And remove the 'nice to have' things:
 - [x] Remove file transfer using `scp`
 - [x] Remove IDEs
 
+These are the learning outcomes remaining
+and what I think should be their fate:
 
+Setup 1, 'goal of Day 1 is that learners see all phases of working
+with an UPPMAX cluster':
+
+Learning outcome                                            |My proposed fate
+------------------------------------------------------------|-------------------
+I can log in to the Rackham remote desktop using the website|Stay
+I can do basic things in the Rackham remote desktop         |Stay
+I can find my home folder                                   |Stay
+I can transfer files to/from Rackham using FileZilla        |Stay
+I can log in to Rackham using a terminal                    |Move to other day
+I can do basic things in the terminal                       |Move to other day
+I can transfer a file using `scp`                           |Keep out
+I can find and load a module                                |Only show, move to other day
+I can start a terminal text editor                          |Only show, move to other day
+I can create a bash script                                  |Only show, move to other day
+I can schedule a job                                        |Only show, move to other day
+I can start an interactive session                          |Only show, move to other day
+I can start an IDE                                          |Remove
+I can find my project folder                                |Add back in
+I can state which folders have a backup                     |Add back in
+I can conclude which UPPMAX cluster best suits my needs     |Add back in
+I can find the hardware specifications of an UPPMAX cluster |Keep out
+I can find where to apply for NAISS resources               |Add back in
+I can find other UPPMAX courses                             |Add back in
+
+Setup 2, 'goal of Day 1 is that learners can submit a batch job':
+
+Learning outcome                                            |My proposed fate
+------------------------------------------------------------|-------------------
+I can log in to the Rackham remote desktop using the website|Stay
+I can do basic things in the Rackham remote desktop         |Stay
+I can find my home folder                                   |Stay
+I can transfer files to/from Rackham using FileZilla        |Stay
+I can log in to Rackham using a terminal                    |Keep
+I can do basic things in the terminal                       |Keep
+I can transfer a file using `scp`                           |Keep out
+I can find and load a module                                |Keep
+I can start a terminal text editor                          |Keep
+I can create a bash script                                  |Keep
+I can schedule a job                                        |Keep
+I can start an interactive session                          |Keep
+I can start an IDE                                          |Remove
+I can find my project folder                                |No
+I can state which folders have a backup                     |No
+I can conclude which UPPMAX cluster best suits my needs     |No
+I can find the hardware specifications of an UPPMAX cluster |Keep out
+I can find where to apply for NAISS resources               |No
+I can find other UPPMAX courses                             |No
+
+I will ask what the goal of Day 1 is and then adapt accordingly.
+
+Let's find the weakest session
+
+Mean confidences as a table:
+
+question                  |mean_confidence
+--------------------------|---------------
+I can create a bash script|4
+I can do basic things in the Rackham remote desktop|4.666666666666667
+I can do basic things in the terminal|4.777777777777778
+I can find and load a module|4.333333333333333
+I can find my home folder|4.666666666666667
+I can find the UPPMAX project's folder of this course|4
+I can log in to Rackham using a terminal|4.666666666666667
+I can log in to the Rackham remote desktop using the website|4.666666666666667
+I can predict which folders have a backup|4.555555555555555
+I can schedule a job|3
+I can start a terminal text editor|4.333333333333333
+I can start an IDE|1.5555555555555556
+I can start an interactive session|2.3333333333333335
+I can transfer files to/from Rackham using FileZilla|3.888888888888889
+I can transfer files to/from Rackham using `scp`|2.888888888888889
+
+
+question                  |answer|n
+--------------------------|------|---
+I can create a bash script|1|1
+I can create a bash script|3|2
+I can create a bash script|4|1
+I can create a bash script|5|5
+I can do basic things in the Rackham remote desktop|4|3
+I can do basic things in the Rackham remote desktop|5|6
+I can do basic things in the terminal|4|2
+I can do basic things in the terminal|5|7
+I can find and load a module|3|1
+I can find and load a module|4|4
+I can find and load a module|5|4
+I can find my home folder|4|3
+I can find my home folder|5|6
+I can find the UPPMAX project's folder of this course|2|1
+I can find the UPPMAX project's folder of this course|3|2
+I can find the UPPMAX project's folder of this course|4|2
+I can find the UPPMAX project's folder of this course|5|4
+I can log in to Rackham using a terminal|3|1
+I can log in to Rackham using a terminal|4|1
+I can log in to Rackham using a terminal|5|7
+I can log in to the Rackham remote desktop using the website|4|3
+I can log in to the Rackham remote desktop using the website|5|6
+I can predict which folders have a backup|3|1
+I can predict which folders have a backup|4|2
+I can predict which folders have a backup|5|6
+I can schedule a job|1|2
+I can schedule a job|2|1
+I can schedule a job|3|3
+I can schedule a job|4|1
+I can schedule a job|5|2
+I can start a terminal text editor|2|1
+I can start a terminal text editor|4|3
+I can start a terminal text editor|5|5
+I can start an IDE|1|6
+I can start an IDE|2|1
+I can start an IDE|3|2
+I can start an interactive session|1|5
+I can start an interactive session|3|2
+I can start an interactive session|5|2
+I can transfer files to/from Rackham using FileZilla|2|2
+I can transfer files to/from Rackham using FileZilla|3|1
+I can transfer files to/from Rackham using FileZilla|4|2
+I can transfer files to/from Rackham using FileZilla|5|4
+I can transfer files to/from Rackham using `scp`|1|2
+I can transfer files to/from Rackham using `scp`|2|2
+I can transfer files to/from Rackham using `scp`|3|1
+I can transfer files to/from Rackham using `scp`|4|3
+I can transfer files to/from Rackham using `scp`|5|1
