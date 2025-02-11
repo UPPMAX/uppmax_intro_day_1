@@ -256,7 +256,7 @@ Ah, I started a Prior here :-)
 
 Valid question asked by my colleague!
 
-- 1:07 - Another round of questionaire. Consisting of the upcoming topic.
+- 1:07 - Another round of questionnaire. Consisting of the upcoming topic.
 - 1:10 – Login via Terminal exercises. Overview followed by hands-on
 - 1:12 – breakout to rooms
 - Break out room 1 : 2/2 video on and discussing.
@@ -264,7 +264,7 @@ Valid question asked by my colleague!
   something else.
 - Break out room 2: 3/3 video on and discussing.
 - Break out room 3: 3/3 video on, and discussing.
-- Break out room 4: 3/3 video on and working independantly.
+- Break out room 4: 3/3 video on and working independently.
 - Break out room 5: 3/3 video on and discussing.
 
 Video is on a lot indeed. Also note how often I jump around: 5x in 8 minutes :-)
@@ -324,7 +324,7 @@ I said 'Yes', we seem to agree.
   opportunities to collaborate in building understanding,
   identify shared interests in
   course content, and develop a supportive classroom network.
-    - Breakout rooms as a tool to colaborate. Encouraging videos for
+    - Breakout rooms as a tool to collaborate. Encouraging videos for
     trust building and exercises to
     complete tasks together.
 
@@ -336,7 +336,7 @@ I said 'Yes', we seem to agree.
   This can lessen stereotype threat and improve
   student performance and participation.
     - Students are free to leave if they have important things to do.
-    - All students were equally encouraged, including the sterotyped groups
+    - All students were equally encouraged, including the stereotyped groups
 
 I said 'Yes', we seem to agree.
 
@@ -414,4 +414,3 @@ not visible, hence we agree.
 
 In conclusion, it seems that my perspective and my colleague's match
 well!
-
