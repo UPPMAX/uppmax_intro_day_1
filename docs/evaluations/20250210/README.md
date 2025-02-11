@@ -47,7 +47,7 @@ Feedback at end of confidences, with only spelling corrections added:
   requirements before using the commands. The documentation is very nicely
   structured, and helped a lot, but for a total beginners it felt like a
   maze. I am a bit sad, that we could not try writing the script in the
-  breakoutrooms due to time [reasons] as I think that is quite important
+  [breakout rooms] due to time [reasons] as I think that is quite important
   and I have low confidence in doing so on my own.
   Concluding, I feel that this course is very valuable especially
   with in this learning format but more time would have been needed.
