@@ -45,3 +45,9 @@ I must give credit to the learners themselves too, as they
 helped me make the course enjoyable.
 
 So, let's take a look at the evaluation results.
+
+## Evaluation
+
+I felt the group was getting less focussed, more viscous to work with after
+the break. 
+

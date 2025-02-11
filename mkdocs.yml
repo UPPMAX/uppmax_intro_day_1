@@ -32,6 +32,7 @@ nav:
     - Clusters: sessions/clusters.md
     - Code of conduct: CODE_OF_CONDUCT.md
     - Contributing: CONTRIBUTING.md
+    - Data: data/README.md
     - Evaluation: evaluation.md
     - Evaluations: evaluations/README.md
     - FAQ: faq/README.md
