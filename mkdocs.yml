@@ -66,6 +66,8 @@ not_in_nav: |
   lesson_plans/20250210/README.md
   reflections/20240827/README.md
   reflections/20250210/README.md
+  data/20240827/README.md
+  data/20250210/README.md
 
 theme:
   name: material
