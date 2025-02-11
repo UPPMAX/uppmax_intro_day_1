@@ -259,7 +259,8 @@ Valid question asked by my colleague!
 - 1:07 - Another round of questionaire. Consisting of the upcoming topic.
 - 1:10 – Login via Terminal exercises. Overview followed by hands-on
 - 1:12 – breakout to rooms
-- Break out room 1 : 2/2 video on and discussing. Corrected students since they were working on
+- Break out room 1 : 2/2 video on and discussing.
+  Corrected students since they were working on
   something else.
 - Break out room 2: 3/3 video on and discussing.
 - Break out room 3: 3/3 video on, and discussing.
