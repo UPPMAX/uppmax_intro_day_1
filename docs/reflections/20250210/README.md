@@ -128,7 +128,7 @@ thought it would all still work. It did not.
 I think this quote is valuable:
 
 > The documentation is very nicely
-> structured, and helped a lot, 
+> structured, and helped a lot,
 > but for a total beginners it felt like a maze.
 
 I feel the day should start with an overview of running an analysis
