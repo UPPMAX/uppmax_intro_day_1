@@ -20,7 +20,6 @@ nav:
     - File transfer using scp: sessions/file_transfer_using_scp.md
   - Doing real work:
     - Introduction: sessions/introduction_real_work.md
-    - The filesystem: sessions/filesystem.md
     - The module system: sessions/modules.md
     - Creating a bash script: sessions/scripts.md
     - The job scheduler: sessions/job_scheduler.md
@@ -42,6 +41,7 @@ nav:
     - Project: misc/project.md
     - Reflections: reflections/README.md
     - The bigger picture: sessions/introduction_bigger_picture.md
+    - The filesystem: sessions/filesystem.md
     - UPPMAX courses: sessions/courses.md
     - UPPMAX Intro overview: overviews/uppmax_intro.md
     - UPPMAX Intro Day 1 overview: overviews/uppmax_intro_day_1.md

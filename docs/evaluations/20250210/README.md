@@ -41,7 +41,7 @@ Feedback at end of confidences, with only spelling corrections added:
 - For a complete beginner, the amount of information is huge.
   The [breakout rooms] and the way of teaching helped greatly.
   I do have to say the pace was quite fast tho and I am very happy
-  to have had some people in the same breakoutrooms
+  to have had some people in the same [breakout rooms]
   that knew so much beforehand. Still, I am quite confused how to find
   everything that I want to do, especially all the commands and
   requirements before using the commands. The documentation is very nicely
