@@ -10,8 +10,10 @@ tags:
 - Numer of responses: 9
 - Response rate: 69%
 
-- [anomymous_feedback.csv](anomymous_feedback.csv)
+- [anonymous_feedback.csv](anonymous_feedback.csv)
+- [anonymous_feedback.zip](anonymous_feedback.zip)
 - [learning_outcomes.csv](learning_outcomes.csv)
+- [learning_outcomes.zip](learning_outcomes.zip)
 
 ![All confidences](all_confidences.png)
 
@@ -19,7 +21,7 @@ tags:
 
 ![Confidences per question, as a histogram](confidences_per_question_histogram.png)
 
-Feedback at end of confidences:
+Feedback at end of confidences, with only spelling corrections added:
 
 - 5x NA
 - Day 1 on this course has been very useful,
@@ -37,7 +39,7 @@ Feedback at end of confidences:
   But it seems that the target for today may be a bit too much unless
   more time is added, or maybe extend the course to 4 days.
 - For a complete beginner, the amount of information is huge.
-  The breakoutrooms and the way of teaching helped greatly.
+  The [breakout rooms] and the way of teaching helped greatly.
   I do have to say the pace was quite fast tho and I am very happy
   to have had some people in the same breakoutrooms
   that knew so much beforehand. Still, I am quite confused how to find
@@ -45,7 +47,7 @@ Feedback at end of confidences:
   requirements before using the commands. The documentation is very nicely
   structured, and helped a lot, but for a total beginners it felt like a
   maze. I am a bit sad, that we could not try writing the script in the
-  breakoutrooms due to time resounse as I think that is quite important
+  breakoutrooms due to time [reasons] as I think that is quite important
   and I have low confidence in doing so on my own.
   Concluding, I feel that this course is very valuable especially
   with in this learning format but more time would have been needed.
