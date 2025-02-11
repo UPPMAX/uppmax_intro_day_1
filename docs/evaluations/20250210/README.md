@@ -31,3 +31,56 @@ Anonymous feedback:
 
 - Great introduction to uppmax and linux, learned a lot!"
 - I enjoyed the teacher's way of interacting and engaging with us students. Making it feel like a safe environment for asking questions. Also liked working in smaller breakout rooms bit the downside being some interactions where more fruitful than others. Where it feels you can easily get lost and not follow if not everyone is on board of the students. But all in all a very useful session!"
+
+Confidences as a tally:
+
+question                  |answer|n
+--------------------------|------|---
+I can create a bash script|1|1
+I can create a bash script|3|2
+I can create a bash script|4|1
+I can create a bash script|5|5
+I can do basic things in the Rackham remote desktop|4|3
+I can do basic things in the Rackham remote desktop|5|6
+I can do basic things in the terminal|4|2
+I can do basic things in the terminal|5|7
+I can find and load a module|3|1
+I can find and load a module|4|4
+I can find and load a module|5|4
+I can find my home folder|4|3
+I can find my home folder|5|6
+I can find the UPPMAX project's folder of this course|2|1
+I can find the UPPMAX project's folder of this course|3|2
+I can find the UPPMAX project's folder of this course|4|2
+I can find the UPPMAX project's folder of this course|5|4
+I can log in to Rackham using a terminal|3|1
+I can log in to Rackham using a terminal|4|1
+I can log in to Rackham using a terminal|5|7
+I can log in to the Rackham remote desktop using the website|4|3
+I can log in to the Rackham remote desktop using the website|5|6
+I can predict which folders have a backup|3|1
+I can predict which folders have a backup|4|2
+I can predict which folders have a backup|5|6
+I can schedule a job|1|2
+I can schedule a job|2|1
+I can schedule a job|3|3
+I can schedule a job|4|1
+I can schedule a job|5|2
+I can start a terminal text editor|2|1
+I can start a terminal text editor|4|3
+I can start a terminal text editor|5|5
+I can start an IDE|1|6
+I can start an IDE|2|1
+I can start an IDE|3|2
+I can start an interactive session|1|5
+I can start an interactive session|3|2
+I can start an interactive session|5|2
+I can transfer files to/from Rackham using FileZilla|2|2
+I can transfer files to/from Rackham using FileZilla|3|1
+I can transfer files to/from Rackham using FileZilla|4|2
+I can transfer files to/from Rackham using FileZilla|5|4
+I can transfer files to/from Rackham using `scp`|1|2
+I can transfer files to/from Rackham using `scp`|2|2
+I can transfer files to/from Rackham using `scp`|3|1
+I can transfer files to/from Rackham using `scp`|4|3
+I can transfer files to/from Rackham using `scp`|5|1
