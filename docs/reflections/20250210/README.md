@@ -169,7 +169,7 @@ I can find other UPPMAX courses                             |Add back in
 
 <!-- markdownlint-enable MD013 -->
 
-Setup 2, 'goal of Day 1 is that learners can submit a batch job':
+Setup 2, 'goal of Day 1 is that learners can submit a batch job they created':
 
 Learning outcome                                            |My proposed fate
 ------------------------------------------------------------|-------------------
