@@ -47,7 +47,7 @@ learner had to say on this:
 > As a learner, you do not want to be berated when giving an answer.
 > Richel tries to gently deal with a wrong answer and he does this great
 >
-> A learner from another course taught by Richèl [source](https://uppmax.github.io/uppmax_intro_python/evaluations/20240118/)
+> A learner from another course taught by Richèl [source](https://uppmax.github.io/naiss_intro_python/evaluations/20240118/)
 
 Second, you are welcome to try and leave anytime you want.
 The course material is made for self-study too, with videos
