@@ -5,10 +5,10 @@ tags:
 ---
 
 # Evaluation 2025-02-10
-
 - Number of learners at 14:45: 13
 - Numer of responses: 9
 - Response rate: 69%
+- Reflections: [Richel](../../reflections/20250210/README.md)
 
 - [anonymous_feedback.csv](anonymous_feedback.csv)
 - [anonymous_feedback.zip](anonymous_feedback.zip)

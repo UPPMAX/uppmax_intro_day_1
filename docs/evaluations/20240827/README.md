@@ -6,6 +6,8 @@ tags:
 
 # Evaluation 2024-08-27
 
+- Reflections: [Richel](../../reflections/20240827/README.md)
+
 ## Feedback
 
 - Anonymous feedback, collected during the day: [anonymous_feedback.md](anonymous_feedback.md)
