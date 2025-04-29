@@ -1,0 +1,64 @@
+09:00:56 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/
+09:04:07 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/
+09:08:50 From Malavi Sengupta To Everyone:
+	Yes it was clear
+09:08:52 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login/
+09:10:00 From Elin H. Berntsson To Everyone:
+	High performance computing
+09:13:57 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login/
+09:16:28 From Elin H. Berntsson To Everyone:
+	Seems quite clear
+09:52:12 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login_remote_desktop/
+10:24:12 From Malavi Sengupta To Everyone:
+	“Use default config” or “one empty panel”?
+10:24:31 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	Use deault config
+10:24:51 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	Xfce
+10:33:16 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/use_remote_desktop/
+10:52:59 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/use_remote_desktop/
+10:59:16 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/file_transfer_using_filezilla/
+11:01:55 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/
+11:03:48 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	eog
+11:03:56 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	eog my_file.png
+11:11:46 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Nauras Daraghmeh(direct message):
+	Hi Nauras, welcome to the course! If/when you can talk, I can get you up to speed :-)
+11:15:06 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	11:15 Back to work! Good luck with https://uppmax.github.io/uppmax_intro_day_1/sessions/file_transfer_using_filezilla/ :-)
+11:15:20 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/
+11:18:54 From Nauras Daraghmeh To [Teacher] Richèl 'Rea-shell' Bilderbeek(direct message):
+	hi rea-shell ;-) really sorry, i cannot talk today. sitting in another mandatory but boring course all day. i am using rackham regularly, so i know most of the basics you are talking about today.
+11:20:19 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login/
+11:21:22 From Malavi Sengupta To Everyone:
+	I got this
+11:21:24 From Malavi Sengupta To Everyone:
+	Status:       Connecting to 89.44.250.84:21...
+	Error:          Connection timed out after 20 seconds of inactivity
+	Error:          Could not connect to server
+11:22:45 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Nauras Daraghmeh(direct message):
+	Hi Nauras, great that you already know the basics! I am unsure what is best to do to get you learn the basics. Let me know your ideas :-)
+11:30:15 From Nauras Daraghmeh To [Teacher] Richèl 'Rea-shell' Bilderbeek(direct message):
+	dont worry, the course material online is really good. i am currently going through it. i will get myself up to date regarding the basics. i will be more available the next few days. sorry for being so passive today
+11:39:29 From Malavi Sengupta To [Teacher] Richèl 'Rea-shell' Bilderbeek(direct message):
+	I did ssh -X but I didn’t get graphics
+11:41:46 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login_console/
+11:43:45 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login_console/
+11:47:41 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Nauras Daraghmeh(direct message):
+	Hi Naurus, no problemo, great to half-have you :-) !
+11:48:27 From [Teacher] Richèl 'Rea-shell' Bilderbeek To Nauras Daraghmeh(direct message):
+	*Nauras sorry :-)
