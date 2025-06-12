@@ -94,9 +94,6 @@ theme:
     - content.action.edit
     - content.action.view
 
-extra_css:
-  - stylesheets/extra.css
-
 markdown_extensions:
   - toc:
       toc_depth: 2
