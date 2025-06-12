@@ -110,8 +110,7 @@ then answer these questions:
 
 ???- question "Answer"
 
-    <!-- Indeed, line lengths beyond 80 characters -->
-    <!-- markdownlint-disable MD013 -->
+    <!-- markdownlint-disable MD013 --><!-- Indeed, line lengths beyond 80 characters -->
 
     It is hard to search for which program that is. However,
     using the
@@ -122,7 +121,7 @@ then answer these questions:
 
     How to log in to Rackham's remote desktop environment using a local ThinLinc
     client is documented
-    [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/)
+    [at the 'Log in to Rackham's remote desktop environment using a local ThinLinc client' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/)
 
     <!-- markdownlint-enable MD013 -->
 
