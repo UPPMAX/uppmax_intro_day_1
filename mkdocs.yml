@@ -57,17 +57,20 @@ validation:
 
 
 not_in_nav: |
+  data/20240827/README.md
+  data/20250210/README.md
   evaluations/20240827/README.md
   evaluations/20240827/anonymous_feedback.md
   evaluations/20240827/survey_feedback.md
   evaluations/20250210/README.md
+  evaluations/20250825/README.md
   lesson_plans/20240827/README.md
   lesson_plans/20240827/20240827_richel.md
   lesson_plans/20250210/README.md
+  lesson_plans/20250825/README.md
   reflections/20240827/README.md
   reflections/20250210/README.md
-  data/20240827/README.md
-  data/20250210/README.md
+  reflections/20250825/README.md
 
 theme:
   name: material
