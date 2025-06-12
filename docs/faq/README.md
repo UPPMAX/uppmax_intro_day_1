@@ -1,8 +1,8 @@
 ---
 tags:
-  - FAQ
-  - frequently asked questions
-  - questions
+    - FAQ
+    - frequently asked questions
+    - questions
 ---
 
 # Frequently Asked Questions
@@ -85,7 +85,6 @@ If you can log in to [https://supr.naiss.se/](https://supr.naiss.se/)
 
     ![Logged in to SUPR](supr_logged_in.png)
 
-
 ### How do I know I have joined the course project?
 
 If you see `UPPMAX 2025/2-262` among your project at
@@ -100,7 +99,6 @@ If you see `UPPMAX 2025/2-262` among your project at
     The one-but-last project is the course project,
     hence this user is in.
 
-
 ### How do I know I have an UPPMAX account?
 
 In [SUPR](https://supr.naiss.se), click on 'Accounts'.
@@ -111,11 +109,10 @@ with resource 'Rackham' and centre 'UPPMAX'.
 ???- question "How does that look like?"
 
     Here we have a screenshot:
-    
+
     ![SUPR account](supr_accounts.png)
 
     The three-but-last row shows that this user has an UPPMAX account
-
 
 ### How do I know that `touch /proj/introtouppmax/completed/$USER` worked?
 

@@ -1,10 +1,10 @@
 ---
 tags:
-  - lesson
-  - cluster
-  - node
-  - core
-  - job
+    - lesson
+    - cluster
+    - node
+    - core
+    - job
 ---
 
 # Clusters
@@ -51,11 +51,11 @@ and -for the same software!- possibly different versions.
 
 These are the most important UPPMAX clusters for us:
 
-Name   |Purpose
--------|---------------
-Bianca |Sensitive data
-Rackham|General purpose
-Snowy  |Provides GPUs
+| Name    | Purpose         |
+| ------- | --------------- |
+| Bianca  | Sensitive data  |
+| Rackham | General purpose |
+| Snowy   | Provides GPUs   |
 
 - [System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html)
 - [Other clusters](https://www.uu.se/en/centre/uppmax/resources/clusters)
@@ -102,24 +102,24 @@ flowchart TD
     subgraph rackham2
       user_2
       user_4
-    end  
+    end
   end
   subgraph computation_nodes[Computation nodes]
     subgraph r100
       job_121
       job_122
       job_123
-    end  
+    end
     subgraph r101
       job_124
-    end  
+    end
     subgraph r102
       job_124_2[job_124]
-    end  
+    end
     subgraph r103
       job_125
       user_5
-    end  
+    end
   end
 ```
 
@@ -140,7 +140,6 @@ flowchart TD
 
     - [...]
 
-
 ### (optional) Exercise 2: Understand system usage
 
 Go to [https://status.uppmax.uu.se/usage/](https://status.uppmax.uu.se/usage/).
@@ -156,4 +155,3 @@ Go to [https://status.uppmax.uu.se/usage/](https://status.uppmax.uu.se/usage/).
 - Pick your favorite UPPMAX cluster
 - Read the doc
 - Find the hardware specifications of this cluster
-

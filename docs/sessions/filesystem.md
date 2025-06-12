@@ -1,12 +1,12 @@
 ---
 tags:
-  - lesson
-  - remote
-  - desktop
-  - environment
-  - use
-  - usage
-  - graphical
+    - lesson
+    - remote
+    - desktop
+    - environment
+    - use
+    - usage
+    - graphical
 ---
 
 # The UPPMAX filesystem
@@ -41,7 +41,6 @@ You want to know if/how your lost files can be retrieved.
 
     `Here` is a video that shows
     the solution of these exercises
-
 
 ### Exercise 1: important folders
 

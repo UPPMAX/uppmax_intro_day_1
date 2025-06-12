@@ -1,11 +1,11 @@
 ---
 tags:
-  - lesson
-  - console environment
-  - use
-  - usage
-  - terminal
-  - command-line
+    - lesson
+    - console environment
+    - use
+    - usage
+    - terminal
+    - command-line
 ---
 
 # Use the console environment
@@ -107,7 +107,7 @@ Feel encouraged to explore this new environment too!
 You are in a terminal on a Rackham login node. You see this:
 
 ```bash
-[sven@rackham2 ~]$ 
+[sven@rackham2 ~]$
 ```
 
 What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
@@ -169,7 +169,6 @@ From there:
     - Tip 2: scan the
       [the 'Looking around' chapter in 'The Linux Command Line'](https://linuxcommand.org/lc3_lts0030.php)
 
-
 ???- question "Answer"
 
     The command to use is `ls`, short for 'List':
@@ -183,9 +182,8 @@ From there:
     ```bash
     [sven@rackham3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  users
-    [sven@rackham3 ~]$ 
+    [sven@rackham3 ~]$
     ```
-
 
 - create a file called `test.txt`
 
@@ -207,7 +205,7 @@ From there:
 
     ```bash
     [sven@rackham2 ~]$ touch test.txt
-    [sven@rackham2 ~]$ 
+    [sven@rackham2 ~]$
     ```
 
 - Find out which files are in your home folder from the terminal again,
@@ -226,7 +224,7 @@ From there:
     ```bash
     [richel@rackham3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  test.txt  users
-    [richel@rackham3 ~]$ 
+    [richel@rackham3 ~]$
     ```
 
 - copy the file `test.txt` to `copy.txt` and confirm that it worked
@@ -334,9 +332,8 @@ From there:
     [richel@rackham2 ~]$ mkdir my_folder
     [richel@rackham2 ~]$ ls
     bin  GitHubs  glob  lib  my_folder  private  R  test2.txt  users
-    [richel@rackham2 ~]$ 
+    [richel@rackham2 ~]$
     ```
-
 
 - copy the `my_folder` folder to `my_copy` and confirm that it worked
 
@@ -359,7 +356,6 @@ From there:
     When trying to copy a folder without `-R`, this warning
     is given and no folder is copied.
 
-
 ???- question "Answer"
 
     The command to use is `cp` with the `-R` flag, where `-R`
@@ -375,7 +371,7 @@ From there:
     [richel@rackham2 ~]$ cp -R my_folder my_copy
     [richel@rackham2 ~]$ ls
     bin  GitHubs  glob  lib  my_copy  my_folder  private  R  test2.txt  users
-    [richel@rackham2 ~]$ 
+    [richel@rackham2 ~]$
     ```
 
     If you forget the `-R` flag, you'll see:
@@ -387,7 +383,6 @@ From there:
 
     When trying to copy a folder without `-R`, this warning
     is given and no folder is copied.
-
 
 - delete the `my_copy` folder and confirm that it worked
 
@@ -498,7 +493,6 @@ From there:
     nano my_file.txt
     ```
 
-
 To be able to search the web for questions on this graphical text editor,
 its name will be useful to know:
 
@@ -536,7 +530,6 @@ its name will be useful to know:
     How to paste depends on the terminal you use.
     The most common keyboard shortcut is `CTRL + SHIFT + V` for pasting
     into a terminal
-
 
 - Copy text from your terminal to your local computer
 

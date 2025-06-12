@@ -1,6 +1,6 @@
 ---
 tags:
-  - welcome
+    - welcome
 ---
 
 # Welcome to UPPMAX Intro Day 1

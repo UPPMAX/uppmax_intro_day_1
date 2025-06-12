@@ -1,9 +1,9 @@
 ---
 tags:
-  - lesson
-  - UPPMAX
-  - intro
-  - overview
+    - lesson
+    - UPPMAX
+    - intro
+    - overview
 ---
 
 # UPPMAX intro
@@ -28,7 +28,7 @@ flowchart TD
   end
 
   bash_1 --> bash_2
-  linux_1 --> linux_2  
+  linux_1 --> linux_2
 
   linux_2 --> bash_2
   slurm_1 --> slurm_2

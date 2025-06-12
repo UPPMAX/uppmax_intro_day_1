@@ -1,10 +1,10 @@
 ---
 tags:
-  - lesson
-  - module
-  - system
-  - lmod
-  - software
+    - lesson
+    - module
+    - system
+    - lmod
+    - software
 ---
 
 # The module system
@@ -77,7 +77,6 @@ pre-installed databases and use these.
 The most important module for bioinformaticians is the `bioinfo-tools`
 module. It is loaded as such:
 
-
 ```bash
 module load bioinfo-tools
 ```
@@ -89,7 +88,6 @@ Only after loading it will some other tools appear.
 ???- question "Need a video?"
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/ZuLMoZkGsZk)
-
 
 ### Exercise 1: find the software
 
@@ -183,7 +181,6 @@ then answer these questions:
 
 ???- question "Answer"
 
-
     <!-- Indeed, line lengths beyond 80 characters -->
     <!-- markdownlint-disable MD013 -->
 
@@ -194,7 +191,6 @@ then answer these questions:
     ```
 
     <!-- markdownlint-enable MD013 -->
-
 
 - Do what is suggested, that is, do `module spider samtools`. Is the
   suggestion to load `bioinfo-tools` given there?
@@ -251,7 +247,6 @@ then answer these questions:
     <!-- Indeed, line lengths beyond 80 characters -->
     <!-- markdownlint-enable MD013 -->
 
-
 - Do `module spider samtools` to get help about the latest version. Is the
   suggestion to load `bioinfo-tools` given there?
 
@@ -272,10 +267,10 @@ then answer these questions:
         You will need to load all module(s) on any one of the lines below before the "samtools/1.20" module is available to load.
 
           bioinfo-tools
-     
+
         Help:
            samtools - use samtools 1.20
-          
+
            Version 1.20
     ```
 

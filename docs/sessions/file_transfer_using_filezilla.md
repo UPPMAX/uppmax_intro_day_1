@@ -1,12 +1,12 @@
 ---
 tags:
-  - lesson
-  - file
-  - data
-  - transfer
-  - FileZilla
-  - GUI
-  - graphical
+    - lesson
+    - file
+    - data
+    - transfer
+    - FileZilla
+    - GUI
+    - graphical
 ---
 
 # File transfer using FileZilla

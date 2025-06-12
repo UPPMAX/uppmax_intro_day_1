@@ -1,9 +1,9 @@
 ---
 tags:
-  - contributing
-  - contribute
-  - suggest
-  - suggestions
+    - contributing
+    - contribute
+    - suggest
+    - suggestions
 ---
 
 # Contributing
@@ -15,8 +15,7 @@ which will be built upon in the next days of the four-day UPPMAX Intro course.
 Suggestions are welcomed that help achieve this goal,
 with a preference to accept suggestions.
 
-* For questions, you can create an Issue
-* Textual changes go via Pull Requests
+- For questions, you can create an Issue
+- Textual changes go via Pull Requests
 
 This GitHub follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).
-

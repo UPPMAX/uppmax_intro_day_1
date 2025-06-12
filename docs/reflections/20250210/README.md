@@ -1,7 +1,7 @@
 ---
 tags:
-  - reflection
-  - 2025-02-10
+    - reflection
+    - 2025-02-10
 ---
 
 # Reflection 2025-02-10
@@ -145,53 +145,53 @@ with an UPPMAX cluster':
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-Learning outcome                                            |My proposed fate
-------------------------------------------------------------|-------------------
-I can log in to the Rackham remote desktop using the website|Stay
-I can do basic things in the Rackham remote desktop         |Stay
-I can find my home folder                                   |Stay
-I can transfer files to/from Rackham using FileZilla        |Stay
-I can log in to Rackham using a terminal                    |Move to other day
-I can do basic things in the terminal                       |Move to other day
-I can transfer a file using `scp`                           |Keep out
-I can find and load a module                                |Only show, move to other day
-I can start a terminal text editor                          |Only show, move to other day
-I can create a bash script                                  |Only show, move to other day
-I can schedule a job                                        |Only show, move to other day
-I can start an interactive session                          |Only show, move to other day
-I can start an IDE                                          |Remove
-I can find my project folder                                |Add back in
-I can state which folders have a backup                     |Add back in
-I can conclude which UPPMAX cluster best suits my needs     |Add back in
-I can find the hardware specifications of an UPPMAX cluster |Keep out
-I can find where to apply for NAISS resources               |Add back in
-I can find other UPPMAX courses                             |Add back in
+| Learning outcome                                             | My proposed fate             |
+| ------------------------------------------------------------ | ---------------------------- |
+| I can log in to the Rackham remote desktop using the website | Stay                         |
+| I can do basic things in the Rackham remote desktop          | Stay                         |
+| I can find my home folder                                    | Stay                         |
+| I can transfer files to/from Rackham using FileZilla         | Stay                         |
+| I can log in to Rackham using a terminal                     | Move to other day            |
+| I can do basic things in the terminal                        | Move to other day            |
+| I can transfer a file using `scp`                            | Keep out                     |
+| I can find and load a module                                 | Only show, move to other day |
+| I can start a terminal text editor                           | Only show, move to other day |
+| I can create a bash script                                   | Only show, move to other day |
+| I can schedule a job                                         | Only show, move to other day |
+| I can start an interactive session                           | Only show, move to other day |
+| I can start an IDE                                           | Remove                       |
+| I can find my project folder                                 | Add back in                  |
+| I can state which folders have a backup                      | Add back in                  |
+| I can conclude which UPPMAX cluster best suits my needs      | Add back in                  |
+| I can find the hardware specifications of an UPPMAX cluster  | Keep out                     |
+| I can find where to apply for NAISS resources                | Add back in                  |
+| I can find other UPPMAX courses                              | Add back in                  |
 
 <!-- markdownlint-enable MD013 -->
 
 Setup 2, 'goal of Day 1 is that learners can submit a batch job they created':
 
-Learning outcome                                            |My proposed fate
-------------------------------------------------------------|-------------------
-I can log in to the Rackham remote desktop using the website|Stay
-I can do basic things in the Rackham remote desktop         |Stay
-I can find my home folder                                   |Stay
-I can transfer files to/from Rackham using FileZilla        |Stay
-I can log in to Rackham using a terminal                    |Keep
-I can do basic things in the terminal                       |Keep
-I can transfer a file using `scp`                           |Keep out
-I can find and load a module                                |Keep
-I can start a terminal text editor                          |Keep
-I can create a bash script                                  |Keep
-I can schedule a job                                        |Keep
-I can start an interactive session                          |Keep
-I can start an IDE                                          |Remove
-I can find my project folder                                |No
-I can state which folders have a backup                     |No
-I can conclude which UPPMAX cluster best suits my needs     |No
-I can find the hardware specifications of an UPPMAX cluster |Keep out
-I can find where to apply for NAISS resources               |No
-I can find other UPPMAX courses                             |No
+| Learning outcome                                             | My proposed fate |
+| ------------------------------------------------------------ | ---------------- |
+| I can log in to the Rackham remote desktop using the website | Stay             |
+| I can do basic things in the Rackham remote desktop          | Stay             |
+| I can find my home folder                                    | Stay             |
+| I can transfer files to/from Rackham using FileZilla         | Stay             |
+| I can log in to Rackham using a terminal                     | Keep             |
+| I can do basic things in the terminal                        | Keep             |
+| I can transfer a file using `scp`                            | Keep out         |
+| I can find and load a module                                 | Keep             |
+| I can start a terminal text editor                           | Keep             |
+| I can create a bash script                                   | Keep             |
+| I can schedule a job                                         | Keep             |
+| I can start an interactive session                           | Keep             |
+| I can start an IDE                                           | Remove           |
+| I can find my project folder                                 | No               |
+| I can state which folders have a backup                      | No               |
+| I can conclude which UPPMAX cluster best suits my needs      | No               |
+| I can find the hardware specifications of an UPPMAX cluster  | Keep out         |
+| I can find where to apply for NAISS resources                | No               |
+| I can find other UPPMAX courses                              | No               |
 
 I will ask what the goal of Day 1 is and then adapt accordingly.
 
@@ -201,23 +201,23 @@ Mean confidences as a table:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-question                                                    |mean_confidence   |Comment
-------------------------------------------------------------|------------------|------
-I can create a bash script                                  |4                 |Demo only
-I can do basic things in the Rackham remote desktop         |4.666666666666667 |Done exercises with all learners
-I can do basic things in the terminal                       |4.777777777777778 |Done exercises with all learners
-I can find and load a module                                |4.333333333333333 |Done exercises with all learners
-I can find my home folder                                   |4.666666666666667 |Done exercises with all learners
-I can find the UPPMAX project's folder of this course       |4                 |Done exercises with all learners
-I can log in to Rackham using a terminal                    |4.666666666666667 |Done exercises with all learners
-I can log in to the Rackham remote desktop using the website|4.666666666666667 |Done exercises with all learners
-I can predict which folders have a backup                   |4.555555555555555 |Done exercises with all learners
-I can schedule a job                                        |3                 |Demo only
-I can start a terminal text editor                          |4.333333333333333 |Done exercises with all learners
-I can start an IDE                                          |1.5555555555555556|Not even shown
-I can start an interactive session                          |2.3333333333333335|Demo only
-I can transfer files to/from Rackham using FileZilla        |3.888888888888889 |Done exercises with all learners
-I can transfer files to/from Rackham using `scp`            |2.888888888888889 |Some learners have done the exercises
+| question                                                     | mean_confidence    | Comment                               |
+| ------------------------------------------------------------ | ------------------ | ------------------------------------- |
+| I can create a bash script                                   | 4                  | Demo only                             |
+| I can do basic things in the Rackham remote desktop          | 4.666666666666667  | Done exercises with all learners      |
+| I can do basic things in the terminal                        | 4.777777777777778  | Done exercises with all learners      |
+| I can find and load a module                                 | 4.333333333333333  | Done exercises with all learners      |
+| I can find my home folder                                    | 4.666666666666667  | Done exercises with all learners      |
+| I can find the UPPMAX project's folder of this course        | 4                  | Done exercises with all learners      |
+| I can log in to Rackham using a terminal                     | 4.666666666666667  | Done exercises with all learners      |
+| I can log in to the Rackham remote desktop using the website | 4.666666666666667  | Done exercises with all learners      |
+| I can predict which folders have a backup                    | 4.555555555555555  | Done exercises with all learners      |
+| I can schedule a job                                         | 3                  | Demo only                             |
+| I can start a terminal text editor                           | 4.333333333333333  | Done exercises with all learners      |
+| I can start an IDE                                           | 1.5555555555555556 | Not even shown                        |
+| I can start an interactive session                           | 2.3333333333333335 | Demo only                             |
+| I can transfer files to/from Rackham using FileZilla         | 3.888888888888889  | Done exercises with all learners      |
+| I can transfer files to/from Rackham using `scp`             | 2.888888888888889  | Some learners have done the exercises |
 
 <!-- markdownlint-enable MD013 -->
 
@@ -227,7 +227,7 @@ operating systems, (2) multiple locations (i.e. inside SUNET, inside Sweden,
 outside Sweden). Maybe I should show these combinations more explicitly?
 
 - [ ] Consider extending FileZilla + Rackham documentation
-  for multiple OSes and locations
+      for multiple OSes and locations
 
 In conclusion, I see that, even for a group with high variation such as this,
 the confidences of the learning outcomes can still be high.
@@ -312,9 +312,9 @@ room. Still, I am happy that this can be sorted out easily.
   to face-to-face and online interactions with students.
     - Warmth : Encourages students to give answer, even wrong ones.
     - Organization : Breakout room for focused work withing small teams.
-    Easy to follow exercises.
-    Expectation setting with course overview.
-    Quizzes/tests at the beginning and end of exercises.
+      Easy to follow exercises.
+      Expectation setting with course overview.
+      Quizzes/tests at the beginning and end of exercises.
     - Respect : Everyone is welcome no matter the prior knowledge they have.
 
 I said 'Yes', we seem to agree.
@@ -325,8 +325,8 @@ I said 'Yes', we seem to agree.
   identify shared interests in
   course content, and develop a supportive classroom network.
     - Breakout rooms as a tool to collaborate. Encouraging videos for
-    trust building and exercises to
-    complete tasks together.
+      trust building and exercises to
+      complete tasks together.
 
 I said 'Yes', we seem to agree.
 
@@ -368,7 +368,7 @@ I said 'Yes', we seem to agree.
 - Increase course structure through graded out-of-class assignments
   and in-class active learning, including the strategies listed above.
     - Feedback form was a tool to do this and students were requested
-    to fill those before leaving.
+      to fill those before leaving.
 
 I said 'N/A', we seem to disagree. And I understand we may have
 different ideas here: I have no idea what this item means exactly.
@@ -379,22 +379,22 @@ I should read the paper better here.
 - Enhance cooperation and reduce competition among students
   to help promote student feelings of success.
     - Answered via previous comments regarding enhancing cooperation.
-    Competition was
-    inherently decreased via those activities too.
+      Competition was
+      inherently decreased via those activities too.
 
 I said 'Yes', we seem to agree.
 
 - Emphasize the relevance of coursework to real life in order
   to enhance student interest and engagement.
     - Talked a little bit the use cases in the beginning of exercises.
-    It was an adequate amount.
+      It was an adequate amount.
 
 I said 'Unsure' and it seems to be a yes. Yay!
 
 - Support students' sense of autonomy to increase interest
   and enjoyment and possibly decrease anxiety measures.
     - Self-evaluation structure of the course with reading material,
-    guides and exercises.
+      guides and exercises.
     - Students discussed with one another if they got stuck individually.
 
 I said 'Yes', we seem to agree.

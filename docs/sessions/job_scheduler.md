@@ -1,13 +1,13 @@
 ---
 tags:
-  - lesson
-  - job
-  - scheduler
-  - Slurm
-  - sbatch
-  - SLURM
-  - squeue
-  - scancel
+    - lesson
+    - job
+    - scheduler
+    - Slurm
+    - sbatch
+    - SLURM
+    - squeue
+    - scancel
 ---
 
 # The job scheduler
@@ -173,7 +173,6 @@ then answer these questions:
 
     But any valid bash script with the same first line will do.
 
-
 - Find the page on `sbatch`, the program to submit a job to the queue
 
 ???- question "Answer"
@@ -259,7 +258,6 @@ then answer these questions:
 
     <!-- markdownlint-enable MD013 -->
 
-
 ### Exercise 4: submit a minimal job with Slurm parameters in the bash script
 
 Go to the UPPMAX documentation at
@@ -306,10 +304,10 @@ then answer these questions:
     You output will be similar to this:
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 my_script.sh 
+    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 my_script.sh
     Submitted batch job 49311056
     [sven@rackham3 ~]$ scancel 49311056
-    [sven@rackham3 ~]$ 
+    [sven@rackham3 ~]$
     ```
 
 - (optional) Schedule a job that takes 1 days, 2 hours, 3 minutes and 4
@@ -322,9 +320,8 @@ then answer these questions:
     For a job of that length, use `-t 1-2:3:4`:
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 -t 1-2:3:4 my_script.sh 
+    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 -t 1-2:3:4 my_script.sh
     Submitted batch job 49311056
     [sven@rackham3 ~]$ scancel 49311056
-    [sven@rackham3 ~]$ 
+    [sven@rackham3 ~]$
     ```
-

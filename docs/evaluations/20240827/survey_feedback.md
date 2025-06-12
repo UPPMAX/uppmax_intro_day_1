@@ -1,10 +1,10 @@
 ---
 tags:
-  - evaluation
-  - feedback
-  - survey
-  - confidences
-  - 2024-08-27
+    - evaluation
+    - feedback
+    - survey
+    - confidences
+    - 2024-08-27
 ---
 
 # Survey feedback 2024-08-27
@@ -40,7 +40,6 @@ Give you confidence levels of the following statements below:
     14. I can find the hardware specifications of an UPPMAX cluster
     15. I can find where to apply for NAISS resources
     16. I can find other UPPMAX courses
-
 
 ## Any feedback?
 

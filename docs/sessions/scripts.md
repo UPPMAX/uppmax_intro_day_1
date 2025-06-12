@@ -1,8 +1,8 @@
 ---
 tags:
-  - lesson
-  - scripts
-  - scripting
+    - lesson
+    - scripts
+    - scripting
 ---
 
 # Scripts
@@ -99,7 +99,6 @@ cowsay hello
     ./my_script.sh
     ```
 
-
 ### Exercise 2: write an executable R script
 
 - Create a file called `my_r_script.R` with the content below:
@@ -131,7 +130,7 @@ message("Hello from R")
     This is how to run the script and the error message:
 
     ```bash
-    [sven@rackham1 ~]$ ./my_r_script.R 
+    [sven@rackham1 ~]$ ./my_r_script.R
     ./my_r_script.R: line 2: syntax error near unexpected token `"Hello from R"'
     ./my_r_script.R: line 2: `message("Hello from R")'
     ```
@@ -141,4 +140,3 @@ message("Hello from R")
   script when it is executable
 
 - Run the script again and confirm that it works
-

@@ -1,9 +1,9 @@
 ---
 tags:
-  - lesson
-  - visual tools
-  - introduction
-  - overview
+    - lesson
+    - visual tools
+    - introduction
+    - overview
 ---
 
 # Basic use with visual tools introduction
@@ -36,11 +36,11 @@ flowchart TD
   use_remote_desktop --> file_transfer_filezilla
 ```
 
-Link                                                                          |Description
-------------------------------------------------------------------------------|---------------------------
-[Login](../sessions/login.md)                                                 |Log in to an UPPMAX cluster
-[Log in to remote desktop environment](../sessions/login_remote_desktop.md)   |Log in to the Rackham remote desktop environment via the website
-[Using the remote desktop environment](../sessions/use_remote_desktop.md)     |Using a remote desktop environment
-[File transfer using FileZilla](../sessions/file_transfer_using_filezilla.md) |File transfer using FileZilla
+| Link                                                                          | Description                                                      |
+| ----------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [Login](../sessions/login.md)                                                 | Log in to an UPPMAX cluster                                      |
+| [Log in to remote desktop environment](../sessions/login_remote_desktop.md)   | Log in to the Rackham remote desktop environment via the website |
+| [Using the remote desktop environment](../sessions/use_remote_desktop.md)     | Using a remote desktop environment                               |
+| [File transfer using FileZilla](../sessions/file_transfer_using_filezilla.md) | File transfer using FileZilla                                    |
 
 <!-- markdownlint-enable MD013 -->

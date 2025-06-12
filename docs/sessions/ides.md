@@ -1,10 +1,10 @@
 ---
 tags:
-  - lesson
-  - IDE
-  - interactive development environment
-  - programming
-  - program
+    - lesson
+    - IDE
+    - interactive development environment
+    - programming
+    - program
 ---
 
 # IDEs
@@ -44,4 +44,3 @@ for help.
     You can find these at <https://docs.uppmax.uu.se/software/ides_on_rackham/>
 
 - Follow that procedure to start an IDE on Rackham
-

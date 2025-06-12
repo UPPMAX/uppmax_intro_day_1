@@ -1,7 +1,7 @@
 ---
 tags:
-  - Richel
-  - Richèl
+    - Richel
+    - Richèl
 ---
 
 # Richèl

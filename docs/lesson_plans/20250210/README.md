@@ -20,11 +20,11 @@ Taking a look at the FileZilla session,
 what can be improved in the lesson material:
 
 - [x] [Add a video to do so, to the UPPMAX docs](https://github.com/UPPMAX/uppmax_intro_day_1/issues/6)
-  which became [this YouTube video](https://youtu.be/-j4S3iC4jiY)
-  and posted [at the UPPMAX doc](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
+      which became [this YouTube video](https://youtu.be/-j4S3iC4jiY)
+      and posted [at the UPPMAX doc](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
     - [x] There already was a video ...? How can I have missed that?
-      I assume I added this video halfway between 'Intro to UPPMAX day 1'
-      course iterations.
+          I assume I added this video halfway between 'Intro to UPPMAX day 1'
+          course iterations.
 
 I do miss a FAQ in this course
 
@@ -175,4 +175,3 @@ Questions would be:
   "Teaching the Teachers: A Study of Perceived Professional Development Needs
   of Educators to Enhance Positive Attitudes toward Inclusive Practices."
   Education Research & Perspectives 40.1 (2013).
-

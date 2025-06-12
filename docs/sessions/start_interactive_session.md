@@ -1,9 +1,9 @@
 ---
 tags:
-  - lesson
-  - interactive
-  - session
-  - node
+    - lesson
+    - interactive
+    - session
+    - node
 ---
 
 # Start interactive session
@@ -115,7 +115,7 @@ then answer these questions:
 
 - (optional) Start an interactive session on Rackham that lasts one hour
   and uses two cores. This is recommended when using RStudio on Rackham
-  
+
 ???- question "Answer"
 
     You can do so ike this:
@@ -123,4 +123,3 @@ then answer these questions:
     ```bash
     interactive -A uppmax2023-2-25 -t 1:00:00 -n 2
     ```
-

@@ -1,12 +1,12 @@
 ---
 tags:
-  - lesson
-  - terminal
-  - basic
-  - terminal
-  - use
-  - console
-  - command-line
+    - lesson
+    - terminal
+    - basic
+    - terminal
+    - use
+    - console
+    - command-line
 ---
 
 # Basic use from a terminal
@@ -30,9 +30,9 @@ flowchart TD
 <!-- Indeed, line lengths beyond 80 characters -->
 <!-- markdownlint-disable MD013 -->
 
-Link                                                                              |Description
-----------------------------------------------------------------------------------|--------------------------------------------------------------------------
-[Login with SSH](../sessions/login_console.md)                                    |Log in to Rackham's console environment
-[Using a terminal](../sessions/use_terminal.md)                                   |Using a terminal for exploring the filesystem and do basic file management
+| Link                                            | Description                                                                |
+| ----------------------------------------------- | -------------------------------------------------------------------------- |
+| [Login with SSH](../sessions/login_console.md)  | Log in to Rackham's console environment                                    |
+| [Using a terminal](../sessions/use_terminal.md) | Using a terminal for exploring the filesystem and do basic file management |
 
 <!-- markdownlint-enable MD013 -->

@@ -1,9 +1,9 @@
 ---
 tags:
-  - lesson
-  - real work
-  - overview
-  - introduction
+    - lesson
+    - real work
+    - overview
+    - introduction
 ---
 
 # Doing real work
@@ -29,10 +29,9 @@ flowchart TD
   job_scheduler --> interactive
 ```
 
-Link                                                                          |Description
-------------------------------------------------------------------------------|--------------------------------------------------------------------------
-[Modules](../sessions/modules.md)                                             |Find and load software modules
-[Scripts](../sessions/scripts.md)                                             |Create scripts
-[Job scheduler](../sessions/job_scheduler.md)                                 |Send jobs to the scheduler
-[Starting an interactive session](../sessions/start_interactive_session.md)   |Starting an interactive session
-
+| Link                                                                        | Description                     |
+| --------------------------------------------------------------------------- | ------------------------------- |
+| [Modules](../sessions/modules.md)                                           | Find and load software modules  |
+| [Scripts](../sessions/scripts.md)                                           | Create scripts                  |
+| [Job scheduler](../sessions/job_scheduler.md)                               | Send jobs to the scheduler      |
+| [Starting an interactive session](../sessions/start_interactive_session.md) | Starting an interactive session |

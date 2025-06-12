@@ -1,7 +1,7 @@
 ---
 tags:
-  - lesson
-  - bigger picture
+    - lesson
+    - bigger picture
 ---
 
 # The bigger picture
@@ -23,8 +23,8 @@ flowchart TD
   uppmax --> |has| courses
 ```
 
-Link                                                                          |Description
-------------------------------------------------------------------------------|--------------------------------------------------------------------------
-[NAISS](../sessions/naiss.md)                                                 |Request for NAISS resources
-[Clusters](../sessions/clusters.md)                                           |Clusters in general and specific to UPPMAX
-[Courses](../sessions/courses.md)                                             |Courses in general and specific to UPPMAX
+| Link                                | Description                                |
+| ----------------------------------- | ------------------------------------------ |
+| [NAISS](../sessions/naiss.md)       | Request for NAISS resources                |
+| [Clusters](../sessions/clusters.md) | Clusters in general and specific to UPPMAX |
+| [Courses](../sessions/courses.md)   | Courses in general and specific to UPPMAX  |

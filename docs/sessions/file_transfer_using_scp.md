@@ -1,11 +1,11 @@
 ---
 tags:
-  - lesson
-  - file transfer
-  - scp
-  - SCP
-  - secure
-  - copy
+    - lesson
+    - file transfer
+    - scp
+    - SCP
+    - secure
+    - copy
 ---
 
 # File transfer using `scp`

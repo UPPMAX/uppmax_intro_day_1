@@ -1,7 +1,7 @@
 ---
 tags:
-  - reflection
-  - 2024-08-27
+    - reflection
+    - 2024-08-27
 ---
 
 # Reflection 2024-08-27
@@ -87,8 +87,8 @@ We did not reach IDEs, nor did we reach 'The Big Picture'.
 To improve:
 
 - [x] In the course schedule, use 'Intro to UPPMAX I' and 'Intro to UPPMAX II',
-  as there was 1 learner that thought the same half-day course would be given
-  twice
+      as there was 1 learner that thought the same half-day course would be given
+      twice
     - Done, as of around 2025-01-20
 
 ## Confidences
@@ -96,7 +96,6 @@ To improve:
 ![Confidences per question, as a histogram](confidences_per_question_histogram.png)
 
 ![Confidences per question, as a density plot](confidences_per_question_density.png)
-
 
 - For topics I covered: In the course I continued a session if '
   4 out of 5 groups were ready.
@@ -106,177 +105,175 @@ To improve:
   re-evaluate that lesson.
 - For topics I did not cover: I ignore this
 
-n|80%
----|---
-1|1
-2|2
-3|3
-4|4
-5|4
-6|5
-7|6
-8|7
-9|8
-10|8
-11|9
-12|10
-13|11
-14|12
-15|12
-16|13
-17|14
+| n   | 80% |
+| --- | --- |
+| 1   | 1   |
+| 2   | 2   |
+| 3   | 3   |
+| 4   | 4   |
+| 5   | 4   |
+| 6   | 5   |
+| 7   | 6   |
+| 8   | 7   |
+| 9   | 8   |
+| 10  | 8   |
+| 11  | 9   |
+| 12  | 10  |
+| 13  | 11  |
+| 14  | 12  |
+| 15  | 12  |
+| 16  | 13  |
+| 17  | 14  |
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can conclude which UPPMAX cluster best suits my needs|0|3
-I can conclude which UPPMAX cluster best suits my needs|2|4
-I can conclude which UPPMAX cluster best suits my needs|3|2
-I can conclude which UPPMAX cluster best suits my needs|4|3
-I can conclude which UPPMAX cluster best suits my needs|5|4
-I can conclude which UPPMAX cluster best suits my needs|NA|1
+| question                                                | answer | n   |
+| ------------------------------------------------------- | ------ | --- |
+| I can conclude which UPPMAX cluster best suits my needs | 0      | 3   |
+| I can conclude which UPPMAX cluster best suits my needs | 2      | 4   |
+| I can conclude which UPPMAX cluster best suits my needs | 3      | 2   |
+| I can conclude which UPPMAX cluster best suits my needs | 4      | 3   |
+| I can conclude which UPPMAX cluster best suits my needs | 5      | 4   |
+| I can conclude which UPPMAX cluster best suits my needs | NA     | 1   |
 
 Indeed, we did not go over this.
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can create a bash script|3|1
-I can create a bash script|4|5
-I can create a bash script|5|11
+| question                   | answer | n   |
+| -------------------------- | ------ | --- |
+| I can create a bash script | 3      | 1   |
+| I can create a bash script | 4      | 5   |
+| I can create a bash script | 5      | 11  |
 
 Threshold: 14. Pass: 16/17
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can do basic things in the Rackham remote desktop|0|1
-I can do basic things in the Rackham remote desktop|2|1
-I can do basic things in the Rackham remote desktop|3|1
-I can do basic things in the Rackham remote desktop|4|3
-I can do basic things in the Rackham remote desktop|5|10
-I can do basic things in the Rackham remote desktop|NA|1
+| question                                            | answer | n   |
+| --------------------------------------------------- | ------ | --- |
+| I can do basic things in the Rackham remote desktop | 0      | 1   |
+| I can do basic things in the Rackham remote desktop | 2      | 1   |
+| I can do basic things in the Rackham remote desktop | 3      | 1   |
+| I can do basic things in the Rackham remote desktop | 4      | 3   |
+| I can do basic things in the Rackham remote desktop | 5      | 10  |
+| I can do basic things in the Rackham remote desktop | NA     | 1   |
 
 Threshold: 13. Pass: 13/16
 
-
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can do basic things in the terminal|4|2
-I can do basic things in the terminal|5|15
+| question                              | answer | n   |
+| ------------------------------------- | ------ | --- |
+| I can do basic things in the terminal | 4      | 2   |
+| I can do basic things in the terminal | 5      | 15  |
 
 Threshold: 14. Pass: all
 
-
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can find and load a module|3|1
-I can find and load a module|4|3
-I can find and load a module|5|13
+| question                     | answer | n   |
+| ---------------------------- | ------ | --- |
+| I can find and load a module | 3      | 1   |
+| I can find and load a module | 4      | 3   |
+| I can find and load a module | 5      | 13  |
 
 Threshold: 14. Pass: 16/17
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can find other UPPMAX courses|1|2
-I can find other UPPMAX courses|2|3
-I can find other UPPMAX courses|3|3
-I can find other UPPMAX courses|4|3
-I can find other UPPMAX courses|5|5
-I can find other UPPMAX courses|NA|1
+| question                        | answer | n   |
+| ------------------------------- | ------ | --- |
+| I can find other UPPMAX courses | 1      | 2   |
+| I can find other UPPMAX courses | 2      | 3   |
+| I can find other UPPMAX courses | 3      | 3   |
+| I can find other UPPMAX courses | 4      | 3   |
+| I can find other UPPMAX courses | 5      | 5   |
+| I can find other UPPMAX courses | NA     | 1   |
 
 Indeed, we did not go over this.
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can find the hardware specifications of an UPPMAX cluster|0|5
-I can find the hardware specifications of an UPPMAX cluster|1|2
-I can find the hardware specifications of an UPPMAX cluster|3|4
-I can find the hardware specifications of an UPPMAX cluster|4|2
-I can find the hardware specifications of an UPPMAX cluster|5|3
-I can find the hardware specifications of an UPPMAX cluster|NA|1
+| question                                                    | answer | n   |
+| ----------------------------------------------------------- | ------ | --- |
+| I can find the hardware specifications of an UPPMAX cluster | 0      | 5   |
+| I can find the hardware specifications of an UPPMAX cluster | 1      | 2   |
+| I can find the hardware specifications of an UPPMAX cluster | 3      | 4   |
+| I can find the hardware specifications of an UPPMAX cluster | 4      | 2   |
+| I can find the hardware specifications of an UPPMAX cluster | 5      | 3   |
+| I can find the hardware specifications of an UPPMAX cluster | NA     | 1   |
 
 Indeed, we did not go over this.
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can find where to apply for NAISS resources|0|1
-I can find where to apply for NAISS resources|1|2
-I can find where to apply for NAISS resources|3|5
-I can find where to apply for NAISS resources|4|5
-I can find where to apply for NAISS resources|5|3
-I can find where to apply for NAISS resources|NA|1
+| question                                      | answer | n   |
+| --------------------------------------------- | ------ | --- |
+| I can find where to apply for NAISS resources | 0      | 1   |
+| I can find where to apply for NAISS resources | 1      | 2   |
+| I can find where to apply for NAISS resources | 3      | 5   |
+| I can find where to apply for NAISS resources | 4      | 5   |
+| I can find where to apply for NAISS resources | 5      | 3   |
+| I can find where to apply for NAISS resources | NA     | 1   |
 
 Indeed, we did not go over this.
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can log in to Rackham using a terminal|4|1
-I can log in to Rackham using a terminal|5|16
+| question                                 | answer | n   |
+| ---------------------------------------- | ------ | --- |
+| I can log in to Rackham using a terminal | 4      | 1   |
+| I can log in to Rackham using a terminal | 5      | 16  |
 
 Threshold: 14. Pass: all
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can log in to the Rackham remote desktop using the website|0|1
-I can log in to the Rackham remote desktop using the website|2|1
-I can log in to the Rackham remote desktop using the website|3|1
-I can log in to the Rackham remote desktop using the website|4|1
-I can log in to the Rackham remote desktop using the website|5|12
-I can log in to the Rackham remote desktop using the website|NA|1
+| question                                                     | answer | n   |
+| ------------------------------------------------------------ | ------ | --- |
+| I can log in to the Rackham remote desktop using the website | 0      | 1   |
+| I can log in to the Rackham remote desktop using the website | 2      | 1   |
+| I can log in to the Rackham remote desktop using the website | 3      | 1   |
+| I can log in to the Rackham remote desktop using the website | 4      | 1   |
+| I can log in to the Rackham remote desktop using the website | 5      | 12  |
+| I can log in to the Rackham remote desktop using the website | NA     | 1   |
 
 Threshold: 13. Pass: 13/16
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can schedule a job|2|1
-I can schedule a job|3|1
-I can schedule a job|4|3
-I can schedule a job|5|12
+| question             | answer | n   |
+| -------------------- | ------ | --- |
+| I can schedule a job | 2      | 1   |
+| I can schedule a job | 3      | 1   |
+| I can schedule a job | 4      | 3   |
+| I can schedule a job | 5      | 12  |
 
 Threshold: 14. Pass: 15/17
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can start a terminal text editor|4|4
-I can start a terminal text editor|5|13
+| question                           | answer | n   |
+| ---------------------------------- | ------ | --- |
+| I can start a terminal text editor | 4      | 4   |
+| I can start a terminal text editor | 5      | 13  |
 
 Threshold: 14. Pass: all
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can start an IDE|0|7
-I can start an IDE|2|2
-I can start an IDE|3|3
-I can start an IDE|4|1
-I can start an IDE|5|3
-I can start an IDE|NA|1
+| question           | answer | n   |
+| ------------------ | ------ | --- |
+| I can start an IDE | 0      | 7   |
+| I can start an IDE | 2      | 2   |
+| I can start an IDE | 3      | 3   |
+| I can start an IDE | 4      | 1   |
+| I can start an IDE | 5      | 3   |
+| I can start an IDE | NA     | 1   |
 
 Indeed, we did not go over this.
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can start an interactive session|4|2
-I can start an interactive session|5|15
+| question                           | answer | n   |
+| ---------------------------------- | ------ | --- |
+| I can start an interactive session | 4      | 2   |
+| I can start an interactive session | 5      | 15  |
 
 Threshold: 14. Pass: all
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can transfer files to/from Rackham using FileZilla|0|1
-I can transfer files to/from Rackham using FileZilla|2|1
-I can transfer files to/from Rackham using FileZilla|3|3
-I can transfer files to/from Rackham using FileZilla|4|3
-I can transfer files to/from Rackham using FileZilla|5|9
+| question                                             | answer | n   |
+| ---------------------------------------------------- | ------ | --- |
+| I can transfer files to/from Rackham using FileZilla | 0      | 1   |
+| I can transfer files to/from Rackham using FileZilla | 2      | 1   |
+| I can transfer files to/from Rackham using FileZilla | 3      | 3   |
+| I can transfer files to/from Rackham using FileZilla | 4      | 3   |
+| I can transfer files to/from Rackham using FileZilla | 5      | 9   |
 
 Threshold: 14. Pass: 12. This lesson seems weakest!
 
-Average: (5*9)+(4*3)+(3*3)+(2*1)+(0*1)/17=4.0
+Average: (5*9)+(4*3)+(3*3)+(2*1)+(0\*1)/17=4.0
 
-question                                               |answer|n
--------------------------------------------------------|------|---
-I can transfer files to/from Rackham using `scp`|0|2
-I can transfer files to/from Rackham using `scp`|1|1
-I can transfer files to/from Rackham using `scp`|3|4
-I can transfer files to/from Rackham using `scp`|4|2
-I can transfer files to/from Rackham using `scp`|5|8
+| question                                         | answer | n   |
+| ------------------------------------------------ | ------ | --- |
+| I can transfer files to/from Rackham using `scp` | 0      | 2   |
+| I can transfer files to/from Rackham using `scp` | 1      | 1   |
+| I can transfer files to/from Rackham using `scp` | 3      | 4   |
+| I can transfer files to/from Rackham using `scp` | 4      | 2   |
+| I can transfer files to/from Rackham using `scp` | 5      | 8   |
 
 Only part of the group did this.
 
@@ -317,4 +314,3 @@ From the anonymous feedback (2 responses):
   The course had a nice pace for beginners
   and Richèl Bilderbeek did a great job!
 - Great first day Richèl. Mindful of everyone's time needed for each task.
-

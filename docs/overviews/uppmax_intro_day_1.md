@@ -1,12 +1,12 @@
 ---
 tags:
-  - lesson
-  - UPPMAX
-  - intro
-  - day 1
-  - overview
-  - today
-  - this day
+    - lesson
+    - UPPMAX
+    - intro
+    - day 1
+    - overview
+    - today
+    - this day
 ---
 
 # UPPMAX Intro Day 1
@@ -72,12 +72,12 @@ flowchart TD
 
   %% console -> GUI
   modules --> use_ide
-  
+
 
   %% GUI -> console
   login_remote_desktop --> login_ssh
   use_remote_desktop --> use_terminal
-  file_transfer_filezilla --> file_transfer_scp  
+  file_transfer_filezilla --> file_transfer_scp
   interactive --> use_ide
 ```
 

@@ -1,7 +1,7 @@
 ---
 tags:
-  - courses
-  - workshops
+    - courses
+    - workshops
 ---
 
 # Courses and workshops

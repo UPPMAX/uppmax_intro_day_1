@@ -1,9 +1,9 @@
 ---
 tags:
-  - exercise
-  - duos
-  - breakout room
-  - procedure
+    - exercise
+    - duos
+    - breakout room
+    - procedure
 ---
 
 # Duo's in breakout rooms exercise procedure

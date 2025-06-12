@@ -8,45 +8,44 @@ nav:
   - Course dates: course_dates.md
   - Schedule: schedule.md
   - Basic use with visual tools:
-    - Introduction: sessions/introduction_visual.md
-    - Login in general: sessions/login.md
-    - Log in to the remote desktop environment: sessions/login_remote_desktop.md
-    - Use the remote desktop environment: sessions/use_remote_desktop.md
-    - File transfer using FileZilla: sessions/file_transfer_using_filezilla.md
+      - Introduction: sessions/introduction_visual.md
+      - Login in general: sessions/login.md
+      - Log in to the remote desktop environment: sessions/login_remote_desktop.md
+      - Use the remote desktop environment: sessions/use_remote_desktop.md
+      - File transfer using FileZilla: sessions/file_transfer_using_filezilla.md
   - Basic use from a terminal:
-    - Introduction: sessions/introduction_terminal.md
-    - Log in to the console environment: sessions/login_console.md
-    - Use the terminal: sessions/use_terminal.md
+      - Introduction: sessions/introduction_terminal.md
+      - Log in to the console environment: sessions/login_console.md
+      - Use the terminal: sessions/use_terminal.md
   - Doing real work:
-    - Introduction: sessions/introduction_real_work.md
-    - The module system: sessions/modules.md
-    - Creating a bash script: sessions/scripts.md
-    - The job scheduler: sessions/job_scheduler.md
-    - Start an interactive session: sessions/start_interactive_session.md
-    - IDEs: sessions/ides.md
+      - Introduction: sessions/introduction_real_work.md
+      - The module system: sessions/modules.md
+      - Creating a bash script: sessions/scripts.md
+      - The job scheduler: sessions/job_scheduler.md
+      - Start an interactive session: sessions/start_interactive_session.md
+      - IDEs: sessions/ides.md
   - Misc:
-    - About Richel: misc/richel.md
-    - Acknowledgements: misc/acknowledgements.md
-    - Clusters: sessions/clusters.md
-    - Code of conduct: CODE_OF_CONDUCT.md
-    - Contributing: CONTRIBUTING.md
-    - Data: data/README.md
-    - Evaluation: evaluation.md
-    - Evaluations: evaluations/README.md
-    - FAQ: faq/README.md
-    - File transfer using scp: sessions/file_transfer_using_scp.md
-    - Lesson plans: lesson_plans/README.md
-    - Exercise procedure: misc/exercise_procedure.md
-    - NAISS: sessions/naiss.md
-    - Project: misc/project.md
-    - Reflections: reflections/README.md
-    - The bigger picture: sessions/introduction_bigger_picture.md
-    - The filesystem: sessions/filesystem.md
-    - UPPMAX courses: sessions/courses.md
-    - UPPMAX Intro overview: overviews/uppmax_intro.md
-    - UPPMAX Intro Day 1 overview: overviews/uppmax_intro_day_1.md
+      - About Richel: misc/richel.md
+      - Acknowledgements: misc/acknowledgements.md
+      - Clusters: sessions/clusters.md
+      - Code of conduct: CODE_OF_CONDUCT.md
+      - Contributing: CONTRIBUTING.md
+      - Data: data/README.md
+      - Evaluation: evaluation.md
+      - Evaluations: evaluations/README.md
+      - FAQ: faq/README.md
+      - File transfer using scp: sessions/file_transfer_using_scp.md
+      - Lesson plans: lesson_plans/README.md
+      - Exercise procedure: misc/exercise_procedure.md
+      - NAISS: sessions/naiss.md
+      - Project: misc/project.md
+      - Reflections: reflections/README.md
+      - The bigger picture: sessions/introduction_bigger_picture.md
+      - The filesystem: sessions/filesystem.md
+      - UPPMAX courses: sessions/courses.md
+      - UPPMAX Intro overview: overviews/uppmax_intro.md
+      - UPPMAX Intro Day 1 overview: overviews/uppmax_intro_day_1.md
   - Contact us: contact_us.md
-
 
 # Replace by 'warn' in relaxed mode
 validation:
@@ -54,7 +53,6 @@ validation:
   absolute_links: warn
   unrecognized_links: warn
   anchors: warn
-
 
 not_in_nav: |
   data/20240827/README.md
@@ -95,10 +93,10 @@ theme:
     - content.tabs.link
     - content.action.edit
     - content.action.view
-    
+
 extra_css:
   - stylesheets/extra.css
-      
+
 markdown_extensions:
   - toc:
       toc_depth: 2
@@ -125,5 +123,3 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-

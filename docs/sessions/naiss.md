@@ -1,8 +1,8 @@
 ---
 tags:
-  - lesson
-  - NAISS
-  - national
+    - lesson
+    - NAISS
+    - national
 ---
 
 # NAISS
@@ -38,7 +38,7 @@ flowchart TD
   naiss --> |finances| national_resources
   local_universities --> |finance| local_resources
   supr --> |user management| national_resources
-  supr --> |user management| local_resources  
+  supr --> |user management| local_resources
 ```
 
 ## About NAISS

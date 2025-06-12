@@ -1,12 +1,12 @@
 ---
 tags:
-  - lesson
-  - login
-  - log in
-  - log in to
-  - log into
-  - remote desktop
-  - remote desktop environment
+    - lesson
+    - login
+    - log in
+    - log in to
+    - log into
+    - remote desktop
+    - remote desktop environment
 ---
 
 # Log in to a remote desktop environment

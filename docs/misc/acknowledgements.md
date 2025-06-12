@@ -1,8 +1,8 @@
 ---
 tags:
-  - acknowledgements
-  - credits
-  - contributors
+    - acknowledgements
+    - credits
+    - contributors
 ---
 
 # Acknowledgements

@@ -1,9 +1,9 @@
 ---
 tags:
-  - prerequisites
-  - requirements
-  - preparation
-  - prereqs
+    - prerequisites
+    - requirements
+    - preparation
+    - prereqs
 ---
 
 # Prerequisites
