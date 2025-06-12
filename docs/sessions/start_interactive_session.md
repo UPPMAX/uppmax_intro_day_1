@@ -62,8 +62,7 @@ In this session, we learn how to start an interactive session.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/Jb8bkphDugQ) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/Jb8bkphDugQ)
 
 ### Exercise 1: start and end an interactive session on Rackham
 

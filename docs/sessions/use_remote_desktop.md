@@ -86,8 +86,7 @@ as maybe you'll be too afraid to ask a colleague later.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/XiPoHNs2SDQ) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/XiPoHNs2SDQ)
 
 It is assumed you are logged in to the remote desktop environment of Rackham.
 
@@ -355,8 +354,7 @@ then answer these questions:
 
 ???- question "Answer"
 
-    The page is
-    [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
+    [The UPPMAX 'Log in to Rackham's remote desktop via a webbrowser' page](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
 
 - On that page, find where to find information on how to use the
   remote desktop

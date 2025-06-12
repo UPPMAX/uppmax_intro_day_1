@@ -58,8 +58,7 @@ It works under Linux, Mac and Windows.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/HLIqDnpHjvU) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/HLIqDnpHjvU)
 
 ### Exercise 1: transfer a file
 

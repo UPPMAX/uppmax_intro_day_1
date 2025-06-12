@@ -51,8 +51,7 @@ such as loading modules and then running your favorite software.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/yDkV_pQYfgM) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/yDkV_pQYfgM)
 
 ### Exercise 1: write a bash script
 

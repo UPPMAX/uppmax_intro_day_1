@@ -65,8 +65,7 @@ It works under Linux, Mac and Windows.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/CyJbWHZbvJU) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/CyJbWHZbvJU)
 
 ### Exercise 1: install FileZilla
 

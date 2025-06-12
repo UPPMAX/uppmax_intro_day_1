@@ -77,8 +77,7 @@ Some SSH clients can run from a terminal or vice versa.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/FUNPZHEMC2s) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/FUNPZHEMC2s)
 
 Here, we log in to Rackham's console environment via a terminal.
 

@@ -88,8 +88,8 @@ Only after loading it will some other tools appear.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/ZuLMoZkGsZk) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/ZuLMoZkGsZk)
+
 
 ### Exercise 1: find the software
 

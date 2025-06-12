@@ -80,8 +80,7 @@ using a website, as this is easier to do.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/vHlHf7OP8s8) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/vHlHf7OP8s8)
 
 There are two exercises, of which the second is optional.
 
@@ -96,12 +95,7 @@ then answer these questions:
 
 ???- question "Answer"
 
-    <!-- Indeed, line lengths beyond 80 characters -->
-    <!-- markdownlint-disable MD013 -->
-
-    The page is [here](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
-
-    <!-- markdownlint-enable MD013 -->
+    [The 'Log in to Rackham's remote desktop via a webbrowser' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
 
 - Follow the procedure
 

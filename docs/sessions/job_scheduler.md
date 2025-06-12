@@ -82,8 +82,7 @@ flowchart TD
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/qvBN2686JNE) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/qvBN2686JNE)
 
 ### Exercise 1: see the job queue
 

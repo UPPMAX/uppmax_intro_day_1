@@ -87,8 +87,7 @@ which is available in both print and online:
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/FO-jb7-H0xs) is a video that shows
-    the solution of these exercises
+    See [this YouTube video that shows the solution of these exercises](https://youtu.be/FO-jb7-H0xs)
 
 It is assumed you are logged in to the console environment of Rackham
 with a terminal.
