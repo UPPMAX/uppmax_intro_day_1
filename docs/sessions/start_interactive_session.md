@@ -76,7 +76,7 @@ then answer these questions:
 ???- question "Answer"
 
     It can be found at
-    <https://docs.uppmax.uu.se/cluster_guides/start_interactive_node_on_rackham/>
+    <https://docs.uppmax.uu.se/cluster_guides/start_interactive_session_on_rackham/>
 
 - Start an interactive session on Rackham that lasts one hour
 
