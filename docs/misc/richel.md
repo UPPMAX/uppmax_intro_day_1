@@ -15,4 +15,5 @@ tags:
 > A learner from this course ([source](../evaluations/20240827/survey_feedback.md))
 
 See Richèl's name's pronunciation
-and teaching style [here](https://richelbilderbeek.github.io/teaching/who_is_richel/).
+and teaching style
+[at his site about teaching](https://richelbilderbeek.github.io/teaching/who_is_richel/).
