@@ -28,7 +28,11 @@ You can contact us:
 
 When sending an email, these are the roles:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 | Role               | Person                                                                                 |
 | ------------------ | -------------------------------------------------------------------------------------- |
 | Course coordinator | [Diana Iusan](https://www.uu.se/en/contact-and-organisation/staff?query=N5-245)        |
 | Main teacher       | [Richèl Bilderbeek](https://www.uu.se/en/contact-and-organisation/staff?query=N21-617) |
+
+<!-- markdownlint-enable MD013 -->

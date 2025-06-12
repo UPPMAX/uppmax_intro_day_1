@@ -67,23 +67,27 @@ Anonymous feedback:
 
 Mean confidences as a table:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 | question                                                     | mean_confidence    |
 | ------------------------------------------------------------ | ------------------ |
 | I can create a bash script                                   | 4                  |
-| I can do basic things in the Rackham remote desktop          | 4.666666666666667  |
-| I can do basic things in the terminal                        | 4.777777777777778  |
-| I can find and load a module                                 | 4.333333333333333  |
-| I can find my home folder                                    | 4.666666666666667  |
+| I can do basic things in the Rackham remote desktop          | 4.67  |
+| I can do basic things in the terminal                        | 4.78  |
+| I can find and load a module                                 | 4.33  |
+| I can find my home folder                                    | 4.67  |
 | I can find the UPPMAX project's folder of this course        | 4                  |
-| I can log in to Rackham using a terminal                     | 4.666666666666667  |
-| I can log in to the Rackham remote desktop using the website | 4.666666666666667  |
-| I can predict which folders have a backup                    | 4.555555555555555  |
+| I can log in to Rackham using a terminal                     | 4.67  |
+| I can log in to the Rackham remote desktop using the website | 4.67  |
+| I can predict which folders have a backup                    | 4.55  |
 | I can schedule a job                                         | 3                  |
-| I can start a terminal text editor                           | 4.333333333333333  |
-| I can start an IDE                                           | 1.5555555555555556 |
-| I can start an interactive session                           | 2.3333333333333335 |
-| I can transfer files to/from Rackham using FileZilla         | 3.888888888888889  |
-| I can transfer files to/from Rackham using `scp`             | 2.888888888888889  |
+| I can start a terminal text editor                           | 4.33  |
+| I can start an IDE                                           | 1.56 |
+| I can start an interactive session                           | 2.35 |
+| I can transfer files to/from Rackham using FileZilla         | 3.89  |
+| I can transfer files to/from Rackham using `scp`             | 2.89  |
+
+<!-- markdownlint-enable MD013 -->
 
 Confidences as a tally:
 

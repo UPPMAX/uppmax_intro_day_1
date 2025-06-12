@@ -29,9 +29,13 @@ flowchart TD
   job_scheduler --> interactive
 ```
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 | Link                                                                        | Description                     |
 | --------------------------------------------------------------------------- | ------------------------------- |
 | [Modules](../sessions/modules.md)                                           | Find and load software modules  |
 | [Scripts](../sessions/scripts.md)                                           | Create scripts                  |
 | [Job scheduler](../sessions/job_scheduler.md)                               | Send jobs to the scheduler      |
 | [Starting an interactive session](../sessions/start_interactive_session.md) | Starting an interactive session |
+
+<!-- markdownlint-enable MD013 -->

@@ -24,6 +24,8 @@ tags:
 
     See [the course dates](course_dates.md).
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 | When        | Who | What                                                               |
 | ----------- | --- | ------------------------------------------------------------------ |
 | 09:00-09:15 | R   | Introduction                                                       |
@@ -39,6 +41,8 @@ tags:
 | 15:00-15:15 | .   | Break                                                              |
 | 15:15-15:45 | R   | [Doing real work](sessions/introduction_real_work.md) 2/2          |
 | 15:45-16:00 | R   | [Evaluation](evaluation.md)                                        |
+
+<!-- markdownlint-enable MD013 -->
 
 - Teachers are: `R`: Richèl Bilderbeek
 

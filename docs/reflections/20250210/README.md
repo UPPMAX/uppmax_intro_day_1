@@ -1,9 +1,3 @@
----
-tags:
-    - reflection
-    - 2025-02-10
----
-
 # Reflection 2025-02-10
 
 This group had more variation in how fast the learners went through the
@@ -171,6 +165,8 @@ with an UPPMAX cluster':
 
 Setup 2, 'goal of Day 1 is that learners can submit a batch job they created':
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 | Learning outcome                                             | My proposed fate |
 | ------------------------------------------------------------ | ---------------- |
 | I can log in to the Rackham remote desktop using the website | Stay             |
@@ -192,6 +188,8 @@ Setup 2, 'goal of Day 1 is that learners can submit a batch job they created':
 | I can find the hardware specifications of an UPPMAX cluster  | Keep out         |
 | I can find where to apply for NAISS resources                | No               |
 | I can find other UPPMAX courses                              | No               |
+
+<!-- markdownlint-enable MD013 -->
 
 I will ask what the goal of Day 1 is and then adapt accordingly.
 
@@ -267,7 +265,8 @@ Valid question asked by my colleague!
 - Break out room 4: 3/3 video on and working independently.
 - Break out room 5: 3/3 video on and discussing.
 
-Video is on a lot indeed. Also note how often I jump around: 5x in 8 minutes :-)
+Video is on a lot indeed.
+Also note how often I jump around: 5x in 8 minutes :-)
 
 - 1:20 – 15 students. New student joins and teacher
   gets feedback and them to a room.
