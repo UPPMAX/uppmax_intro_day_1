@@ -27,7 +27,7 @@ so please start early :-)
   (if you don't already have one)
 - Prerequisite 5/8: Follow the steps in the UPPMAX email to get your UPPMAX account
   (if you've followed step 4)
-- Prerequisite 6/8: [Log in to Rackham](https://docs.uppmax.uu.se/getting_started/login_rackham/)
+- Prerequisite 6/8: [Log in to Pelle](https://docs.uppmax.uu.se/getting_started/login_pelle/)
 - Prerequisite 7/8: In [a terminal](https://docs.uppmax.uu.se/software/terminal/),
   run `touch /proj/introtouppmax/completed/$USER`
 - Prerequisite 8/8: Have a good Zoom setup
