@@ -24,6 +24,10 @@ tags:
 
     See [the course dates](course_dates.md).
 
+???- question "Where is the course?"
+
+    See [the course dates](course_dates.md).
+
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 | When        | Who | What                                                               |
