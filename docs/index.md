@@ -7,6 +7,11 @@ tags:
 
 ![The UPPMAX logo](uppmax_logo.png)
 
+!!! warning "Monday August 25 2025 is cancelled"
+
+    Monday August 25 2025 has been cancelled,
+    together with the other days of the course.
+
 [Prerequisites](prereqs.md){ .md-button .md-button--primary }
 [Course dates](course_dates.md){ .md-button .md-button--primary }
 [Schedule](schedule.md){ .md-button .md-button--primary }
