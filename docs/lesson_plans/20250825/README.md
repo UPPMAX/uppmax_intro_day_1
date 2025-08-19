@@ -11,6 +11,8 @@
 - [?] Extra whiteboard eraser
 - [?] Extra electricity outlets and extension cords
 - [?] Speaker for announcing breaks
+- [?] Extra coffee cups, milk, sugar?
+- [?] Extra laptops?
 
 ## 2025-08-18
 
@@ -236,6 +238,9 @@ I assume there is a whiteboard, this is how it should look like at the start:
 |             | Questions?                          |             |
 |             |                                     |             |
 +-------------+-------------------------------------+-------------+
+```
+
+Ah, the course has been cancelled, I will update info...
 
 
 ## References
