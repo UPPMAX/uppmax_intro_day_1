@@ -33,24 +33,32 @@ of Rackham.
 If the intro course fails due to Pelle not being ready,
 it was not my choice to use Pelle.
 
-First, check if all technology works
+First, check if all technology works and report things that are missing:
 
 Page                        |Status
+----------------------------|-----------------------------------------------------------------------------
 Prerequisites               |Works
 Course dates                |Works
 Schedule                    |Works
 Login                       |Works
-Login to remote desktop     |Website https://pelle-gui.uppmax.uu.se fails, ThinLinc works
+Login to remote desktop     |Website `https://pelle-gui.uppmax.uu.se` fails, ThinLinc works
 Use the remote desktop      |Works
 File transfer with FileZilla|Works
-Login console               |`xeyes` absent
+Login console               |`xeyes` absent, use `eog` instead anyways
 Use terminal                |Works
 Module system               |Works
+Creating a bash script      |Works
+Scheduler                   |Works
+Interactive jobs            |Works
 
+Great, this seems to work! I've reported the two defects
+and I can live without them.
 
+Next steps:
 
-
-- Basic use from a terminal
-- Doing real work
-- Evaluation
+- Prepare IRL teaching
+- Fix UPPMAX docs
+- Add UPPMAX docs videos
+- Fix this courses' docs
+- Add videos to this courses' docs
 

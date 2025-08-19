@@ -84,7 +84,7 @@ then answer these questions:
     You can do so ike this:
 
     ```bash
-    interactive -A uppmax2023-2-25 -t 1:00:00
+    interactive -A uppmax2025-2-262 -t 1:00:00
     ```
 
 - How do you know you are no longer on the login node?
@@ -121,5 +121,5 @@ then answer these questions:
     You can do so ike this:
 
     ```bash
-    interactive -A uppmax2023-2-25 -t 1:00:00 -n 2
+    interactive -A uppmax2025-2-262 -t 1:00:00 -n 2
     ```
