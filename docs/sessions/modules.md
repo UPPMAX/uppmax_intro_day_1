@@ -17,7 +17,6 @@ tags:
     - Understand why there is a module system
     - Can find pre-installed software using the module system
     - Can load a module
-    - Practice loading the `bioinfo-tools` module first
 
 ???- question "For teachers"
 
@@ -30,7 +29,6 @@ tags:
     - Learners can find pre-installed software using the module system
     - Learners can load a module
     - Learners can unload a module
-    - Learners understand to load the `bioinfo-tools` module first
 
     Lesson plan:
 
@@ -72,22 +70,11 @@ that are also available to you.
 In this session, we'll search for pre-installed software,
 pre-installed databases and use these.
 
-## The `bioinfo-tools` module
-
-The most important module for bioinformaticians is the `bioinfo-tools`
-module. It is loaded as such:
-
-```bash
-module load bioinfo-tools
-```
-
-Only after loading it will some other tools appear.
-
 ## Exercises
 
 ???- question "Need a video?"
 
-    See [this YouTube video that shows the solution of these exercises](https://youtu.be/ZuLMoZkGsZk)
+    TODO
 
 ### Exercise 1: find the software
 
@@ -168,116 +155,3 @@ then answer these questions:
 
 - Confirm that `cowsay` does not work anymore,
   by typing `cowsay hello`. This should give an error
-
-### Exercise 4: the `bioinfo-tools` module
-
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
-
-- Load the `samtools` module, without loading the `bioinfo-tools` module
-  (if you have loaded it, unload it).
-  Which error message do you get?
-
-???- question "Answer"
-
-    <!-- Indeed, line lengths beyond 80 characters -->
-    <!-- markdownlint-disable MD013 -->
-
-    ```bash
-    [sven@pelle1 ~]$ module load samtools
-    Lmod has detected the following error:  These module(s) or extension(s) exist but cannot be loaded as requested: "samtools"
-       Try: "module spider samtools" to see how to load the module(s).
-    ```
-
-    <!-- markdownlint-enable MD013 -->
-
-- Do what is suggested, that is, do `module spider samtools`. Is the
-  suggestion to load `bioinfo-tools` given there?
-
-???- question "Answer"
-
-    No:
-
-    <!-- Indeed, line lengths beyond 80 characters -->
-    <!-- markdownlint-disable MD013 -->
-
-    ```bash
-    [sven@pelle1 ~]$ module spider samtools
-
-    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      samtools:
-    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-         Versions:
-            samtools/0.1.12-10
-            samtools/0.1.19
-            samtools/1.1
-            samtools/1.2
-            samtools/1.3
-            samtools/1.4
-            samtools/1.5_debug
-            samtools/1.5
-            samtools/1.6
-            samtools/1.8
-            samtools/1.9
-            samtools/1.10
-            samtools/1.12
-            samtools/1.14
-            samtools/1.16
-            samtools/1.17
-            samtools/1.19
-            samtools/1.20
-         Other possible modules matches:
-            SAMtools
-
-    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      To find other possible module matches execute:
-
-          $ module -r spider '.*samtools.*'
-
-    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      For detailed information about a specific "samtools" package (including how to load the modules) use the module's full name.
-      Note that names that have a trailing (E) are extensions provided by other modules.
-      For example:
-
-         $ module spider samtools/1.20
-    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    ```
-
-    <!-- Indeed, line lengths beyond 80 characters -->
-    <!-- markdownlint-enable MD013 -->
-
-- Do `module spider samtools` to get help about the latest version. Is the
-  suggestion to load `bioinfo-tools` given there?
-
-???- question "Answer"
-
-    Yes:
-
-    <!-- Indeed, line lengths beyond 80 characters -->
-    <!-- markdownlint-disable MD013 -->
-
-    ```bash
-    [sven@pelle1 ~]$ module spider samtools/1.20
-
-    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-      samtools: samtools/1.20
-    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-        You will need to load all module(s) on any one of the lines below before the "samtools/1.20" module is available to load.
-
-          bioinfo-tools
-
-        Help:
-           samtools - use samtools 1.20
-
-           Version 1.20
-    ```
-
-    <!-- markdownlint-enable MD013 -->
-
-Remember, whenever you cannot find something, do:
-
-```bash
-module load bioinfo-tools
-```

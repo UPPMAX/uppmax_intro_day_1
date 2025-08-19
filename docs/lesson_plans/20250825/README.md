@@ -40,9 +40,14 @@ Prerequisites               |Works
 Course dates                |Works
 Schedule                    |Works
 Login                       |Works
-Login to remote desktop     |Works
+Login to remote desktop     |Website https://pelle-gui.uppmax.uu.se fails, ThinLinc works
 Use the remote desktop      |Works
-File transfer with FileZilla|-
+File transfer with FileZilla|Works
+Login console               |`xeyes` absent
+Use terminal                |Works
+Module system               |Works
+
+
 
 
 - Basic use from a terminal
