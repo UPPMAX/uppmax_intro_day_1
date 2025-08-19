@@ -50,11 +50,11 @@ tags:
     - How does using an HPC clusters look like?
     - How does one tell the UPPMAX HPC clusters what to do?
     - Who has already logged in to an HPC cluster?
-    - Who has already logged in to Rackham?
+    - Who has already logged in to Pelle?
 
-![Rackham](rackham.jpg)
+![Pelle](pelle.jpg)
 
-> A human taking care of the Rackham UPPMAX HPC cluster
+> A human taking care of the Pelle UPPMAX HPC cluster
 
 ## Why?
 
@@ -68,14 +68,14 @@ After logging in, one wants to behave considerate towards other users.
 <!-- markdownlint-disable MD013 -->
 
 It is assumed you have fulfilled all
-[prerequisites for using Rackham](https://docs.uppmax.uu.se/getting_started/rackham_usage_prerequisites/).
+[prerequisites for using Pelle](https://docs.uppmax.uu.se/getting_started/pelle_usage_prerequisites/).
 
 <!-- markdownlint-enable MD013 -->
 
 ## Introduction
 
 In this session, we warm up for using the UPPMAX HPC cluster
-called Rackham. Here we introduce the first terms, such as 'HPC cluster'.
+called Pelle. Here we introduce the first terms, such as 'HPC cluster'.
 
 We will practice using the UPPMAX documentation,
 so that you are confident that you can find what you need
@@ -86,8 +86,7 @@ Also, it helps UPPMAX staff find out how good our documentation is :-)
 
 ???- question "Need a video?"
 
-    - [Exercise 1](https://youtu.be/eSn0kLkU5Dc)
-    - [Exercise 2](https://youtu.be/J6hhEfW8-5w)
+    TODO
 
 ### Exercise 1: get an UPPMAX 2FA
 
@@ -121,14 +120,14 @@ Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Where is it is described how to log in to Rackham?
+- Where is it is described how to log in to Pelle?
 
 ???- question "Answer"
 
-    It is at <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
+    It is at <https://docs.uppmax.uu.se/getting_started/login_pelle/>.
 
     You can reach this page by searching for
-    'Login Rackham' or 'Log in Rackham'.
+    'Login Pelle' or 'Log in Pelle'.
 
 - How many environments can one log in to? How do they look like?
 
@@ -137,14 +136,14 @@ then answer these questions:
     Two:
 
     - a remote desktop environment, which looks like a regular Linux computer
-      with [the Xfce desktop environment](https://xfce.org/) installed
+      with [the MATE desktop environment](https://mate-desktop.org/) installed
 
     - a console environment, which looks like text. No graphics. Text.
 
     These answers can be found at
-    <https://docs.uppmax.uu.se/getting_started/login_rackham/>.
+    <https://docs.uppmax.uu.se/getting_started/login_pelle/>.
 
-- The documentation of how to log in to Rackham states:
+- The documentation of how to log in to Pelle states:
   'After logging in, one is on a login node'.
   What is a login node? Find it in the UPPMAX documentation
 
@@ -164,7 +163,7 @@ then answer these questions:
     > A login node is the computer where you arrive
     > after logging in to an UPPMAX HPC cluster
 
-- Should the examples below be done on the Rackham login node?
+- Should the examples below be done on the Pelle login node?
   What is your reasoning?
 
     - Create a directory
@@ -178,29 +177,29 @@ then answer these questions:
 
     > - Create a directory
 
-    Can be done on the Rackham login node, as this is a very light calculation
+    Can be done on the Pelle login node, as this is a very light calculation
     that takes a very short time to run.
 
     > - Copy a dataset of 100 gigabytes to another folder
 
-    Can be done on the Rackham login node, as this is a light calculation
+    Can be done on the Pelle login node, as this is a light calculation
     that takes a reasonable short time to run.
 
     > - Download a dataset of 100 gigabytes
 
-    Can be done on the Rackham login node, as this is a light calculation
+    Can be done on the Pelle login node, as this is a light calculation
     that takes a reasonable short time to run.
 
     > - Edit a file using an IDE such as RStudio, VSCode or VSCodium
 
-    Don't do this on a Rackham login node. These program
+    Don't do this on a Pelle login node. These program
     need a lot of CPU and memory and are typically used for a long time.
 
     Instead, use [an interactive session](start_interactive_session.md).
 
     > - Edit a file using a simple text editor such as `emacs`, `nano` or `vim`
 
-    Can be done on the Rackham login node, as this is such a light calculation
+    Can be done on the Pelle login node, as this is such a light calculation
     that it can be run for a long time.
 
     > - Run a bash/Nextflow/Python/R script

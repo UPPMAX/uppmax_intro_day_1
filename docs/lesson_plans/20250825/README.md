@@ -5,6 +5,8 @@
 - [Evaluation](../../evaluations/20250825/README.md)
 - [Reflection](../../reflections/20250825/README.md)
 
+## 2025-08-18
+
 Changes:
 
 - Use Pelle instead of Rackham
@@ -19,5 +21,27 @@ Procedure to prepare for IRL teaching:
 
 - Re-read that part of the literature again
   and write down my rules
+
+## 2025-08-19
+
+Change of plan: 
+
+I have only one week to find out all the quirks in Pelle.
+My teaching depends on this.
+I have no idea why the choice was made to use Pelle, instead
+of Rackham.
+If the intro course fails due to Pelle not being ready,
+it was not my choice to use Pelle.
+
+First, check if all technology works
+
+Page                       |Status
+Prerequisites              |Works
+Course dates               |Works
+Schedule                   |Works
+Login                      |Works
+- Basic use from a terminal
+- Doing real work
+- Evaluation
 
 
