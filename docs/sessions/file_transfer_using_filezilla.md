@@ -48,13 +48,13 @@ tags:
     - Who has heard of FileZilla?
     - Who has already used FileZilla?
 
-![FileZilla connected to Rackham](filezilla_login_to_rackham.png)
+![FileZilla connected to Pelle](filezilla_login_to_pelle.png)
 
-> FileZilla being able to do file transfer to/from Rackham
+> FileZilla being able to do file transfer to/from Pelle
 
 ## Why?
 
-Fairly sure you'll want to upload or download files to Rackham.
+Fairly sure you'll want to upload or download files to Pelle.
 Here we do so.
 
 We use a free and open-source graphical tool to do this,
@@ -96,12 +96,12 @@ Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
 for help.
 
 - Search for the procedure on how to transfer a file
-  to/from Rackham using FileZilla
+  to/from Pelle using FileZilla
 
 ???- question "Where is that documentation?"
 
     The procedure can be found at
-    [https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/](https://docs.uppmax.uu.se/software/rackham_file_transfer_using_filezilla/)
+    [https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/)
 
 - Follow that procedure to transfer a file
 - Use the file explorer to verify that files indeed are transferred

@@ -24,7 +24,7 @@ Procedure to prepare for IRL teaching:
 
 ## 2025-08-19
 
-Change of plan: 
+Change of plan:
 
 I have only one week to find out all the quirks in Pelle.
 My teaching depends on this.
@@ -40,8 +40,8 @@ Prerequisites              |Works
 Course dates               |Works
 Schedule                   |Works
 Login                      |Works
+
 - Basic use from a terminal
 - Doing real work
 - Evaluation
-
 

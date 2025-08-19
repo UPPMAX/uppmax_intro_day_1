@@ -64,20 +64,20 @@ In this session, we learn how to start an interactive session.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/Jb8bkphDugQ)
 
-### Exercise 1: start and end an interactive session on Rackham
+### Exercise 1: start and end an interactive session on Pelle
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find the page on how to start an interactive session on Rackham
+- Find the page on how to start an interactive session on Pelle
 
 ???- question "Answer"
 
     It can be found at
-    <https://docs.uppmax.uu.se/cluster_guides/start_interactive_session_on_rackham/>
+    <https://docs.uppmax.uu.se/cluster_guides/start_interactive_session_on_pelle/>
 
-- Start an interactive session on Rackham that lasts one hour
+- Start an interactive session on Pelle that lasts one hour
 
 ???- question "Answer"
 
@@ -92,8 +92,8 @@ then answer these questions:
 ???- question "Answer"
 
     There are multiple ways. The easiest is to look at the prompt:
-    it has changed from `@rackham[1-4]` to `@r[1-5000]`,
-    which means you are on a Rackham compute node
+    it has changed from `@pelle[1-4]` to `@r[1-5000]`,
+    which means you are on a Pelle compute node
 
 - Stop the interactive session
 
@@ -110,11 +110,11 @@ then answer these questions:
 ???- question "Answer"
 
     There are multiple ways. The easiest is to look at the prompt:
-    it has changed from `@r[1-5000]` to `@rackham[1-4]`,
-    which means you are on a Rackham login node
+    it has changed from `@r[1-5000]` to `@pelle[1-4]`,
+    which means you are on a Pelle login node
 
-- (optional) Start an interactive session on Rackham that lasts one hour
-  and uses two cores. This is recommended when using RStudio on Rackham
+- (optional) Start an interactive session on Pelle that lasts one hour
+  and uses two cores. This is recommended when using RStudio on Pelle
 
 ???- question "Answer"
 

@@ -13,9 +13,9 @@ tags:
 >
 > A learner in this course ([source](../evaluations/20240827/README.md))
 
-Here we start using Rackham.
+Here we start using Pelle.
 To ease the learning curve, we use software that is visual,
-so you can start feeling at home on Rackham,
+so you can start feeling at home on Pelle,
 before moving to more abstract new topics.
 
 <!-- Indeed, line lengths beyond 80 characters -->
@@ -39,7 +39,7 @@ flowchart TD
 | Link                                                                          | Description                                                      |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [Login](../sessions/login.md)                                                 | Log in to an UPPMAX cluster                                      |
-| [Log in to remote desktop environment](../sessions/login_remote_desktop.md)   | Log in to the Rackham remote desktop environment via the website |
+| [Log in to remote desktop environment](../sessions/login_remote_desktop.md)   | Log in to the Pelle remote desktop environment via the website |
 | [Using the remote desktop environment](../sessions/use_remote_desktop.md)     | Using a remote desktop environment                               |
 | [File transfer using FileZilla](../sessions/file_transfer_using_filezilla.md) | File transfer using FileZilla                                    |
 

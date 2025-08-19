@@ -14,8 +14,8 @@ tags:
 !!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
-    - Can log in to the Rackham remote desktop environment using the website
-    - (optional) Can log in to the Rackham remote desktop environment
+    - Can log in to the Pelle remote desktop environment using the website
+    - (optional) Can log in to the Pelle remote desktop environment
       using a local ThinLinc client
 
 ???- question "For teachers"
@@ -23,9 +23,9 @@ tags:
     Teaching goals are:
 
     - Learners have practiced using the UPPMAX documentation
-    - Learners haved logged in to the Rackham remote desktop environment
+    - Learners haved logged in to the Pelle remote desktop environment
       using the website
-    - (optional) Learners have logged in to the Rackham remote desktop
+    - (optional) Learners have logged in to the Pelle remote desktop
       environment
       using a local ThinLinc client
 
@@ -56,9 +56,9 @@ tags:
     - Why would one use a remote desktop environment?
     - What are disadvantages of a remote desktop environment?
 
-![The Rackham remote desktop environment](rackham_via_remote_desktop_50.jpg)
+![The Pelle remote desktop environment](pelle_via_remote_desktop_50.jpg)
 
-> The Rackham remote desktop environment.
+> The Pelle remote desktop environment.
 
 ## Why?
 
@@ -68,12 +68,12 @@ The UPPMAX clusters provide for a remote desktop environment.
 It is a remote environment, as we need to log in to a cluster remotely,
 i.e. we do not plug in our keyboard and monitor to a node.
 
-There are two ways to access the remote remote desktop environment of Rackham:
+There are two ways to access the remote remote desktop environment of Pelle:
 
 - use a website
 - use a program
 
-In this session, we will at least access the Rackham remote desktop environment
+In this session, we will at least access the Pelle remote desktop environment
 using a website, as this is easier to do.
 
 ## Exercises
@@ -90,12 +90,12 @@ Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find the page where it is documented to log in to Rackham's remote desktop
+- Find the page where it is documented to log in to Pelle's remote desktop
   via a webbrowser.
 
 ???- question "Answer"
 
-    [The 'Log in to Rackham's remote desktop via a webbrowser' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
+    [The 'Log in to Pelle's remote desktop via a webbrowser' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
 
 - Follow the procedure
 
@@ -105,7 +105,7 @@ Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find the page where it is documented to log in to Rackham's remote desktop using
+- Find the page where it is documented to log in to Pelle's remote desktop using
   a program. What is that program called?
 
 ???- question "Answer"
@@ -114,14 +114,14 @@ then answer these questions:
 
     It is hard to search for which program that is. However,
     using the
-    ['log in to Rackham' page](https://docs.uppmax.uu.se/getting_started/login_rackham/)
+    ['log in to Pelle' page](https://docs.uppmax.uu.se/getting_started/login_pelle/)
     shows the login via 'a local ThinLinc client'.
 
     That is the program's name: ThinLinc
 
-    How to log in to Rackham's remote desktop environment using a local ThinLinc
+    How to log in to Pelle's remote desktop environment using a local ThinLinc
     client is documented
-    [at the 'Log in to Rackham's remote desktop environment using a local ThinLinc client' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_local_thinlinc_client/)
+    [at the 'Log in to Pelle's remote desktop environment using a local ThinLinc client' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client/)
 
     <!-- markdownlint-enable MD013 -->
 

@@ -54,7 +54,7 @@ These are the most important UPPMAX clusters for us:
 | Name    | Purpose         |
 | ------- | --------------- |
 | Bianca  | Sensitive data  |
-| Rackham | General purpose |
+| Pelle | General purpose |
 | Snowy   | Provides GPUs   |
 
 - [System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html)
@@ -94,12 +94,12 @@ There are two types of nodes:
 ```mermaid
 flowchart TD
   subgraph login_nodes[Login nodes]
-    subgraph rackham1
+    subgraph pelle1
       user_1
       user_3
       user_6
     end
-    subgraph rackham2
+    subgraph pelle2
       user_2
       user_4
     end
@@ -123,9 +123,9 @@ flowchart TD
   end
 ```
 
-> A simplified view of Rackham.
-> The login node `rackham1` has three users on it.
-> The login node `rackham2` has two users on it.
+> A simplified view of Pelle.
+> The login node `pelle1` has three users on it.
+> The login node `pelle2` has two users on it.
 > The compute node `r100` is running three different jobs.
 > The compute nodes `r101` and `r102` are running the same job.
 > The compute node `r103` is used for an interactive job by `user_5`.

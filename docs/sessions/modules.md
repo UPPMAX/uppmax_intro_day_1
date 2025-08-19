@@ -51,7 +51,7 @@ tags:
     Prior questions:
 
     - What would happen if all users would be allowed
-      to install software on Rackham?
+      to install software on Pelle?
     - Describe a situation when two users that have admin rights
       on the same account of the same computer cannot both be happy
     - How can one run different versions of the same software
@@ -96,7 +96,7 @@ Go to the UPPMAX documentation at
 then answer these questions:
 
 - Find to list of installed software.
-  Estimate how many pieces of software are installed on Rackham
+  Estimate how many pieces of software are installed on Pelle
 
 ???- question "Answer"
 
@@ -110,7 +110,7 @@ Go to the UPPMAX documentation at
 then answer these questions:
 
 - Find to list of databases.
-  Estimate how many collections of databases are installed on Rackham
+  Estimate how many collections of databases are installed on Pelle
 
 ???- question "Answer"
 
@@ -185,7 +185,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [sven@rackham1 ~]$ module load samtools
+    [sven@pelle1 ~]$ module load samtools
     Lmod has detected the following error:  These module(s) or extension(s) exist but cannot be loaded as requested: "samtools"
        Try: "module spider samtools" to see how to load the module(s).
     ```
@@ -203,7 +203,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [sven@rackham1 ~]$ module spider samtools
+    [sven@pelle1 ~]$ module spider samtools
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       samtools:
@@ -258,7 +258,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [sven@rackham1 ~]$ module spider samtools/1.20
+    [sven@pelle1 ~]$ module spider samtools/1.20
 
     -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
       samtools: samtools/1.20

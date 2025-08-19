@@ -54,7 +54,7 @@ tags:
     - What is a job scheduler?
     - Why does one need a job scheduler?
     - What information may one need to tell a job scheduler?
-    - Is it possible to have all nodes of Rackham running your jobs?
+    - Is it possible to have all nodes of Pelle running your jobs?
 
 ## Why?
 
@@ -194,7 +194,7 @@ then answer these questions:
     Your output will look similar to this:
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh
+    [sven@pelle3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh
     Submitted batch job 49309848
     ```
 
@@ -218,7 +218,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh
+    [sven@pelle3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh
     sbatch: error: This does not look like a batch script.  The first
     sbatch: error: line must start with #! followed by the path to an interpreter.
     sbatch: error: For instance: #!/bin/sh
@@ -250,7 +250,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [richel@rackham3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh; squeue -u $USER
+    [richel@pelle3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh; squeue -u $USER
     Submitted batch job 49309860
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
               49309860      core my_scrip   richel PD       0:00      1 (None)
@@ -304,10 +304,10 @@ then answer these questions:
     You output will be similar to this:
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 my_script.sh
+    [sven@pelle3 ~]$ sbatch -A uppmax2023-2-25 my_script.sh
     Submitted batch job 49311056
-    [sven@rackham3 ~]$ scancel 49311056
-    [sven@rackham3 ~]$
+    [sven@pelle3 ~]$ scancel 49311056
+    [sven@pelle3 ~]$
     ```
 
 - (optional) Schedule a job that takes 1 days, 2 hours, 3 minutes and 4
@@ -320,8 +320,8 @@ then answer these questions:
     For a job of that length, use `-t 1-2:3:4`:
 
     ```bash
-    [sven@rackham3 ~]$ sbatch -A uppmax2023-2-25 -t 1-2:3:4 my_script.sh
+    [sven@pelle3 ~]$ sbatch -A uppmax2023-2-25 -t 1-2:3:4 my_script.sh
     Submitted batch job 49311056
-    [sven@rackham3 ~]$ scancel 49311056
-    [sven@rackham3 ~]$
+    [sven@pelle3 ~]$ scancel 49311056
+    [sven@pelle3 ~]$
     ```

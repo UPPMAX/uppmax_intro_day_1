@@ -74,7 +74,7 @@ tags:
 ## Why?
 
 After [logging in to the remote desktop](login_remote_desktop.md),
-we can work with Rackham. Let's make sure we can do so :-)
+we can work with Pelle. Let's make sure we can do so :-)
 
 Here we start to feel at ease using the remote desktop environment.
 Most exercises (e.g. creating a file) will be intuitive to do.
@@ -88,10 +88,10 @@ as maybe you'll be too afraid to ask a colleague later.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/XiPoHNs2SDQ)
 
-It is assumed you are logged in to the remote desktop environment of Rackham.
+It is assumed you are logged in to the remote desktop environment of Pelle.
 
 No need to read the documentation here:
-we'll take a look at the (Linux) filesystem of Rackham.
+we'll take a look at the (Linux) filesystem of Pelle.
 
 Try to do these exercises by trying out things yourself first.
 There are usually multiple ways to solve the exercise.
@@ -103,7 +103,7 @@ Feel encouraged to explore this new environment too!
 
 ???- question "Answer"
 
-    ![The Rackham remote desktop environment](rackham_remote_desktop.png)
+    ![The Pelle remote desktop environment](pelle_remote_desktop.png)
 
     At the bar at the bottom of the screen, click on the rightmost folder icon
     to open the file explorer. You will be asked in which folder to open
@@ -113,7 +113,7 @@ Feel encouraged to explore this new environment too!
 
 ???- question "Answer"
 
-    ![The Rackham remote desktop environment with the file explorer open](rackham_remote_desktop_file_explorer.png)
+    ![The Pelle remote desktop environment with the file explorer open](pelle_remote_desktop_file_explorer.png)
 
     When you started the file explorer, you already had to pick a folder,
     giving away the answer to this question.
@@ -125,7 +125,7 @@ Feel encouraged to explore this new environment too!
 
 ???- question "Answer"
 
-    ![The Rackham remote desktop environment with the file explorer open](rackham_remote_desktop_file_explorer.png)
+    ![The Pelle remote desktop environment with the file explorer open](pelle_remote_desktop_file_explorer.png)
 
     When you started the file explorer, pick the top option 'Open folder'
     to open up your home folder.
@@ -350,11 +350,11 @@ Go to the UPPMAX documentation at
 then answer these questions:
 
 - Find the page where it is documented to log in to
-  Rackham's remote desktop via a webbrowser.
+  Pelle's remote desktop via a webbrowser.
 
 ???- question "Answer"
 
-    [The UPPMAX 'Log in to Rackham's remote desktop via a webbrowser' page](http://docs.uppmax.uu.se/getting_started/login_rackham_remote_desktop_website/).
+    [The UPPMAX 'Log in to Pelle's remote desktop via a webbrowser' page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
 
 - On that page, find where to find information on how to use the
   remote desktop

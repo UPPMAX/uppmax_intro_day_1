@@ -89,7 +89,7 @@ which is available in both print and online:
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/FO-jb7-H0xs)
 
-It is assumed you are logged in to the console environment of Rackham
+It is assumed you are logged in to the console environment of Pelle
 with a terminal.
 In case you did not get this to work,
 login via the remote desktop website and start a terminal there.
@@ -104,13 +104,13 @@ Feel encouraged to explore this new environment too!
 
 ### Exercise 1: the prompt
 
-You are in a terminal on a Rackham login node. You see this:
+You are in a terminal on a Pelle login node. You see this:
 
 ```bash
-[sven@rackham2 ~]$
+[sven@pelle2 ~]$
 ```
 
-What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
+What does that all mean: the `[`, `sven`, `@`, `pelle2`, `~`, `]` and `$`?
 
 ???- tip "Tips"
 
@@ -122,14 +122,14 @@ What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
     - `[` and `]`: indicates the beginning and end of information
     - `sven`: the username
     - `@`: at which cluster
-    - `rackham2`: the remote node's name,
-      in this case Rackham's second login node
+    - `pelle2`: the remote node's name,
+      in this case Pelle's second login node
     - `~`: the user in the home folder
     - `$`: indicate to be ready for user input
 
 ### Exercise 2: file navigation
 
-- You are in a terminal on a Rackham login node.
+- You are in a terminal on a Pelle login node.
   Find out the directory you are in: which command do you use?
 
 ???- tip "Tips"
@@ -149,13 +149,13 @@ What does that all mean: the `[`, `sven`, `@`, `rackham2`, `~`, `]` and `$`?
     You output will look similar to this:
 
     ```bash
-    [sven@rackham2 ~]$ pwd
+    [sven@pelle2 ~]$ pwd
     /home/sven
     ```
 
 ### Exercise 3: file management
 
-You are in a terminal on a Rackham login node, in your home folder.
+You are in a terminal on a Pelle login node, in your home folder.
 
 From there:
 
@@ -180,9 +180,9 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [sven@rackham3 ~]$ ls
+    [sven@pelle3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  users
-    [sven@rackham3 ~]$
+    [sven@pelle3 ~]$
     ```
 
 - create a file called `test.txt`
@@ -204,8 +204,8 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [sven@rackham2 ~]$ touch test.txt
-    [sven@rackham2 ~]$
+    [sven@pelle2 ~]$ touch test.txt
+    [sven@pelle2 ~]$
     ```
 
 - Find out which files are in your home folder from the terminal again,
@@ -222,9 +222,9 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ ls
+    [richel@pelle3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  test.txt  users
-    [richel@rackham3 ~]$
+    [richel@pelle3 ~]$
     ```
 
 - copy the file `test.txt` to `copy.txt` and confirm that it worked
@@ -246,8 +246,8 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ cp test.txt copy.txt
-    [richel@rackham3 ~]$ ls
+    [richel@pelle3 ~]$ cp test.txt copy.txt
+    [richel@pelle3 ~]$ ls
     bin  copy.txt  GitHubs  glob  lib  private  R  test.txt  users
     ```
 
@@ -270,8 +270,8 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ rm copy.txt
-    [richel@rackham3 ~]$ ls
+    [richel@pelle3 ~]$ rm copy.txt
+    [richel@pelle3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  test.txt  users
     ```
 
@@ -305,8 +305,8 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham3 ~]$ mv test.txt test2.txt
-    [richel@rackham3 ~]$ ls
+    [richel@pelle3 ~]$ mv test.txt test2.txt
+    [richel@pelle3 ~]$ ls
     bin  GitHubs  glob  lib  private  R  test2.txt  users
     ```
 
@@ -329,10 +329,10 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ mkdir my_folder
-    [richel@rackham2 ~]$ ls
+    [richel@pelle2 ~]$ mkdir my_folder
+    [richel@pelle2 ~]$ ls
     bin  GitHubs  glob  lib  my_folder  private  R  test2.txt  users
-    [richel@rackham2 ~]$
+    [richel@pelle2 ~]$
     ```
 
 - copy the `my_folder` folder to `my_copy` and confirm that it worked
@@ -349,7 +349,7 @@ From there:
     You'll see:
 
     ```bash
-    [richel@rackham2 ~]$ cp my_folder my_copy
+    [richel@pelle2 ~]$ cp my_folder my_copy
     cp: omitting directory ‘my_folder’
     ```
 
@@ -368,16 +368,16 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ cp -R my_folder my_copy
-    [richel@rackham2 ~]$ ls
+    [richel@pelle2 ~]$ cp -R my_folder my_copy
+    [richel@pelle2 ~]$ ls
     bin  GitHubs  glob  lib  my_copy  my_folder  private  R  test2.txt  users
-    [richel@rackham2 ~]$
+    [richel@pelle2 ~]$
     ```
 
     If you forget the `-R` flag, you'll see:
 
     ```bash
-    [richel@rackham2 ~]$ cp my_folder my_copy
+    [richel@pelle2 ~]$ cp my_folder my_copy
     cp: omitting directory ‘my_folder’
     ```
 
@@ -404,15 +404,15 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ rm -R my_copy/
-    [richel@rackham2 ~]$ ls
+    [richel@pelle2 ~]$ rm -R my_copy/
+    [richel@pelle2 ~]$ ls
     bin  GitHubs  glob  lib  my_folder  private  R  test2.txt  users
     ```
 
     If you forget the `-R` flag, you'll see:
 
     ```bash
-    [richel@rackham2 ~]$ rm my_copy/
+    [richel@pelle2 ~]$ rm my_copy/
     rm: cannot remove ‘my_copy/’: Is a directory
     ```
 
@@ -438,15 +438,15 @@ From there:
     You output will look similar to this:
 
     ```bash
-    [richel@rackham2 ~]$ mv my_folder my_best_folder
-    [richel@rackham2 ~]$ ls
+    [richel@pelle2 ~]$ mv my_folder my_best_folder
+    [richel@pelle2 ~]$ ls
     bin  GitHubs  glob  lib  my_best_folder  private  R  test2.txt  users
     ```
 
     If you add the `-R` flag, you'll see:
 
     ```bash
-    [richel@rackham2 ~]$ mv -R my_folder my_best_folder
+    [richel@pelle2 ~]$ mv -R my_folder my_best_folder
     mv: invalid option -- 'R'
     Try 'mv --help' for more information.
     ```

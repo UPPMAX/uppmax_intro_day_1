@@ -28,7 +28,7 @@ flowchart TD
   local_universities[Local universities]
   subgraph national_resources[National resources]
     bianca[Bianca @ UPPMAX]
-    rackham[Rackham @ UPPMAX]
+    pelle[Pelle @ UPPMAX]
     other_national[Others]
   end
   subgraph local_resources[Local resources]
@@ -81,14 +81,14 @@ then answer these questions:
 ### Exercise 2: Apply for resources
 
 At [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/),
-request resources for Rackham. This will take you to
-the [SUPR NAISS page on Rackham](https://supr.naiss.se/resource/rackham/).
+request resources for Pelle. This will take you to
+the [SUPR NAISS page on Pelle](https://supr.naiss.se/resource/pelle/).
 
 Apply for a 'Small Compute' project.
 
 - What academic level (BSc, MSc, PhD student, etc.)
   do you need to have to be eligible?
-- How many CPU core hours per month would you get for Rackham?
+- How many CPU core hours per month would you get for Pelle?
 
 Cancel this application.
 
@@ -96,6 +96,6 @@ Apply for a 'Medium Compute' project.
 
 - What academic level (BSc, MSc, PhD student, etc.)
   do you need to have to be eligible?
-- How many CPU core hours per month would you get for Rackham?
+- How many CPU core hours per month would you get for Pelle?
 
 Cancel this application.

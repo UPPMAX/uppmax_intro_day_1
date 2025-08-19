@@ -8,7 +8,7 @@ tags:
 
 # Doing real work
 
-Here we start doing real work: setting Rackham to work!
+Here we start doing real work: setting Pelle to work!
 
 The session on the job scheduler is considered so important to us,
 that there will be a full day dedicated to it.

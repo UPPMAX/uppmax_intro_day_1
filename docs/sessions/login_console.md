@@ -79,7 +79,7 @@ Some SSH clients can run from a terminal or vice versa.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/FUNPZHEMC2s)
 
-Here, we log in to Rackham's console environment via a terminal.
+Here, we log in to Pelle's console environment via a terminal.
 
 For Mac and Windows users it will be hardest to get it working.
 
@@ -142,14 +142,14 @@ Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
 then answer these questions:
 
-- Find the page about how to login to Rackham via SSH and a password
+- Find the page about how to login to Pelle via SSH and a password
 
 ???- question "I cannot find it. Where is it?"
 
     You can find find it at
-    <https://docs.uppmax.uu.se/getting_started/login_rackham_console_password/>
+    <https://docs.uppmax.uu.se/getting_started/login_pelle_console_password/>
 
-- Log in to Rackham
+- Log in to Pelle
 
 ???- question "How does that look like?"
 
@@ -159,11 +159,11 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    sven@richel-N141CU:~/GitHubs/uppmax_intro_day_1/docs/sessions$ ssh -X sven@rackham.uppmax.uu.se
-    sven@rackham.uppmax.uu.se's password:
+    sven@richel-N141CU:~/GitHubs/uppmax_intro_day_1/docs/sessions$ ssh -X sven@pelle.uppmax.uu.se
+    sven@pelle.uppmax.uu.se's password:
     Last login: Thu Aug  8 18:35:17 2024 from vpnpool189-229.anst.uu.se
      _   _ ____  ____  __  __    _    __  __
-    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    rackham1
+    | | | |  _ \|  _ \|  \/  |  / \   \ \/ /   | System:    pelle1
     | | | | |_) | |_) | |\/| | / _ \   \  /    | User:      sven
     | |_| |  __/|  __/| |  | |/ ___ \  /  \    |
      \___/|_|   |_|   |_|  |_/_/   \_\/_/\_\   |
@@ -175,7 +175,7 @@ then answer these questions:
             Write to support@uppmax.uu.se, if you have questions or comments.
 
 
-    [sven@rackham1 ~]$
+    [sven@pelle1 ~]$
     ```
 
     <!-- markdownlint-enable MD013 -->
@@ -190,7 +190,7 @@ Welcome on a login node!
 
     You can find find it at <https://docs.uppmax.uu.se/software/xeyes/>
 
-- On a Rackham login node, run `xeyes`.
+- On a Pelle login node, run `xeyes`.
 
 ???- question "How do I run it"
 

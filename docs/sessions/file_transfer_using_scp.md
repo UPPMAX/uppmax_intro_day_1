@@ -47,7 +47,7 @@ tags:
 
 ## Why?
 
-Fairly sure you'll want to upload or download files to Rackham.
+Fairly sure you'll want to upload or download files to Pelle.
 Here we do so.
 
 We use a free and open-source graphical tool to do this,
@@ -66,11 +66,11 @@ Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
 for help.
 
 - Search for the procedure on how to transfer a file
-  to/from Rackham using SCP
+  to/from Pelle using SCP
 
 ???- question "Where is that documentation?"
 
-    The procedure can be found at <https://docs.uppmax.uu.se/software/rackham_file_transfer_using_scp/>.
+    The procedure can be found at <https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/>.
 
-- Copy a file from your local computer to your Rackham home folder. Verify this worked.
-- Copy a file from your Rackham home folder to your local computer. Verify this worked.
+- Copy a file from your local computer to your Pelle home folder. Verify this worked.
+- Copy a file from your Pelle home folder to your local computer. Verify this worked.

@@ -130,7 +130,7 @@ message("Hello from R")
     This is how to run the script and the error message:
 
     ```bash
-    [sven@rackham1 ~]$ ./my_r_script.R
+    [sven@pelle1 ~]$ ./my_r_script.R
     ./my_r_script.R: line 2: syntax error near unexpected token `"Hello from R"'
     ./my_r_script.R: line 2: `message("Hello from R")'
     ```

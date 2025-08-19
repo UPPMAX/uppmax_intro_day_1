@@ -27,20 +27,20 @@ tags:
 
 ## Why?
 
-If you want to do software development on Rackham,
+If you want to do software development on Pelle,
 an IDE will help
 
 ## Exercises
 
-### Exercise 1: use an IDE on Rackham
+### Exercise 1: use an IDE on Pelle
 
 Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
 for help.
 
-- Search for the procedure on how to use an IDE on Rackham
+- Search for the procedure on how to use an IDE on Pelle
 
 ???- question "Answer"
 
-    You can find these at <https://docs.uppmax.uu.se/software/ides_on_rackham/>
+    You can find these at <https://docs.uppmax.uu.se/software/ides_on_pelle/>
 
-- Follow that procedure to start an IDE on Rackham
+- Follow that procedure to start an IDE on Pelle
