@@ -35,11 +35,15 @@ it was not my choice to use Pelle.
 
 First, check if all technology works
 
-Page                       |Status
-Prerequisites              |Works
-Course dates               |Works
-Schedule                   |Works
-Login                      |Works
+Page                        |Status
+Prerequisites               |Works
+Course dates                |Works
+Schedule                    |Works
+Login                       |Works
+Login to remote desktop     |Works
+Use the remote desktop      |Works
+File transfer with FileZilla|-
+
 
 - Basic use from a terminal
 - Doing real work
