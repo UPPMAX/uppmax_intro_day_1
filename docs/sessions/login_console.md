@@ -182,29 +182,103 @@ then answer these questions:
 
 Welcome on a login node!
 
-### Exercise 4: find out if X forwarding works
+### (optional) Exercise 4: use light graphics
 
-- Find the page about the program called `xeyes`
+- Find the page about the program called `eog`
 
 ???- question "I cannot find it. Where is it?"
 
-    You can find find it at <https://docs.uppmax.uu.se/software/xeyes/>
+    You can find find it at <https://docs.uppmax.uu.se/software/eog/>
 
-- On a Pelle login node, run `xeyes`.
+- On the Pelle login node, create an example image
+  or download an image
+
+??? question "How to do so?"
+
+    - Follow the tip in
+      [UPPMAX documentation about `eog`](https://docs.uppmax.uu.se/software/eog/):
+
+      ```bash
+      convert -size 32x32 xc:transparent my.png
+      ```
+
+    - Use `wget`, e.g. 
+
+      ```bash
+      wget https://raw.githubusercontent.com/UPPMAX/UPPMAX-documentation/refs/heads/main/docs/cluster_guides/img/pelle.jpg
+      ```
+      
+- (optional) On a Pelle login node, display the image using `eog`.
+  Observe the error message
+
+???- question "How do I do so?"
+
+    In your terminal, type:
+
+    ```bash
+    eog [filename]
+    ```
+
+    where `[filename]` is the name of the file, for example:
+
+    ```bash
+    eog my.png
+    ```
+
+    The error message will be similar to this:
+
+    ```bash
+    (eog:2388308): Gtk-WARNING **: 11:15:47.357: cannot open display:
+    ```
+
+- The UPPMAX page about `eog` mentions that one needs to
+  login using SSH with X-forwarding.
+  Go to the page that describes how to use SSH with X-forwarding
+
+???- question "I cannot find that page. Where is it?"
+
+    Searching for 'SSH with X-forwarding' results in finding
+    <https://docs.uppmax.uu.se/software/ssh_x_forwarding/>
+
+
+- Log out of Pelle and login with X-forwarding enabled
+
+???- question "How to log out from Pelle?"
+
+    In the terminal, type:
+
+    ```bash
+    exit
+    ```
+
+    Closing the terminal also works.
+
+???- question "How to log in to Pelle using X-forwarding?"
+
+    Use the `-X` (a capital X) flag, e.g.
+
+    ```bash
+    ssh -X sven@pelle.uppmax.uu.se
+    ```
+
+- On a Pelle login node, display an image using `eog`.
 
 ???- question "How do I run it"
 
     In your terminal, type:
 
     ```bash
-    xeyes
+    eog [filename]
     ```
 
-    and press enter.
+    where `[filename]` is the name of the file, for example:
 
-- Conclude if X-forwarding works for you. If not, the UPPMAX page on SSH clients
-  hold some hints.
+    ```bash
+    eog my.png
+    ```
 
-???- question "Where is that page?"
+    Press enter and you will the image pop up.
 
-    You can find find it at <https://docs.uppmax.uu.se/software/ssh_client/>
+???- question "How does that look like?"
+
+    ![`eog` showing an image](eog.png)

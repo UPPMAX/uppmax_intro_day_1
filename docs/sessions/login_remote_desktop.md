@@ -80,11 +80,18 @@ using a website, as this is easier to do.
 
 ???- question "Need a video?"
 
-    See [this YouTube video that shows the solution of these exercises](https://youtu.be/vHlHf7OP8s8)
+    TODO
+
+    - [Log in to a remote desktop environment, for Rackham](https://youtu.be/vHlHf7OP8s8)
 
 There are two exercises, of which the second is optional.
 
 ### Exercise 1: login via website
+
+!!! warning "This method does not work yet on Pelle"
+
+    This method does not work yet on Pelle
+
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
