@@ -52,9 +52,14 @@ Use the remote desktop      |Done
 File transfer with FileZilla|Done
 Login console               |Done
 Use terminal                |Done
-Module system               |Needs a new video
+Module system               |Needs a try-out and a new video
 Creating a bash script      |Done
 Scheduler                   |Done
 Interactive jobs            |Done
 
 <!-- markdownlint-enable MD013 -->
+
+Let's test the module system lesson now ...
+It works just fine, let's make a video now ...
+
+
