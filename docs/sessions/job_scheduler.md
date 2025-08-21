@@ -84,6 +84,8 @@ flowchart TD
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/qvBN2686JNE)
 
+    Pelle works the same a Rackham in these contexts.
+
 ### Exercise 1: see the job queue
 
 Go to the UPPMAX documentation at

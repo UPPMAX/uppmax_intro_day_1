@@ -79,6 +79,8 @@ Some SSH clients can run from a terminal or vice versa.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/FUNPZHEMC2s)
 
+    Pelle works the same a Rackham in these contexts.
+
 Here, we log in to Pelle's console environment via a terminal.
 
 For Mac and Windows users it will be hardest to get it working.

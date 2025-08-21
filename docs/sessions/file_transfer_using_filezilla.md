@@ -67,6 +67,8 @@ It works under Linux, Mac and Windows.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/CyJbWHZbvJU)
 
+    Pelle works the same a Rackham in these contexts.
+
 ### Exercise 1: install FileZilla
 
 Install FileZilla.

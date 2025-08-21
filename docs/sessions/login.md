@@ -52,9 +52,9 @@ tags:
     - Who has already logged in to an HPC cluster?
     - Who has already logged in to Pelle?
 
-![Pelle](pelle.jpg)
+![Rackham](rackham.jpg)
 
-> A human taking care of the Pelle UPPMAX HPC cluster
+> A human taking care of an UPPMAX HPC cluster
 
 ## Why?
 
@@ -84,9 +84,14 @@ Also, it helps UPPMAX staff find out how good our documentation is :-)
 
 ## Exercises
 
-???- question "Need a video?"
+???- question "Prefer a video?"
 
-    TODO
+    These videos go through the exercises:
+
+    - [Exercise 1](https://youtu.be/eSn0kLkU5Dc)
+    - [Exercise 2](https://youtu.be/J6hhEfW8-5w)
+
+    Pelle works the same a Rackham in these contexts.
 
 ### Exercise 1: get an UPPMAX 2FA
 

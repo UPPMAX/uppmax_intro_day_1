@@ -88,6 +88,8 @@ as maybe you'll be too afraid to ask a colleague later.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/XiPoHNs2SDQ)
 
+    Pelle works the same a Rackham in these contexts.
+
 It is assumed you are logged in to the remote desktop environment of Pelle.
 
 No need to read the documentation here:

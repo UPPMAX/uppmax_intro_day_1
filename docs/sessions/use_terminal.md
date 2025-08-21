@@ -89,6 +89,8 @@ which is available in both print and online:
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/FO-jb7-H0xs)
 
+    Pelle works the same a Rackham in these contexts.
+
 It is assumed you are logged in to the console environment of Pelle
 with a terminal.
 In case you did not get this to work,

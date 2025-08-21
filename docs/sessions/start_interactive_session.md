@@ -64,6 +64,8 @@ In this session, we learn how to start an interactive session.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/Jb8bkphDugQ)
 
+    Pelle works the same a Rackham in these contexts.
+
 ### Exercise 1: start and end an interactive session on Pelle
 
 Go to the UPPMAX documentation at

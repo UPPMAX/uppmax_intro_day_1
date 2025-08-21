@@ -53,6 +53,8 @@ such as loading modules and then running your favorite software.
 
     See [this YouTube video that shows the solution of these exercises](https://youtu.be/yDkV_pQYfgM)
 
+    Pelle works the same a Rackham in these contexts.
+
 ### Exercise 1: write a bash script
 
 - Create a file called `do_cowsay.sh` with the content below:

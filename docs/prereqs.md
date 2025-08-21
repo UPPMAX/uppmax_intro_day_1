@@ -14,7 +14,10 @@ so please start early :-)
 
 ???- question "Prefer a video?"
 
-    See [this YouTube video discussing these prerequisites](https://youtu.be/cxle06fKQ_Y)
+    Watch the YouTube video
+    ['Intro to UPPMAX day 1' prerequisites](https://youtu.be/cxle06fKQ_Y).
+
+    Pelle works the same a Rackham in these contexts.
 
 - Prerequisite 1/8: register at
   [the course registration page](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/)

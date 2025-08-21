@@ -80,9 +80,10 @@ using a website, as this is easier to do.
 
 ???- question "Need a video?"
 
-    TODO
+    [Here](https://youtu.be/vHlHf7OP8s8) is a video that shows
+    the solution of these exercises.
 
-    - [Log in to a remote desktop environment, for Rackham](https://youtu.be/vHlHf7OP8s8)
+    Pelle works the same a Rackham in these contexts.
 
 There are two exercises, of which the second is optional.
 
@@ -91,7 +92,6 @@ There are two exercises, of which the second is optional.
 !!! warning "This method does not work yet on Pelle"
 
     This method does not work yet on Pelle
-
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

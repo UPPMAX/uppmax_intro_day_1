@@ -249,6 +249,12 @@ I assume there is a whiteboard, this is how it should look like at the start:
 
 Ah, the course has been cancelled, I will update info...
 
+## 2025-08-21
+
+The course has been cancelled and I've updated this everywhere.
+The next course iteration will take place October 15th.
+As I have time now, I will already prepare those lessons there.
+
 
 ## References
 

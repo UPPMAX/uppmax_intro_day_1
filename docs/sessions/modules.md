@@ -74,7 +74,7 @@ pre-installed databases and use these.
 
 ???- question "Need a video?"
 
-    TODO
+    TODO: I changed the exercises a bit and `bioinfo-tools` is gone.
 
 ### Exercise 1: find the software
 
