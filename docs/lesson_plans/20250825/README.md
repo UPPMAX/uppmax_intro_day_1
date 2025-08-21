@@ -44,6 +44,8 @@ it was not my choice to use Pelle.
 
 First, check if all technology works and report things that are missing:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Page                        |Status
 ----------------------------|-----------------------------------------------------------------------------
 Prerequisites               |Works
@@ -59,6 +61,8 @@ Module system               |Works
 Creating a bash script      |Works
 Scheduler                   |Works
 Interactive jobs            |Works
+
+<!-- markdownlint-enable MD013 -->
 
 Great, this seems to work! I've reported the two defects
 and I can live without them.
@@ -85,6 +89,7 @@ Nope, this has no classroom management in it ...
 
 Let's try `[Schwartz & Gurung, 2012]`..
 Chapter 2: Building rapport in the classroom:
+
 - Consider adding I will touch on the shoulder to help the learner
   draw his/her attention to me.
 
