@@ -93,7 +93,8 @@ Chapter 2: Building rapport in the classroom:
 - Consider adding I will touch on the shoulder to help the learner
   draw his/her attention to me.
 
-An overview what makes a good first day, adapted from `[Perlman & McCann, 1999]` (n = 570 students):
+An overview what makes a good first day,
+adapted from `[Perlman & McCann, 1999]` (n = 570 students):
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -119,7 +120,8 @@ Poor use of class time (e.g., noncrucial information, read syllabus, unorganized
 
 <!-- markdownlint-enable MD013 -->
 
-Another overview what makes a good first day, adapted from `[Eskine et al., 2017]` (n = 230 students):
+Another overview what makes a good first day,
+adapted from `[Eskine et al., 2017]` (n = 230 students):
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
@@ -163,7 +165,7 @@ Effect size|Intervention                                         |Notes
 0.44       |ADHD treatment not (!) using drugs                   |Does not apply
 0.43       |Classroom management                                 |Mostly: be mindful and thank students for helping
 
-<!-- markdownlint-enable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+<!-- markdownlint-enable MD013 -->
 
 From `[Hattie, 2012]`:
 this is a bit too general to be used here.
