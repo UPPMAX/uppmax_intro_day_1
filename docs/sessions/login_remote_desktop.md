@@ -80,8 +80,8 @@ using a website, as this is easier to do.
 
 ???- question "Need a video?"
 
-    [Here](https://youtu.be/vHlHf7OP8s8) is a video that shows
-    the solution of these exercises.
+    Watch the YouTube video
+    [Intro to UPPMAX Day 1: Log in to a remote desktop environment](https://youtu.be/vHlHf7OP8s8).
 
     Pelle works the same a Rackham in these contexts.
 
