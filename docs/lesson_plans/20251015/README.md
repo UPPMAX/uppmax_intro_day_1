@@ -47,7 +47,7 @@ Prerequisites               |Done
 Course dates                |Done
 Schedule                    |Done
 Login                       |Done
-Login to remote desktop     |Assumes website is finished
+Login to remote desktop     |Assumes website is finished, done besides that
 Use the remote desktop      |Done
 File transfer with FileZilla|Done
 Login console               |Done
@@ -61,4 +61,10 @@ Interactive jobs            |Done
 
 Let's test the module system lesson now ...
 It works just fine, let's make a video now ...
+Done ...
+
+Things I want to try out new:
+
+- Add quizzes
+- 
 
