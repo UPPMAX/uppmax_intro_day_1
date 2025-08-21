@@ -62,13 +62,16 @@ not_in_nav: |
   evaluations/20240827/survey_feedback.md
   evaluations/20250210/README.md
   evaluations/20250825/README.md
+  evaluations/20251015/README.md
   lesson_plans/20240827/README.md
   lesson_plans/20240827/20240827_richel.md
   lesson_plans/20250210/README.md
   lesson_plans/20250825/README.md
+  lesson_plans/20251015/README.md
   reflections/20240827/README.md
   reflections/20250210/README.md
   reflections/20250825/README.md
+  reflections/20251015/README.md
 
 theme:
   name: material
