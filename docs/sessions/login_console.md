@@ -202,12 +202,12 @@ Welcome on a login node!
       convert -size 32x32 xc:transparent my.png
       ```
 
-    - Use `wget`, e.g. 
+    - Use `wget`, e.g.
 
       ```bash
       wget https://raw.githubusercontent.com/UPPMAX/UPPMAX-documentation/refs/heads/main/docs/cluster_guides/img/pelle.jpg
       ```
-      
+
 - (optional) On a Pelle login node, display the image using `eog`.
   Observe the error message
 

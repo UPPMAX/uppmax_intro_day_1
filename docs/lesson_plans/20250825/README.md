@@ -86,7 +86,7 @@ Nope, this has no classroom management in it ...
 Let's try `[Schwartz & Gurung, 2012]`..
 Chapter 2: Building rapport in the classroom:
 - Consider adding I will touch on the shoulder to help the learner
-  draw his/her attention to me. 
+  draw his/her attention to me.
 
 An overview what makes a good first day, adapted from `[Perlman & McCann, 1999]` (n = 570 students):
 
@@ -136,7 +136,7 @@ Poor teaching (instructor nervous, monotone, talks too fast, too much material) 
 Icebreakers                                                                             |5.6      |15
 Instructor uncaring, intimidating                                                       |0        |17.8
 Beginning course content (lectures)                                                     |2.1      |23
-Poor use of class time (non-crucial information, read syllabus, unorganized)            |0        |35.2 
+Poor use of class time (non-crucial information, read syllabus, unorganized)            |0        |35.2
 
 <!-- markdownlint-enable MD013 -->
 
@@ -159,7 +159,7 @@ Effect size|Intervention                                         |Notes
 0.43       |Classroom management                                 |Mostly: be mindful and thank students for helping
 
 <!-- markdownlint-enable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
- 
+
 From `[Hattie, 2012]`:
 this is a bit too general to be used here.
 
