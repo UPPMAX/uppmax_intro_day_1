@@ -74,7 +74,8 @@ pre-installed databases and use these.
 
 ???- question "Need a video?"
 
-    TODO: I changed the exercises a bit and `bioinfo-tools` is gone.
+    Watch the YouTube video
+    [Intro to UPPMAX Day 1: the module system](https://youtu.be/rFNzG8st_Pw)
 
 ### Exercise 1: find the software
 
