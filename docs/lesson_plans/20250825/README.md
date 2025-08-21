@@ -125,7 +125,7 @@ Teacher specifically describes exams, assignments, and grading                  
 Introduces self (background, teaching style) to students                                |23.9     |0.9
 Sets a fun tone                                                                         |9.1      |0
 Sets tone of being accessible, supportive                                               |5.6      |0
-Sets relaxed, confortable tone                                                          |3.0      |0
+Sets relaxed, comfortable tone                                                          |3.0      |0
 First day content is put in context and understandable without having read an assignment|1        |0.5
 Meet full hour                                                                          |0        |0
 Describes why students should take the course and how they may profit from it           |0        |0
@@ -169,7 +169,7 @@ I found `[Smith & Baik, 2021]`, a good overview of evidence-based
 best practices in general, with nothing/little about classroom-only teaching.
 
 I found `[Eddy et al, 2015]`, about a rubric called 'PORTAAL'
-to asses evidence-based teacher practies:
+to asses evidence-based teacher practices:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 

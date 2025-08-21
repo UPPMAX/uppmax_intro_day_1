@@ -19,3 +19,4 @@ if [[ "$PWD" =~ scripts$ ]]; then
 fi
 
 pyspelling -c .spellcheck.yml
+

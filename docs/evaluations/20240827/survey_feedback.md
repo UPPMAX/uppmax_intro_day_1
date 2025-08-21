@@ -59,7 +59,7 @@ Give you confidence levels of the following statements below:
 - I really liked that the course started with very basic commands and getting
   to know how to move around in the remote desktop and the terminal. I think
   that the time to do the exercises was sufficient and if needed we always got
-  help to overcome any errors occuring. The smaller groups made it also easier
+  help to overcome any errors occurring. The smaller groups made it also easier
   to help each other and to all manage to be at the same page.
 - Thanks a lot for today.
 - It was a good course to start using uppmax. The explanations were clear.
