@@ -67,4 +67,17 @@ Things I want to try out new:
 
 - Add quizzes
 
+About quizzes, from `[Glodowski et al., 2020]`:
 
+- Quizess should be frequent
+- Quizess should be administered in-class
+- [Does not apply] Quizess should have a connection to the exam
+- Feedback for answer accuracy
+- An effective grade-related or social contingency. Or, in my words:
+  the quizzes must be related to grades in an effective way,
+  or use social pressure to convince the learners to do so.
+
+
+## References
+
+- `[Glodowski et al., 2020]` Glodowski, Kathryn R., Rachel H. Thompson, and E. Ashley Asuncion. "Evidence-based recommendations for programming quizzes to improve college student behavior in residential courses." Journal of Behavioral Education 29.3 (2020): 543-570.
