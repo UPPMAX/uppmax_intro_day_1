@@ -50,6 +50,11 @@ tags:
       what does the job scheduler need to know?
     - How to stop an interactive session?
 
+    Feedback questions:
+
+    - Why use an interactive session?
+    - How do you see that you are in an interactive session?
+
 ## Why?
 
 Login nodes are used interactively for light processes, e.g. submitting a job.

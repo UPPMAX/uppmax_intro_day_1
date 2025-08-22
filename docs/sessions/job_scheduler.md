@@ -210,7 +210,7 @@ then answer these questions:
     Running a script without a shebang such as this:
 
     ```bash
-    module load cowsay/3.03
+    module load cowsay/3.04
     cowsay hello
     ```
 
@@ -283,7 +283,7 @@ then answer these questions:
     ```bash
     #!/bin/bash
     #SBATCH -A uppmax2023-2-25
-    module load cowsay/3.03
+    module load cowsay/3.04
     cowsay hello
     ```
 

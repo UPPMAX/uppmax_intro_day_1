@@ -58,6 +58,11 @@ tags:
     - Does someone have already tried to copy-past text between
       local computer and a terminal?
 
+    Feedback question:
+
+    - How do you paste to a terminal?
+    - How does tab completion work?
+
 ## Why?
 
 Every UPPMAX user need to use the terminal at some point.

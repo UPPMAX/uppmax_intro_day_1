@@ -36,9 +36,8 @@ tags:
     - Learners have done basic file management:
       create, copy, move and delete a file and folder
     - Learners have started a terminal
-    - Learners have start `xeyes` from the terminal
     - Learners have started `gedit`
-    - Learners have found that the text editor is called gedit
+    - Learners have found that the text editor is called `gedit`
     - Learners have done basic things in gedit: edit a files, save, close
     - Learners have copy-pasted text between local computer
       and the remote desktop (in both directions)
@@ -70,6 +69,14 @@ tags:
     - What is the purpose of a `nobackup` folder?
     - Does someone have already tried to copy-past text between
       local computer and remote desktop?
+
+    Feedback questions:
+
+    - What is the difference between a home and a project folder?
+    - Assume you've put your research data in a `nobackup` folder.
+      You accidentally deleted your data.
+      What can UPPMAX do to help you?
+    - How to paste to a remote desktop?
 
 ## Why?
 

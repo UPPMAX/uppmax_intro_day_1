@@ -54,7 +54,7 @@ These are the most important UPPMAX clusters for us:
 | Name    | Purpose         |
 | ------- | --------------- |
 | Bianca  | Sensitive data  |
-| Pelle | General purpose |
+| Pelle   | General purpose |
 | Snowy   | Provides GPUs   |
 
 - [System usage](https://docs.uppmax.uu.se/cluster_guides/system_usage/system_usage.html)

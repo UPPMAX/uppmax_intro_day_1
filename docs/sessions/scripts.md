@@ -60,7 +60,7 @@ such as loading modules and then running your favorite software.
 - Create a file called `do_cowsay.sh` with the content below:
 
 ```text
-module load cowsay/3.03
+module load cowsay/3.04
 cowsay hello
 ```
 
