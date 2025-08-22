@@ -77,6 +77,14 @@ About quizzes, from `[Glodowski et al., 2020]`:
   the quizzes must be related to grades in an effective way,
   or use social pressure to convince the learners to do so.
 
+I wonder, don't I already do so? I know I sometimes ask the Prior
+questions again at the end. That counts!
+
+Hence, I am done :+1:
+
+
+
+
 
 ## References
 

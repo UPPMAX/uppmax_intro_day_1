@@ -32,7 +32,7 @@ so please start early :-)
   (if you've followed step 4)
 - Prerequisite 6/8: [Log in to Pelle](https://docs.uppmax.uu.se/getting_started/login_pelle/)
 - Prerequisite 7/8: In [a terminal](https://docs.uppmax.uu.se/software/terminal/),
-  run `touch /proj/introtouppmax/completed/$USER`
+  run (yes, literally like that) `touch /proj/introtouppmax/completed/$USER`
 - Prerequisite 8/8: Have a good Zoom setup
 
 ???- question "How can I check if I have done these steps?"
