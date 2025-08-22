@@ -58,7 +58,7 @@ tags:
     - Does someone have already tried to copy-past text between
       local computer and a terminal?
 
-    Feedback question:
+    Feedback questions:
 
     - How do you paste to a terminal?
     - How does tab completion work?

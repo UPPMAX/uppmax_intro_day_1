@@ -18,8 +18,8 @@ tags:
     - Understand that after login, one is on a login node
     - If needed: has installed an SSH client
         - Windows: MobaXTerm
-    - Can log in to the console environment using a terminal with X forwarding
-    - Can determine if X forwarding works
+    - (optional) Can log in to the console environment using a terminal with X forwarding
+    - (optional) Can determine if X forwarding works
 
 ???- question "For teachers"
 
@@ -32,9 +32,9 @@ tags:
     - Learners understand that after login, one is on a login node
     - If needed, learners have installed an SSH client
         - Windows: MobaXTerm
-    - Learners have logged in to the console environment
+    - (optional) Learners have logged in to the console environment
       using a terminal with X forwarding
-    - Learners have determined if X forwarding works
+    - (optional) Learners have determined if X forwarding works
 
     Lesson plan:
 
@@ -59,6 +59,16 @@ tags:
     - What is SSH?
     - What is an SSH client?
     - Do you know any SSH clients?
+    - Can you displays an image in a console environment?
+
+    Feedback questions:
+
+    - What is a console environment?
+    - What is a terminal?
+    - What is SSH?
+    - What is an SSH client?
+    - Do you know any SSH clients?
+    - Can you displays an image in a console environment?
 
 ## Why?
 

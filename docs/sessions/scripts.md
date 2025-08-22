@@ -18,7 +18,9 @@ tags:
 
     Teaching goals are:
 
-    - .
+    - Learners have created a script
+    - Learners have made a script executable
+    - Learners have run a script
 
     Lesson plan:
 
@@ -41,6 +43,14 @@ tags:
     - What is a script?
     - Why would you want to use a script?
     - How to write a script?
+
+    Feedback questions:
+
+    - Why would you want to use a script?
+    - What should you not forget when writing a script?
+    - Which group of programming languages can you directly call from a script?
+      Could you give an example?
+
 
 ## Why?
 
@@ -70,8 +80,9 @@ cowsay hello
     such as using `touch` and `nano`. In whatever way you did it,
     it's good enough!
 
-- Try to find how to run the script (without making the file
-  executable)
+- Run the script.
+  Search the web or
+  [ask the UPPMAX documentation AI](https://docs.uppmax.uu.se/)
 
 ???- question "Answer"
 
@@ -81,7 +92,9 @@ cowsay hello
     bash my_script.sh
     ```
 
-- Try to find how to make the script executable
+- Make the script executable
+  Search the web or
+  [ask the UPPMAX documentation AI](https://docs.uppmax.uu.se/)
 
 ???- question "Answer"
 
@@ -91,7 +104,13 @@ cowsay hello
     chmod +x my_script.sh
     ```
 
-- Run the script without calling `bash`
+    or:
+
+    ```bash
+    chmod u+x my_script.sh
+    ```
+
+- Run your (executable) script directly (i.e. without calling `bash`)
 
 ???- question "Answer"
 
@@ -101,7 +120,16 @@ cowsay hello
     ./my_script.sh
     ```
 
-### Exercise 2: write an executable R script
+- (optional) Why does the script has a `.sh` file extension?
+  Search the web for an answer.
+
+???- question "Answer"
+
+    This is a social convention: it allows a human to see that a file
+    is a so-called shell script. It is no coincidence that `.sh` are the
+    last two letters of `bash`.
+
+### (Optional) Exercise 2: write an executable R script
 
 - Create a file called `my_r_script.R` with the content below:
 

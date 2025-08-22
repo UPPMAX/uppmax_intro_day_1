@@ -25,10 +25,15 @@ tags:
     - Why would you use an IDE?
     - What can an IDE do?
 
-## Why?
+    Feedback questions:
 
-If you want to do software development on Pelle,
-an IDE will help
+    - When would you recommend a colleague to use an IDE on Pelle?
+
+## Why use an IDE?
+
+If you want to do software development on Pelle
+in a graphical environment,
+an IDE will help you.
 
 ## Exercises
 

@@ -59,6 +59,11 @@ tags:
     - What is a module?
     - Has anyone already used the UPPMAX module system?
 
+    Feedback questions:
+
+    - Why is there a module system on UPPMAX?
+    - Why don't we just load all modules for you at UPPMAX?
+
 ## Why?
 
 The module system allows you to run your software,

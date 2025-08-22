@@ -56,6 +56,10 @@ tags:
     - Why would one use a remote desktop environment?
     - What are disadvantages of a remote desktop environment?
 
+    Feedback questions:
+
+    - When would you recommend a colleague to use a remote desktop environment?
+
 ![The Pelle remote desktop environment](pelle_via_remote_desktop_50.jpg)
 
 > The Pelle remote desktop environment.

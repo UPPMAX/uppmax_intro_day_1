@@ -56,6 +56,10 @@ tags:
     - What information may one need to tell a job scheduler?
     - Is it possible to have all nodes of Pelle running your jobs?
 
+    Feedback questions:
+
+    - Why does UPPMAX have a job scheduler?
+
 ## Why?
 
 You want to do calculations that take a long time and use much CPU
