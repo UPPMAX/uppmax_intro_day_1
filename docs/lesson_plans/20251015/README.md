@@ -84,9 +84,9 @@ That counts!
 Hence, I am done, after preparing the Feedback questions. Let's do it!
 
 
-
-
-
 ## References
 
-- `[Glodowski et al., 2020]` Glodowski, Kathryn R., Rachel H. Thompson, and E. Ashley Asuncion. "Evidence-based recommendations for programming quizzes to improve college student behavior in residential courses." Journal of Behavioral Education 29.3 (2020): 543-570.
+- `[Glodowski et al., 2020]` Glodowski, Kathryn R., Rachel H. Thompson,
+  and E. Ashley Asuncion. "Evidence-based recommendations for programming
+  quizzes to improve college student behavior in residential courses."
+  Journal of Behavioral Education 29.3 (2020): 543-570.
