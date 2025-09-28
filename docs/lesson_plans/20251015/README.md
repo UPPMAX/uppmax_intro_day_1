@@ -69,9 +69,9 @@ Things I want to try out new:
 
 About quizzes, from `[Glodowski et al., 2020]`:
 
-- Quizess should be frequent
-- Quizess should be administered in-class
-- [Does not apply] Quizess should have a connection to the exam
+- Quizzes should be frequent
+- Quizzes should be administered in-class
+- [Does not apply] Quizzes should have a connection to the exam
 - Feedback for answer accuracy
 - An effective grade-related or social contingency. Or, in my words:
   the quizzes must be related to grades in an effective way,
