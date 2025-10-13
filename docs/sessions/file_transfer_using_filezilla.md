@@ -60,7 +60,15 @@ Here we do so.
 
 ???- question "Need a video?"
 
-    TODO
+    <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+    Tool     |YouTube video
+    ---------|----------------------------------------------------------------------------------------------------
+    FileZilla|[File transfer to/from Pelle using FileZilla](https://www.youtube.com/watch?v=NOHYNj1vW28)
+    WinSCP   |None available
+    `scp`    |TODO
+
+    <!-- markdownlint-enable MD013 -->
 
 ## Exercise 1: which tool?
 
@@ -100,54 +108,19 @@ flowchart TD
 
 Here is the same information in a table:
 
-Tool     |Operating systems(s)  |Interface|Description
----------|----------------------|---------|----------------------------------------
-FileZilla|Linux, Mac and Windows|Graphical|Recommended if it can be used
-WinSCP   |Windows               |Graphical|Popular Windows alternative to FileZilla
-`scp`    |Linux, Mac and Windows|Terminal |Always works
+Tool     |Homepage                                    |Operating systems(s)  |Interface|Description
+---------|--------------------------------------------|----------------------|---------|----------------------------------------
+FileZilla|[Homepage](https://filezilla-project.org/)  |Linux, Mac and Windows|Graphical|Recommended if it can be used
+WinSCP   |[Homepage](https://winscp.net/eng/index.php)|Windows               |Graphical|Popular Windows alternative to FileZilla
+`scp`    |Part of your SSH client                     |Linux, Mac and Windows|Terminal |Always works
 
-Pick the best file transfer tool at your disposal.
+- Pick the best file transfer tool at your disposal.
+- If needed and possible: install that tool, as documented on its homepage
+- Use [the UPPMAX documentation](http://docs.uppmax.uu.se/) to upload
+  and download a file
 
-If you cannot install either,
-you will have to use the terminal
-and follow the UPPMAX guide
-[Data transfer to/from Pelle using SCP](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
-
-### Exercise 1: install FileZilla
-
-Install FileZilla.
-
-Under Ubuntu, you can can use the Ubuntu App Center.
-
-???- question "How does the Ubuntu App Center look like?"
-
-    Here:
-
-    ![FileZilla in the Ubuntu App Center](filezilla_in_ubuntu_app_center.png)
-
-For non-Ubuntu users, search the web, download and install.
-
-???- question "Where can I find it?"
-
-    The FileZilla website can be found at <https://filezilla-project.org/>.
-
-    Clicking on 'Download FileZilla client' takes you to the
-    FileZilla download page at <https://filezilla-project.org/download.php?type=client>.
-
-    Download the file, maybe unzip it and run the installer
-
-### Exercise 2: transfer a file
-
-Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
-for help.
-
-- Search for the procedure on how to transfer a file
-  to/from Pelle using FileZilla
-
-???- question "Where is that documentation?"
-
-    The procedure can be found at
-    [https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/)
-
-- Follow that procedure to transfer a file
-- Use the file explorer to verify that files indeed are transferred
+Tool     |UPPMAX documentation page
+---------|----------------------------------------------------------------------------------------------------
+FileZilla|[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/)
+WinSCP   |[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_winscp/)
+`scp`    |[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
