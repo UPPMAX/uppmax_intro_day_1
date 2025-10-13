@@ -90,7 +90,7 @@ flowchart TD
 
     Pelle works the same a Rackham in these contexts.
 
-### Exercise 1: see the job queue
+## Exercise 1: see the job queue
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -124,7 +124,7 @@ then answer these questions:
 
     You will probably see that you have zero jobs scheduled
 
-### Exercise 2: view my UPPMAX projects
+## Exercise 2: view my UPPMAX projects
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -158,7 +158,7 @@ then answer these questions:
 
     ![The NAISS project of this course](naiss_project_for_this_course.png)
 
-### Exercise 3: submit a minimal job with Slurm parameters in the command-line
+## Exercise 3: submit a minimal job with Slurm parameters in the command-line
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -264,7 +264,7 @@ then answer these questions:
 
     <!-- markdownlint-enable MD013 -->
 
-### Exercise 4: submit a minimal job with Slurm parameters in the bash script
+## Exercise 4: submit a minimal job with Slurm parameters in the bash script
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -291,7 +291,7 @@ then answer these questions:
     cowsay hello
     ```
 
-### Exercise 5: cancel a job
+## Exercise 5: cancel a job
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

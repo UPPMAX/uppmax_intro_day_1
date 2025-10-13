@@ -62,7 +62,7 @@ It works under Linux, Mac and Windows.
 
     Pelle works the same a Rackham in these contexts.
 
-### Exercise 1: transfer a file
+## Exercise 1: transfer a file
 
 Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
 for help.

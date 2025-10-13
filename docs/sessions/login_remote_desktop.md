@@ -91,7 +91,7 @@ using a website, as this is easier to do.
 
 There are two exercises, of which the second is optional.
 
-### Exercise 1: login via website
+## Exercise 1: login via website
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

@@ -93,7 +93,7 @@ Also, it helps UPPMAX staff find out how good our documentation is :-)
 
     Pelle works the same a Rackham in these contexts.
 
-### Exercise 1: get an UPPMAX 2FA
+## Exercise 1: get an UPPMAX 2FA
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -113,7 +113,7 @@ then answer these questions:
 
 Note that it takes 15 minutes before you can use this 2FA.
 
-### Exercise 2: general understanding
+## Exercise 2: general understanding
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

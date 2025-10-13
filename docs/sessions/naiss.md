@@ -67,7 +67,7 @@ project, the less often one can apply and the higher job title one needs.
 
 ## Exercises
 
-### Exercise 1: NAISS resources
+## Exercise 1: NAISS resources
 
 Read
 [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/)
@@ -78,7 +78,7 @@ then answer these questions:
 - Which resource is most suitable to host a website and/or service?
 - Which resource is most suitable to store data publicly?
 
-### Exercise 2: Apply for resources
+## Exercise 2: Apply for resources
 
 At [the 'Resources' page of the NAISS website](https://www.naiss.se/resources/),
 request resources for Pelle. This will take you to

@@ -42,7 +42,7 @@ You want to know if/how your lost files can be retrieved.
     `Here` is a video that shows
     the solution of these exercises
 
-### Exercise 1: important folders
+## Exercise 1: important folders
 
 - Read [the UPPMAX documentation on the backup service](https://docs.uppmax.uu.se/cluster_guides/backup/)
 - What is the name of the folder that contains **all** projects?

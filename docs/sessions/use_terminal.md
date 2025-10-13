@@ -109,7 +109,7 @@ Try to do these exercises by trying out things yourself first.
 There are usually multiple ways to solve the exercise.
 Feel encouraged to explore this new environment too!
 
-### Exercise 1: the prompt
+## Exercise 1: the prompt
 
 You are in a terminal on a Pelle login node. You see this:
 
@@ -134,7 +134,7 @@ What does that all mean: the `[`, `sven`, `@`, `pelle2`, `~`, `]` and `$`?
     - `~`: the user in the home folder
     - `$`: indicate to be ready for user input
 
-### Exercise 2: copy-paste text
+## Exercise 2: copy-paste text
 
 - Copy text from your local computer to your terminal
 
@@ -161,7 +161,7 @@ What does that all mean: the `[`, `sven`, `@`, `pelle2`, `~`, `]` and `$`?
 
     Pasting to your local computer uses a regular `CTRL + V`.
 
-### Exercise 3: file navigation
+## Exercise 3: file navigation
 
 - You are in a terminal on a Pelle login node.
   Find out the directory you are in: which command do you use?
@@ -187,7 +187,7 @@ What does that all mean: the `[`, `sven`, `@`, `pelle2`, `~`, `]` and `$`?
     /home/sven
     ```
 
-### Exercise 4: file management
+## Exercise 4: file management
 
 You are in a terminal on a Pelle login node, in your home folder.
 
@@ -488,7 +488,7 @@ From there:
     When trying to move a folder with `-R`, this warning
     is given and no folder is renamed.
 
-### Exercise 5: starting `eog`
+## Exercise 5: starting `eog`
 
 - From the terminal, start the program `eog` by typing `eog` and
   press enter,
@@ -505,7 +505,7 @@ From there:
 
     Click at the cross in the top-right corner of the `eog` window
 
-### Exercise 6: starting a text editor
+## Exercise 6: starting a text editor
 
 - Create a file called `my_file.txt`, if not already present
 

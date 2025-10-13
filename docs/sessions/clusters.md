@@ -134,7 +134,7 @@ flowchart TD
 
 [...]
 
-### Exercise 1: Understand
+## Exercise 1: Understand
 
 !!!- info "Learning outcomes"
 

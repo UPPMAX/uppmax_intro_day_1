@@ -106,7 +106,7 @@ Try to do these exercises by trying out things yourself first.
 There are usually multiple ways to solve the exercise.
 Feel encouraged to explore this new environment too!
 
-### Exercise 1: file navigation
+## Exercise 1: file navigation
 
 - Start a program to navigate your files
 
@@ -158,7 +158,7 @@ Feel encouraged to explore this new environment too!
 
     The file navigator is called Thunar.
 
-### Exercise 2: file management
+## Exercise 2: file management
 
 In your file explorer:
 
@@ -250,7 +250,7 @@ In your file explorer:
     - Click on a folder to select it
     - Press `Del` to delete it
 
-### Exercise 3: starting a terminal
+## Exercise 3: starting a terminal
 
 - Start a terminal
 
@@ -285,7 +285,7 @@ In your file explorer:
       and press enter
     - Many more: any solution that worked is fine
 
-### Exercise 4: starting a text editor
+## Exercise 4: starting a text editor
 
 - Create a file called `my_file.txt` (the `.txt` at the end is important),
   if not already present
@@ -352,7 +352,7 @@ its name will be useful to know:
 
     ![The gedit hamburger menu](gedit_hamburger_menu.png)
 
-### Exercise 5: copy-paste text
+## Exercise 5: copy-paste text
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

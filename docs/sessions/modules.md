@@ -82,35 +82,7 @@ pre-installed databases and use these.
     Watch the YouTube video
     [Intro to UPPMAX Day 1: the module system](https://youtu.be/rFNzG8st_Pw)
 
-### Exercise 1: find the software
-
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
-
-- Find to list of installed software.
-  Estimate how many pieces of software are installed on Pelle
-
-???- question "Answer"
-
-    One can find the answer at <https://docs.uppmax.uu.se/software/software-table/>,
-    where one can find around 800 pieces of software installed
-
-### Exercise 2: find the databases
-
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
-
-- Find to list of databases.
-  Estimate how many collections of databases are installed on Pelle
-
-???- question "Answer"
-
-    One can find the answer at <http://docs.uppmax.uu.se/databases/overview/>,
-    where one can find around 7 collections of databases installed.
-
-### Exercise 3: work with modules
+## Exercise 1: work with modules
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -161,3 +133,32 @@ then answer these questions:
 
 - Confirm that `cowsay` does not work anymore,
   by typing `cowsay hello`. This should give an error
+
+## Exercise X1: find the software
+
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find to list of installed software.
+  Estimate how many pieces of software are installed on Pelle
+
+???- question "Answer"
+
+    One can find the answer at <https://docs.uppmax.uu.se/software/software-table/>,
+    where one can find around 800 pieces of software installed
+
+## Exercise X2: find the databases
+
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find to list of databases.
+  Estimate how many collections of databases are installed on Pelle
+
+???- question "Answer"
+
+    One can find the answer at <http://docs.uppmax.uu.se/databases/overview/>,
+    where one can find around 7 collections of databases installed.
+

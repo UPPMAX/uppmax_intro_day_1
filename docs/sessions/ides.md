@@ -37,7 +37,7 @@ an IDE will help you.
 
 ## Exercises
 
-### Exercise 1: use an IDE on Pelle
+## Exercise 1: use an IDE on Pelle
 
 Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
 for help.

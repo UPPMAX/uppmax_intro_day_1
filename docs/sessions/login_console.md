@@ -95,7 +95,7 @@ Here, we log in to Pelle's console environment via a terminal.
 
 For Mac and Windows users it will be hardest to get it working.
 
-### Exercise 1: a terminal
+## Exercise 1: a terminal
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -114,7 +114,7 @@ then answer these questions:
     The prompt is the text at the start of the line you can type on.
     It indicates that the terminal is waiting for user input.
 
-### Exercise 2: install an SSH client if needed
+## Exercise 2: install an SSH client if needed
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
@@ -148,7 +148,7 @@ then answer these questions:
 
 - If there is an error, install the recommended SSH client
 
-### Exercise 3: login via SSH
+## Exercise 3: login via SSH
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
