@@ -7,23 +7,22 @@ tags:
     - FileZilla
     - GUI
     - graphical
+    - WinSCP
 ---
 
-# File transfer using FileZilla
+# File transfer using a graphical tool
 
 !!!- info "Learning outcomes"
 
     - Practice using the UPPMAX documentation
-    - Can install FileZilla
-    - Can transfer files using FileZilla
+    - Can transfer files using a graphical tool
 
 ???- question "For teachers"
 
     Teaching goals are:
 
     - Learners have practiced using the UPPMAX documentation
-    - Learners have installed FileZilla
-    - Learners have transferred files using FileZilla
+    - Learners have transferred files using a graphical tool
 
     Lesson plan:
 
@@ -57,17 +56,62 @@ tags:
 Fairly sure you'll want to upload or download files to Pelle.
 Here we do so.
 
-We use a free and open-source graphical tool to do this,
-called FileZilla.
-It works under Linux, Mac and Windows.
-
 ## Exercises
 
 ???- question "Need a video?"
 
-    See [this YouTube video that shows the solution of these exercises](https://youtu.be/CyJbWHZbvJU)
+    TODO
 
-    Pelle works the same a Rackham in these contexts.
+## Exercise 1: which tool?
+
+Take a look at this decision tree:
+
+```mermaid
+flowchart TD
+
+  can_use_filezilla[Can you use FileZilla?]
+  can_install_filezilla[Can you install FileZilla?]
+  have_windows[Do you have Windows?]
+  can_use_winscp[Can you use WinSCP?]
+  can_install_winscp[Can you install WinSCP?]
+
+  can_use_filezilla --> |No| can_install_filezilla
+  can_install_filezilla --> |No| have_windows
+  have_windows --> |No| scp
+  can_use_winscp --> |No| can_install_winscp
+  can_install_winscp --> |No| scp
+
+  can_use_filezilla --> |Yes| filezilla
+  can_install_filezilla --> |Yes| filezilla
+  have_windows --> |Yes| can_use_winscp
+  can_use_winscp --> |No| winscp
+  can_install_winscp --> |Yes| winscp
+
+
+  subgraph graphical_tools[Graphical tools]
+  filezilla[Use FileZilla]
+  winscp[Use WinSCP]
+  end
+
+  subgraph command_line_tools[Command-line tools]
+  scp[Use scp]
+  end
+```
+
+Here is the same information in a table:
+
+Tool     |Operating systems(s)  |Interface|Description
+---------|----------------------|---------|----------------------------------------
+FileZilla|Linux, Mac and Windows|Graphical|Recommended if it can be used
+WinSCP   |Windows               |Graphical|Popular Windows alternative to FileZilla
+`scp`    |Linux, Mac and Windows|Terminal |Always works
+
+Pick the best file transfer tool at your disposal.
+
+If you cannot install either,
+you will have to use the terminal
+and follow the UPPMAX guide
+[Data transfer to/from Pelle using SCP](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
 
 ### Exercise 1: install FileZilla
 
