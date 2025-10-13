@@ -127,7 +127,7 @@ WinSCP   |[Homepage](https://winscp.net/eng/index.php)|Windows               |Gr
 
 Tool     |UPPMAX documentation page
 ---------|----------------------------------------------------------------------------------------------------
-FileZilla|[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/)
+FileZilla|[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer/)
 WinSCP   |[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_winscp/)
 `scp`    |[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
 
