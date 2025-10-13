@@ -64,9 +64,9 @@ Here we do so.
 
     Tool     |YouTube video
     ---------|----------------------------------------------------------------------------------------------------
-    FileZilla|[File transfer to/from Pelle using FileZilla](https://www.youtube.com/watch?v=NOHYNj1vW28)
+    FileZilla|[File transfer to/from Pelle using FileZilla](https://youtu.be/NOHYNj1vW28)
     WinSCP   |None available
-    `scp`    |TODO
+    `scp`    |[Data transfer to/from Pelle using SCP](https://youtu.be/QKz7CTIJ2Ok)
 
     <!-- markdownlint-enable MD013 -->
 
