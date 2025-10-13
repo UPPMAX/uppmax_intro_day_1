@@ -134,7 +134,34 @@ What does that all mean: the `[`, `sven`, `@`, `pelle2`, `~`, `]` and `$`?
     - `~`: the user in the home folder
     - `$`: indicate to be ready for user input
 
-### Exercise 2: file navigation
+### Exercise 2: copy-paste text
+
+- Copy text from your local computer to your terminal
+
+???- question "Tips"
+
+    - Tip 1: search for 'how to paste into terminal'
+    - Tip 2: search the UPPMAX documentation for 'terminal'
+
+???- question "Answer"
+
+    Copying from your local computer uses a regular `CTRL + C`.
+
+    How to paste depends on the terminal you use.
+    The most common keyboard shortcut is `CTRL + SHIFT + V` for pasting
+    into a terminal
+
+- Copy text from your terminal to your local computer
+
+???- question "Answer"
+
+    How to copy depends on the terminal you use.
+    The most common keyboard shortcut is `CTRL + SHIFT + C` for copying
+    from a terminal
+
+    Pasting to your local computer uses a regular `CTRL + V`.
+
+### Exercise 3: file navigation
 
 - You are in a terminal on a Pelle login node.
   Find out the directory you are in: which command do you use?
@@ -160,7 +187,7 @@ What does that all mean: the `[`, `sven`, `@`, `pelle2`, `~`, `]` and `$`?
     /home/sven
     ```
 
-### Exercise 3: file management
+### Exercise 4: file management
 
 You are in a terminal on a Pelle login node, in your home folder.
 
@@ -461,7 +488,7 @@ From there:
     When trying to move a folder with `-R`, this warning
     is given and no folder is renamed.
 
-### Exercise 4: starting `eog`
+### Exercise 5: starting `eog`
 
 - From the terminal, start the program `eog` by typing `eog` and
   press enter,
@@ -478,7 +505,7 @@ From there:
 
     Click at the cross in the top-right corner of the `eog` window
 
-### Exercise 5: starting a text editor
+### Exercise 6: starting a text editor
 
 - Create a file called `my_file.txt`, if not already present
 
@@ -519,29 +546,3 @@ its name will be useful to know:
       buffer (in this case: the file). Press `Y`. `nano` asks for
       a filename and shows the current filename. Press enter.
 
-### Exercise 6: copy-paste text
-
-- Copy text from your local computer to your terminal
-
-???- question "Tips"
-
-    - Tip 1: search for 'how to paste into terminal'
-    - Tip 2: search the UPPMAX documentation for 'terminal'
-
-???- question "Answer"
-
-    Copying from your local computer uses a regular `CTRL + C`.
-
-    How to paste depends on the terminal you use.
-    The most common keyboard shortcut is `CTRL + SHIFT + V` for pasting
-    into a terminal
-
-- Copy text from your terminal to your local computer
-
-???- question "Answer"
-
-    How to copy depends on the terminal you use.
-    The most common keyboard shortcut is `CTRL + SHIFT + C` for copying
-    from a terminal
-
-    Pasting to your local computer uses a regular `CTRL + V`.

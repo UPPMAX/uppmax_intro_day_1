@@ -56,11 +56,11 @@ tags:
 
     Give you confidence levels of the following statements below:
 
-    - I can log in to the Rackham remote desktop using the website
-    - I can do basic things in the Rackham remote desktop
+    - I can log in to the Pelle remote desktop using the website
+    - I can do basic things in the Pelle remote desktop
     - I can find my home folder
-    - I can transfer files to/from Rackham using FileZilla
-    - I can log in to Rackham using a terminal
+    - I can transfer files to/from Pelle
+    - I can log in to Pelle using a terminal
     - I can do basic things in the terminal
     - I can find and load a module
     - I can start a terminal text editor

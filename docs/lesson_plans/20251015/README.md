@@ -88,7 +88,25 @@ Hence, I am done, after preparing the Feedback questions. Let's do it!
 In two days, the course is taught. And tomorrow I will be teaching
 the NAISS Intro to Python course, so I must prepare today.
 
-- [ ] Check for Pelle
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
+Page                        |Status of course material
+----------------------------|-----------------------------------------------------------------------------
+Prerequisites               |Done
+Course dates                |Done
+Schedule                    |Done
+Login                       |Done
+Login to remote desktop     |Done
+Use the remote desktop      |Done
+File transfer               |Done
+Login console               |Done
+Use terminal                |Done
+Module system               |Needs a try-out and a new video
+Creating a bash script      |Done
+Scheduler                   |Done
+Interactive jobs            |Done
+
+<!-- markdownlint-enable MD013 -->
 
 ## References
 
