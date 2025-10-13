@@ -60,7 +60,7 @@ tags:
 
     - When would you recommend a colleague to use a remote desktop environment?
 
-![The Pelle remote desktop environment](pelle_via_remote_desktop_50.jpg)
+![The Pelle remote desktop environment](login_pelle_remote_desktop_website_7.png)
 
 > The Pelle remote desktop environment.
 
@@ -92,10 +92,6 @@ using a website, as this is easier to do.
 There are two exercises, of which the second is optional.
 
 ### Exercise 1: login via website
-
-!!! warning "This method does not work yet on Pelle"
-
-    This method does not work yet on Pelle
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

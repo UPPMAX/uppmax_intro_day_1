@@ -461,24 +461,22 @@ From there:
     When trying to move a folder with `-R`, this warning
     is given and no folder is renamed.
 
-### Exercise 4: starting `xeyes`
+### Exercise 4: starting `eog`
 
-- From the terminal, start the program `xeyes` by typing `xeyes` and
+- From the terminal, start the program `eog` by typing `eog` and
   press enter,
 
 ???- question "Answer"
 
-    These eyes will show up:
+    These `eog` menu will show up
 
-    ![These eyes will show up](xeyes.png)
+    ![The `eog`menu will show up](eog_menu.png)
 
-- Close `xeyes`
+- Close `eog`
 
 ???- question "Answer"
 
-    Here is how to close a program in the terminal:
-
-    Press `CTRL + C`
+    Click at the cross in the top-right corner of the `eog` window
 
 ### Exercise 5: starting a text editor
 
@@ -515,7 +513,7 @@ its name will be useful to know:
 
 ???- question "Answer"
 
-    These are some of the more conventional ways to close gedit:
+    These are some of the more conventional ways to close nano:
 
     - Press `CTRL + X` to close. `nano` asks if you want to save the
       buffer (in this case: the file). Press `Y`. `nano` asks for

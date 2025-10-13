@@ -83,6 +83,12 @@ That counts!
 
 Hence, I am done, after preparing the Feedback questions. Let's do it!
 
+## 2025-10-13
+
+In two days, the course is taught. And tomorrow I will be teaching
+the NAISS Intro to Python course, so I must prepare today.
+
+- [ ] Check for Pelle
 
 ## References
 
