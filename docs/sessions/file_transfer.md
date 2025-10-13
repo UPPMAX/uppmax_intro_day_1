@@ -108,19 +108,27 @@ flowchart TD
 
 Here is the same information in a table:
 
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
+
 Tool     |Homepage                                    |Operating systems(s)  |Interface|Description
 ---------|--------------------------------------------|----------------------|---------|----------------------------------------
 FileZilla|[Homepage](https://filezilla-project.org/)  |Linux, Mac and Windows|Graphical|Recommended if it can be used
 WinSCP   |[Homepage](https://winscp.net/eng/index.php)|Windows               |Graphical|Popular Windows alternative to FileZilla
 `scp`    |Part of your SSH client                     |Linux, Mac and Windows|Terminal |Always works
 
+<!-- markdownlint-enable MD013 -->
+
 - Pick the best file transfer tool at your disposal.
 - If needed and possible: install that tool, as documented on its homepage
 - Use [the UPPMAX documentation](http://docs.uppmax.uu.se/) to upload
   and download a file
+
+<!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 Tool     |UPPMAX documentation page
 ---------|----------------------------------------------------------------------------------------------------
 FileZilla|[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/)
 WinSCP   |[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_winscp/)
 `scp`    |[UPPMAX documentation page](https://docs.uppmax.uu.se/software/pelle_file_transfer_using_scp/)
+
+<!-- markdownlint-enable MD013 -->
