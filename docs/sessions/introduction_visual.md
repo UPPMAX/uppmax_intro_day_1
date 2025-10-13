@@ -28,7 +28,7 @@ flowchart TD
   login[Login in general]
   login_remote_desktop[Login to remote desktop]
   use_remote_desktop[Using the remote desktop, navigation, file management, text editor]
-  file_transfer_filezilla[File transfer, FileZilla]
+  file_transfer_filezilla[File transfer]
 
   %% GUI
   login --> login_remote_desktop
@@ -39,8 +39,8 @@ flowchart TD
 | Link                                                                          | Description                                                      |
 | ----------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | [Login](../sessions/login.md)                                                 | Log in to an UPPMAX cluster                                      |
-| [Log in to remote desktop environment](../sessions/login_remote_desktop.md)   | Log in to the Pelle remote desktop environment via the website |
+| [Log in to remote desktop environment](../sessions/login_remote_desktop.md)   | Log in to the Pelle remote desktop environment via the website   |
 | [Using the remote desktop environment](../sessions/use_remote_desktop.md)     | Using a remote desktop environment                               |
-| [File transfer using FileZilla](../sessions/file_transfer_using_filezilla.md) | File transfer using FileZilla                                    |
+| [File transfer](../sessions/file_transfer_using_filezilla.md)                 | File transfer                                                    |
 
 <!-- markdownlint-enable MD013 -->
