@@ -291,7 +291,7 @@ then answer these questions:
     cowsay hello
     ```
 
-## Exercise 5: cancel a job
+## (Optional) Exercise 5: cancel a job
 
 Go to the UPPMAX documentation at
 [https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),

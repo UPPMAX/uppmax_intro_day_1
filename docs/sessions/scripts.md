@@ -129,7 +129,7 @@ cowsay hello
     is a so-called shell script. It is no coincidence that `.sh` are the
     last two letters of `bash`.
 
-### (Optional) Exercise 2: write an executable R script
+## Exercise X1: write an executable R script
 
 - Create a file called `my_r_script.R` with the content below:
 

@@ -106,7 +106,59 @@ Try to do these exercises by trying out things yourself first.
 There are usually multiple ways to solve the exercise.
 Feel encouraged to explore this new environment too!
 
-## Exercise 1: file navigation
+## Exercise 1: copy-paste text
+
+Go to the UPPMAX documentation at
+[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
+then answer these questions:
+
+- Find the page where it is documented to log in to
+  Pelle's remote desktop via a webbrowser.
+
+???- question "Answer"
+
+    [The UPPMAX 'Log in to Pelle's remote desktop via a webbrowser' page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
+
+- On that page, find where to find information on how to use the
+  remote desktop
+
+???- question "Answer"
+
+    The link can be found at the 'Usage' heading,
+    which takes you to [ThinLinc](https://docs.uppmax.uu.se/software/thinlinc/),
+    the program that is the workhorse behind the website
+
+- Copy-paste text from local computer to your remote desktop
+
+???- question "Answer"
+
+    Select some text on your local computer and press `CTRL + C` to copy
+    it to your loal clipboard.
+
+    Then, click on the menu bar on the left side of the window and click on the
+    clipboard icon. Press `CTRL + V` to paste the text from your local
+    clipboard to the remote desktop's clipboard
+
+    ![Copy the text to the ThinLinc clipboard](copy_to_clipboard.png)
+
+    Then, in the remote desktop environment, press `CTRL + V` to paste
+    the text from the remote desktop's clipboard to a text editor
+
+    ![Do a regular paste in a text editor](copied_to_text_editor.png)
+
+- Copy-paste text from your remote desktop to your local computer
+
+    In the remote desktop environment, press `CTRL + C` to copy
+    the selected text to the remote desktop's clipboard.
+
+    Then, click on the menu bar on the left side of the window and click on the
+    clipboard icon. Copy the text in the remote desktop's clipboard using
+    `CTRL + C` to your local computer's clipboard.
+
+    Then, on your local computer, press `CTRL + V` to paste
+    the text from your clipboard to a text editor
+
+## Exercise 2: file exploration
 
 - Start a program to navigate your files
 
@@ -158,7 +210,7 @@ Feel encouraged to explore this new environment too!
 
     The file navigator is called Thunar.
 
-## Exercise 2: file management
+## Exercise 3: file management
 
 In your file explorer:
 
@@ -250,41 +302,6 @@ In your file explorer:
     - Click on a folder to select it
     - Press `Del` to delete it
 
-## Exercise 3: starting a terminal
-
-- Start a terminal
-
-???- question "Answer"
-
-    At the bottom bar of the screen, click the icon for 'Terminal emulator':
-
-    ![At the bottom bar of the screen, click the icon for 'Terminal emulator'](start_terminal.png)
-
-    You now have started a terminal:
-
-    ![You now have started a terminal](terminal.png)
-
-- From the terminal, start the program `xeyes` by typing `xeyes` and
-  press enter,
-
-???- question "Answer"
-
-    These eyes will show up:
-
-    ![These eyes will show up](xeyes.png)
-
-- Close the terminal. There are multiple ways!
-
-???- question "Answer"
-
-    These are some of the more conventional ways to close a terminal:
-
-    - Click on the `x` at the top-right of the terminal. When asked to really do
-      it, say 'Yes'
-    - Click the terminal and Press `CTRL + C` to stop `xeyes`. Type `exit`
-      and press enter
-    - Many more: any solution that worked is fine
-
 ## Exercise 4: starting a text editor
 
 - Create a file called `my_file.txt` (the `.txt` at the end is important),
@@ -352,54 +369,29 @@ its name will be useful to know:
 
     ![The gedit hamburger menu](gedit_hamburger_menu.png)
 
-## Exercise 5: copy-paste text
 
-Go to the UPPMAX documentation at
-[https://docs.uppmax.uu.se](https://docs.uppmax.uu.se),
-then answer these questions:
+## Exercise 5: starting a terminal
 
-- Find the page where it is documented to log in to
-  Pelle's remote desktop via a webbrowser.
+- Start a terminal
 
 ???- question "Answer"
 
-    [The UPPMAX 'Log in to Pelle's remote desktop via a webbrowser' page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
+    At the bottom bar of the screen, click the icon for 'Terminal emulator':
 
-- On that page, find where to find information on how to use the
-  remote desktop
+    ![At the bottom bar of the screen, click the icon for 'Terminal emulator'](start_terminal.png)
 
-???- question "Answer"
+    You now have started a terminal:
 
-    The link can be found at the 'Usage' heading,
-    which takes you to [ThinLinc](https://docs.uppmax.uu.se/software/thinlinc/),
-    the program that is the workhorse behind the website
+    ![You now have started a terminal](terminal.png)
 
-- Copy-paste text from local computer to your remote desktop
+- From the terminal, start the program `eog` by typing `eog` and
+  press enter,
 
 ???- question "Answer"
 
-    Select some text on your local computer and press `CTRL + C` to copy
-    it to your loal clipboard.
+    These `eog` menu will show up:
 
-    Then, click on the menu bar on the left side of the window and click on the
-    clipboard icon. Press `CTRL + V` to paste the text from your local
-    clipboard to the remote desktop's clipboard
+    ![The `eog` menu](eog.png)
 
-    ![Copy the text to the ThinLinc clipboard](copy_to_clipboard.png)
+- Close the menu
 
-    Then, in the remote desktop environment, press `CTRL + V` to paste
-    the text from the remote desktop's clipboard to a text editor
-
-    ![Do a regular paste in a text editor](copied_to_text_editor.png)
-
-- Copy-paste text from your remote desktop to your local computer
-
-    In the remote desktop environment, press `CTRL + C` to copy
-    the selected text to the remote desktop's clipboard.
-
-    Then, click on the menu bar on the left side of the window and click on the
-    clipboard icon. Copy the text in the remote desktop's clipboard using
-    `CTRL + C` to your local computer's clipboard.
-
-    Then, on your local computer, press `CTRL + V` to paste
-    the text from your clipboard to a text editor
