@@ -9,21 +9,24 @@ tags:
 
 # Evaluation
 
+These are forms used to evaluate this course:
+
+- [The 'Any feedback?' form](https://docs.google.com/forms/d/e/1FAIpQLSe0l_FNoriiZ44uvCbiuPwqdOhS9X25bbLTa_yPd_-AvJGGOA/viewform?usp=header):
+  to be filled in at any time of the day
+- [The 'How was today?' form](https://docs.google.com/forms/d/e/1FAIpQLSdbUL5LEFwGOhSrhai9rBDZqpDLpaGOaGfshZTPXY7qw3R_nQ/viewform?usp=header),
+  to be filled in at the end of the day
+
 ???- question "Where can I find the results of past evaluations?"
 
     See [Evaluations](evaluations/README.md) (plural)
     for the results of past evaluations.
-
-## Evaluation forms
-
-- Anonymous feedback: `TODO`
 
 ???- question "Where will these results be published?"
 
     At the [evaluations](evaluations/README.md) (plural)
     of that course.
 
-???- question "For teachers: what is in that form?"
+???- question "For teachers: what is in the 'Any feedback?' form?"
 
     Thanks for your feedback.
     This feedback will be published as-is at the end of this day,
@@ -31,18 +34,13 @@ tags:
     in the feedback.
     Do mention the teachers, assistants, etc by name!
 
-- Learning outcomes: `TODO`
+???- question "For teachers: what is in the 'How was today?' form?"
 
-???- question "Where will these results be published?"
+    Here we review what you have learned today and where you can share
+    your feedback.
 
-    At the [evaluations](evaluations/README.md) (plural)
-    of that course.
-
-???- question "For teachers: what is in that form?"
-
-    These are the evaluation questions.
-    The goals of these questions is to find out how successful
-    the course is in achieving its teaching goals.
+    The goals of these questions is to: (1) remind you what you have learned,
+    (2) find out how effective the course has been, (3) improve the course.
 
     Give you confidence levels of the following statements,
     using this scale:
@@ -62,15 +60,16 @@ tags:
     - I can transfer files to/from Pelle
     - I can log in to Pelle using a terminal
     - I can do basic things in the terminal
-    - I can find and load a module
+    - I can find and load a software module
     - I can start a terminal text editor
     - I can create a bash script
     - I can schedule a job
     - I can start an interactive session
+    - I can start an IDE
 
     Any other feedback?
 
-    Thanks for your feedback.
-    This feedback will be published as-is at the end of Day 1,
+    Thanks for your feedback!
+    This feedback will be published as-is at the end of the day,
     if and only if there are no personal details (email, address, etc.)
     in the feedback. Do mention the teachers, assistants, etc by name!
