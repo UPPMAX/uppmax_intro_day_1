@@ -92,7 +92,7 @@ flowchart TD
   can_use_filezilla --> |Yes| filezilla
   can_install_filezilla --> |Yes| filezilla
   have_windows --> |Yes| can_use_winscp
-  can_use_winscp --> |No| winscp
+  can_use_winscp --> |Yes| winscp
   can_install_winscp --> |Yes| winscp
 
 
