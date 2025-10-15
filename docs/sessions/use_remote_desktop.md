@@ -158,7 +158,120 @@ then answer these questions:
     Then, on your local computer, press `CTRL + V` to paste
     the text from your clipboard to a text editor
 
-## Exercise 2: file exploration
+
+## Exercise 2: start a terminal
+
+- Start a terminal
+
+???- question "Answer"
+
+    At the bottom bar of the screen, click the icon for 'Terminal emulator':
+
+    ![At the bottom bar of the screen, click the icon for 'Terminal emulator'](start_terminal.png)
+
+    You now have started a terminal:
+
+    ![You now have started a terminal](terminal.png)
+
+- From the terminal, start the program `eog` by typing `eog` and
+  press enter,
+
+???- question "Answer"
+
+    These `eog` menu will show up:
+
+    ![The `eog` menu](eog.png)
+
+- Close the menu
+
+## Exercise 3: create and edit a text file
+
+- Create a file called `my_file.txt` (the `.txt` at the end is important).
+  There are many ways to do so!
+
+???- question "Answer"
+
+    The exact answer depends on the remote desktop flavour you have chosen.
+    Whatever flavour you've picked, it will look similar to the answer below.
+
+    In Thunar, click on the white space next/under the files with
+    the right mouse button. In this pop-up menu, click 'Create a new file':
+
+    ![Popup menu to create a new file](create_a_new_file.png)
+
+    In the following dialog, give it any filename:
+
+    ![Give the file a name](give_file_a_filename.png)
+
+    Now the file is created:
+
+    ![The created file is shown](file_created.png)
+
+- Edit the content of the file. There are many ways!
+
+???- question "Answer"
+
+    Here there are multiple ways:
+
+    - Double-click the file. Because the file ends with `.txt` it will
+      open a visual text editor
+
+    ![Open file with a text editor](open_file_with_text_editor.png)
+
+    - Do a right-mouse button click on the file
+      and select 'Open with text editor'
+
+    It will look similar to this:
+
+    ![A file opened with a text editor](opened_file.png)
+
+To be able to search the web for questions on this graphical text editor,
+its name will be useful to know:
+
+- What is the name of the graphical text editor?
+
+???- question "Answer"
+
+    The visual text editor is called 'gedit'.
+
+     You can see its name in the menu bar at the top:
+
+    ![A file opened with gedit](opened_file.png)
+
+    You can also click on
+    [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button)
+    and click 'Help':
+
+    ![The gedit hamburger menu](gedit_help_about.png)
+
+    This will show you the gedit about screen:
+
+    ![The gedit about screen](gedit_about.png)
+
+- Save the file. There are multiple ways!
+
+???- question "Answer"
+
+    There are multiple ways, these are among the most conventional:
+
+    - Press `CTRL + S`
+    - Click on the 'Save' button at the top menu bar of gedit
+
+    ![There is a 'Save' button at the top menu bar of gedit](opened_file.png)
+
+- Close gedit. There are multiple ways!
+
+???- question "Answer"
+
+    These are some of the more conventional ways to close gedit:
+
+    - Click on the `x` at the top-right of the terminal
+    - In the gedit hamburger menu, click 'Quit'
+
+    ![The gedit hamburger menu](gedit_hamburger_menu.png)
+
+
+## (optional) Exercise 4: file exploration
 
 - Start a program to navigate your files
 
@@ -210,13 +323,16 @@ then answer these questions:
 
     The file navigator is called Thunar.
 
-## Exercise 3: file management
+## (optional) Exercise 5: file management
 
 In your file explorer:
 
 - create a file
 
 ???- question "Answer"
+
+    The exact answer depends on the remote desktop flavour you have chosen.
+    Whatever flavour you've picked, it will look similar to the answer below.
 
     In Thunar, click on the white space next/under the files with
     the right mouse button. In this pop-up menu, click 'Create a new file':
@@ -301,97 +417,4 @@ In your file explorer:
 
     - Click on a folder to select it
     - Press `Del` to delete it
-
-## Exercise 4: starting a text editor
-
-- Create a file called `my_file.txt` (the `.txt` at the end is important),
-  if not already present
-- Edit a file by start a visual text editor from Thunar. There are many ways!
-
-???- question "Answer"
-
-    Here there are multiple ways:
-
-    - Double-click the file. Because the file ends with `.txt` it will
-      open a visual text editor
-
-    ![Open file with a text editor](open_file_with_text_editor.png)
-
-    - Do a right-mouse button click on the file
-      and select 'Open with text editor'
-
-    It will look similar to this:
-
-    ![A file opened with a text editor](opened_file.png)
-
-To be able to search the web for questions on this graphical text editor,
-its name will be useful to know:
-
-- What is the name of the graphical text editor?
-
-???- question "Answer"
-
-    The visual text editor is called 'gedit'.
-
-     You can see its name in the menu bar at the top:
-
-    ![A file opened with gedit](opened_file.png)
-
-    You can also click on
-    [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button)
-    and click 'Help':
-
-    ![The gedit hamburger menu](gedit_help_about.png)
-
-    This will show you the gedit about screen:
-
-    ![The gedit about screen](gedit_about.png)
-
-- Save the file. There are multiple ways!
-
-???- question "Answer"
-
-    There are multiple ways, these are among the most conventional:
-
-    - Press `CTRL + S`
-    - Click on the 'Save' button at the top menu bar of gedit
-
-    ![There is a 'Save' button at the top menu bar of gedit](opened_file.png)
-
-- Close gedit. There are multiple ways!
-
-???- question "Answer"
-
-    These are some of the more conventional ways to close gedit:
-
-    - Click on the `x` at the top-right of the terminal
-    - In the gedit hamburger menu, click 'Quit'
-
-    ![The gedit hamburger menu](gedit_hamburger_menu.png)
-
-
-## Exercise 5: starting a terminal
-
-- Start a terminal
-
-???- question "Answer"
-
-    At the bottom bar of the screen, click the icon for 'Terminal emulator':
-
-    ![At the bottom bar of the screen, click the icon for 'Terminal emulator'](start_terminal.png)
-
-    You now have started a terminal:
-
-    ![You now have started a terminal](terminal.png)
-
-- From the terminal, start the program `eog` by typing `eog` and
-  press enter,
-
-???- question "Answer"
-
-    These `eog` menu will show up:
-
-    ![The `eog` menu](eog.png)
-
-- Close the menu
 
