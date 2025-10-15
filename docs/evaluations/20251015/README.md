@@ -5,8 +5,8 @@
 - [Evaluation](../../evaluations/20251015/README.md)
 - [Reflection](../../reflections/20251015/README.md)
 - Registrations: 15
-- Number of active learners: 6 (..% show-up rate)
-- Number of evaluations: . (... fill-in rate)
+- Number of active learners: 6 (50% show-up rate)
+- Number of evaluations: 6 (67% fill-in rate)
 
 ## Results
 
@@ -14,7 +14,7 @@
 - [survey_start.csv](survey_start.csv)
 - [survey_end.csv](survey_end.csv)
 - [survey_end_text_question.txt](survey_end_text_question.txt)
-- [success_score.txt](success_score.txt): 95%
+- [success_score.txt](success_score.txt): 84%
 
 ## Feedback
 
