@@ -14,6 +14,10 @@ tags:
 
     The course is learner-centered. This means that the pace is determined
     be the learners (i.e. not by the clock).
+    
+    This also means, that if we are done earlier, we will end earlier.
+    Tip: work together!
+
     The breaks are always on the time specified.
 
     ???- question "Why is the course learner-centered?"
