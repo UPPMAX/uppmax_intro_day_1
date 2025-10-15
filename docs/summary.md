@@ -16,7 +16,7 @@ at [https://pelle-gui.uppmax.uu.se/](https://pelle-gui.uppmax.uu.se/).
 
 You can transfer files to/from Pelle.
 
-![FilleZilla](sessions/filezilla_login_to_pelle.png)
+![FileZilla](sessions/filezilla_login_to_pelle.png)
 
 You can log in to Pelle using a terminal:
 
