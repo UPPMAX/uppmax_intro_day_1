@@ -20,10 +20,9 @@ I can do basic things in the Pelle remote desktop.
 - I can transfer files to/from Pelle
 
 
-
 - I can log in to Pelle using a terminal
 
-```
+```bash
 ssh sven@pelle.uppmax.uu.se
 ```
 
@@ -61,7 +60,6 @@ interactive -A uppmax2025-2-262 -t 1:00:00
 ```
 
 - I can start an IDE
-
 
 
 ## Further learning
