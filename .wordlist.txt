@@ -178,3 +178,8 @@ Wenderoth
 detracking
 Glodowski
 WinSCP
+gui
+pelle
+SCoRe
+SciLifeLab
+
