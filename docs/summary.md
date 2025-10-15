@@ -57,7 +57,7 @@ interactive -A uppmax2025-2-262 -t 1:00:00
 
 You can start an IDE
 
-![RStudio in action](../sessions/rstudio_in_action.png)
+![RStudio in action](sessions/rstudio_in_action.png)
 
 ## Further learning
 
