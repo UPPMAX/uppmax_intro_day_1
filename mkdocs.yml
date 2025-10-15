@@ -41,6 +41,7 @@ nav:
       - NAISS: sessions/naiss.md
       - Project: misc/project.md
       - Reflections: reflections/README.md
+      - Summary: summary.md
       - The bigger picture: sessions/introduction_bigger_picture.md
       - The filesystem: sessions/filesystem.md
       - UPPMAX courses: sessions/courses.md
