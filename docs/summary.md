@@ -9,58 +9,55 @@ tags:
 
 # Summary
 
-I can log in to the Pelle remote desktop using the website
+You can login to the Pelle remote desktop using the website
 at [https://pelle-gui.uppmax.uu.se/](https://pelle-gui.uppmax.uu.se/).
 
-I can do basic things in the Pelle remote desktop.
+![Pelle's remote desktop](sessions/pelle_remote_desktop.png)
 
+You can transfer files to/from Pelle.
 
-- I can find my home folder
+![FilleZilla](sessions/filezilla_login_to_pelle.png)
 
-- I can transfer files to/from Pelle
-
-
-- I can log in to Pelle using a terminal
+You can log in to Pelle using a terminal:
 
 ```bash
 ssh sven@pelle.uppmax.uu.se
 ```
 
-- I can do basic things in the terminal
-
-- I can find and load a software module
+You can find and load a software module:
 
 ```bash
 module spider cowsay
 module load cowsay/3.04
 ```
 
-I can start a terminal text editor:
+You can start a terminal text editor:
 
 ```bash
 nano
 ```
 
-- I can create a bash script
+You can create a bash script:
 
 ```bash
 nano my_script.sh
 ```
 
-- I can schedule a job
+You can schedule a job:
 
 ```bash
 sbatch -A uppmax2025-2-262 my_script.sh
 ```
 
-- I can start an interactive session
+You can start an interactive session:
 
 ```bash
 interactive -A uppmax2025-2-262 -t 1:00:00
 ```
 
-- I can start an IDE
+You can start an IDE
 
+![RStudio in action](../sessions/rstudio_in_action.png)
 
 ## Further learning
 

@@ -31,6 +31,8 @@ tags:
 
 ## Why use an IDE?
 
+![RStudio in action](rstudio_in_action.png)
+
 If you want to do software development on Pelle
 in a graphical environment,
 an IDE will help you.
