@@ -119,7 +119,7 @@ then answer these questions:
     View your jobs in the queue:
 
     ```bash
-    squeue -u $USER
+    squeue --me
     ```
 
     You will probably see that you have zero jobs scheduled
@@ -240,14 +240,14 @@ then answer these questions:
     The easiest is:
 
     ```bash
-    squeue -u $USER
+    squeue --me
     ```
 
     Because the job may finish very fast, a trick is to use a semicolon
     to run the two command directly after each other:
 
     ```bash
-    sbatch -A uppmax2025-2-262 my_script.sh; squeue -u $USER
+    sbatch -A uppmax2025-2-262 my_script.sh; squeue --me
     ```
 
     The output will be similar to:
@@ -256,7 +256,7 @@ then answer these questions:
     <!-- markdownlint-disable MD013 -->
 
     ```bash
-    [richel@pelle3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh; squeue -u $USER
+    [richel@pelle3 ~]$ sbatch -A uppmax2025-2-262 my_script.sh; squeue --me
     Submitted batch job 49309860
                  JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
               49309860      core my_scrip   richel PD       0:00      1 (None)
