@@ -129,13 +129,20 @@ cowsay hello
     is a so-called shell script. It is no coincidence that `.sh` are the
     last two letters of `bash`.
 
-## Exercise X1: write an executable R script
+## Exercise X1: write an executable script in your favorite programming language
 
-- Create a file called `my_r_script.R` with the content below:
+- Create a script in your favorite programming language, with the following
+  name and content:
 
-```text
-message("Hello from R")
-```
+Programming language| Script name
+--------------------|-----------------------
+Python              |`my_script.py`
+R                   |`my_script.R`
+
+Programming language| Script content
+--------------------|-----------------------
+Python              |`print("Hello from Python")`
+R                   |`message("Hello from R")`
 
 ???- question "Answer"
 
@@ -149,24 +156,48 @@ message("Hello from R")
 
     To make the script executable, do:
 
-    ```bash
-    chmod +x my_r_script.R
-    ```
+    Programming language|Command
+    --------------------|-----------------------
+    Python              |`chmod +x my_script.py`
+    R                   |`chmod +x my_script.R`
 
 - Run the script. What is the error message?
 
 ???- question "Answer"
 
-    This is how to run the script and the error message:
+    How to run the script:
 
-    ```bash
-    [sven@pelle1 ~]$ ./my_r_script.R
-    ./my_r_script.R: line 2: syntax error near unexpected token `"Hello from R"'
-    ./my_r_script.R: line 2: `message("Hello from R")'
-    ```
+    Programming language|How to run the script
+    --------------------|-----------------------
+    Python              |`./my_script.py`
+    R                   |`./my_script.R`
 
-- At the start of your R script, add `#!/bin/env Rscript`. This is called
+    Error message:
+
+    === "Python"
+
+        ```bash
+        [sven@pelle1 ~]$ ./my_script.py 
+        ./my_script.py: line 1: syntax error near unexpected token `"Hello from Python"'
+        ./my_script.py: line 1: `print("Hello from Python")'
+        ```
+
+    === "R"
+
+        ```bash
+        [sven@pelle1 ~]$ ./my_script.R
+        ./my_script.R: line 2: syntax error near unexpected token `"Hello from R"'
+        ./my_script.R: line 2: `message("Hello from R")'
+        ```
+
+- At the start of your R script, add a first line, as shown in the
+  table below. This is called
   the 'shebang'. The shebang tells `bash` with which program to run the
   script when it is executable
+
+Programming language|First line to add
+--------------------|-----------------------
+Python              |`#!/bin/env python`
+R                   |`#!/bin/env Rscript`
 
 - Run the script again and confirm that it works

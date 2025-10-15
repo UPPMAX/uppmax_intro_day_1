@@ -101,10 +101,11 @@ Use the remote desktop      |Done
 File transfer               |Done
 Login console               |Done
 Use terminal                |Done
-Module system               |Needs a try-out and a new video
+Module system               |Done
 Creating a bash script      |Done
 Scheduler                   |Done
 Interactive jobs            |Done
+IDEs                        |Done
 
 <!-- markdownlint-enable MD013 -->
 
@@ -114,3 +115,4 @@ Interactive jobs            |Done
   and E. Ashley Asuncion. "Evidence-based recommendations for programming
   quizzes to improve college student behavior in residential courses."
   Journal of Behavioral Education 29.3 (2020): 543-570.
+

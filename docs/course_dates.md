@@ -23,4 +23,6 @@ tags:
 
 <!-- markdownlint-enable MD013 -->
 
-- `?`: not confirmed yet
+This day is the first day of a three of the 'Introduction to Linux and UPPMAX'
+course. An overview of the full course can be found at
+[the UPPMAX 'Introduction to Linux and UPPMAX' page](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/).
