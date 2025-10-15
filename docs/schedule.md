@@ -48,7 +48,8 @@ tags:
 | 14:15-15:00 | R   | [Doing real work](sessions/introduction_real_work.md) 1/2          |
 | 15:00-15:15 | .   | Break                                                              |
 | 15:15-15:45 | R   | [Doing real work](sessions/introduction_real_work.md) 2/2          |
-| 15:45-16:00 | R   | [Evaluation](evaluation.md)                                        |
+| 15:45-15:50 | R   | [Summary and further learning](summary.md)                         |
+| 15:50-16:00 | R   | [Evaluation](evaluation.md)                                        |
 
 <!-- markdownlint-enable MD013 -->
 
