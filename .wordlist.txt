@@ -182,4 +182,5 @@ gui
 pelle
 SCoRe
 SciLifeLab
-
+boxplot
+analyse
