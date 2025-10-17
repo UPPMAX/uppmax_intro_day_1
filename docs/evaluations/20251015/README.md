@@ -10,7 +10,6 @@
 
 ## Results
 
-- [anonymous_feedback.txt](anonymous_feedback.txt)
 - [survey_start.csv](survey_start.csv)
 - [survey_end.csv](survey_end.csv)
 - [survey_end_text_question.txt](survey_end_text_question.txt)
@@ -18,7 +17,7 @@
 
 ## Feedback
 
-None
+None.
 
 ## Analysis, only end
 
