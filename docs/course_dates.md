@@ -19,7 +19,7 @@ tags:
 
 | Week | Date                             | Times      | Place      | Registration                                                                     | Registration closing date |
 | ---- | -------------------------------- | ---------- | ---------- | -------------------------------------------------------------------------------- | ------------------------- |
-| ?7   | ?Tuesday February 16 2026 [1]    | 9:00-16:00 | Online     | Not yet                                                                          | TBA                       |
+| 4    | Monday January 19 2026 [1]       | 9:00-16:00 | Online     | Not yet                                                                          | TBA                       |
 | ?42  | ?Wednesday October 20 2026       | 9:00-16:00 | Online     | Not yet                                                                          | TBA                       |
 
 - [1] As indicated in the NAISS course schedule document
