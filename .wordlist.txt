@@ -40,6 +40,7 @@ filezilla
 formalisms
 GDPR
 gedit
+pluma
 genomic
 github
 GPUs

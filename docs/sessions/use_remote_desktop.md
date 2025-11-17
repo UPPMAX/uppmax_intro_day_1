@@ -36,9 +36,9 @@ tags:
     - Learners have done basic file management:
       create, copy, move and delete a file and folder
     - Learners have started a terminal
-    - Learners have started `gedit`
-    - Learners have found that the text editor is called `gedit`
-    - Learners have done basic things in gedit: edit a files, save, close
+    - Learners have started `pluma`
+    - Learners have found that the text editor is called `pluma`
+    - Learners have done basic things in pluma: edit a files, save, close
     - Learners have copy-pasted text between local computer
       and the remote desktop (in both directions)
 
@@ -232,21 +232,21 @@ its name will be useful to know:
 
 ???- question "Answer"
 
-    The visual text editor is called 'gedit'.
+    The visual text editor is called 'pluma'.
 
      You can see its name in the menu bar at the top:
 
-    ![A file opened with gedit](opened_file.png)
+    ![A file opened with pluma](opened_file.png)
 
     You can also click on
     [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button)
     and click 'Help':
 
-    ![The gedit hamburger menu](gedit_help_about.png)
+    ![The pluma hamburger menu](pluma_help_about.png)
 
-    This will show you the gedit about screen:
+    This will show you the pluma about screen:
 
-    ![The gedit about screen](gedit_about.png)
+    ![The pluma about screen](pluma_about.png)
 
 - Save the file. There are multiple ways!
 
@@ -255,20 +255,20 @@ its name will be useful to know:
     There are multiple ways, these are among the most conventional:
 
     - Press `CTRL + S`
-    - Click on the 'Save' button at the top menu bar of gedit
+    - Click on the 'Save' button at the top menu bar of pluma
 
-    ![There is a 'Save' button at the top menu bar of gedit](opened_file.png)
+    ![There is a 'Save' button at the top menu bar of pluma](opened_file.png)
 
-- Close gedit. There are multiple ways!
+- Close pluma. There are multiple ways!
 
 ???- question "Answer"
 
-    These are some of the more conventional ways to close gedit:
+    These are some of the more conventional ways to close pluma:
 
     - Click on the `x` at the top-right of the terminal
-    - In the gedit hamburger menu, click 'Quit'
+    - In the pluma hamburger menu, click 'Quit'
 
-    ![The gedit hamburger menu](gedit_hamburger_menu.png)
+    ![The pluma hamburger menu](pluma_hamburger_menu.png)
 
 
 ## (optional) Exercise 4: file exploration
