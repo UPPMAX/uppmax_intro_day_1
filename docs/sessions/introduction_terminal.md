@@ -32,7 +32,7 @@ flowchart TD
 
 | Link                                            | Description                                                                |
 | ----------------------------------------------- | -------------------------------------------------------------------------- |
-| [Login with SSH](../sessions/login_console.md)  | Log in to Pelle's console environment                                    |
+| [Login with SSH](../sessions/login_console.md)  | Log in to Pelle's console environment                                      |
 | [Using a terminal](../sessions/use_terminal.md) | Using a terminal for exploring the filesystem and do basic file management |
 
 <!-- markdownlint-enable MD013 -->

@@ -41,6 +41,6 @@ flowchart TD
 | [Login](../sessions/login.md)                                                 | Log in to an UPPMAX cluster                                      |
 | [Log in to remote desktop environment](../sessions/login_remote_desktop.md)   | Log in to the Pelle remote desktop environment via the website   |
 | [Using the remote desktop environment](../sessions/use_remote_desktop.md)     | Using a remote desktop environment                               |
-| [File transfer](../sessions/file_transfer.md)                 | File transfer                                                    |
+| [File transfer](../sessions/file_transfer.md)                                 | File transfer                                                    |
 
 <!-- markdownlint-enable MD013 -->
