@@ -36,9 +36,9 @@ tags:
     - Learners have done basic file management:
       create, copy, move and delete a file and folder
     - Learners have started a terminal
-    - Learners have started `pluma`
-    - Learners have found that the text editor is called `pluma`
-    - Learners have done basic things in pluma: edit a files, save, close
+    - Learners have started Pluma
+    - Learners have found that the text editor is called Pluma
+    - Learners have done basic things in Pluma: edit a files, save, close
     - Learners have copy-pasted text between local computer
       and the remote desktop (in both directions)
 
@@ -232,21 +232,19 @@ its name will be useful to know:
 
 ???- question "Answer"
 
-    The visual text editor is called 'pluma'.
+    The visual text editor is called 'Pluma'.
 
      You can see its name in the menu bar at the top:
 
-    ![A file opened with pluma](opened_file.png)
+    ![Pluma being open](pluma.png)
 
-    You can also click on
-    [the hamburger button](https://en.wikipedia.org/wiki/Hamburger_button)
-    and click 'Help':
+    You can also click on the 'About' menu item:
 
-    ![The pluma hamburger menu](pluma_help_about.png)
+    ![The pluma hamburger menu](pluma_click_about.png)
 
-    This will show you the pluma about screen:
+    This will show you the Pluma about screen:
 
-    ![The pluma about screen](pluma_about.png)
+    ![The pluma about screen](pluma_showing_about.png)
 
 - Save the file. There are multiple ways!
 
@@ -255,7 +253,7 @@ its name will be useful to know:
     There are multiple ways, these are among the most conventional:
 
     - Press `CTRL + S`
-    - Click on the 'Save' button at the top menu bar of pluma
+    - Click on the 'Save' button at the top menu bar of Pluma
 
     ![There is a 'Save' button at the top menu bar of pluma](opened_file.png)
 
@@ -266,10 +264,7 @@ its name will be useful to know:
     These are some of the more conventional ways to close pluma:
 
     - Click on the `x` at the top-right of the terminal
-    - In the pluma hamburger menu, click 'Quit'
-
-    ![The pluma hamburger menu](pluma_hamburger_menu.png)
-
+    - In the Pluma main menu, click 'Quit'
 
 ## (optional) Exercise 4: file exploration
 
