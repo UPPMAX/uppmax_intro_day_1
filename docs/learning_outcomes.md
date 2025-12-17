@@ -28,7 +28,7 @@ tags:
 ## Exercise 1: What are we going to learn today?
 
 - Please fill in
-  [the 'What are we going to learn today?' form](https://docs.google.com/forms/d/e/1FAIpQLSfaRIBZuAQl5Poi0RK7mpIp8NvKq1SLWOKZDGxCwm8UEBsthA/viewform?usp=header)
+  [TODO: the 'What are we going to learn today?' form](https://github.com/UPPMAX/uppmax_intro_day_1/issues/12)
 
 ???- question "For teachers: what is in that form?"
 

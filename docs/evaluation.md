@@ -11,9 +11,9 @@ tags:
 
 These are forms used to evaluate this course:
 
-- [The 'Any feedback?' form](https://docs.google.com/forms/d/e/1FAIpQLSe0l_FNoriiZ44uvCbiuPwqdOhS9X25bbLTa_yPd_-AvJGGOA/viewform?usp=header):
+- [TODO: The 'Any feedback?' form](https://github.com/UPPMAX/uppmax_intro_day_1/issues/12):
   to be filled in at any time of the day
-- [The 'How was today?' form](https://docs.google.com/forms/d/e/1FAIpQLSdbUL5LEFwGOhSrhai9rBDZqpDLpaGOaGfshZTPXY7qw3R_nQ/viewform?usp=header),
+- [TODO: The 'How was today?' form](https://github.com/UPPMAX/uppmax_intro_day_1/issues/12),
   to be filled in at the end of the day
 
 ???- question "Where can I find the results of past evaluations?"
