@@ -17,10 +17,10 @@ tags:
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
-| Week | Date                             | Times      | Place      | Registration                                                                     | Registration closing date |
-| ---- | -------------------------------- | ---------- | ---------- | -------------------------------------------------------------------------------- | ------------------------- |
-| 4    | Monday January 19 2026 [1]       | 9:00-16:00 | Online     | Not yet                                                                          | TBA                       |
-| ?42  | ?Wednesday October 20 2026       | 9:00-16:00 | Online     | Not yet                                                                          | TBA                       |
+| Week | Date                             | Times      | Place      | Registration                                                                               | Registration closing date |
+| ---- | -------------------------------- | ---------- | ---------- | ------------------------------------------------------------------------------------------ | ------------------------- |
+| 4    | Monday January 19 2026           | 9:00-16:00 | Online     | [The UPPMAX course page](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/) | TBA                       |
+| ?42  | ?Wednesday October 20 2026       | 9:00-16:00 | Online     | Not yet                                                                                    | TBA                       |
 
 - [1] As indicated in the NAISS course schedule document
 
