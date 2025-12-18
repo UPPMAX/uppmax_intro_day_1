@@ -6,7 +6,7 @@
 [![Check Markdown](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_markdown.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_markdown.yaml)
 [![Check spelling](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_spelling.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_spelling.yaml)
 [![Create website](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/create_website.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/create_website.yaml)
-[![DOI](https://zenodo.org/badge/808091302.svg)](https://doi.org/10.5281/zenodo.14645146)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17963833.svg)](https://doi.org/10.5281/zenodo.17963833)
 
 <!-- markdownlint-enable MD013 -->
 
