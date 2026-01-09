@@ -1,0 +1,104 @@
+09:01:52 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://richelbilderbeek.github.io/teaching/who_is_richel/
+	
+09:03:27 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/
+	
+09:04:04 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.google.com/forms/d/e/1FAIpQLSfaRIBZuAQl5Poi0RK7mpIp8NvKq1SLWOKZDGxCwm8UEBsthA/viewform?usp=header
+	
+09:05:41 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.google.com/forms/d/e/1FAIpQLSfaRIBZuAQl5Poi0RK7mpIp8NvKq1SLWOKZDGxCwm8UEBsthA/viewform?usp=header
+	
+09:06:49 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Björn Claremar (direct message):
+	Goodmorning! They are filling in a form, https://docs.google.com/forms/d/e/1FAIpQLSfaRIBZuAQl5Poi0RK7mpIp8NvKq1SLWOKZDGxCwm8UEBsthA/viewform?usp=header
+	
+09:09:47 From Emma DeGrace To Everyone:
+	It says for me that video is disabled by the host
+	
+09:16:35 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/schedule/
+	
+09:23:40 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login/#exercises
+	
+09:25:42 From Michaëla Berdougo To Everyone:
+	Thanks :)
+	
+09:47:24 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login_remote_desktop/
+	
+10:24:15 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/use_remote_desktop/#optional-exercise-4-file-exploration
+	
+10:44:58 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/file_transfer/
+	
+11:06:49 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	FileZilla documentation is updated: https://docs.uppmax.uu.se/software/pelle_file_transfer_using_filezilla/#4-setup-the-site 
+	
+	Well done me and thanks to both groups for letting me know :-)
+	
+11:23:50 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login_console/#login-via-a-terminal
+	
+13:09:29 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/modules/
+	
+13:11:55 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/modules/#exercise-1-work-with-modules
+	
+13:13:57 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login_remote_desktop/
+	
+13:20:33 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://pelle-gui.uppmax.uu.se/
+	
+13:21:29 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/login/#exercise-1-get-an-uppmax-2fa
+	
+13:29:52 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	NAISS 2025/22-95
+	
+13:38:58 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/scripts/#scripts
+	
+13:42:38 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://pelle-gui.uppmax.uu.se/
+	
+14:15:19 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://status.uppmax.uu.se/usage/
+	
+14:20:02 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/job_scheduler/#exercises
+	
+14:26:57 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	NAISS 2025/22-95
+	
+14:47:54 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	naiss-2025-22-95
+	
+14:48:07 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	naiss2025-22-95
+	
+14:53:39 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/sessions/start_interactive_session/
+	
+15:00:56 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.uppmax.uu.se/software/rstudio_on_pelle/
+	
+15:27:02 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	pelle-gui.uppmax.uu.se
+	
+15:31:14 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://uppmax.github.io/uppmax_intro_day_1/summary/
+	
+15:34:54 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://nbisweden.github.io/SCoRe_user_doc/courses/
+	
+15:35:17 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	https://docs.google.com/forms/d/e/1FAIpQLSdbUL5LEFwGOhSrhai9rBDZqpDLpaGOaGfshZTPXY7qw3R_nQ/viewform?usp=header
+	
+15:41:53 From Richèl 'Rea-shell' Bilderbeek [Teacher] To Everyone:
+	diana.iusan@uppmax.uu.se
+	
