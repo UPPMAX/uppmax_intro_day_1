@@ -22,13 +22,12 @@ tags:
 - I can start an interactive session
 - I can start an IDE
 
-
 ## Exercises
 
 ## Exercise 1: What are we going to learn today?
 
 - Please fill in
-  [TODO: the 'What are we going to learn today?' form](https://github.com/UPPMAX/uppmax_intro_day_1/issues/12)
+  [the 'What are we going to learn today?' form](https://docs.google.com/forms/d/e/1FAIpQLSeBLoJU1hsSTyrXwCx_at3beIa58V5R_GUdGup8zXPz6dvSBA/viewform?usp=publish-editor)
 
 ???- question "For teachers: what is in that form?"
 
