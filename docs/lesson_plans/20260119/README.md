@@ -38,7 +38,7 @@ Let's see later if I am interested...
 ## Observer questions
 
 - I teach following Mike Bell's five-step model: Prior, Present, Challenge,
-  Feedback, Repreat. Where do you think I am weakest?
+  Feedback, Repeat. Where do you think I am weakest?
 - What are things that were surprising to you?
 
 ## 2026-01-16
