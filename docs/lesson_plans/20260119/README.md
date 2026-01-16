@@ -24,23 +24,23 @@ This will mean that I need to check
 [my notes when I was observed previously](https://uppmax.github.io/naiss_intro_python/reflections/20251127/):
 
 - Do introduce the observer
-  - Learners are not allowed to ask questions about the course content:
+    - Learners are not allowed to ask questions about the course content:
     he is not a teaching assistant
-  - He is free to do whatever he/she wants, including asking questions
+    - He is free to do whatever he/she wants, including asking questions
 - Tell the observer beforehand:
-  - He is free to do whatever he/she wants,
+    - He is free to do whatever he/she wants,
     including asking questions, turning on/off camera,
     introducing himself yes/no
 
-Adding quizzes? That is an idea I wanted to try... hmmm ... 
+Adding quizzes? That is an idea I wanted to try... hmmm ...
 Let's see later if I am interested...
 
 ## Observer questions
 
-- I teach following Mike Bell's five-step model: Prior, Present, Challenge, 
+- I teach following Mike Bell's five-step model: Prior, Present, Challenge,
   Feedback, Repreat. Where do you think I am weakest?
 - What are things that were surprising to you?
- 
+
 ## 2026-01-16
 
 I will meet the observer on the day of teaching, at 12:30.
@@ -106,7 +106,9 @@ the first useful hits.
       expressing their thoughts and opinions aloud'
     - 'Two additional components of effective questioning are sequencing and
       balance. Sequencing is asking questions in a patterned order with the
-      purpose to elicit meaningful responses from the audience. Balance is asking both convergent and divergent questions from multiple knowledge domains and at varying cognitive levels'
+      purpose to elicit meaningful responses from the audience.
+      Balance is asking both convergent and divergent questions
+      from multiple knowledge domains and at varying cognitive levels'
     - 'Wait time influences the quality and quantity of student
       responses as well'
     - 'a wait time of more than 20 seconds may be perceived as threatening
