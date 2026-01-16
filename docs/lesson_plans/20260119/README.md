@@ -122,6 +122,10 @@ the first useful hits.
 Hmmm, I see that Menti is quite capable of being interrupted and resumed.
 I like that!
 
+I am unsure about the usefulness of the surveys to help improve
+my course (i.e. the self-rated confidence). However, they do help
+the learners. I keep these in for now.
+
 ## References
 
 - `[Tofade et al, 2013]` Tofade, Toyin, Jamie Elsner, and Stuart T. Haines.
