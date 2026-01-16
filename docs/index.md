@@ -14,6 +14,11 @@ tags:
 [Basic use from a terminal](sessions/introduction_terminal.md){: .md-button .md-button--primary }
 [Doing real work](sessions/introduction_real_work.md){: .md-button .md-button--primary }
 
+!!! tip "Keyboard shortcuts"
+
+    You can use the 'N' (for 'next') and 'P' (for 'previous')
+    to navigate these pages
+
 <!-- markdownlint-disable MD013 --><!-- Badges cannot be split up over lines, hence will break 80 characters per line -->
 
 [![Check links](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_links.yaml/badge.svg?branch=main)](https://github.com/UPPMAX/uppmax_intro_day_1/actions/workflows/check_links.yaml)

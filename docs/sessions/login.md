@@ -165,6 +165,13 @@ then answer these questions:
 - Should the examples below be done on the Pelle login node?
   What is your reasoning?
 
+    - Copy a dataset of 100 gigabytes to another folder
+
+    ???- question "Answer"
+
+        Can be done on the Pelle login node, as this is a light calculation
+        that takes a reasonable short time to run.
+
     - Create a directory
 
     ???- question "Answer"
@@ -172,12 +179,6 @@ then answer these questions:
         Can be done on the Pelle login node, as this is a very light calculation
         that takes a very short time to run.
 
-    - Copy a dataset of 100 gigabytes to another folder
-
-    ???- question "Answer"
-
-        Can be done on the Pelle login node, as this is a light calculation
-        that takes a reasonable short time to run.
 
     - Download a dataset of 100 gigabytes
 
@@ -203,7 +204,7 @@ then answer these questions:
         that it can be run for a long time.
 
 
-    - Run a bash/Nextflow/Python/R script
+    - Run a Bash/Nextflow/Python/R script
 
     ???- question "Answer"
 
