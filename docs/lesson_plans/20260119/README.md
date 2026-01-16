@@ -126,6 +126,11 @@ I am unsure about the usefulness of the surveys to help improve
 my course (i.e. the self-rated confidence). However, they do help
 the learners. I keep these in for now.
 
+Update:
+
+- Use `xclock` instead of `eog`
+- Replace Thunar by Pluma
+
 ## References
 
 - `[Tofade et al, 2013]` Tofade, Toyin, Jamie Elsner, and Stuart T. Haines.
