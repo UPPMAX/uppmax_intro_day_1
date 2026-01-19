@@ -4,9 +4,9 @@
 - [Lesson plan](../../lesson_plans/20260119/README.md)
 - [Evaluation](../../evaluations/20260119/README.md)
 - [Reflection](../../reflections/20260119/README.md)
-- Registrations: ?
-- Number of active learners: ? (?% show-up rate)
-- Number of evaluations: ? (?% fill-in rate)
+- Registrations: 17
+- Number of active learners: 8 (47% show-up rate)
+- Number of evaluations: 5 (63% fill-in rate)
 
 ## Results
 
@@ -21,9 +21,12 @@
 
 ## [Any feedback from survey at end](survey_end_text_question.csv)
 
-- Very good support, good balance of giving us room to for trial and error but then also support if were stuck.
-- Excellent course. Well paced, clear structure, and very constructive engagement and feedback from the course leader and the course team.
-
+- Very good support, 
+  good balance of giving us room to for trial and error
+  but then also support if were stuck.
+- Excellent course.
+  Well paced, clear structure, and very constructive engagement and feedback
+  from the course leader and the course team.
 
 ## Analysis, only end
 
