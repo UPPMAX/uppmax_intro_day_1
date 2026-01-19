@@ -31,8 +31,8 @@ tags:
 
     Teaching goals are:
 
-    - Learners have used Thunar
-    - Learners have found out that the file explorer is called Thunar
+    - Learners have used Pluma
+    - Learners have found out that the file explorer is called Pluma
     - Learners have done basic file management:
       create, copy, move and delete a file and folder
     - Learners have started a terminal
@@ -194,7 +194,7 @@ then answer these questions:
     The exact answer depends on the remote desktop flavour you have chosen.
     Whatever flavour you've picked, it will look similar to the answer below.
 
-    In Thunar, click on the white space next/under the files with
+    In Pluma, click on the white space next/under the files with
     the right mouse button. In this pop-up menu, click 'Create a new file':
 
     ![Popup menu to create a new file](create_a_new_file.png)
@@ -310,13 +310,13 @@ its name will be useful to know:
 
     In the file explorer, click on `Help | About`:
 
-    ![Thunar, click on `Help | About`](thunar_help_about.png)
+    ![Pluma, click on `Help | About`](thunar_help_about.png)
 
     It shows the name of the file explorer:
 
-    ![Thunar's about screen](thunar_about.png)
+    ![Pluma's about screen](thunar_about.png)
 
-    The file navigator is called Thunar.
+    The file navigator is called Pluma.
 
 ## (optional) Exercise 5: file management
 
@@ -329,7 +329,7 @@ In your file explorer:
     The exact answer depends on the remote desktop flavour you have chosen.
     Whatever flavour you've picked, it will look similar to the answer below.
 
-    In Thunar, click on the white space next/under the files with
+    In Pluma, click on the white space next/under the files with
     the right mouse button. In this pop-up menu, click 'Create a new file':
 
     ![Popup menu to create a new file](create_a_new_file.png)
