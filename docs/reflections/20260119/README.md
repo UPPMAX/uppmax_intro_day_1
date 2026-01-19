@@ -26,9 +26,6 @@ around with one learner at around 10:35. At 11:30 I did it the right
 way around. It's a nice little insight!
 
 
-
-
-
 ## TODO
 
 - [ ] Check: `0 - I don't even know what this is about`
@@ -40,5 +37,4 @@ way around. It's a nice little insight!
   of Thunar (which was the file manager on a previous
   system). This threw the learners off longer than
   expected. Update that image.
-
 

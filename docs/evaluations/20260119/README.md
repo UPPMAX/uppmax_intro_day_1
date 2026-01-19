@@ -21,7 +21,7 @@
 
 ## [Any feedback from survey at end](survey_end_text_question.csv)
 
-- Very good support, 
+- Very good support,
   good balance of giving us room to for trial and error
   but then also support if were stuck.
 - Excellent course.
