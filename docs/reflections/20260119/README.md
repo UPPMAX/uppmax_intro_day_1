@@ -39,6 +39,12 @@ the learners) until I put them in breakout room:
 
 I always want this shorter.
 
+## 13:00 observer
+
+At 13:00 I introduced the observer. I had a meeting with him before
+at 12:30, where we agreed to follow the ideas I had in the lesson plan.
+It felt nice to welcome a colleague to show my work to!
+
 ## 13:55 discussion with observer
 
 The observer noted that learners change in behavior the moment I come in:
