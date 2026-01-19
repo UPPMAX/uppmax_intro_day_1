@@ -19,7 +19,7 @@ tags:
 
 | Week | Date                             | Times      | Place      | Registration                                                                               | Registration closing date |
 | ---- | -------------------------------- | ---------- | ---------- | ------------------------------------------------------------------------------------------ | ------------------------- |
-| 4    | Monday January 19 2026           | 9:00-16:00 | Online     | [The UPPMAX course page](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/) | Closed                       |
+| 4    | Monday January 19 2026           | 9:00-16:00 | Online     | [The UPPMAX course page](https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/) | Closed                    |
 | ?42  | ?Wednesday October 20 2026       | 9:00-16:00 | Online     | Not yet                                                                                    | TBA                       |
 
 - [1] As indicated in the NAISS course schedule document
