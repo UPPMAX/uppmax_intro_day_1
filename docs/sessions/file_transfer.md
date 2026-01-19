@@ -120,7 +120,7 @@ WinSCP   |[Homepage](https://winscp.net/eng/index.php)|Windows               |Gr
 
 - Pick the best file transfer tool at your disposal.
 - If needed and possible: install that tool, as documented on its homepage
-- Use [the UPPMAX documentation](http://docs.uppmax.uu.se/) to upload
+- Use [the UPPMAX documentation](https://docs.uppmax.uu.se/) to upload
   and download a file
 
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->

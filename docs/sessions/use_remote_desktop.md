@@ -117,7 +117,7 @@ then answer these questions:
 
 ???- question "Answer"
 
-    [The UPPMAX 'Log in to Pelle's remote desktop via a webbrowser' page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
+    [The UPPMAX 'Log in to Pelle's remote desktop via a webbrowser' page](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
 
 - On that page, find where to find information on how to use the
   remote desktop

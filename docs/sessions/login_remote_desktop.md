@@ -102,7 +102,7 @@ then answer these questions:
 
 ???- question "Answer"
 
-    [The 'Log in to Pelle's remote desktop via a webbrowser' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
+    [The 'Log in to Pelle's remote desktop via a webbrowser' UPPMAX page](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/).
 
 - Follow the procedure
 
@@ -128,7 +128,7 @@ then answer these questions:
 
     How to log in to Pelle's remote desktop environment using a local ThinLinc
     client is documented
-    [at the 'Log in to Pelle's remote desktop environment using a local ThinLinc client' UPPMAX page](http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client/)
+    [at the 'Log in to Pelle's remote desktop environment using a local ThinLinc client' UPPMAX page](https://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_local_thinlinc_client/)
 
     <!-- markdownlint-enable MD013 -->
 

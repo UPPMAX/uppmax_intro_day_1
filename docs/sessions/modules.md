@@ -159,6 +159,6 @@ then answer these questions:
 
 ???- question "Answer"
 
-    One can find the answer at <http://docs.uppmax.uu.se/databases/overview/>,
+    One can find the answer at <https://docs.uppmax.uu.se/databases/overview/>,
     where one can find around 7 collections of databases installed.
 

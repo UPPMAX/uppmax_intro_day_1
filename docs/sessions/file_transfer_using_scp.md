@@ -64,7 +64,7 @@ It works under Linux, Mac and Windows.
 
 ## Exercise 1: transfer a file
 
-Use [the UPPMAX documentation](http://docs.uppmax.uu.se/)
+Use [the UPPMAX documentation](https://docs.uppmax.uu.se/)
 for help.
 
 - Search for the procedure on how to transfer a file
