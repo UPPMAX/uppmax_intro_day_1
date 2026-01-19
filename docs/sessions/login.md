@@ -224,4 +224,8 @@ Done?
   [the UPPMAX clusters](https://docs.uppmax.uu.se/cluster_guides/uppmax_cluster/)
 - Else move on to the next session
 
+???- question "For teachers"
+
+    Do not forget the Menti! Three questions
+
 <!-- markdownlint-enable MD013 -->

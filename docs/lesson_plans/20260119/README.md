@@ -131,6 +131,18 @@ Update:
 - Use `xclock` instead of `eog`
 - Replace Thunar by Pluma
 
+## 2026-01-19
+
+Goal of today: stay chill, take the time needed, do not go too fast.
+
+Find a better order at the start:
+
+- Me talking
+- Exercise what we are going to learn
+- Learners talking
+
+I've added two quizess, I will try these out and see how it feel.
+
 ## References
 
 - `[Tofade et al, 2013]` Tofade, Toyin, Jamie Elsner, and Stuart T. Haines.
