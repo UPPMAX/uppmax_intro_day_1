@@ -128,8 +128,8 @@ the learners. I keep these in for now.
 
 Update:
 
-- Use `xclock` instead of `eog`
-- Replace Thunar by Pluma
+- [Cannot check] Use `xclock` instead of `eog`
+- [Done] Replace Thunar by Pluma
 
 ## 2026-01-19
 
@@ -139,9 +139,34 @@ Find a better order at the start:
 
 - Me talking
 - Exercise what we are going to learn
-- Learners talking
+- Learners talking: at login
 
-I've added two quizess, I will try these out and see how it feel.
+I will feel lonely until login, when I ask the learners to turn on their
+camera. But it does feel the right thing to do for the learners:
+they gradually have to commit more.
+
+I've added two quizzes, I will try these out and see how it feel.
+
+I did not have the time to update the course material.
+
+There are 4 404s being detected:
+
+```
+FILE: ./docs/sessions/use_remote_desktop.md
+(node:360) [DEP0176] DeprecationWarning: fs.R_OK is deprecated, use fs.constants.R_OK instead
+(Use `node --trace-deprecation ...` to show where the warning was created)
+[✖] http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/
+
+22 links checked.
+
+ERROR: 1 dead links found!
+[✖] http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/ → Status: 404
+```
+
+Ah, it is about using `http` instead of `https`
+
+
+
 
 ## References
 
