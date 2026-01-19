@@ -19,7 +19,7 @@
 
 - Excellent day!
 
-## [Any feedback from survey at end](survey_end_text_question.csv)
+## [Any feedback from survey at end](survey_end_text_question.txt)
 
 - Very good support,
   good balance of giving us room to for trial and error
