@@ -128,7 +128,7 @@ the learners. I keep these in for now.
 
 Update:
 
-- [Cannot check] Use `xclock` instead of `eog`
+- [Not needed: it works] Use `xclock` instead of `eog`
 - [Done] Replace Thunar by Pluma
 
 ## 2026-01-19
@@ -165,7 +165,6 @@ ERROR: 1 dead links found!
 ```
 
 Ah, it is about using `http` instead of `https`
-
 
 ## References
 
