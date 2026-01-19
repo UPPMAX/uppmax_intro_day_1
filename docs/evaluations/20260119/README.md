@@ -7,3 +7,9 @@
 - Registrations: ?
 - Number of active learners: ? (?% show-up rate)
 - Number of evaluations: ? (?% fill-in rate)
+
+
+## [Short feedback](short_feedback.csv)
+
+- Excellent day!
+
