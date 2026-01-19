@@ -152,4 +152,4 @@ for (question in unique(t$question)) {
 t_stats
 
 k <- knitr::kable(t_stats)
-readr::write_lines(k, "stats.md")
+readr::write_lines(k, "stats.txt")
