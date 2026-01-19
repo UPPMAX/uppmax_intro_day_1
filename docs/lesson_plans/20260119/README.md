@@ -151,21 +151,20 @@ I did not have the time to update the course material.
 
 There are 4 404s being detected:
 
-```
+```text
 FILE: ./docs/sessions/use_remote_desktop.md
-(node:360) [DEP0176] DeprecationWarning: fs.R_OK is deprecated, use fs.constants.R_OK instead
+(node:360) [DEP0176] DeprecationWarning: fs.R_OK is deprecated, ...
 (Use `node --trace-deprecation ...` to show where the warning was created)
 [✖] http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/
 
 22 links checked.
 
 ERROR: 1 dead links found!
-[✖] http://docs.uppmax.uu.se/getting_started/login_pelle_remote_desktop_website/ → Status: 404
+[✖] http://docs.uppmax.uu.se/getting_started/
+  login_pelle_remote_desktop_website/ → Status: 404
 ```
 
 Ah, it is about using `http` instead of `https`
-
-
 
 
 ## References
