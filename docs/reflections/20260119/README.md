@@ -4,6 +4,7 @@
 - [Lesson plan](../../lesson_plans/20260119/README.md)
 - [Evaluation](../../evaluations/20260119/README.md)
 - [Reflection](../../reflections/20260119/README.md)
+- [Observation notes](../../evaluations/20260119/observation.txt)
 
 ## Group diversity
 
@@ -76,6 +77,8 @@ around with one learner at around 10:35. At 11:30 I did it the right
 way around. It's a nice little insight!
 
 ## 16:15 discussion with observer
+
+- [Observation notes](../../evaluations/20260119/observation.txt)
 
 One of the things I wanted to work on today, is to remain calm.
 This worked: the observer noted how calm I was, took the time
