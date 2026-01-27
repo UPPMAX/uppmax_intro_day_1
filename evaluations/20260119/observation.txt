@@ -1,0 +1,35 @@
+Evaluation of observation of Richel 2026-01-19
+
+Starting time (12.30) 13.00
+
+General impressions and thoughts
+
+Introduction was good, well paced and nicely voiced. Moderate tempo, not too overwhelmming. Improvised questions held a good pace and were well formulated. I liked the visual body movements, add a bit of animation to an otherwise static teaching environment (Zoom, online).  
+
+Feedback link presented goes to gmail-adress, might look strange or slightly unprofessional?
+
+For participants who want to skip between online exercises and/or subsections, there seem to be no clear ”back to” or ”top” button option.
+
+Might be good to comment on what commands in CLI is used often, and most necessary to remember, or add text snippets in the instructions to point it out?
+
+Session 1
+
+Room 4 
+Partcipants seemed hesitatnt on how/where to start. Social interaction takes over.
+
+Room 2
+Discovered that the answer to question on file manager (Caja) is not in agreement with the online resource. Confusion.
+
+Room 1
+Communicating really well, off to a good start. Had issues with login errors, could not move forward witout lots of hesitation.
+
+Room 3
+Spends a lot of time on navigating basic commands.
+
+Session 2
+
+Good check-up questions! Well paced. Good wth open questions, can be more difficult but also more rewarding. Maybe add a touch of DM issues in the talk, like work habit and good practice when working on an HPC (file cluttering, job cluttering etc.)
+
+File permission exercise – Good to check current permissions before changing! Not give full permissions to everyone all the time!
+
+ 

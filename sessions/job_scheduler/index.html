@@ -1,0 +1,2416 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../scripts/">
+      
+      
+        <link rel="next" href="../start_interactive_session/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>The job scheduler - Intro to UPPMAX Day 1</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lato";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="grey" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-job-scheduler" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Intro to UPPMAX Day 1" class="md-header__button md-logo" aria-label="Intro to UPPMAX Day 1" data-md-component="logo">
+      
+  <img src="../../assets/logo_color.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Intro to UPPMAX Day 1
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The job scheduler
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UPPMAX/uppmax_intro_day_1" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Start
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../learning_outcomes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Learning outcomes
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../prereqs/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Prerequisites
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../course_dates/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Course dates
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../schedule/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Schedule
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../introduction_visual/" class="md-tabs__link">
+          
+  
+  
+  Basic use with visual tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../introduction_terminal/" class="md-tabs__link">
+          
+  
+  
+  Basic use from a terminal
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../introduction_real_work/" class="md-tabs__link">
+          
+  
+  
+  Doing real work
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../misc/richel/" class="md-tabs__link">
+          
+  
+  
+  Misc
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../contact_us/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Contact us
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Intro to UPPMAX Day 1" class="md-nav__button md-logo" aria-label="Intro to UPPMAX Day 1" data-md-component="logo">
+      
+  <img src="../../assets/logo_color.png" alt="logo">
+
+    </a>
+    Intro to UPPMAX Day 1
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UPPMAX/uppmax_intro_day_1" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning_outcomes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Learning outcomes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prereqs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prerequisites
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course_dates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Course dates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../schedule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Schedule
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basic use with visual tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Basic use with visual tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction_visual/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Login in general
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../login_remote_desktop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Log in to the remote desktop environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use_remote_desktop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Use the remote desktop environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../file_transfer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File transfer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Basic use from a terminal
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Basic use from a terminal
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction_terminal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../login_console/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Log in to the console environment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../use_terminal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Use the terminal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Doing real work
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Doing real work
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction_real_work/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../modules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The module system
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scripts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Creating a bash script
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The job scheduler
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The job scheduler
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-job-scheduler" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Using the job scheduler
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercises" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercises
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-1-see-the-job-queue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 1: see the job queue
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-2-view-my-uppmax-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 2: view my UPPMAX projects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-3-submit-a-minimal-job-with-slurm-parameters-in-the-command-line" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 3: submit a minimal job with Slurm parameters in the command-line
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercise-4-submit-a-minimal-job-with-slurm-parameters-in-the-bash-script" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 4: submit a minimal job with Slurm parameters in the bash script
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-exercise-5-cancel-a-job" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        (Optional) Exercise 5: cancel a job
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../start_interactive_session/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Start an interactive session
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IDEs
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Misc
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Misc
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/richel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About Richel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/acknowledgements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Acknowledgements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../clusters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clusters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CODE_OF_CONDUCT/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code of conduct
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../CONTRIBUTING/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../evaluation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../evaluations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Evaluations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../file_transfer_using_scp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    File transfer using scp
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lesson_plans/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lesson plans
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/exercise_procedure/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Exercise procedure
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../naiss/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NAISS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../misc/project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reflections/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reflections
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../summary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Summary
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction_bigger_picture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The bigger picture
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filesystem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The filesystem
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../courses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UPPMAX courses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overviews/uppmax_intro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UPPMAX Intro overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overviews/uppmax_intro_day_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UPPMAX Intro Day 1 overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact_us/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contact us
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Start
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../introduction_real_work/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Doing real work
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/UPPMAX/uppmax_intro_day_1/blob/main/docs/sessions/job_scheduler.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
+    </a>
+  
+  
+    
+      
+    
+    <a href="https://github.com/UPPMAX/uppmax_intro_day_1/raw/main/docs/sessions/job_scheduler.md" title="View source of this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.2 8.2 0 0 1-1.23-2"/></svg>
+    </a>
+  
+
+
+<h1 id="the-job-scheduler">The job scheduler<a class="headerlink" href="#the-job-scheduler" title="Anchor link to this section for reference">&para;</a></h1>
+<div class="admonition - info">
+<p class="admonition-title">Learning outcomes</p>
+<ul>
+<li>Practice using the UPPMAX documentation</li>
+<li>Can find his/her NAISS/UPPMAX projects</li>
+<li>Can see the job queue</li>
+<li>Can submit a job from the command line</li>
+<li>Can submit a job using a script</li>
+<li>Can cancel a job</li>
+</ul>
+</div>
+<details class="- question">
+<summary>For teachers</summary>
+<p>Teaching goals are:</p>
+<ul>
+<li>Learners have practiced using the UPPMAX documentation</li>
+<li>Learners can find their NAISS/UPPMAX projects</li>
+<li>Learners can see the job queue</li>
+<li>Learners can submit a job from the command line</li>
+<li>Learners can submit a job using a script</li>
+<li>Learners can cancel a job</li>
+</ul>
+<p>Lesson plan:</p>
+<pre class="mermaid"><code>gantt
+  title The job scheduler
+  dateFormat X
+  axisFormat %s
+  section First hour
+  Prior : prior, 0, 5s
+  Present: present, after prior, 2s
+  %% It took me 17 mins, here I do that time x2
+  Challenge: crit, challenge, after present, 34s
+  %% Here I use the same time it took me to give feedback
+  Feedback: feedback, after challenge, 17s</code></pre>
+<p>Prior questions:</p>
+<ul>
+<li>What is a job?</li>
+<li>What is a job scheduler?</li>
+<li>Why does one need a job scheduler?</li>
+<li>What information may one need to tell a job scheduler?</li>
+<li>Is it possible to have all nodes of Pelle running your jobs?</li>
+</ul>
+<p>Feedback questions:</p>
+<ul>
+<li>Why does UPPMAX have a job scheduler?</li>
+</ul>
+</details>
+<h2 id="why">Why?<a class="headerlink" href="#why" title="Anchor link to this section for reference">&para;</a></h2>
+<p>You want to do calculations that take a long time and use much CPU
+power. To do so, one needs to schedule these jobs!</p>
+<p>This is a short introduction in how to reach the calculation nodes
+Wednesday afternoon is wedded to this topic!</p>
+<h2 id="using-the-job-scheduler">Using the job scheduler<a class="headerlink" href="#using-the-job-scheduler" title="Anchor link to this section for reference">&para;</a></h2>
+<p>The job scheduler has multiple programs,
+we use a minimal set of these three:</p>
+<pre class="mermaid"><code>flowchart TD
+  sbatch[sbatch: submit a job]
+  scancel[scancel: cancel a running job]
+  squeue[squeue: view the job queue]
+  sbatch --&gt; |Oops| scancel
+  sbatch --&gt; |Verify| squeue</code></pre>
+<h2 id="exercises">Exercises<a class="headerlink" href="#exercises" title="Anchor link to this section for reference">&para;</a></h2>
+<details class="- question">
+<summary>Need a video?</summary>
+<p>See <a href="https://youtu.be/qvBN2686JNE">this YouTube video that shows the solution of these exercises</a></p>
+<p>Pelle works the same a Rackham in these contexts.</p>
+</details>
+<h2 id="exercise-1-see-the-job-queue">Exercise 1: see the job queue<a class="headerlink" href="#exercise-1-see-the-job-queue" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Go to the UPPMAX documentation at
+<a href="https://docs.uppmax.uu.se">https://docs.uppmax.uu.se</a>,
+then answer these questions:</p>
+<ul>
+<li>Find the page on <code>squeue</code>, the program to view the job queue</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>It can be found at <a href="https://docs.uppmax.uu.se/software/squeue/">https://docs.uppmax.uu.se/software/squeue/</a></p>
+</details>
+<ul>
+<li>View all jobs in the queue</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>View all jobs in the queue:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>squeue
+</code></pre></div>
+</details>
+<ul>
+<li>View all your jobs in the queue</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>View your jobs in the queue:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>squeue<span class="w"> </span>--me
+</code></pre></div>
+<p>You will probably see that you have zero jobs scheduled</p>
+</details>
+<h2 id="exercise-2-view-my-uppmax-projects">Exercise 2: view my UPPMAX projects<a class="headerlink" href="#exercise-2-view-my-uppmax-projects" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Go to the UPPMAX documentation at
+<a href="https://docs.uppmax.uu.se">https://docs.uppmax.uu.se</a>,
+then answer these questions:</p>
+<ul>
+<li>Find the UPPMAX documentation page about projects</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>It can be found at <a href="https://docs.uppmax.uu.se/getting_started/project/">https://docs.uppmax.uu.se/getting_started/project/</a></p>
+</details>
+<ul>
+<li>Where does that page redirect you, to view your projects?</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>You are redirected to the SUPR NAISS page at <a href="https://supr.naiss.se/">https://supr.naiss.se/</a></p>
+</details>
+<ul>
+<li>View all your projects</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>Here is an example of a user's SUPR projects</p>
+<p><img alt="Example SUPR projects" src="../supr_projects.png" /></p>
+</details>
+<ul>
+<li>View the project of this course</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>Here is how it looks like:</p>
+<p><img alt="The NAISS project of this course" src="../naiss_project_for_this_course.png" /></p>
+</details>
+<h2 id="exercise-3-submit-a-minimal-job-with-slurm-parameters-in-the-command-line">Exercise 3: submit a minimal job with Slurm parameters in the command-line<a class="headerlink" href="#exercise-3-submit-a-minimal-job-with-slurm-parameters-in-the-command-line" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Go to the UPPMAX documentation at
+<a href="https://docs.uppmax.uu.se">https://docs.uppmax.uu.se</a>,
+then answer these questions:</p>
+<ul>
+<li>Create a minimal bash script that does something.
+  It may or may not use a module.
+  It does need a shebang (but go ahead and omit it to see which error occurs)!</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>A minimal bash script would be:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="ch">#!/bin/bash</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;Hello&quot;</span>
+</code></pre></div>
+<p>But any valid bash script with the same first line will do.</p>
+</details>
+<ul>
+<li>Find the page on <code>sbatch</code>, the program to submit a job to the queue</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>It can be found at <a href="https://docs.uppmax.uu.se/software/sbatch/">https://docs.uppmax.uu.se/software/sbatch/</a></p>
+</details>
+<ul>
+<li>Use <code>sbatch</code> to submit running your bash script to the queue</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>Submit your script to the job queue like this:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>sbatch<span class="w"> </span>-A<span class="w"> </span>uppmax2025-2-262<span class="w"> </span>my_script.sh
+</code></pre></div>
+</details>
+<details class="- question">
+<summary>How does that look like?</summary>
+<p>Your output will look similar to this:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$<span class="w"> </span>sbatch<span class="w"> </span>-A<span class="w"> </span>uppmax2025-2-262<span class="w"> </span>my_script.sh
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>Submitted<span class="w"> </span>batch<span class="w"> </span>job<span class="w"> </span><span class="m">49309848</span>
+</code></pre></div>
+<p>The number is your job number</p>
+</details>
+<details class="- question">
+<summary>I get an error: 'This does not look like a batch script'</summary>
+<p>Like stated at the start of this exercise, the bash script
+needs to have a shebang.</p>
+<p>Running a script without a shebang such as this:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>module<span class="w"> </span>load<span class="w"> </span>cowsay/3.04
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>cowsay<span class="w"> </span>hello
+</code></pre></div>
+<p>Will result in the following error:</p>
+<p><!-- Indeed, line lengths beyond 80 characters -->
+<!-- markdownlint-disable MD013 --></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$<span class="w"> </span>sbatch<span class="w"> </span>-A<span class="w"> </span>uppmax2025-2-262<span class="w"> </span>my_script.sh
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>sbatch:<span class="w"> </span>error:<span class="w"> </span>This<span class="w"> </span>does<span class="w"> </span>not<span class="w"> </span>look<span class="w"> </span>like<span class="w"> </span>a<span class="w"> </span>batch<span class="w"> </span>script.<span class="w">  </span>The<span class="w"> </span>first
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>sbatch:<span class="w"> </span>error:<span class="w"> </span>line<span class="w"> </span>must<span class="w"> </span>start<span class="w"> </span>with<span class="w"> </span><span class="c1">#! followed by the path to an interpreter.</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>sbatch:<span class="w"> </span>error:<span class="w"> </span>For<span class="w"> </span>instance:<span class="w"> </span><span class="c1">#!/bin/sh</span>
+</code></pre></div>
+<!-- markdownlint-enable MD013 -->
+</details>
+<ul>
+<li>Use <code>squeue</code> to confirm that your job is in the job queue.
+  You may need to be fast to see it!</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>The easiest is:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>squeue<span class="w"> </span>--me
+</code></pre></div>
+<p>Because the job may finish very fast, a trick is to use a semicolon
+to run the two command directly after each other:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>sbatch<span class="w"> </span>-A<span class="w"> </span>uppmax2025-2-262<span class="w"> </span>my_script.sh<span class="p">;</span><span class="w"> </span>squeue<span class="w"> </span>--me
+</code></pre></div>
+<p>The output will be similar to:</p>
+<p><!-- Indeed, line lengths beyond 80 characters -->
+<!-- markdownlint-disable MD013 --></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="o">[</span>richel@pelle3<span class="w"> </span>~<span class="o">]</span>$<span class="w"> </span>sbatch<span class="w"> </span>-A<span class="w"> </span>uppmax2025-2-262<span class="w"> </span>my_script.sh<span class="p">;</span><span class="w"> </span>squeue<span class="w"> </span>--me
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>Submitted<span class="w"> </span>batch<span class="w"> </span>job<span class="w"> </span><span class="m">49309860</span>
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a><span class="w">             </span>JOBID<span class="w"> </span>PARTITION<span class="w">     </span>NAME<span class="w">     </span>USER<span class="w"> </span>ST<span class="w">       </span>TIME<span class="w">  </span>NODES<span class="w"> </span>NODELIST<span class="o">(</span>REASON<span class="o">)</span>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="w">          </span><span class="m">49309860</span><span class="w">      </span>core<span class="w"> </span>my_scrip<span class="w">   </span>richel<span class="w"> </span>PD<span class="w">       </span><span class="m">0</span>:00<span class="w">      </span><span class="m">1</span><span class="w"> </span><span class="o">(</span>None<span class="o">)</span>
+</code></pre></div>
+<!-- markdownlint-enable MD013 -->
+</details>
+<h2 id="exercise-4-submit-a-minimal-job-with-slurm-parameters-in-the-bash-script">Exercise 4: submit a minimal job with Slurm parameters in the bash script<a class="headerlink" href="#exercise-4-submit-a-minimal-job-with-slurm-parameters-in-the-bash-script" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Go to the UPPMAX documentation at
+<a href="https://docs.uppmax.uu.se">https://docs.uppmax.uu.se</a>,
+then answer these questions:</p>
+<ul>
+<li>Find the page on <code>sbatch</code> again</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>It can be found at <a href="https://docs.uppmax.uu.se/software/sbatch/">https://docs.uppmax.uu.se/software/sbatch/</a></p>
+</details>
+<ul>
+<li>Modify your bash script in such a way that it can be submitted to the
+  queue by <code>sbatch my_script.sh</code>, by putting the <code>-A</code> parameter in the
+  script</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>Here is an example minimal script:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="ch">#!/bin/bash</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a><span class="c1">#SBATCH -A uppmax2023-2-25</span>
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>module<span class="w"> </span>load<span class="w"> </span>cowsay/3.04
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>cowsay<span class="w"> </span>hello
+</code></pre></div>
+</details>
+<h2 id="optional-exercise-5-cancel-a-job">(Optional) Exercise 5: cancel a job<a class="headerlink" href="#optional-exercise-5-cancel-a-job" title="Anchor link to this section for reference">&para;</a></h2>
+<p>Go to the UPPMAX documentation at
+<a href="https://docs.uppmax.uu.se">https://docs.uppmax.uu.se</a>,
+then answer these questions:</p>
+<ul>
+<li>Find the page on <code>scancel</code></li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>It can be found at <a href="https://docs.uppmax.uu.se/software/scancel/">https://docs.uppmax.uu.se/software/scancel/</a></p>
+</details>
+<ul>
+<li>Schedule a job and cancel it</li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>You output will be similar to this:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$<span class="w"> </span>sbatch<span class="w"> </span>-A<span class="w"> </span>uppmax2023-2-25<span class="w"> </span>my_script.sh
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>Submitted<span class="w"> </span>batch<span class="w"> </span>job<span class="w"> </span><span class="m">49311056</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$<span class="w"> </span>scancel<span class="w"> </span><span class="m">49311056</span>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$
+</code></pre></div>
+</details>
+<ul>
+<li>(optional) Schedule a job that takes 1 days, 2 hours, 3 minutes and 4
+  seconds and cancel it.
+  Use
+  <a href="https://slurm.schedmd.com/sbatch.html">the Slurm documentation on <code>sbatch</code></a></li>
+</ul>
+<details class="- question">
+<summary>Answer</summary>
+<p>For a job of that length, use <code>-t 1-2:3:4</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$<span class="w"> </span>sbatch<span class="w"> </span>-A<span class="w"> </span>uppmax2023-2-25<span class="w"> </span>-t<span class="w"> </span><span class="m">1</span>-2:3:4<span class="w"> </span>my_script.sh
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>Submitted<span class="w"> </span>batch<span class="w"> </span>job<span class="w"> </span><span class="m">49311056</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$<span class="w"> </span>scancel<span class="w"> </span><span class="m">49311056</span>
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a><span class="o">[</span>sven@pelle3<span class="w"> </span>~<span class="o">]</span>$
+</code></pre></div>
+</details>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../scripts/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Creating a bash script">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Creating a bash script
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../start_interactive_session/" class="md-footer__link md-footer__link--next" aria-label="Next: Start an interactive session">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Start an interactive session
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["toc.integrate", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.path", "navigation.footer", "navigation.expand", "search.suggest", "content.code.annotate", "content.code.copy", "content.tabs.link", "content.action.edit", "content.action.view"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
