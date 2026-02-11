@@ -198,6 +198,14 @@ I did not see that the learners had such a low confidence at the start!
 Five learning outcomes increased significantly. I feel that is
 record high.
 
+## Feedback from another teacher
+
+> I found it very useful for researchers to start with Uppmax.
+> Unfortunately, I didn't have enough time to fully follow everything,
+> but I really appreciated how clearly you explained things
+> and how attentive you were to everyone’s needs.
+
+Nice to hear!
 
 ## Conclusion
 
