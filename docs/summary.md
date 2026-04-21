@@ -73,5 +73,5 @@ These are possible next steps:
 - [The Programming Formalisms course](https://uppmax.github.io/programming_formalisms/)
   teaches how to do programming well, according to the practices in the
   literature
-- [The NAISS file transfer course](https://uppmax.github.io/naiss_file_transfer_course/)
+- [The NAISS file transfer course](https://hpc.pages.naiss.se/training/connect-transfer/)
   will help you upload and download data to/from your favorite HPC cluster
