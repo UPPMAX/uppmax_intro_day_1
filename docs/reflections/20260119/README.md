@@ -19,11 +19,11 @@ Group diversity was high:
 - 2 out of 10 learners could not access UPPMAX and tagged along
   with someone else
 - Times to finish:
-  - 60 + 45 + 0  + 60 + 45 + 43 - 15 = 238 minutes
-  - 60 + 45 + 45 + 60 + 45 + 54 - 15 = 294 minutes
-  - 60 + 45 + 45 + 60 + 45 + 34 - 15 = 274 minutes
-  - 60 + 45 + 45 + 60 + 45 + 39 - 15 = 279 minutes
-  - The slowest (294 minutes) were (294-238)/238=((N-O)/O)= 24% 
+    - 60 + 45 + 0  + 60 + 45 + 43 - 15 = 238 minutes
+    - 60 + 45 + 45 + 60 + 45 + 54 - 15 = 294 minutes
+    - 60 + 45 + 45 + 60 + 45 + 34 - 15 = 274 minutes
+    - 60 + 45 + 45 + 60 + 45 + 39 - 15 = 279 minutes
+    - The slowest (294 minutes) were (294-238)/238=((N-O)/O)= 24%
     slower than the fastest (238)
 
 ## Time until exercises
