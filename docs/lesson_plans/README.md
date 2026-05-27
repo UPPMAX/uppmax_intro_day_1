@@ -14,3 +14,4 @@ The course's lesson plans, as prepared by its teachers
 | Cancelled | 2025-08-25 | [Lesson plan](20250825/README.md) |
 | 3         | 2025-10-15 | [Lesson plan](20251015/README.md) |
 | 4         | 2026-01-19 | [Lesson plan](20260119/README.md) |
+| 5         | 2026-08-24 | [Lesson plan](20260824/README.md) |
