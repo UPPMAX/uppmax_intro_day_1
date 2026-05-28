@@ -5,8 +5,8 @@
 - [Evaluation](../../evaluations/20251015/README.md)
 - [Reflection](../../reflections/20251015/README.md)
 - Registrations: 15
-- Number of active learners: 6 (50% show-up rate)
-- Number of evaluations: 6 (67% fill-in rate)
+- Number of active learners: 6 (40% show-up rate)
+- Number of evaluations: 6 (100% fill-in rate)
 
 ## Results
 
