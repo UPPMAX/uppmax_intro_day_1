@@ -90,7 +90,7 @@ you behave a certain way. With the observer being in data management,
 he thinks it would be helpful to encourage some good behavior
 in data management (e.g. do not leave temporary files laying
 around). I am willing to do so. We discussed if a beginner
-course like this should teach best practives. According to the observer,
+course like this should teach best practices. According to the observer,
 it would be good to plant the seeds. I am up to try this. As I will follow
 the NBIS data management course, I assume I will get some ideas there :-)
 
