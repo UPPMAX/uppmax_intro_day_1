@@ -9,6 +9,7 @@ tags:
 
 [Prerequisites](prereqs.md){ .md-button .md-button--primary }
 [Course dates](course_dates.md){ .md-button .md-button--primary }
+[Location](location/README.md){ .md-button .md-button--primary }
 [Schedule](schedule.md){ .md-button .md-button--primary }
 [Basic use with visual tools](sessions/introduction_visual.md){: .md-button .md-button--primary }
 [Basic use from a terminal](sessions/introduction_terminal.md){: .md-button .md-button--primary }
