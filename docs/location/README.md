@@ -9,7 +9,7 @@ tags:
 
 The course takes place at:
 
-```
+```text
 Uppsala Biomedical Centre (BMC)
 Husargatan 3
 752 37 Uppsala

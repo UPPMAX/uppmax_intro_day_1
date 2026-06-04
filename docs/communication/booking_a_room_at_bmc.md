@@ -12,7 +12,7 @@ How to book a room
 Dear collagues,
 
 With this email I would like to start the process in booking a room
-for teaching, following the procedure at 
+for teaching, following the procedure at
 `https://www.uu.se/en/staff/campus/uppsala-biomedical-centre/our-premises/room-booking`.
 
 As this is my first time booking a room at BMC, there may be things
