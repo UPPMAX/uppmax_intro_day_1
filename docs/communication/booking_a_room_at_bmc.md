@@ -44,8 +44,7 @@ LS Flex, such as A1:112b
 
 > Project number - for employees (nine digits)
 
-I will update you with the answer, when I get it.
-I am happy to resend this email if you really need that number now.
+106911001 (with description 'UPPMAX Teknat-anslag')
 
 > Reason for booking (meeting, seminar, lecture, etc.)
 > If applicable, course code (for addition to existing schedule)
@@ -54,3 +53,18 @@ Teaching the course 'Intro to UPPMAX',
 course website at <https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/>
 
 Cheers, Richel Bilderbeek
+
+## Reply
+
+Hi Richel,
+ 
+It has been booked. Confirmation will be sent in a separate message.
+ 
+Cancellation of premises must be made at least 14 days before the event in order for the fee exemption to apply.
+
+- If you cancel a room within 14 days, the room will be marked as hidden and charged.
+- If you cancel an event within 14 days, the reason will be changed to CANCELLED and the room will be charged.
+ 
+Best regards
+
+Pernilla Nordelind
