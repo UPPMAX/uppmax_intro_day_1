@@ -15,7 +15,7 @@ tags:
 
 This is the NAISS code for the UPPMAX project of this course:
 
-- [The SUPR page of this project](https://supr.naiss.se/project/33106/)
-- Project name: 'UPPMAX 2025/2-262'
-- Project folder: `/proj/uppmax2025-2-262`
-- Project account: `uppmax2025-2-262` (to be used with Slurm)
+- [The SUPR page of this project](https://supr.naiss.se/proposal/43393/)
+- Project name: `UPPMAX 2026/1-217`
+- Project folder: `NOT /proj/uppmax2025-2-262`
+- Project account: `NOT uppmax2025-2-262` (to be used with Slurm)
