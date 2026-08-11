@@ -9,7 +9,7 @@ How to book a room
 
 - Title: Booking room for Monday-Wednesday 24-26 August 2026
 
-Dear collagues,
+Dear colleagues,
 
 With this email I would like to start the process in booking a room
 for teaching, following the procedure at
