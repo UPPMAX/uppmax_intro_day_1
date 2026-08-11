@@ -58,9 +58,9 @@ validation:
   anchors: warn
 
 not_in_nav: |
-
   communication/README.md
   communication/booking_a_room_at_bmc.md
+  communication/coffee_and_tea.md
   data/20240827/README.md
   data/20250210/README.md
   evaluations/20240827/README.md
