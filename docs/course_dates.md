@@ -11,10 +11,6 @@ tags:
 
     It is at [Schedule](schedule.md) :-)
 
-???- question "For teachers"
-
-    - [Shared document for teaching dates](https://hackmd.io/@UPPMAX/uppmax-training-events)
-
 <!-- markdownlint-disable MD013 --><!-- Tables cannot be split up over lines, hence will break 80 characters per line -->
 
 | Week | Date                       | Times      | Place                             | Registration | Registration closing date |
