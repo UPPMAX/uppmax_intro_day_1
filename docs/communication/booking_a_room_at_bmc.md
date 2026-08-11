@@ -54,7 +54,7 @@ course website at <https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_cour
 
 Cheers, Richel Bilderbeek
 
-## Reply
+## Reply 1
 
 Hi Richel,
  
@@ -68,3 +68,7 @@ Cancellation of premises must be made at least 14 days before the event in order
 Best regards
 
 Pernilla Nordelind
+
+## Reply 2
+
+[Confirmation of room bookings](booking_a_room_at_bmc_confirmation.odt)
