@@ -57,14 +57,17 @@ Cheers, Richel Bilderbeek
 ## Reply 1
 
 Hi Richel,
- 
-It has been booked. Confirmation will be sent in a separate message.
- 
-Cancellation of premises must be made at least 14 days before the event in order for the fee exemption to apply.
 
-- If you cancel a room within 14 days, the room will be marked as hidden and charged.
-- If you cancel an event within 14 days, the reason will be changed to CANCELLED and the room will be charged.
- 
+It has been booked. Confirmation will be sent in a separate message.
+
+Cancellation of premises must be made at least 14 days before the event
+in order for the fee exemption to apply.
+
+- If you cancel a room within 14 days,
+  the room will be marked as hidden and charged.
+- If you cancel an event within 14 days,
+  the reason will be changed to CANCELLED and the room will be charged.
+
 Best regards
 
 Pernilla Nordelind

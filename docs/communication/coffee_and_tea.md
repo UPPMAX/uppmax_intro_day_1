@@ -18,7 +18,7 @@ If yes, details are:
 - Place: BMC, room A1:112b
 - Number of people: 10
 - Drinks: coffee and tea
-- Course page: https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/
+- Course page: <https://docs.uppmax.uu.se/courses_workshops/uppmax_intro_course/>
 - Project code: 106911001 (UPPMAX Teknat-anslag)
 
 Thanks and cheers, Richel Bilderbeek
