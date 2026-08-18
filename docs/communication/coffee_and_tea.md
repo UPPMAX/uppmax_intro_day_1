@@ -28,3 +28,23 @@ Thanks and cheers, Richel Bilderbeek
 - [Confirmation day 1](coffee_and_tea_confirmation_1.odt)
 - [Confirmation day 2](coffee_and_tea_confirmation_2.odt)
 - [Confirmation day 3](coffee_and_tea_confirmation_3.odt)
+
+## Cancellation
+
+Dear colleagues at Bikupan,
+
+Thanks for your help in taking care of the coffee on August 24, 25 and 26 for room A1:112b.
+
+However, this needs to be cancelled and costs being made can be booked to project code 106911001.
+
+Sorry for the hassle.
+
+Cheers, Richel Bilderbeek
+
+## Reply
+
+Hi,
+
+No worries at all! We’ll cancel the coffee for August 24–26. There will be no cost for the cancellation.
+
+Vänligen A.N.
