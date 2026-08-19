@@ -15,7 +15,7 @@ tags:
 
 | Week | Date                       | Times      | Place                             | Registration | Registration closing date |
 |------|----------------------------|------------|-----------------------------------|--------------|---------------------------|
-| 35   | Monday 24 August 2026      | 9:00-16:00 | [BMC A1:112b](location/README.md) | Not yet      | TBA                       |
+| 35   | Monday 24 August 2026      | CANCELLED  | [BMC A1:112b](location/README.md) | CANCELLED    | CANCELLED                 |
 | ?42  | ?Wednesday October 20 2026 | 9:00-16:00 | Online                            | Not yet      | TBA                       |
 
 - [1] As indicated in the NAISS course schedule document
