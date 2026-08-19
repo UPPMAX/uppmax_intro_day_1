@@ -50,5 +50,3 @@ Hi,
 
 No worries at all! We’ll cancel the coffee for August 24–26.
 There will be no cost for the cancellation.
-
-Vänligen A.N.
