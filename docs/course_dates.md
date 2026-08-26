@@ -15,14 +15,9 @@ tags:
 
 | Week | Date                       | Times      | Place                             | Registration | Registration closing date |
 |------|----------------------------|------------|-----------------------------------|--------------|---------------------------|
-| 35   | Monday 24 August 2026      | CANCELLED  | [BMC A1:112b](location/README.md) | CANCELLED    | CANCELLED                 |
-| ?42  | ?Wednesday October 20 2026 | 9:00-16:00 | Online                            | Not yet      | TBA                       |
-
-- [1] As indicated in the NAISS course schedule document
+| 45   | Tuesday November 3 2026    | 9:00-16:00 | TBA                               | Not yet      | TBA                       |
 
 <!-- markdownlint-enable MD013 -->
-
-- `?`: not scheduled yet
 
 This day is the first day of a three of the 'Introduction to Linux and UPPMAX'
 course. An overview of the full course can be found at
