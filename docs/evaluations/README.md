@@ -14,4 +14,5 @@ Iteration|Date      |Evaluations
 Cancelled|2025-08-25|[Evaluation](20250825/README.md)
 3        |2025-10-15|[Evaluation](20251015/README.md)
 4        |2026-01-19|[Evaluation](20260119/README.md)
-5        |2026-08-24|[Evaluation](20260824/README.md)
+Cancelled|2026-08-24|[Evaluation](20260824/README.md)
+5        |2026-11-03|[Evaluation](20261103/README.md) |
