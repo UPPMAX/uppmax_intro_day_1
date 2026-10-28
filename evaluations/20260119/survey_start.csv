@@ -1,0 +1,19 @@
+"Timestamp","Give you confidence levels of the following statements below:
+ [I can log in to the Pelle remote desktop using the website]","Give you confidence levels of the following statements below:
+ [I can do basic things in the Pelle remote desktop]","Give you confidence levels of the following statements below:
+ [I can find my home folder]","Give you confidence levels of the following statements below:
+ [I can transfer files to/from Pelle]","Give you confidence levels of the following statements below:
+ [I can log in to Pelle using a terminal]","Give you confidence levels of the following statements below:
+ [I can do basic things in the terminal]","Give you confidence levels of the following statements below:
+ [I can find and load a software module]","Give you confidence levels of the following statements below:
+ [I can start a terminal text editor]","Give you confidence levels of the following statements below:
+ [I can create a bash script]","Give you confidence levels of the following statements below:
+ [I can schedule a job]","Give you confidence levels of the following statements below:
+ [I can start an interactive session]","Give you confidence levels of the following statements below:
+ [I can start an IDE]"
+"2026/01/19 9:08:17 am CET","1","1","3","1","1","4","4","5","3","1","2","5"
+"2026/01/19 9:08:42 am CET","1","1","","1","1","2","1","2","1","1","1","1"
+"2026/01/19 9:08:47 am CET","3","3","5","5","5","5","5","5","5","5","5","3"
+"2026/01/19 9:09:00 am CET","1","1","3","1","3","2","1","1","1","1","1","1"
+"2026/01/19 9:09:07 am CET","3","5","5","3","5","4","3","3","3","5","5","5"
+"2026/01/19 9:09:20 am CET","1","1","5","1","1","5","4","5","4","4","5","2"
