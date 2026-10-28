@@ -15,7 +15,7 @@ tags:
 
 | Week | Date                       | Times      | Place                             | Registration | Registration closing date |
 |------|----------------------------|------------|-----------------------------------|--------------|---------------------------|
-| 45   | Tuesday November 3 2026    | 9:00-16:00 | TBA                               | Not yet      | TBA                       |
+| 45   | Tuesday November 3 2026    | 9:00-16:00 | Cancelled                         | Cancelled    | Cancelled                 |
 
 <!-- markdownlint-enable MD013 -->
 
