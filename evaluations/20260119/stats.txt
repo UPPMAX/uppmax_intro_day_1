@@ -1,0 +1,14 @@
+|question                                                   | mean_pre| mean_post|   p_value|different |
+|:----------------------------------------------------------|--------:|---------:|---------:|:---------|
+|I can log in to the Pelle remote desktop using the website | 1.666667|       5.0| 0.0042875|TRUE      |
+|I can do basic things in the Pelle remote desktop          | 2.000000|       4.8| 0.0238654|TRUE      |
+|I can find my home folder                                  | 4.200000|       5.0| 0.1770160|FALSE     |
+|I can transfer files to/from Pelle                         | 2.000000|       4.4| 0.0454335|TRUE      |
+|I can log in to Pelle using a terminal                     | 2.666667|       5.0| 0.0419689|TRUE      |
+|I can do basic things in the terminal                      | 3.666667|       5.0| 0.0432554|TRUE      |
+|I can find and load a software module                      | 3.000000|       4.6| 0.0840432|FALSE     |
+|I can start a terminal text editor                         | 3.500000|       5.0| 0.1040622|FALSE     |
+|I can create a bash script                                 | 2.833333|       4.0| 0.2552905|FALSE     |
+|I can schedule a job                                       | 2.833333|       4.0| 0.5675894|FALSE     |
+|I can start an interactive session                         | 3.166667|       4.2| 0.8477689|FALSE     |
+|I can start an IDE                                         | 2.833333|       4.4| 0.2189283|FALSE     |
